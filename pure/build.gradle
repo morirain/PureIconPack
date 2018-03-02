@@ -1,21 +1,28 @@
 apply plugin: 'com.android.application'
 
 android {
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
     compileSdkVersion Integer.parseInt(project.COMPILE_SDK_VERSION)
     buildToolsVersion project.BUILD_TOOLS_VERSION
-
     defaultConfig {
         // Package name format: com.[your_name].iconpack.[name_of_your_icon_pack]
-        applicationId "com.by_syk.nanoiconpack.sample"
+        applicationId "me.morirain.dev.iconpack.pure"
         minSdkVersion Integer.parseInt(project.MIN_SDK_VERSION)
         targetSdkVersion Integer.parseInt(project.TARGET_SDK_VERSION)
-        versionCode 17072900
+        versionCode 1803020102
         // Version name format: [version].[num_of_icons]
-        versionName "3.3.0.8.nightly"
+        versionName "3.2 元宵"
 
         resConfigs "en", "zh_cn"
     }
-
     buildTypes {
         release {
             shrinkResources false // Keep false, or icons in /drawable-nodpi/ will become black.
@@ -28,27 +35,25 @@ android {
                     def outputFile = output.outputFile
                     if (outputFile != null) {
                         def fileName = "${defaultConfig.applicationId}_v${defaultConfig.versionName}(${defaultConfig.versionCode}).apk"
-                        outputFileName = new File((String) outputFile.parent, fileName)
+                        outputFileName = fileName
                     }
                 }
             }
         }
     }
-
     lintOptions {
         disable 'MissingTranslation'
     }
-    buildToolsVersion '26.0.2'
+    productFlavors {
+    }
+}
 
 /*repositories {
     flatDir { dirs 'libs' }
 }*/
 
-    dependencies {
-        compile fileTree(dir: 'libs', include: ['*.jar'])
-
-        testCompile 'junit:junit:4.12'
-
-        compile project(':nanoiconpack')
-    }
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile project(':nanoiconpack')
 }

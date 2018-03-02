@@ -1,1 +1,2 @@
 include ':nanoiconpack', ':app'
+include ':nanoiconpack', ':app', ':pure'

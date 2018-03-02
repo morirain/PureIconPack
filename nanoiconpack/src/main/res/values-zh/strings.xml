@@ -19,7 +19,7 @@
 
     <string name="activity_about">关于</string>
     <string name="activity_req_stats">申请统计</string>
-    <string name="activity_whats_new">更新了啥</string>
+    <string name="activity_whats_new">更新内容</string>
     <string name="activity_search">搜索</string>
 
     <string name="dlg_title_apply">应用到启动器</string>
@@ -29,7 +29,7 @@
     <string name="dlg_bt_cancel">取消</string>
     <string name="dlg_bt_close">关闭</string>
     <string name="dlg_bt_ok">确定</string>
-    <string name="dlg_bt_donate_too">我也捐赠</string>
+    <string name="dlg_bt_donate_too">我也要捐赠</string>
 
     <string name="menu_whats_new">更新了啥</string>
     <string name="menu_apply">应用</string>
@@ -85,6 +85,9 @@
     <string name="preference_category_support">赞助支持</string>
     <string name="preference_support_title_donate">通过支付宝捐赠</string>
     <string name="preference_support_summary_donate">[By_syk@163.com](alipay:https://qr.alipay.com/aex05154fiiurupx5ai0dd1|By_syk@163.com)</string>
+    <!--<string name="preference_icons_title_score">点击跳转到酷安</string>
+    <string name="preference_icons_summary_score">[喜欢就五分好评吧 ( ★★★★★ )](https://www.coolapk.com/apk/me.morirain.dev.iconpack.pure)</string>
+    -->
     <string name="preference_support_title_todo_1"></string>
     <string name="preference_support_summary_todo_1"></string>
     <string name="preference_support_title_sponsors">赞助者们</string>
