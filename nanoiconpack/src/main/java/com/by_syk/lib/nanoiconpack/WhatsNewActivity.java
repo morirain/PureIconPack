@@ -16,12 +16,17 @@
 
 package com.by_syk.lib.nanoiconpack;
 
+import android.content.Intent;
+import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 import com.by_syk.lib.nanoiconpack.fragment.IconsFragment;
 import com.by_syk.lib.nanoiconpack.util.LatestIconsGetter;
@@ -54,9 +59,18 @@ public class WhatsNewActivity extends AppCompatActivity implements IconsFragment
     }
 
     private void showHint() {
-        Snackbar.make(findViewById(R.id.coordinator_layout),
+        Snackbar snackbar = Snackbar.make(findViewById(R.id.coordinator_layout),
                 PkgUtil.getAppVer(this, getString(R.string.toast_whats_new)),
-                Snackbar.LENGTH_LONG).show();
+                Snackbar.LENGTH_INDEFINITE);
+        snackbar.setAction(R.string.toast_rate, new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Uri uri = Uri.parse("market://details?id="+getPackageName());
+                        Intent intent = new Intent(Intent.ACTION_VIEW,uri);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        startActivity(intent);
+                    }
+                }).setActionTextColor(0xffff9ff5).show();
     }
 
     @Override

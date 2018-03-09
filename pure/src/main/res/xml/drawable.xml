@@ -149,7 +149,10 @@
     <item drawable="cool_apk" />
     <item drawable="coolapkwhite" />
     <item drawable="cool_apk_pink" />
-
+    <item drawable="game_pubg" />
+    <item drawable="game_pubg_2" />
+    <item drawable="game_reigns" />
+    <item drawable="game_reigns2" />
 
     <category title="Game" /><!-- Copy game icons here from All category -->
     <item drawable="game_alto" />
@@ -263,6 +266,12 @@
     <item drawable="game_implosion" />
     <item drawable="game_terraria" />
     <item drawable="game_yyzy" />
+    <item drawable="game_downwell" />
+    <item drawable="game_pubg" />
+    <item drawable="game_pubg_2" />
+    <item drawable="game_reigns" />
+    <item drawable="game_reigns2" />
+    <item drawable="game_subwaysurf" />
 
     <category title="All" /><!-- All icons here -->
     <item drawable="adobe_photoshop" />
@@ -1973,4 +1982,13 @@
     <item drawable="zx" />
     <item drawable="zxw" />
     <item drawable="zxxy" />
+
+    <item drawable="game_downwell" />
+    <item drawable="game_pubg" />
+    <item drawable="game_pubg_2" />
+    <item drawable="game_reigns" />
+    <item drawable="game_reigns2" />
+    <item drawable="game_subwaysurf" />
+    <item drawable="icon_tools" />
+    <item drawable="telegram_x" />
 </resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2017 By_syk
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+
+    <!-- About information -->
+    <!-- Keep its summary EMPTY (NOT DELETE IT) if you don't want to show certain line. -->
+    <!-- For summary text, you could try to use such codes:
+         xxx
+         [xxx](copy:xxx)
+         [xxx](email:xxx)
+         [xxx](alipay:xxx|xxx)
+         [xxx](qrcode:xxx)
+         [xxx](xxx)
+         -->
+
+    <string name="activity_about">Di questo iconpack</string>
+    <string name="activity_req_stats">Richiedi le statistiche</string>
+    <string name="activity_whats_new">aggiorna qualcosa</string>
+    <string name="activity_search">ricerca</string>
+
+    <string name="dlg_title_apply">usi</string>
+    <string name="dlg_title_set_key">impostare password</string>
+    <string name="dlg_bt_got_it">lo so</string>
+    <string name="dlg_bt_upload">Carica</string>
+    <string name="dlg_bt_cancel">annullato</string>
+    <string name="dlg_bt_close">chiudi</string>
+    <string name="dlg_bt_ok">si</string>
+    <string name="dlg_bt_donate_too">donare</string>
+
+    <string name="menu_whats_new">aggiornare qualcosa</string>
+    <string name="menu_apply">usare</string>
+    <string name="menu_about">di</string>
+    <string name="menu_filter">Filtrazione</string>
+    <string name="menu_show_unmarked">non segnato</string>
+    <string name="menu_show_marked">segnayo</string>
+    <string name="menu_top">TOP</string>
+    <string name="menu_top_32">Top32</string>
+    <string name="menu_top_64">Top64</string>
+    <string name="menu_top_128">Top128</string>
+    <string name="menu_mark">segnato </string>
+    <string name="menu_undo_mark">annullato</string>
+    <string name="menu_goto_market">vai il appstore</string>
+    <string name="menu_copy_code">copie le codice di app</string>
+    <string name="menu_request_icon">applicazione</string>
+    <string name="menu_save_icon">Salva questo icona</string>
+    <string name="menu_search">ricerca</string>
+
+    <string name="nav_lost">non c\'è</string>
+    <string name="nav_matched">c\'è</string>
+    <string name="nav_all">tutti</string>
+
+    <string name="toast_not_installed">non installare %s oppure stop</string>
+    <string name="toast_code_copied">copiato</string>
+    <string name="toast_code_copy_failed">copie fallimento :(</string>
+    <string name="toast_icon_saved">L\'icona viene salvata nella galleria</string>
+    <string name="toast_icon_save_failed">Salvataggio dell\'icona fallito:(</string>
+    <string name="toast_no_net_conn">Nessuna connessione internet :(</string>
+    <string name="toast_no_net_no_req">Nessuna connessione Internet, impossibile richiedere l\'adattamento :(</string>
+    <string name="toast_icon_reqed">Applicazione adatta con successo</string>
+    <string name="toast_icon_req_failed">Applicazione non riuscita :(</string>
+    <string name="toast_marked">Successo segnato</string>
+    <string name="toast_mark_failed">Tag fallito :(</string>
+    <string name="toast_mark_undo">mark annullato</string>
+    <string name="toast_mark_undo_failed">Deseleziona non riuscito :(</string>
+    <string name="toast_whats_new">Questa versione（v%1$s）più questo icon</string>
+    <string name="toast_tap_save_icon">Fare nuovamente clic per salvare l\'icona nella galleria</string>
+    <string name="toast_tap_send_to_home">Invia di nuovo l\'icona alla schermata principale</string>
+    <string name="toast_sent_to_home"> Aggiunto alla schermata principale</string>
+    <string name="toast_failed_send_to_home">Impossibile aggiungere alla schermata principale</string>
+
+    <string name="preference_category_icons">icon ( %d )</string>
+    <string name="preference_icons_summary_note"></string>
+    <string name="preference_icons_title_author">Icon pack author</string>
+    <string name="preference_icons_summary_author">[@By_syk](copy:@By_syk)</string>
+
+    <string name="preference_icons_title_contact">Contatta l\'autore</string>
+    <string name="preference_icons_summary_contact">[By_syk@163.com](email:By_syk@163.com)</string>
+    <string name="preference_icons_title_todo_1"></string>
+    <string name="preference_icons_summary_todo_1"></string>
+    <string name="preference_icons_title_copyright">Copyright</string>
+    <string name="preference_icons_summary_copyright">Copyright &#169; 2017 By_syk. All rights reserved.</string>
+    <string name="preference_category_support">Donate &amp; support</string>
+    <string name="preference_support_title_donate">Donate via Alipay</string>
+    <string name="preference_support_summary_donate">[By_syk@163.com](alipay:https://qr.alipay.com/aex05154fiiurupx5ai0dd1|By_syk@163.com)</string>
+    <string name="preference_support_title_sponsors">Sponsor</string>
+    <string name="preference_support_summary_sponsors">[Grazie per la donazione.](usr:bysyk)</string>
+    <string name="preference_category_app">APP</string>
+    <string name="preference_app_title_app">@string/app_name</string>
+    <string name="preference_app_summary_app">v%1$s (%2$d)</string>
+    <string name="preference_app_title_todo_1"></string>
+    <string name="preference_app_summary_todo_1"></string>
+    <string name="preference_app_title_dashboard">Based on NanoIconPack v%s</string>
+    <string name="preference_category_dev">Development</string>
+    <string name="preference_dev_title_stats">Request stats</string>
+    <string name="preference_dev_title_query">Console</string>
+
+    <string name="send_code">Share app code&#8230;</string>
+    <string name="cur_launcher">%s (Current)</string>
+    <!--<string name="tips">Tips</string>-->
+    <!--<string name="app_tap_desc">TAP one to request icon, and LONG PRESS to copy its code for development use.</string>-->
+    <!--<string name="icon_tap_desc">TAP icon to view its detail, and LONG PRESS to save to gallery.</string>-->
+    <string name="more_launchers_desc">Besides the listed, more launchers are supported, please try applying from launcher.</string>
+    <string name="key_desc">Please enter a key for the system to recognize users.</string>
+    <string name="prompt_req">Icon Request</string>
+    <string name="prompt_req_desc">You could request icons in this page and the author will get it.</string>
+    <string name="prompt_req_mark">To mark</string>
+    <string name="prompt_req_add">To add</string>
+    <string name="search_hint">Search icons&#8230;</string>
+
+    <string name="preference_translators">i traduttori</string>
+    <string name="toast_rate">VOTO</string>
+</resources>

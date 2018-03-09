@@ -30,27 +30,6 @@
          [xxx](qrcode:xxx)
          [xxx](xxx)
          -->
-    <!--
-    <string name="preference_icons_summary_note"></string>
-    <string name="preference_icons_title_author">作者 (点击跳转到作者页面)</string>
-    <string name="preference_icons_summary_author">[@森雨Plus](http://coolapk.com/u/533268)</string>
-    <string name="preference_icons_title_contact">联系作者</string>
-    <string name="preference_icons_summary_contact">[morirain.dev@outlook.com](email:morirain.dev@outlook.com)</string>
-    <string name="preference_icons_title_donate">点击通过支付宝捐赠 （记得备注酷安ID）</string>
-    <string name="preference_icons_summary_donate">[morirain.dev@outlook.com | 收到单笔捐赠大于1元时，会捐献1元到支付宝的爱心捐赠。](alipay:HTTPS://QR.ALIPAY.COM/FKX07449KZPFUIPH44KCB6|morirain.dev@outlook.com)</string>
-    <string name="preference_support_title_todo_1">通过微信捐赠</string>
-    <string name="preference_support_summary_todo_1">[By_syk](qrcode:wxp://f2f02wzHCnXrB9ZoMtTkBdQXJ8w3RgM5gu3P)</string>
-    <string name="preference_support_title_sponsors">赞助者们</string>
-    <string name="preference_support_summary_sponsors">[感谢捐赠支持的用户们。](usr:bysyk)</string>
-    <string name="preference_icons_title_todo_1"></string>
-    <string name="preference_icons_summary_todo_1"></string>
-    <string name="preference_icons_title_copyright">版权所有</string>
-    <string name="preference_icons_summary_copyright">Copyright &#169; 2017 morirain. All rights reserved.</string>
-    <string name="preference_app_title_app">@string/app_name</string>
-    <string name="preference_app_summary_app">v%1$s (%2$d)</string>
-    <string name="preference_app_title_todo_1"></string>
-    <string name="preference_app_summary_todo_1"></string>
-    !-->
 
     <string name="preference_icons_summary_note"></string>
     <string name="preference_icons_title_author">作者 (点击跳转到酷安页面)</string>
@@ -72,5 +51,7 @@
     <string name="preference_app_title_todo_1"></string>
     <string name="preference_app_summary_todo_1"></string>
 
+
+    <string name="preference_translators_it">Italian: Lee</string>
 
 </resources>

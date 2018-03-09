@@ -74,7 +74,7 @@
     <string name="toast_failed_send_to_home">Sorry, could not add it to home screen.</string>
     <string name="toast_sent_to_home">Added to home screen</string>
 
-    <string name="preference_category_icons">Icons (%d)</string>
+    <string name="preference_category_icons">Icons ( %d )</string>
     <string name="preference_icons_summary_note"></string>
     <string name="preference_icons_title_author">Icon pack author</string>
     <string name="preference_icons_summary_author">[@By_syk](copy:@By_syk)</string>
@@ -87,9 +87,6 @@
     <string name="preference_category_support">Donate &amp; support</string>
     <string name="preference_support_title_donate">Donate via Alipay</string>
     <string name="preference_support_summary_donate">[By_syk@163.com](alipay:https://qr.alipay.com/aex05154fiiurupx5ai0dd1|By_syk@163.com)</string>
-    <!--<string name="preference_icons_title_score">点击跳转到酷安</string>
-    <string name="preference_icons_summary_score">[喜欢就五分好评吧 ( ★★★★★ )](https://www.coolapk.com/apk/me.morirain.dev.iconpack.pure)</string>
-    -->
     <string name="preference_support_title_todo_1"></string>
     <string name="preference_support_summary_todo_1"></string>
     <string name="preference_support_title_sponsors">Sponsors</string>
@@ -119,4 +116,8 @@
     <string name="prompt_req_add">To add</string>
     <string name="search_hint">Search icons&#8230;</string>
 
+    <string name="preference_translators">translators</string>
+    <string name="preference_translators_it"></string>
+
+    <string name="toast_rate">RATE</string>
 </resources>

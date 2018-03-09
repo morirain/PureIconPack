@@ -31,7 +31,7 @@
     <string name="dlg_bt_ok">确定</string>
     <string name="dlg_bt_donate_too">我也要捐赠</string>
 
-    <string name="menu_whats_new">更新了啥</string>
+    <string name="menu_whats_new">查看更新內容</string>
     <string name="menu_apply">应用</string>
     <string name="menu_about">关于</string>
     <string name="menu_filter">过滤</string>
@@ -72,7 +72,7 @@
     <string name="toast_sent_to_home">已添加到主屏幕</string>
     <string name="toast_failed_send_to_home">无法添加到主屏幕</string>
 
-    <string name="preference_category_icons">图标 (%d枚)</string>
+    <string name="preference_category_icons">图标 ( %d )</string>
     <string name="preference_icons_summary_note"></string>
     <string name="preference_icons_title_author">灵魂图匠</string>
     <string name="preference_icons_summary_author">[@By_syk](copy:@By_syk)</string>
@@ -115,4 +115,6 @@
     <string name="prompt_req_add">提醒补充适配</string>
     <string name="search_hint">搜索图标&#8230;</string>
 
+    <string name="preference_translators">翻译人员</string>
+    <string name="toast_rate">五星好评</string>
 </resources>

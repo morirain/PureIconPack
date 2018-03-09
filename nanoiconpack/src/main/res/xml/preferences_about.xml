@@ -93,4 +93,14 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="interpreter"
+        android:title="@string/preference_translators">
+
+        <Preference
+            android:key="interpreter_it"
+            android:title="@string/preference_translators_it" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

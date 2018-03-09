@@ -52,8 +52,8 @@
     -->
 
     <string name="preference_icons_summary_note"></string>
-    <string name="preference_icons_title_author">Icon pack author</string>
-    <string name="preference_icons_summary_author">[@morirain](http://coolapk.com/u/533268)</string>
+    <string name="preference_icons_title_author">Author</string>
+    <string name="preference_icons_summary_author">[@morirain](https://play.google.com/store/apps/dev?id=6558247216676845129)</string>
     <string name="preference_icons_title_contact">Contact author</string>
     <string name="preference_icons_summary_contact">[morirain.dev@outlook.com](email:morirain.dev@outlook.com)</string>
     <string name="preference_icons_title_todo_1"></string>
@@ -61,7 +61,7 @@
     <string name="preference_icons_title_copyright">Copyright</string>
     <string name="preference_icons_summary_copyright">Copyright &#169; 2018 morirain. All rights reserved.</string>
     <string name="preference_support_title_donate">Donate via Paypal</string>
-    <string name="preference_support_summary_donate">[morirain.dev@outlook.com](https://paypal.me/moriraindev)</string>
+    <string name="preference_support_summary_donate">[morirain.dev@outlook.com](email:morirain.dev@outlook.com)</string>
     <string name="preference_support_title_todo_1">Donate via WeChat</string>
     <string name="preference_support_summary_todo_1">[The Rainbow](qrcode:wxp://f2f0XEI24sQXT44w0Ydu6u7fKGXjyGI6ch2u)</string>
     <string name="preference_support_title_sponsors">Sponsors</string>
@@ -71,6 +71,8 @@
     <string name="preference_app_title_todo_1"></string>
     <string name="preference_app_summary_todo_1"></string>
 
+
+    <string name="preference_translators_it">Italian: Lee</string>
 
 
 </resources>
