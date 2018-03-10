@@ -4387,9 +4387,9 @@
     <!-- 铁路12306 / 铁路12306 -->
     <item component="ComponentInfo{com.MobileTicket/com.alipay.mobile.quinox.LauncherActivity}" drawable="mobile_ticket_12306" />
     <!-- QQ飞车 / QQ飞车 -->
-    <item component="ComponentInfo{com.tencent.tmgp.speedmobile/com.tencent.social.SocialActivity}" drawable="game_qqfc" /><!-- QQ飞车 / QQ飞车 -->
-    <item component="ComponentInfo{com.tencent.tmgp.speedmobile/com.tencent.tmgp.speedmobile.speedmobile}" drawable="game_qqfc" /><!-- QQ飞车 / QQ飞车 -->
-    <item component="ComponentInfo{com.qqfc.txhy.ewan/com.netease.mtj.ewan2.MainActivity}" drawable="game_qqfc" />
+    <item component="ComponentInfo{com.tencent.tmgp.speedmobile/com.tencent.social.SocialActivity}" drawable="game_qqfc_2" /><!-- QQ飞车 / QQ飞车 -->
+    <item component="ComponentInfo{com.tencent.tmgp.speedmobile/com.tencent.tmgp.speedmobile.speedmobile}" drawable="game_qqfc_2" /><!-- QQ飞车 / QQ飞车 -->
+    <item component="ComponentInfo{com.qqfc.txhy.ewan/com.netease.mtj.ewan2.MainActivity}" drawable="game_qqfc_2" />
     <!-- 萌典 / 萌典 -->
     <item component="ComponentInfo{org.audreyt.dict.moe/org.audreyt.dict.moe.MoeDict}" drawable="dict_moe" />
     <!-- 國語字典 / 國語字典 -->
@@ -5186,7 +5186,67 @@
     <item component="ComponentInfo{com.ccar.apk/org.zywx.wbpalmstar.engine.LoadingActivity}" drawable="yzz" />
     <!-- 小记账 / 小记账 -->
     <item component="ComponentInfo{com.smapp.recordexpense/com.smapp.recordexpense.ui.LoginSigup.SynchronousActivity}" drawable="xjz" />
+    <!-- GB Live / GB Live -->
+    <item component="ComponentInfo{com.gbtv.phonelive/com.gbtv.phonelive.AppStart}" drawable="gb_live" />
+    <!-- 新华字典 / 新华字典 -->
+    <item component="ComponentInfo{cn.dictcn.android.digitize.swg_xhzd_21003/cn.dictcn.android.digitize.activity.MainActivity}" drawable="" />
 
+    <!-- 新华字典 / 新华字典 -->
+    <item component="ComponentInfo{hugh.android.app.zidian/hugh.android.app.common.SplashActivity}" drawable="xinhua" /><!-- 新华字典 / 新华字典 -->
+    <item component="ComponentInfo{cn.dictcn.android.digitize.swg_xhzd_21003/cn.dictcn.android.digitize.module.home.activity.MainActivity}" drawable="xinhua" /><!-- 新华字典 / 新华字典 -->
+    <item component="ComponentInfo{com.ltz.dict.charactersdict/com.ltz.dict.charactersdict.FullscreenActivity}" drawable="xinhua" /><!-- 新华字典 / 新华字典 -->
+    <item component="ComponentInfo{com.xinhua.zidian/com.ggeye.zidian.Page_Index}" drawable="xinhua" />
+    <!-- 标准日本语 / 标准日本语 -->
+    <item component="ComponentInfo{com.PEP.biaori/com.PEP.biaori.activity.SplashActivity}" drawable="br" />
+    <!-- Voice / Voice -->
+    <item component="ComponentInfo{com.google.android.apps.googlevoice/com.google.android.apps.googlevoice.SplashActivity}" drawable="google_voice" />
+    <!-- busuu / busuu -->
+    <item component="ComponentInfo{com.busuu.android.enc/com.busuu.android.old_ui.BootStrapActivity}" drawable="busuu" /><!-- busuu 博树 / busuu -->
+    <item component="ComponentInfo{com.busuu.android.enc/com.busuu.android.old_ui.BootStrapActivity}" drawable="busuu" /><!-- busuu / busuu -->
+    <item component="ComponentInfo{com.busuu.android.es/com.busuu.android.old_ui.BootStrapActivity}" drawable="busuu" />
+    <!-- busuu / busuu -->
+    <item component="ComponentInfo{com.busuu.android.fr/com.busuu.android.old_ui.BootStrapActivity}" drawable="busuu" /><!-- busuu / busuu -->
+    <item component="ComponentInfo{com.busuu.android.it/com.busuu.android.old_ui.BootStrapActivity}" drawable="busuu" /><!-- busuu / busuu -->
+    <item component="ComponentInfo{com.busuu.android.en/com.busuu.android.old_ui.BootStrapActivity}" drawable="busuu" /><!-- busuu / busuu -->
+    <item component="ComponentInfo{com.busuu.android.de/com.busuu.android.old_ui.BootStrapActivity}" drawable="busuu" />
+
+    <!-- Build: LeEco / Le 1s -->
+    <!-- 遥控 / Remote control -->
+    <item component="ComponentInfo{com.letv.android.remotecontrol/com.letv.android.remotecontrol.LaunchActivity}" drawable="remote_control" />
+    <!-- FastHub / FastHub -->
+    <item component="ComponentInfo{com.fastaccess.github/com.fastaccess.ui.modules.main.MainActivity}" drawable="fasthub" />
+    <!-- ApkCrack / ApkCrack -->
+    <item component="ComponentInfo{zhao.apkcrack/zhao.apkcrack.ApkCrack}" drawable="apk_crack" />
+    <!-- Files Go / Files Go -->
+    <item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="google_files_go" />
+    <!-- Play Console / Play Console -->
+    <item component="ComponentInfo{com.google.android.apps.playconsole/com.google.android.apps.playconsole.activity.MainAndroidActivity}" drawable="google_play_console" />
+    <!-- 掘金 / 掘金 -->
+    <item component="ComponentInfo{com.daimajia.gold/com.daimajia.gold.LogoActivity}" drawable="juejin" />
+    <!-- letgo / letgo -->
+    <item component="ComponentInfo{com.abtnprojects.ambatana/com.abtnprojects.ambatana.presentation.productlist.ProductListActivity}" drawable="letgo" />
+    <!-- Viber / Viber -->
+    <item component="ComponentInfo{com.viber.voip/com.viber.voip.WelcomeActivity}" drawable="viber" />
+    <!-- Kik / Kik -->
+    <item component="ComponentInfo{kik.android/kik.android.chat.activity.IntroActivity}" drawable="kik" />
+    <!-- JusTalk 好话 视频聊天 / JusTalk -->
+    <item component="ComponentInfo{com.juphoon.justalk/com.juphoon.justalk.MainActivity}" drawable="justalk" />
+    <!-- ICQ / ICQ -->
+    <item component="ComponentInfo{com.icq.mobile.client/ru.mail.instantmessanger.flat.main.MainActivity}" drawable="icq" />
+    <!-- Musixmatch / Musixmatch -->
+    <item component="ComponentInfo{com.musixmatch.android.lyrify/com.musixmatch.android.ui.phone.DashBoardActivity}" drawable="musixmatch" />
+    <!-- Musixmatch / Musixmatch -->
+    <item component="ComponentInfo{com.musixmatch.android.lyrify/com.designfuture.music.ui.phone.DashBoardActivity}" drawable="musixmatch" />
+    <!-- Wish / Wish -->
+    <item component="ComponentInfo{com.contextlogic.wish/com.contextlogic.wish.activity.browse.BrowseActivity}" drawable="wish" />
+    <!-- Tango / Tango -->
+    <item component="ComponentInfo{com.sgiggle.production/com.sgiggle.production.SplashScreen}" drawable="tango" />
+    <!-- Pandora / Pandora -->
+    <item component="ComponentInfo{com.pandora.android/com.pandora.android.Main}" drawable="pandora" />
+    <!-- SoundCloud / SoundCloud -->
+    <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.main.LauncherActivity}" drawable="sound_cloud" />
+    <!-- Cytus II / Cytus II -->
+    <item component="ComponentInfo{com.rayark.cytus2/com.inca.security.DexProtect.LauncherActivity}" drawable="game_cytus_ii" />
 
     <!-- 分割 -->
 
@@ -5209,7 +5269,7 @@
     <iconupon
         img1="icon_upon" />
     <scale
-        factor="0.53" />
+        factor="0.60" />
 
     <!-- Just for Nova -->
     <item
@@ -5446,6 +5506,12 @@
     <item component="ComponentInfo{com.mi.android.globalFileexplorer/com.android.fileexplorer.FileExplorerTabActivity}" drawable="files" />
     <!-- 文件管理 / File Explorer -->
     <item component="ComponentInfo{com.gionee.filemanager/com.gionee.filemanager.FileExplorerTabActivity}" drawable="files" />
+    <!-- Build: LeEco / Le 1s -->
+    <!-- File Manager / File Manager -->
+    <item component="ComponentInfo{com.crdroid.filemanager/com.amaze.filemanager.activities.MainActivity}" drawable="files" />
+
+
+
 
     <item component="ComponentInfo{cn.nubia.fmradio.preset/cn.nubia.fmradio.FMRadio}" drawable="fm_radio" />
     <item component="ComponentInfo{com.android.fmradio/com.android.fmradio.FmMainActivity}" drawable="fm_radio" />
@@ -5534,6 +5600,9 @@
     <item component="ComponentInfo{com.samsung.android.app.music.chn/com.samsung.android.app.music.common.activity.MusicMainActivity}" drawable="music" />
     <!-- 音乐 / Music -->
     <item component="ComponentInfo{com.oppo.music/com.oppo.music.UnsupportCheckActivity}" drawable="music" />
+    <!-- Build: LeEco / Le 1s -->
+    <!-- Music / Music -->
+    <item component="ComponentInfo{com.crdroid.music/com.kabouzeid.gramophone.ui.activities.MainActivity}" drawable="music" />
 
 
 
