@@ -17,7 +17,7 @@
 
 <resources>
 
-    <style name="AppThemeLightWithDarkDef" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppThemeLightWithDarkDef" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
         <item name="ic_action_search">@drawable/ic_action_search_dark</item>
         <item name="ic_action_new">@drawable/ic_action_new_dark</item>
@@ -35,7 +35,7 @@
         <item name="colorAccent">@color/color_accent</item>
     </style>
 
-    <style name="AppThemeLightDef" parent="Theme.AppCompat.Light">
+    <style name="AppThemeLightDef" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
         <item name="ic_action_search">@drawable/ic_action_search_light</item>
         <item name="ic_action_new">@drawable/ic_action_new_light</item>

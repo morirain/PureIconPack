@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   Copyright 2017 By_syk
 
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,11 +22,21 @@
         <!-- frame, cross, unionJack, materialLite, materialFull -->
         <item name="igStyle">materialFull</item>
     </style>
+
     <style name="IconGridSmall">
         <item name="igColor">?attr/icon_grid_color</item>
         <item name="igDash">false</item>
         <!-- frame, cross, unionJack, materialLite, materialFull -->
         <item name="igStyle">cross</item>
     </style>
+
+    <style name="AppThemeLightWithDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeLightWithDark.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppThemeLightWithDark.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

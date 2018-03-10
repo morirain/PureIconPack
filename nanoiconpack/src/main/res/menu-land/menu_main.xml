@@ -22,25 +22,25 @@
         android:id="@+id/menu_search"
         android:title="@string/menu_search"
         android:icon="?attr/ic_action_search"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/menu_whats_new"
         android:title="@string/menu_whats_new"
         android:icon="?attr/ic_action_new"
         android:visible="false"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/menu_apply"
         android:title="@string/menu_apply"
         android:icon="?attr/ic_action_apply"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/menu_about"
         android:title="@string/menu_about"
         android:icon="?attr/ic_action_copyright"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always" />
 
 </menu>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   Copyright 2017 By_syk
 
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +17,7 @@
 <resources>
 
     <!-- App name -->
-        <string name="app_name">Pure IconPack</string>
+    <string name="app_name">Pure IconPack</string>
 
     <!-- For Apex Launcher, means icon pack author -->
     <string name="developer_name">morirain</string>
@@ -73,6 +72,12 @@
 
 
     <string name="preference_translators_it">Italian: Lee</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 
 
 </resources>

@@ -16,23 +16,41 @@
 
 package com.by_syk.lib.nanoiconpack;
 
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.animation.FastOutSlowInInterpolator;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.TextView;
+import android.widget.Toast;
 
+import com.ashokvarma.bottomnavigation.BadgeItem;
+import com.ashokvarma.bottomnavigation.BottomNavigationBar;
+import com.ashokvarma.bottomnavigation.BottomNavigationItem;
+
+import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.by_syk.lib.nanoiconpack.dialog.ApplyDialog;
 import com.by_syk.lib.nanoiconpack.fragment.AppsFragment;
 import com.by_syk.lib.nanoiconpack.fragment.IconsFragment;
+import com.by_syk.lib.nanoiconpack.fragment.WhatsNewFragment;
 import com.by_syk.lib.nanoiconpack.util.AllIconsGetter;
 import com.by_syk.lib.nanoiconpack.util.ExtraUtil;
 import com.by_syk.lib.nanoiconpack.util.MatchedIconsGetter;
@@ -48,15 +66,50 @@ import uk.co.samuelwall.materialtaptargetprompt.MaterialTapTargetPrompt;
 
 public class MainActivity extends AppCompatActivity
         implements IconsFragment.OnLoadDoneListener, AppsFragment.OnLoadDoneListener {
+
+    public static String PACKAGE_NAME;
+
     private SP sp;
 
     private ViewPager viewPager;
 
-    private BottomNavigationView bottomNavigationView;
+    private BottomNavigationBar bottomNavigationView;
 
     private boolean enableStatsModule = true;
 
     private int prevPagePos = 0;
+
+    private BadgeItem badgeItemLost = new BadgeItem()
+            .setBorderWidth(4)
+            .setAnimationDuration(200)
+            .setBackgroundColor(Color.RED)
+            .setHideOnSelect(false)
+            .setText("");
+
+    private BadgeItem badgeItemNew = new BadgeItem()
+            .setBorderWidth(4)
+            .setAnimationDuration(200)
+            .setBackgroundColor(Color.RED)
+            .setHideOnSelect(false)
+            .setText("");
+
+    private BadgeItem badgeItemMatched = new BadgeItem()
+            .setBorderWidth(4)
+            .setAnimationDuration(200)
+            .setBackgroundColor(Color.RED)
+            .setHideOnSelect(false)
+            .setText("");
+
+    private BadgeItem badgeItemAll = new BadgeItem()
+            .setBorderWidth(4)
+            .setAnimationDuration(200)
+            .setBackgroundColor(Color.RED)
+            .setHideOnSelect(false)
+            .setText("");
+
+
+    NavigationView navigationView;
+    DrawerLayout drawerLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,16 +120,38 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void init() {
+        PACKAGE_NAME = getApplicationContext().getPackageName();
         sp = new SP(this);
 
         enableStatsModule = getResources().getBoolean(R.bool.enable_req_stats_module);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         viewPager = (ViewPager) findViewById(R.id.view_pager);
-        bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation_view);
+        bottomNavigationView = (BottomNavigationBar) findViewById(R.id.bottom_navigation_view);
+        navigationView = (NavigationView) findViewById(R.id.navigation_view);
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        bottomNavigationView.setMode(bottomNavigationView.MODE_SHIFTING);
 
-        viewPager.setOffscreenPageLimit(3); // Keep all 3 pages alive.
+        bottomNavigationView.setBackgroundStyle(BottomNavigationBar.BACKGROUND_STYLE_STATIC);
+        //bottomNavigationView.setBarBackgroundColor(R.color.color_primary);
+        bottomNavigationView.addItem(new BottomNavigationItem(R.drawable.ic_nav_lost, "未适配").setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemLost))
+                .addItem(new BottomNavigationItem(R.drawable.ic_action_new_dark, "新图标").setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemNew))
+                .addItem(new BottomNavigationItem(R.drawable.ic_nav_matched, "已适配").setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemMatched))
+                .addItem(new BottomNavigationItem(R.drawable.ic_nav_all, "全部").setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemAll))
+                .setFirstSelectedPosition(1)
+                .initialise();
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            //actionBar.setHomeAsUpIndicator(R.drawable.ic_menu);
+        }
+
+        viewPager.setOffscreenPageLimit(4); // Keep all 3 pages alive.
         viewPager.setPageTransformer(true, new SimplePageTransformer(getResources()
                 .getInteger(R.integer.home_page_transform_anim)));
+
         viewPager.setAdapter(new IconsPagerAdapter(getSupportFragmentManager()));
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -84,8 +159,8 @@ public class MainActivity extends AppCompatActivity
 
             @Override
             public void onPageSelected(int position) {
-                bottomNavigationView.getMenu().getItem(prevPagePos).setChecked(false);
-                bottomNavigationView.getMenu().getItem(position).setChecked(true);
+                //bottomNavigationView.getMenu().getItem(prevPagePos).setChecked(false);
+                //bottomNavigationView.getMenu().getItem(position).setChecked(true);
                 prevPagePos = position;
             }
 
@@ -93,37 +168,62 @@ public class MainActivity extends AppCompatActivity
             public void onPageScrollStateChanged(int state) {}
         });
 
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+        bottomNavigationView.setTabSelectedListener(new BottomNavigationBar.OnTabSelectedListener() {
+
             private long lastTapTime = 0;
 
             @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                int id = item.getItemId();
-                if (id == R.id.nav_lost) {
-                    viewPager.setCurrentItem(0);
-                    prepareReqPrompt();
-                } else if (id == R.id.nav_matched) {
-                    viewPager.setCurrentItem(1);
-                } else if (id == R.id.nav_all) {
-                    viewPager.setCurrentItem(2);
-                }
-                if (!enableStatsModule) {
-                    return true;
-                }
-                if (id == R.id.nav_lost) {
-                    if (System.currentTimeMillis() - lastTapTime < 400) {
-                        enterConsole();
-                        lastTapTime = 0;
-                    } else {
+            public void onTabSelected(int position) {
+                switch (position) {
+                    case 0:
                         lastTapTime = System.currentTimeMillis();
-                    }
-                } else {
-                    lastTapTime = 0;
+                        viewPager.setCurrentItem(0);
+                        break;
+                    case 1:
+                        lastTapTime = 0;
+                        viewPager.setCurrentItem(1);
+                        break;
+                    case 2:
+                        lastTapTime = 0;
+                        viewPager.setCurrentItem(2);
+                        break;
+                    case 3:
+                        lastTapTime = 0;
+                        viewPager.setCurrentItem(3);
+                        break;
                 }
-                return true;
             }
+
+            @Override
+            public void onTabUnselected(int position) {
+
+            }
+
+            @Override
+            public void onTabReselected(int position) {
+                switch (position) {
+                    case 0:
+                        if (System.currentTimeMillis() - lastTapTime < 400) {
+                            enterConsole();
+                            lastTapTime = 0;
+                        } else {
+                            lastTapTime = System.currentTimeMillis();
+                        }
+                        break;
+                }
+            }
+
+
         });
 
+        navigationView.setCheckedItem(R.id.item_blue);
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                drawerLayout.closeDrawers();
+                return false;
+            }
+        });
         // Set the default page to show.
         // 0: Lost, 1: Matched 2. All
         viewPager.setCurrentItem(1);
@@ -175,7 +275,9 @@ public class MainActivity extends AppCompatActivity
         getMenuInflater().inflate(R.menu.menu_main, menu);
 
         // If latest icons is provided, show the entrance menu item.
-        if (getResources().getStringArray(R.array.latest_icons).length > 0) {
+        /*int lastIconsLength = getResources().getStringArray(R.array.latest_icons).length;
+        badgeItemNew.setText(String.valueOf(lastIconsLength));
+        if (lastIconsLength > 0) {
             menu.findItem(R.id.menu_whats_new).setVisible(true);
             if (menu.findItem(R.id.menu_apply).getIcon() == null) {
                 if (!sp.getBoolean("hideLatest" + PkgUtil.getAppVer(this, "%1$s"))) {
@@ -183,10 +285,10 @@ public class MainActivity extends AppCompatActivity
                     menu.findItem(R.id.menu_search).setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
                 }
             }
-        }
+        }*/
 
         return true;
-    }
+    }/**/
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -204,22 +306,29 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.menu_about) {
             item.setIntent(new Intent(this, AboutActivity.class));
             return super.onOptionsItemSelected(item);
+        } else if (id == R.id.home) {
+            drawerLayout.openDrawer(GravityCompat.START);
+            Log.d("MainActivity", "onOptionsItemSelected: asasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasas");
+            return super.onOptionsItemSelected(item);
         }
         return super.onOptionsItemSelected(item);
     }
 
     @Override
     public void onLoadDone(int pageId, int sum) {
-        MenuItem menuItem = bottomNavigationView.getMenu().getItem(pageId);
         switch (pageId) {
             case 0:
-                menuItem.setTitle(getString(R.string.nav_lost) + "(" + sum + ")");
+                badgeItemLost.setText(String.valueOf(sum));
                 break;
             case 1:
-                menuItem.setTitle(getString(R.string.nav_matched) + "(" + sum + ")");
+                int lastIconsLength = getResources().getStringArray(R.array.latest_icons).length;
+                badgeItemNew.setText(String.valueOf(lastIconsLength));
                 break;
             case 2:
-                menuItem.setTitle(getString(R.string.nav_all) + "(" + sum + ")");
+                badgeItemMatched.setText(String.valueOf(sum));
+                break;
+            case 3:
+                badgeItemAll.setText(String.valueOf(sum));
                 break;
         }
     }
@@ -235,9 +344,11 @@ public class MainActivity extends AppCompatActivity
                 case 0:
                     return AppsFragment.newInstance(position);
                 case 1:
+                    return WhatsNewFragment.newInstance(position);
+                case 2:
                     return IconsFragment.newInstance(position, new MatchedIconsGetter(),
                             getResources().getInteger(R.integer.home_grid_item_mode));
-                case 2:
+                case 3:
                     return IconsFragment.newInstance(position, new AllIconsGetter(),
                             getResources().getInteger(R.integer.home_grid_item_mode));
             }
@@ -246,7 +357,7 @@ public class MainActivity extends AppCompatActivity
 
         @Override
         public int getCount() {
-            return 3;
+            return 4;
         }
     }
 }

@@ -65,7 +65,7 @@ public class WhatsNewActivity extends AppCompatActivity implements IconsFragment
         snackbar.setAction(R.string.toast_rate, new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Uri uri = Uri.parse("market://details?id="+getPackageName());
+                        Uri uri = Uri.parse("market://details?id=" + getPackageName());
                         Intent intent = new Intent(Intent.ACTION_VIEW,uri);
                         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(intent);

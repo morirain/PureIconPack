@@ -52,7 +52,9 @@ android {
     flatDir { dirs 'libs' }
 }*/
 
+
 dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile project(':nanoiconpack')

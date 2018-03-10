@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_green"
+            android:title="Green" />
+        <item
+            android:id="@+id/item_blue"
+            android:title="Blue" />
+        <item
+            android:id="@+id/item_pink"
+            android:title="Pink" />
+    </group>
+
+    <item android:title="SubItems">
+        <menu>
+            <item
+                android:id="@+id/subitem_01"
+                android:title="SubItem01" />
+            <item
+                android:id="@+id/subitem_02"
+                android:title="SubItem02" />
+            <item
+                android:id="@+id/subitem_03"
+                android:title="SubItem03" />
+        </menu>
+    </item>
+
+    <item android:title="SubItems">
+        <menu>
+            <item
+                android:id="@+id/subitem_04"
+                android:title="SubItem04" />
+            <item
+                android:id="@+id/subitem_05"
+                android:title="SubItem05" />
+            <item
+                android:id="@+id/subitem_06"
+                android:title="SubItem06" />
+        </menu>
+    </item>
+</menu>
