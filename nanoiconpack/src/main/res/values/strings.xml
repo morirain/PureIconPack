@@ -33,7 +33,7 @@
     <string name="dlg_bt_ok">OK</string>
     <string name="dlg_bt_donate_too">Donate, too</string>
 
-    <string name="menu_whats_new">What\'s new</string>
+    <string name="menu_whats_new">new</string>
     <string name="menu_apply">Apply</string>
     <string name="menu_about">About</string>
     <string name="menu_filter">Filter</string>

@@ -19,6 +19,7 @@ package com.by_syk.lib.nanoiconpack;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
@@ -39,6 +40,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -108,8 +111,10 @@ public class MainActivity extends AppCompatActivity
             .setText("");
 
 
-    NavigationView navigationView;
-    DrawerLayout drawerLayout;
+/*    private NavigationView navigationView;
+    private DrawerLayout drawerLayout;*/
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -129,22 +134,23 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         viewPager = (ViewPager) findViewById(R.id.view_pager);
         bottomNavigationView = (BottomNavigationBar) findViewById(R.id.bottom_navigation_view);
-        navigationView = (NavigationView) findViewById(R.id.navigation_view);
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        //navigationView = (NavigationView) findViewById(R.id.navigation_view);
+        //抽屉drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+
         bottomNavigationView.setMode(bottomNavigationView.MODE_SHIFTING);
 
         bottomNavigationView.setBackgroundStyle(BottomNavigationBar.BACKGROUND_STYLE_STATIC);
         //bottomNavigationView.setBarBackgroundColor(R.color.color_primary);
-        bottomNavigationView.addItem(new BottomNavigationItem(R.drawable.ic_nav_lost, "未适配").setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemLost))
-                .addItem(new BottomNavigationItem(R.drawable.ic_action_new_dark, "新图标").setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemNew))
-                .addItem(new BottomNavigationItem(R.drawable.ic_nav_matched, "已适配").setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemMatched))
-                .addItem(new BottomNavigationItem(R.drawable.ic_nav_all, "全部").setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemAll))
+        bottomNavigationView.addItem(new BottomNavigationItem(R.drawable.ic_nav_lost, R.string.nav_lost).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemLost))
+                .addItem(new BottomNavigationItem(R.drawable.ic_action_new_dark, R.string.menu_whats_new).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemNew))
+                .addItem(new BottomNavigationItem(R.drawable.ic_nav_matched, R.string.nav_matched).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemMatched))
+                .addItem(new BottomNavigationItem(R.drawable.ic_nav_all, R.string.nav_all).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemAll))
                 .setFirstSelectedPosition(1)
                 .initialise();
 
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
-            actionBar.setDisplayHomeAsUpEnabled(true);
+            //actionBar.setDisplayHomeAsUpEnabled(true);
             //actionBar.setHomeAsUpIndicator(R.drawable.ic_menu);
         }
 
@@ -216,14 +222,15 @@ public class MainActivity extends AppCompatActivity
 
         });
 
-        navigationView.setCheckedItem(R.id.item_blue);
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+        //navigationView.setCheckedItem(R.id.item_blue);
+        /*navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 drawerLayout.closeDrawers();
                 return false;
             }
-        });
+        });*/
+
         // Set the default page to show.
         // 0: Lost, 1: Matched 2. All
         viewPager.setCurrentItem(1);
@@ -247,7 +254,7 @@ public class MainActivity extends AppCompatActivity
 
     public void showReqPrompt() {
         (new MaterialTapTargetPrompt.Builder(this))
-                .setTarget(bottomNavigationView.findViewById(R.id.nav_lost))
+                //.setTarget(bottomNavigationView.findViewById(R.id.nav_lost))
                 .setPrimaryText(getString(R.string.prompt_req))
                 .setSecondaryText(getString(R.string.prompt_req_desc))
                 .setBackgroundColourFromRes(R.color.color_primary)
@@ -307,8 +314,7 @@ public class MainActivity extends AppCompatActivity
             item.setIntent(new Intent(this, AboutActivity.class));
             return super.onOptionsItemSelected(item);
         } else if (id == R.id.home) {
-            drawerLayout.openDrawer(GravityCompat.START);
-            Log.d("MainActivity", "onOptionsItemSelected: asasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasas");
+            /*drawerLayout.openDrawer(GravityCompat.START);*/
             return super.onOptionsItemSelected(item);
         }
         return super.onOptionsItemSelected(item);

@@ -31,4 +31,5 @@
     <color name="positive">#ff4caf50</color>
     <color name="negative">#f44336</color>
 
+    <color name="color_text">#202020</color>
 </resources>

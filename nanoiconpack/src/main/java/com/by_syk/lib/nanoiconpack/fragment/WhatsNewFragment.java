@@ -31,6 +31,7 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.by_syk.lib.nanoiconpack.MainActivity;
 import com.by_syk.lib.nanoiconpack.R;
@@ -45,7 +46,7 @@ import com.by_syk.lib.nanoiconpack.util.PkgUtil;
  * Created by By_syk on 2017-02-18.
  */
 
-public class WhatsNewFragment extends Fragment/* implements IconsFragment.OnLoadDoneListener*/ {
+public class WhatsNewFragment extends Fragment implements View.OnClickListener/* implements IconsFragment.OnLoadDoneListener*/ {
 
     private View contentView;
 
@@ -66,6 +67,8 @@ public class WhatsNewFragment extends Fragment/* implements IconsFragment.OnLoad
         getFragmentManager().beginTransaction()
                 .replace(R.id.fragment_content, fragment)
                 .commit();
+        Button button = (Button) contentView.findViewById(R.id.rate_button);
+        button.setOnClickListener(this);
     }
 
     public static WhatsNewFragment newInstance(int id) {
@@ -78,20 +81,16 @@ public class WhatsNewFragment extends Fragment/* implements IconsFragment.OnLoad
         return fragment;
     }
 
-    private void showHint() {
+    /*private void showHint() {
         Snackbar snackbar = Snackbar.make(contentView.findViewById(R.id.coordinator_layout),
                 PkgUtil.getAppVer(contentView.getContext(), getString(R.string.toast_whats_new)),
                 Snackbar.LENGTH_INDEFINITE);
         snackbar.setAction(R.string.toast_rate, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uri = Uri.parse("market://details?id=" + MainActivity.PACKAGE_NAME);
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);
             }
         }).setActionTextColor(0xffff9ff5).show();
-    }
+    }*/
 
     /*@Override
     public void onLoadDone(int pageId, int sum) {
@@ -122,5 +121,17 @@ public class WhatsNewFragment extends Fragment/* implements IconsFragment.OnLoad
             fragmentManager.beginTransaction().add(fragment, tag).commit();
         }
         return fragment;
+    }
+
+    @Override
+    public void onClick(View v) {
+        int i = v.getId();
+        if (i == R.id.rate_button) {
+            Uri uri = Uri.parse("market://details?id=" + MainActivity.PACKAGE_NAME);
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+        } else {
+        }
     }
 }
