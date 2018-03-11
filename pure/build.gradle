@@ -17,9 +17,9 @@ android {
         applicationId "me.morirain.dev.iconpack.pure"
         minSdkVersion Integer.parseInt(project.MIN_SDK_VERSION)
         targetSdkVersion Integer.parseInt(project.TARGET_SDK_VERSION)
-        versionCode 1803030105
+        versionCode 1803110106
         // Version name format: [version].[num_of_icons]
-        versionName "3.3 Play"
+        versionName "3.3.11 Android Pure"
 
         resConfigs "en", "zh", "it"
     }
