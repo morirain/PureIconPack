@@ -5247,6 +5247,8 @@
     <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.main.LauncherActivity}" drawable="sound_cloud" />
     <!-- Cytus II / Cytus II -->
     <item component="ComponentInfo{com.rayark.cytus2/com.inca.security.DexProtect.LauncherActivity}" drawable="game_cytus_ii" />
+    <!-- 皇室战争 / Clash Royale -->
+    <item component="ComponentInfo{com.supercell.clashroyale.qihoo/com.supercell.clashroyale.GameAppKunlun}" drawable="game_cr" />
 
     <!-- 分割 -->
 

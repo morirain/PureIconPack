@@ -49,4 +49,5 @@ dependencies {
     // TinyPinyin: https://github.com/promeG/TinyPinyin
     compile 'com.github.promeg:tinypinyin:2.0.3'
     compile 'com.ashokvarma.android:bottom-navigation-bar:1+'
+    implementation 'com.android.support:cardview-v7:27.1.0'
 }
