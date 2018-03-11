@@ -120,7 +120,7 @@ public class IconsFragment extends Fragment {
         return new int[]{num, totalWidth / num};
     }
 
-    public static IconsFragment newInstance(int id, IconsGetter iconsGetter, int mode) {
+    public static IconsFragment  newInstance(int id, IconsGetter iconsGetter, int mode) {
         IconsFragment fragment = new IconsFragment();
 
         Bundle bundle = new Bundle();
