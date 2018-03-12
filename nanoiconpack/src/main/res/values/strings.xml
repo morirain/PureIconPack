@@ -33,7 +33,7 @@
     <string name="dlg_bt_ok">OK</string>
     <string name="dlg_bt_donate_too">Donate, too</string>
 
-    <string name="menu_whats_new">new</string>
+    <string name="menu_whats_new">New</string>
     <string name="menu_apply">Apply</string>
     <string name="menu_about">About</string>
     <string name="menu_filter">Filter</string>
@@ -116,7 +116,7 @@
     <string name="prompt_req_add">To add</string>
     <string name="search_hint">Search icons&#8230;</string>
 
-    <string name="preference_translators">translators</string>
+    <string name="preference_translators">Translators</string>
     <string name="preference_translators_it"></string>
 
     <string name="toast_rate">RATE</string>
