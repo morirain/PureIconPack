@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        morirain {
+            keyAlias 'morirain'
+            keyPassword 'morirain'
+            storeFile file('C:/Users/罗/morirainkey.jks')
+            storePassword 'morirain'
+        }
+    }
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES'
         exclude 'META-INF/NOTICE'
@@ -17,11 +25,11 @@ android {
         applicationId "me.morirain.dev.iconpack.pure"
         minSdkVersion Integer.parseInt(project.MIN_SDK_VERSION)
         targetSdkVersion Integer.parseInt(project.TARGET_SDK_VERSION)
-        versionCode 1803110106
+        versionCode 1803110107
         // Version name format: [version].[num_of_icons]
-        versionName "3.3.11 Android Pure"
-
+        versionName '3.4 Android Pure'
         resConfigs "en", "zh", "it"
+        signingConfig signingConfigs.morirain
     }
     buildTypes {
         release {

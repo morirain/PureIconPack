@@ -18,6 +18,7 @@ package com.by_syk.lib.nanoiconpack;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
@@ -234,6 +235,12 @@ public class MainActivity extends AppCompatActivity
         // Set the default page to show.
         // 0: Lost, 1: Matched 2. All
         viewPager.setCurrentItem(1);
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        //Did nothing.
+        super.onConfigurationChanged(newConfig);
     }
 
     public void prepareReqPrompt() {

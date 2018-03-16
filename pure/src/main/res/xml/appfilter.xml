@@ -5250,6 +5250,12 @@
     <!-- 皇室战争 / Clash Royale -->
     <item component="ComponentInfo{com.supercell.clashroyale.qihoo/com.supercell.clashroyale.GameAppKunlun}" drawable="game_cr" />
 
+    <!-- 115 / 115 -->
+    <item component="ComponentInfo{com.ylmf.androidclient/com.yyw.user2.activity.LogActivity}" drawable="ylmf_115" />
+    <!-- Shizuku Manager / Shizuku Manager -->
+    <item component="ComponentInfo{moe.shizuku.privileged.api/moe.shizuku.manager.MainActivity}" drawable="shizuku" />
+
+
     <!-- 分割 -->
 
 

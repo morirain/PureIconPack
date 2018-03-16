@@ -66,7 +66,7 @@ public class WhatsNewFragment extends Fragment implements View.OnClickListener/*
                 getResources().getInteger(R.integer.whats_new_grid_item_mode));
         getFragmentManager().beginTransaction()
                 .replace(R.id.fragment_content, fragment)
-                .commit();
+                .commitAllowingStateLoss();
         Button button = (Button) contentView.findViewById(R.id.rate_button);
         button.setOnClickListener(this);
     }
