@@ -5254,6 +5254,69 @@
     <item component="ComponentInfo{com.ylmf.androidclient/com.yyw.user2.activity.LogActivity}" drawable="ylmf_115" />
     <!-- Shizuku Manager / Shizuku Manager -->
     <item component="ComponentInfo{moe.shizuku.privileged.api/moe.shizuku.manager.MainActivity}" drawable="shizuku" />
+    <!-- 一点资讯 / News -->
+    <item component="ComponentInfo{com.yidian.xiaomi/com.yidian.xiaomi.ui.guide.UserGuideActivity}" drawable="news" /><!-- 一点资讯 / 一点资讯 -->
+    <item component="ComponentInfo{com.hipu.yidian/com.yidian.news.ui.guide.UserGuideActivity}" drawable="" /><!-- 一点资讯 / Yidian -->
+    <item component="ComponentInfo{com.hipu.yidian/com.yidian.news.ui.guide.UserGuideActivity}" drawable="yidian" />
+    <!-- 巴士管家 / 巴士管家 -->
+    <item component="ComponentInfo{com.chebada/com.chebada.main.WelcomeActivity}" drawable="bsgj" />
+    <!-- 笔趣阁 / 笔趣阁 -->
+    <item component="ComponentInfo{com.biquge.ebook.app/com.biquge.ebook.app.ui.activity.WelComeActivity}" drawable="bqg" /><!-- 笔趣阁 / 笔趣阁 -->
+    <item component="ComponentInfo{com.biqugeappla.app/com.biquge.ebook.app.ui.activity.WelComeActivity}" drawable="bqg" /><!-- 笔趣阁 / 笔趣阁 -->
+    <item component="ComponentInfo{com.googlebiquge.ebook.app/com.biquge.ebook.app.ui.activity.WelComeActivity}" drawable="bqg" /><!-- 笔趣阁免费小说 / 笔趣阁免费小说 -->
+    <item component="ComponentInfo{com.biquge.book.noverls/com.biquge.book.noverls.activity.LuanchActivity}" drawable="bqg" /><!-- 笔趣阁 / 笔趣阁 -->
+    <item component="ComponentInfo{com.jingwei.reader/com.jingwei.reader.ui.WelcomeActivity}" drawable="bqg" /><!-- 笔趣阁 / 笔趣阁 -->
+    <item component="ComponentInfo{com.book.bqg/com.keruiyun.book.StartActivity}" drawable="bqg" /><!-- 笔趣阁全本小说 / 笔趣阁全本小说 -->
+    <item component="ComponentInfo{com.biquge.reader/com.tiantianyuedu.reader.ui.activity.SplashActivity}" drawable="bqg" /><!-- 笔趣阁 / 笔趣阁 -->
+    <item component="ComponentInfo{com.bi.qu.my/com.lcstudio.reader.ui.ActMain}" drawable="bqg" /><!-- 笔趣阁无限积分版 / 笔趣阁无限积分版 -->
+    <item component="ComponentInfo{com.txt.ydad/com.stub.plugin.Stub01}" drawable="bqg" />
+    <!-- 不讓你吃咧 / なるものか -->
+    <item component="ComponentInfo{jp.co.hit_point.narumonoka/com.unity3d.player.UnityPlayerActivity}" drawable="game_brncl" />
+    <!-- MARIO RUN / Super Mario Run -->
+    <item component="ComponentInfo{com.nintendo.zara/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity}" drawable="game_mario" />
+    <!-- Pokémon GO / Pokémon GO -->
+    <item component="ComponentInfo{com.nianticlabs.pokemongo/com.nianticproject.holoholo.libholoholo.unity.UnityMainActivity}" drawable="game_pokemon" /><!-- Pokémon GO / Pokémon GO -->
+    <item component="ComponentInfo{com.nianticlabs.pokemongo/com.unity3d.player.UnityPlayerActivity}" drawable="game_pokemon" />
+    <!-- Trello / Trello -->
+    <item component="ComponentInfo{com.trello/com.trello.home.HomeActivity}" drawable="trello" />
+    <!-- Whoscall / Whoscall -->
+    <item component="ComponentInfo{gogolook.callgogolook2/gogolook.callgogolook2.PreloadingActivity}" drawable="whoscall" />
+    <!-- InShot / InShot -->
+    <item component="ComponentInfo{com.camerasideas.instashot/com.camerasideas.instashot.DummyActivity}" drawable="in_shot" />
+    <!-- 乐秀视频编辑器 / VideoShow -->
+    <item component="ComponentInfo{com.xvideostudio.videoeditor/com.xvideostudio.videoeditor.activity.SplashActivity}" drawable="lx" /><!-- 乐秀视频编辑器 / VideoShow -->
+    <item component="ComponentInfo{com.xvideostudio.videoeditor/com.qihoo.util.StartActivity}" drawable="lx" /><!-- 乐秀视频编辑器 / VideoShow -->
+    <item component="ComponentInfo{com.xvideostudio.videoeditor/com.stub.stub01.Stub01}" drawable="lx" />
+    <!-- 30天健身挑战 / 30 Day Fitness Challenge -->
+    <item component="ComponentInfo{com.popularapp.thirtydayfitnesschallenge/com.popularapp.thirtydayfitnesschallenge.activity.StartActivity}" drawable="thirtydayfitnesschallenge" />
+    <!-- SNOW / SNOW -->
+    <item component="ComponentInfo{com.campmobile.snow/com.campmobile.snow.feature.intro.SplashActivity}" drawable="camera_snow" />
+    <!-- Tubi TV / Tubi TV -->
+    <item component="ComponentInfo{com.tubitv/com.tubitv.activities.SplashScreenActivity}" drawable="tubi_tv" />
+    <!-- iflix / iflix -->
+    <item component="ComponentInfo{iflix.play/my.com.iflix.mobile.ui.SplashActivity}" drawable="iflix" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- 分割 -->
