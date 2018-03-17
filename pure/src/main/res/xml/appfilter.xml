@@ -2790,7 +2790,7 @@
     <!-- 10000社区 / 10000社区 -->
     <item component="ComponentInfo{dxwt.questionnaire.ui/com.dxwt.community.activity.main.MainWeexActivity}" drawable="shequ_10000" />
     <!-- 暗影格斗2 / Shadow Fight 2 -->
-    <item component="ComponentInfo{com.nekki.shadowfight/com.qihoo.util.StartActivity}" drawable="shadow_fight_2" /><!-- 暗影格斗2 / 暗影格斗2 -->
+    <item component="ComponentInfo{com.nekki.shadowfight/com.qihoo.util.StartActivity}" drawable="game_shadowfight" /><!-- 暗影格斗2 / 暗影格斗2 -->
     <!-- Shadow Fight 2 / Shadow Fight 2 -->
     <item component="ComponentInfo{com.nekki.shadowfight/com.nekki.shadowfight.Main}" drawable="game_shadowfight" /><!-- Shadow Fight 2 / Shadow Fight 2 -->
     <item component="ComponentInfo{com.nekki.shadowfight/com.aiwu.Splash}" drawable="game_shadowfight" /><!-- Shadow Fight 2 / Shadow Fight 2 -->
@@ -3676,6 +3676,10 @@
     <item component="ComponentInfo{cc.forestapp/cc.forestapp.activities.plant.PlantViewController}" drawable="forest" /><!-- Forest / Forest -->
     <item component="ComponentInfo{cc.forestapp/com.jeremy.SplashSpotActivity}" drawable="forest" /><!-- Forest / Forest -->
     <item component="ComponentInfo{cc.forestapp/cc.forestapp.activities.PlantView.PlantViewController}" drawable="forest" />
+    <!-- Forest / Forest -->
+    <item component="ComponentInfo{cc.forestapp/cc.forestapp.applications.SplashActivity}" drawable="forest" />
+    <!-- Forest / Forest -->
+    <item component="ComponentInfo{cc.forestapp/cc.forestapp.SplashActivity}" drawable="forest" />
     <!-- 神奇磁力 / 神奇磁力 -->
     <item component="ComponentInfo{com.magicmagnet/com.magicmagnet.common.SplashActivity}" drawable="sqcl" />
     <!-- 网易考拉海购 / 网易考拉海购 -->
@@ -5295,27 +5299,86 @@
     <item component="ComponentInfo{com.tubitv/com.tubitv.activities.SplashScreenActivity}" drawable="tubi_tv" />
     <!-- iflix / iflix -->
     <item component="ComponentInfo{iflix.play/my.com.iflix.mobile.ui.SplashActivity}" drawable="iflix" />
+    <!-- Shadow Fight 3 / Shadow Fight 3 -->
+    <item component="ComponentInfo{com.nekki.shadowfight3/com.nekki.unityplugins.NekkiNativeActivity}" drawable="game_shadowfight_2" /><!-- Shadow Fight 3 / Shadow Fight 3 -->
+    <item component="ComponentInfo{com.nekki.shadowfight3.abc/com.vqswesdk.vqswesdk.VqsSdkActivity}" drawable="game_shadowfight_2" /><!-- ShadowFight3 / ShadowFight3 -->
+    <item component="ComponentInfo{com.nekki.shadowfight3/com.nekki.unityplugins.NekkiNativeActivity}" drawable="game_shadowfight_2" /><!-- ShadowFight3 / ShadowFight3 -->
+    <item component="ComponentInfo{com.nekki.shadowfight3/com.prime31.UnityPlayerNativeActivity}" drawable="game_shadowfight_2" /><!-- ShadowFight3 / ShadowFight3 -->
+    <item component="ComponentInfo{com.nekki.shadowfight3.abc/com.stub.stub01.Stub01}" drawable="game_shadowfight_2" />
 
+    <!-- Smart Launcher Pro / Smart Launcher Pro -->
+    <item component="ComponentInfo{ginlemon.flowerpro/ginlemon.flower.HomeScreen}" drawable="smart_launcher" /><!-- Smart Launcher / Smart Launcher -->
+    <item component="ComponentInfo{ginlemon.flowerfree/ginlemon.flower.HomeScreen}" drawable="smart_launcher" />
 
+    <!-- Evie / Evie -->
+    <item component="ComponentInfo{is.shortcut/com.voxel.launcher3.Launcher}" drawable="evie" />
+    <!-- NicoBox / NicoBox -->
+    <item component="ComponentInfo{jp.nicovideo.nicobox/jp.nicovideo.nicobox.activity.MainActivity}" drawable="nicobox" />
+    <!-- Yahoo! / Yahoo! -->
+    <item component="ComponentInfo{jp.co.yahoo.android.yjtop/jp.co.yahoo.android.yjtop.YJTopActivity}" drawable="yahoo" />
+    <!-- AbemaTV / AbemaTV -->
+    <item component="ComponentInfo{tv.abema/tv.abema.components.activity.LauncherActivity}" drawable="abema_tv" /><!-- AbemaTV Free / AbemaTV Free -->
+    <item component="ComponentInfo{tv.abemb/tv.abemb.components.activity.LauncherActivity}" drawable="abema_tv" />
 
+    <!-- WA Business / WhatsApp Business -->
+    <item component="ComponentInfo{com.whatsapp.w4b/com.whatsapp.Main}" drawable="whats_app_b" />
+    <!-- myMail / myMail -->
+    <item component="ComponentInfo{com.my.mail/ru.mail.mailapp.SplashScreenActivity}" drawable="my_mail" />
 
+    <!-- VK / VK -->
+    <item component="ComponentInfo{com.vkontakte.android/com.vkontakte.android.MainActivity}" drawable="vk" /><!-- VK / VK -->
+    <item component="ComponentInfo{com.vkontakte.android/com.vkontakte.android.SplashActivity}" drawable="vk" />
+    <!-- Yandex / Yandex -->
+    <item component="ComponentInfo{ru.yandex.searchplugin/ru.yandex.searchplugin.MainActivity}" drawable="yandex_search" />
+    <!-- 我的宠物Pou / Pou -->
+    <item component="ComponentInfo{me.pou.app/me.pou.app.App}" drawable="pou" />
+    <!-- Dynamix / Dynamix -->
+    <item component="ComponentInfo{com.c4cat.dynamix/com.unity3d.player.UnityPlayerActivity}" drawable="game_dynamix" /><!-- Dynamix / Dynamix -->
+    <item component="ComponentInfo{com.c4cat.dynamix/com.aiwu.Splash}" drawable="game_dynamix" /><!-- Dynamix / Dynamix -->
+    <item component="ComponentInfo{com.c4cat.dynamix/com.game.god.FaActivity}" drawable="game_dynamix" /><!-- Dynamix / Dynamix -->
+    <item component="ComponentInfo{com.c4cat.dynamix/com.prime31.UnityPlayerNativeActivity}" drawable="game_dynamix" /><!-- Dynamix / Dynamix -->
+    <item component="ComponentInfo{com.c4cat.dynamix/com.qiqiersan.sdk.QqesShellActivity}" drawable="game_dynamix" /><!-- Dynamix / Dynamix -->
+    <item component="ComponentInfo{com.c4cat.dynamix/com.YouGaisData.YouGaisdataJ}" drawable="game_dynamix" /><!-- Dynamix / Dynamix -->
+    <item component="ComponentInfo{com.c4cat.dynamix/l_Jl.xEoYP.xSIU.hqQUr.hL_kA}" drawable="game_dynamix" />
 
+    <!-- Build: Xiaomi / MIX 2 -->
+    <!-- 我的小米 / Xiaomi Account -->
+    <item component="ComponentInfo{com.xiaomi.vipaccount/com.xiaomi.vipaccount.ui.home.AccountHomeActivity}" drawable="mi_mymi" />
+    <!-- 魅族商城 / 魅族商城 -->
+    <item component="ComponentInfo{com.flyme.meizu.store/com.meizu.store.home.HomeActivity}" drawable="flyme_store" /><!-- 魅族商城 / 魅族商城 -->
+    <item component="ComponentInfo{com.flyme.meizu.store/com.meizu.store.screen.main.Main2Activity}" drawable="flyme_store" /><!-- 魅族商城 / 魅族商城 -->
+    <item component="ComponentInfo{com.meizu.store/com.meizu.store.screen.main.Main2Activity}" drawable="flyme_store" /><!-- 魅族商城 / 魅族商城 -->
+    <item component="ComponentInfo{com.meizu.store/com.qihoo.util.StartActivity}" drawable="flyme_store" /><!-- 魅族商城 / 魅族商城 -->
+    <item component="ComponentInfo{com.flyme.meizu.store/com.stub.plugin.Stub01}" drawable="flyme_store" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- 和包支付 / 和包支付 -->
+    <item component="ComponentInfo{com.cmcc.hebao/com.cmcc.wallet.LoadingActivity}" drawable="hebao" />
+    <!-- Ubisoft Club / Ubisoft Club -->
+    <item component="ComponentInfo{com.ubisoft.uplay/com.ubisoft.uplay.MainProxyActivity}" drawable="ubisoft_club" />
+    <!-- 同桌游戏 / 同桌游戏 -->
+    <item component="ComponentInfo{com.tongzhuo.tongzhuogame/com.tongzhuo.tongzhuogame.ui.splash.SplashActivity}" drawable="tzyx" />
+    <!-- Adguard / Adguard -->
+    <item component="ComponentInfo{com.adguard.android/com.adguard.android.ui.SplashActivity}" drawable="adguard" /><!-- Adguard Content Blocker / Adguard Content Blocker -->
+    <item component="ComponentInfo{com.adguard.android.contentblocker/com.adguard.android.contentblocker.MainActivity}" drawable="adguard" /><!-- Adguard / Adguard -->
+    <item component="ComponentInfo{com.adguar.android/com.adguard.android.ui.SplashActivity}" drawable="adguard" />
+    <!-- Adblock Plus / Adblock Plus -->
+    <item component="ComponentInfo{org.adblockplus.android/org.adblockplus.android.Preferences}" drawable="abp" /><!-- Adblock Plus for Samsung Browser / Adblock Plus for Samsung Browser -->
+    <item component="ComponentInfo{org.adblockplus.adblockplussbrowser/org.adblockplus.sbrowser.contentblocker.MainPreferences}" drawable="abp" />
+    <!-- 蜜蜂出行 / 蜜蜂出行 -->
+    <item component="ComponentInfo{com.mmuu.travel.client/com.mmuu.travel.client.ui.other.StartAct}" drawable="mf" />
+    <!-- 北京实时公交 / 北京实时公交 -->
+    <item component="ComponentInfo{com.aibang.nextbus/com.aibang.nextbus.BootActivity}" drawable="bjssgj" />
+    <!-- 北京实时公交 / 北京实时公交 -->
+    <item component="ComponentInfo{com.bjjt.real/com.bjjt.real.MainActivity}" drawable="bjssgj" /><!-- 北京实时公交 / 北京实时公交 -->
+    <item component="ComponentInfo{com.yhtye.beijing/com.qihoo.util.StartActivity}" drawable="bjssgj" /><!-- 北京实时公交 / 北京实时公交 -->
+    <item component="ComponentInfo{com.yhtye.beijing/com.yhtye.gongjiaochaxun.SplashActivity}" drawable="bjssgj" />
+    <!-- 返利 / 返利 -->
+    <item component="ComponentInfo{com.fanli.android.apps/com.fanli.android.basicarc.ui.activity.SplashActivity}" drawable="fl" /><!-- 返利 / 返利 -->
+    <item component="ComponentInfo{com.fanli.android.apps/com.fanli.android.activity.SplashActivity}" drawable="fl" />
+    <!-- Splashtop / Splashtop -->
+    <item component="ComponentInfo{com.splashtop.remote.pad.v2/com.splashtop.remote.FirstActivity}" drawable="splashtop" /><!-- Splashtop / Splashtop -->
+    <item component="ComponentInfo{com.splashtop.remote.pcp.v2/com.splashtop.remote.FirstActivity}" drawable="splashtop" /><!-- Splashtop HD / Splashtop HD -->
+    <item component="ComponentInfo{com.splashtop.remote.pad/com.splashtop.remote.FirstActivity}" drawable="splashtop" />
 
 
 
