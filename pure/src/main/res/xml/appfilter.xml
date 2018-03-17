@@ -3796,6 +3796,8 @@
     <item component="ComponentInfo{com.ilongyuan.cytus.ly/com.prime31.UnityPlayerNativeActivity}" drawable="game_cytus" />
     <!-- AppSales / AppSales -->
     <item component="ComponentInfo{net.tsapps.appsales/net.tsapps.appsales.MainActivity}" drawable="app_sales" />
+    <!-- AppSales / AppSales -->
+    <item component="ComponentInfo{net.tsapps.appsalet/net.tsapps.appsales.MainActivity}" drawable="app_sales" />
     <!-- KKBOX / KKBOX -->
     <item component="ComponentInfo{com.skysoft.kkbox.android/com.skysoft.kkbox.android.HomeActivity}" drawable="kkbox" />
     <!-- 新东方在线 / 新东方在线 -->
@@ -5193,7 +5195,7 @@
     <!-- GB Live / GB Live -->
     <item component="ComponentInfo{com.gbtv.phonelive/com.gbtv.phonelive.AppStart}" drawable="gb_live" />
     <!-- 新华字典 / 新华字典 -->
-    <item component="ComponentInfo{cn.dictcn.android.digitize.swg_xhzd_21003/cn.dictcn.android.digitize.activity.MainActivity}" drawable="" />
+    <item component="ComponentInfo{cn.dictcn.android.digitize.swg_xhzd_21003/cn.dictcn.android.digitize.activity.MainActivity}" drawable="xinhua" />
 
     <!-- 新华字典 / 新华字典 -->
     <item component="ComponentInfo{hugh.android.app.zidian/hugh.android.app.common.SplashActivity}" drawable="xinhua" /><!-- 新华字典 / 新华字典 -->
@@ -5259,9 +5261,9 @@
     <!-- Shizuku Manager / Shizuku Manager -->
     <item component="ComponentInfo{moe.shizuku.privileged.api/moe.shizuku.manager.MainActivity}" drawable="shizuku" />
     <!-- 一点资讯 / News -->
-    <item component="ComponentInfo{com.yidian.xiaomi/com.yidian.xiaomi.ui.guide.UserGuideActivity}" drawable="news" /><!-- 一点资讯 / 一点资讯 -->
-    <item component="ComponentInfo{com.hipu.yidian/com.yidian.news.ui.guide.UserGuideActivity}" drawable="" /><!-- 一点资讯 / Yidian -->
-    <item component="ComponentInfo{com.hipu.yidian/com.yidian.news.ui.guide.UserGuideActivity}" drawable="yidian" />
+    <item component="ComponentInfo{com.yidian.xiaomi/com.yidian.xiaomi.ui.guide.UserGuideActivity}" drawable="onep" /><!-- 一点资讯 / 一点资讯 -->
+    <item component="ComponentInfo{com.hipu.yidian/com.yidian.news.ui.guide.UserGuideActivity}" drawable="onep" /><!-- 一点资讯 / Yidian -->
+    <item component="ComponentInfo{com.hipu.yidian/com.yidian.news.ui.guide.UserGuideActivity}" drawable="onep" />
     <!-- 巴士管家 / 巴士管家 -->
     <item component="ComponentInfo{com.chebada/com.chebada.main.WelcomeActivity}" drawable="bsgj" />
     <!-- 笔趣阁 / 笔趣阁 -->
@@ -5379,6 +5381,704 @@
     <item component="ComponentInfo{com.splashtop.remote.pad.v2/com.splashtop.remote.FirstActivity}" drawable="splashtop" /><!-- Splashtop / Splashtop -->
     <item component="ComponentInfo{com.splashtop.remote.pcp.v2/com.splashtop.remote.FirstActivity}" drawable="splashtop" /><!-- Splashtop HD / Splashtop HD -->
     <item component="ComponentInfo{com.splashtop.remote.pad/com.splashtop.remote.FirstActivity}" drawable="splashtop" />
+    <!-- 用药助手 / 用药助手 -->
+    <item component="ComponentInfo{cn.dxy.medicinehelper/cn.dxy.medicinehelper.activity.DrugLaunchActivity}" drawable="yyzs" />
+    <!-- 3D播播VR / 3D播播VR -->
+    <item component="ComponentInfo{com.bobo.splayer/com.bobo.splayer.modules.mainpage.userInterface.BootActivity}" drawable="bbvr" /><!-- 3D播播VR版 / 3D播播VR版 -->
+    <item component="ComponentInfo{com.bobo.gearvr/com.bobo.immersion.ImmersionActivity}" drawable="bbvr" />
+    <!-- 呱呱漫画 / 呱呱漫画 -->
+    <item component="ComponentInfo{com.manhuazhushou.app/com.manhuazhushou.app.LauncherAct}" drawable="ggmh" />
+    <!-- 支付寶HK / 支付寶HK -->
+    <item component="ComponentInfo{hk.alipay.wallet/com.eg.android.AlipayGphone.AlipayLogin}" drawable="alipay" />
+    <!-- Florence / Florence -->
+    <item component="ComponentInfo{com.mountains.feathertop/com.unity3d.player.UnityPlayerActivity}" drawable="game_florence" />
+    <!-- 香港01 / 香港01 -->
+    <item component="ComponentInfo{com.hk01.news_app/com.hk01.news_app.MainActivity}" drawable="xg01" /><!-- 香港01 / 香港01 -->
+    <item component="ComponentInfo{com.hk01.news_app/com.hk01.news_app.activity.AppStateActivity}" drawable="xg01" />
+    <!-- Viki / Viki -->
+    <item component="ComponentInfo{com.viki.android/com.viki.android.SplashActivity}" drawable="viki" />
+    <!-- 游民星空 / 游民星空 -->
+    <item component="ComponentInfo{com.gamersky/com.gamersky.ui.WelcomeActivity}" drawable="ymxk" /><!-- 游民星空 / 游民星空 -->
+    <item component="ComponentInfo{com.gamersky/com.gamersky.ui.welcome.WelcomeActivity}" drawable="ymxk" />
+    <!-- 新聞 / 新聞 -->
+    <item component="ComponentInfo{com.yahoo.infohub/com.yahoo.mobile.client.android.newsabu.activity.MainControlActivity}" drawable="yahoo_news" />
+    <!-- IMDb / IMDb -->
+    <item component="ComponentInfo{com.imdb.mobile/com.imdb.mobile.HomeActivity}" drawable="imdb" />
+    <!-- Prime Video / Prime Video -->
+    <item component="ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity}" drawable="amazon_video" />
+    <!-- Vine Camera / Vine Camera -->
+    <item component="ComponentInfo{co.vine.android/co.vine.android.StartActivity}" drawable="vine_camera" />
+    <!-- Videoshop / Videoshop -->
+    <item component="ComponentInfo{com.videoshop.app/com.videoshop.app.ui.activity.ProjectsActivity}" drawable="videoshop" />
+    <!-- Flipagram / Flipagram -->
+    <item component="ComponentInfo{com.cheerfulinc.flipagram/com.cheerfulinc.flipagram.FirstLaunchActivity}" drawable="flipagram" />
+    <!-- Triller / Triller -->
+    <item component="ComponentInfo{co.triller.droid/co.triller.droid.Activities.Main.MainActivity}" drawable="triller" />
+    <!-- Timehop / Timehop -->
+    <item component="ComponentInfo{com.timehop/com.timehop.LoginActivity}" drawable="timehop" />
+    <!-- Swarm / Swarm -->
+    <item component="ComponentInfo{com.foursquare.robin/com.foursquare.robin.activities.MainActivity}" drawable="swarm" />
+    <!-- Foursquare / Foursquare -->
+    <item component="ComponentInfo{com.joelapenna.foursquared/com.joelapenna.foursquared.MainActivity}" drawable="foursquare" />
+    <!-- Zomato / Zomato -->
+    <item component="ComponentInfo{com.application.zomato/com.application.zomato.activities.Splash}" drawable="zomato" />
+    <!-- Swiggy / Swiggy -->
+    <item component="ComponentInfo{in.swiggy.android/in.swiggy.android.activities.HomeActivity}" drawable="swiggy" />
+    <!-- Uber Eats / Uber Eats -->
+    <item component="ComponentInfo{com.ubercab.eats/com.ubercab.eats.app.feature.launch.LauncherActivity}" drawable="uber_eats" />
+    <!-- Finance / Finance -->
+    <item component="ComponentInfo{com.yahoo.mobile.client.android.finance/com.yahoo.mobile.client.android.finance.activity.Main}" drawable="yahoo_finance" />
+    <!-- Expedia / Expedia -->
+    <item component="ComponentInfo{com.expedia.bookings/com.expedia.bookings.activity.SearchActivity}" drawable="expedia" />
+    <!-- Yelp / Yelp -->
+    <item component="ComponentInfo{com.yelp.android/com.yelp.android.ui.activities.RootActivity}" drawable="yelp" />
+    <!-- Chase / Chase -->
+    <item component="ComponentInfo{com.chase.sig.android/com.chase.sig.android.activity.HomeActivity}" drawable="chase" />
+    <!-- 计算器 / Calculator -->
+    <item component="ComponentInfo{com.asus.calculator/com.asus.calculator.Calculator}" drawable="calculator" />
+    <!-- 文件管理 / File Manager -->
+    <item component="ComponentInfo{com.asus.filemanager/com.asus.filemanager.activity.FileManagerActivity}" drawable="files" />
+    <!-- 智能管家 / Mobile Manager -->
+    <item component="ComponentInfo{com.asus.mobilemanager/com.asus.mobilemanager.entry.FunctionActivity}" drawable="security" />
+    <!-- 拨号 / Contacts -->
+    <item component="ComponentInfo{com.asus.contacts/com.android.contacts.activities.DialtactsActivity}" drawable="phone" />
+    <!-- 联系人 / Contacts -->
+    <item component="ComponentInfo{com.asus.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts" />
+    <!-- 时钟 / Clock -->
+    <item component="ComponentInfo{com.asus.deskclock/com.asus.deskclock.DeskClock}" drawable="clock" />
+    <!-- 图库 / Gallery -->
+    <item component="ComponentInfo{com.asus.gallery/com.asus.gallery.app.EPhotoActivity}" drawable="gallery" />
+    <!-- 天气 / Weather -->
+    <item component="ComponentInfo{com.asus.weathertime/com.asus.weathertime.WeatherTimeSettings}" drawable="weather" />
+    <!-- 录音机 / Sound Recorder -->
+    <item component="ComponentInfo{com.asus.soundrecorder/com.asus.soundrecorder.AsusRecorder}" drawable="sound_recorder" />
+    <!-- 携程企业商旅 / Ctrip Biz -->
+    <item component="ComponentInfo{com.ctrip.ct/com.ctrip.ct.controller.activity.BusinessActivity}" drawable="ctrip_biz" /><!-- 携程企业商旅 / Ctrip Biz -->
+    <item component="ComponentInfo{com.ctrip.ct/com.ctrip.ct.ui.activity.BusinessActivity}" drawable="ctrip_biz" />
+    <!-- 天天基金网 / 天天基金网 -->
+    <item component="ComponentInfo{com.eastmoney.android.fund/com.eastmoney.android.fund.activity.FundSplashActivity}" drawable="ttjj" />
+    <!-- 快快查汉语字典 / 快快查汉语字典 -->
+    <item component="ComponentInfo{com.kk.dict/com.kk.dict.activity.SplashActivity}" drawable="kkchyzd" />
+    <!-- OpenHub / OpenHub -->
+    <item component="ComponentInfo{com.thirtydegreesray.openhub/com.thirtydegreesray.openhub.ui.activity.SplashActivity}" drawable="open_hub" />
+
+    <!-- Maxplus / Maxplus -->
+    <item
+        component="ComponentInfo{com.maxplus.maxplus/com.max.app.module.welcome.WelcomeActivity}"
+        drawable="maxplus" />
+    <!-- Telegreat X / Telegreat X -->
+    <item component="ComponentInfo{taipei.sean.challegram/org.thunderdog.challegram.MainActivity}" drawable="telegram_x" />
+    <!-- Opera / Opera -->
+    <item component="ComponentInfo{com.opera.browser/com.opera.Opera}" drawable="opera" />
+
+    <!-- SoundHound / SoundHound -->
+    <item
+        component="ComponentInfo{com.melodis.midomiMusicIdentifier.freemium/com.soundhound.android.appcommon.activity.SplashScreenActivity}"
+        drawable="sound_hound" />
+    <!-- 顺丰优选 / 顺丰优选 -->
+    <item component="ComponentInfo{com.sfbest.mapp/com.sfbest.mapp.module.guide.GuideActivity}" drawable="sfyx" />
+    <!-- 华医通 / 华医通 -->
+    <item component="ComponentInfo{info.cd120/info.cd120.app.person.ui.main.MainActivity}" drawable="hyt" /><!-- 华医通 / 华医通 -->
+    <item component="ComponentInfo{info.cd120/info.cd120.app.person.ui.main.SplashActivity}" drawable="hyt" />
+    <!-- 360清理大师 / 360清理大师 -->
+    <item component="ComponentInfo{com.qihoo.cleandroid_cn/com.qihoo360.mobilesafe.opti.ui.main.AppEnterActivity}" drawable="qihoo_ql" /><!-- 360清理大师 / 360 Clean Droid -->
+    <item component="ComponentInfo{com.qihoo.cleandroid/com.qihoo360.mobilesafe.opti.ui.main.AppEnterActivity}" drawable="qihoo_ql" />
+
+    <!-- 少女樂團派對 / 少女樂團派對 -->
+    <item component="ComponentInfo{net.gamon.bdTW/com.unity3d.player.UnityPlayerActivity}" drawable="game_lovelive" />
+    <!-- Build: htc / HTC U-3w -->
+    <!-- 电话 / Phone -->
+    <item component="ComponentInfo{com.android.incallui/com.android.incallui.DialerLauncher}" drawable="phone" />
+    <!-- Build: htc / HTC U-3w -->
+    <!-- 联系人 / People -->
+    <item component="ComponentInfo{com.htc.contacts/com.htc.contacts.BrowseLayerCarouselActivity}" drawable="contacts" />
+    <!-- 优选 / 优选 -->
+    <item component="ComponentInfo{com.meizu.flyme.mall/com.meizu.flyme.mall.modules.home.HomeActivity}" drawable="youx" />
+    <!-- 奇妙清单 / Wunderlist -->
+    <item component="ComponentInfo{com.wunderkinder.wunderlistandroid/com.wunderkinder.wunderlistandroid.activity.WLMainFragmentActivity}" drawable="wunderlist" />
+
+    <!-- 星巴克 / Starbucks -->
+    <item component="ComponentInfo{com.starbucks.ru/com.starbucks.ru.ui.StartActivity}" drawable="starbucks" />
+    <!-- 环球网校 / 环球网校 -->
+    <item component="ComponentInfo{com.edu24ol.newclass/edu24ol.com.mobileclass.StartActivity}" drawable="hqwx" /><!-- 环球网校 / 环球网校 -->
+    <item component="ComponentInfo{com.edu24ol.newclass/edu24ol.com.mobileclass.activity.StartActivity}" drawable="hqwx" />
+    <!-- 小米枪战 / 小米枪战 -->
+    <item component="ComponentInfo{com.ak.trunk.mi/com.epicgames.ue4.SplashActivity}" drawable="game_mi_qz" /><!-- 小米枪战 / 小米枪战 -->
+    <item component="ComponentInfo{com.ak.trunk.mi/com.epicgames.ue4.SplashActivity}" drawable="game_mi_qz" /><!-- 小米枪战 / 小米枪战 -->
+    <item component="ComponentInfo{com.ak.mi/com.epicgames.ue4.SplashActivity}" drawable="game_mi_qz" /><!-- 小米枪战 / 小米枪战 -->
+    <item component="ComponentInfo{com.tencent.tmgp.ak/com.epicgames.ue4.GameActivity}" drawable="game_mi_qz" /><!-- 小米枪战 / 小米枪战 -->
+    <item component="ComponentInfo{com.wali.ak.huawei/com.xgsdk.client.api.splash.XGSplashActivity}" drawable="game_mi_qz" /><!-- 小米枪战:大逃杀 / 小米枪战:大逃杀 -->
+    <item component="ComponentInfo{com.ak.trunk.mi/com.epicgames.ue4.SplashActivity}" drawable="game_mi_qz" /><!-- 小米枪战:测试服 / 小米枪战:测试服 -->
+    <item component="ComponentInfo{com.ak.trunk.mi/com.epicgames.ue4.SplashActivity}" drawable="game_mi_qz" /><!-- 小米枪战 / 小米枪战 -->
+    <item component="ComponentInfo{com.wali.ak.bili/com.xgsdk.client.api.splash.XGSplashActivity}" drawable="game_mi_qz" /><!-- 小米枪战 / 小米枪战 -->
+    <item component="ComponentInfo{com.wali.ak.nearme.gamecenter/com.xgsdk.client.api.splash.XGSplashActivity}" drawable="game_mi_qz" /><!-- 小米枪战 / 小米枪战 -->
+    <item component="ComponentInfo{com.ak.aligames/com.epicgames.ue4.SplashActivity}" drawable="game_mi_qz" /><!-- 小米枪战 / 小米枪战 -->
+    <item component="ComponentInfo{com.wali.ak.vivo/com.xgsdk.client.api.splash.XGSplashActivity}" drawable="game_mi_qz" /><!-- 小米枪战 / 小米枪战 -->
+    <item component="ComponentInfo{com.wali.ak.mz/com.xgsdk.client.api.splash.XGSplashActivity}" drawable="game_mi_qz" /><!-- 小米枪战 / 小米枪战 -->
+    <item component="ComponentInfo{com.ak.samsung/com.xgsdk.client.api.splash.XGSplashActivity}" drawable="game_mi_qz" />
+    <!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.uc/com.supercell.boombeach.uc.GameApp}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.landing/com.supercell.boombeach.GameAppKunlun}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.nearme.gamecenter/com.supercell.boombeach.GameAppKunlun}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach/com.supercell.boombeach.GameApp}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.wdj/com.supercell.boombeach.GameAppKunlun}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.qihoo/com.supercell.boombeach.GameAppKunlun}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.mi/com.supercell.boombeach.mi.GameApp}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.BD/com.supercell.boombeach.GameAppKunlun}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.HUAWEI/com.supercell.boombeach.GameAppKunlun}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.vivo/com.supercell.boombeach.GameAppKunlun}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.lenovo/com.lenovo.lsf.gamesdk.ui.WelcomeActivity}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.anzhi/com.supercell.boombeach.GameAppKunlun}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.bb/com.kjduer.IndexPage}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.bb/com.pompano.MainActivity}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.downjoy/com.downjoy.activity.SdkLoadActivity}" drawable="game_boom_beach" /><!-- 海岛奇兵 / 海岛奇兵 -->
+    <item component="ComponentInfo{com.coolape.island.fight.gplay/com.coolape.iab.MainActivityWithIAB}" drawable="game_boom_beach" /><!-- 海岛奇兵 / Boom Beach -->
+    <item component="ComponentInfo{com.supercell.boombeach.downjoy/com.supercell.boombeach.GameAppKunlun}" drawable="boom_beach" /><!-- 海岛奇兵 / 海岛奇兵 -->
+    <item component="ComponentInfo{com.supercell.boombeach.pyw.gs/com.pengyouwan.sdk.activity.LauncherActivity}" drawable="game_boom_beach" /><!-- 海岛奇兵 / 海岛奇兵 -->
+    <item component="ComponentInfo{com.supercell.boombeach.wdj/com.supercell.boombeach.GameAppKunlun}" drawable="game_boom_beach" />
+    <!-- SD Maid / SD Maid -->
+    <item component="ComponentInfo{eu.thedarken.sdm/eu.thedarken.sdm.main.ui.SDMMainActivity}" drawable="sdmaid" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
