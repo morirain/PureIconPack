@@ -67,8 +67,10 @@ public class WhatsNewFragment extends Fragment implements View.OnClickListener/*
         getFragmentManager().beginTransaction()
                 .replace(R.id.fragment_content, fragment)
                 .commitAllowingStateLoss();
-        Button button = (Button) contentView.findViewById(R.id.rate_button);
-        button.setOnClickListener(this);
+        Button buttonRate = (Button) contentView.findViewById(R.id.rate_button);
+        Button buttonFeedback = (Button) contentView.findViewById(R.id.feedback_button);
+        buttonRate.setOnClickListener(this);
+        buttonFeedback.setOnClickListener(this);
     }
 
     public static WhatsNewFragment newInstance(int id) {
@@ -126,12 +128,19 @@ public class WhatsNewFragment extends Fragment implements View.OnClickListener/*
     @Override
     public void onClick(View v) {
         int i = v.getId();
-        if (i == R.id.rate_button) {
+        if(i == R.id.rate_button) {
             Uri uri = Uri.parse("market://details?id=" + MainActivity.PACKAGE_NAME);
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
-        } else {
+        } else if(i == R.id.feedback_button) {
+            Uri uri = Uri.parse("mailto:morirain.dev@outlook.com");
+            String[] email = {"morirain.dev@outlook.com"};
+            Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
+            intent.putExtra(Intent.EXTRA_CC, email); // 抄送人
+            intent.putExtra(Intent.EXTRA_SUBJECT, "I have some questions"); // 主题
+            intent.putExtra(Intent.EXTRA_TEXT, ""); // 正文
+            startActivity(Intent.createChooser(intent, "Feedback"));
         }
     }
 }

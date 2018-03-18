@@ -5495,7 +5495,7 @@
     <!-- 优选 / 优选 -->
     <item component="ComponentInfo{com.meizu.flyme.mall/com.meizu.flyme.mall.modules.home.HomeActivity}" drawable="youx" />
     <!-- 奇妙清单 / Wunderlist -->
-    <item component="ComponentInfo{com.wunderkinder.wunderlistandroid/com.wunderkinder.wunderlistandroid.activity.WLMainFragmentActivity}" drawable="wunderlist" />
+    <item component="ComponentInfo{com.wunderkinder.wunderlistandroid/com.wunderkinder.wunderlistandroid.activity.WLMainFragmentActivity}" drawable="qmqd" />
 
     <!-- 星巴克 / Starbucks -->
     <item component="ComponentInfo{com.starbucks.ru/com.starbucks.ru.ui.StartActivity}" drawable="starbucks" />
@@ -5538,21 +5538,52 @@
     <item component="ComponentInfo{com.supercell.boombeach.wdj/com.supercell.boombeach.GameAppKunlun}" drawable="game_boom_beach" />
     <!-- SD Maid / SD Maid -->
     <item component="ComponentInfo{eu.thedarken.sdm/eu.thedarken.sdm.main.ui.SDMMainActivity}" drawable="sdmaid" />
+    <!-- Manga Monster / Manga Monster -->
+    <item component="ComponentInfo{com.vjson.anime/com.vjson.comic.ui.activity.SplashActivity}" drawable="kuke_vjson_anime" />
+    <!-- Learn Japan / Learn Japan -->
+    <item component="ComponentInfo{com.sage.ljp/com.sage.ljp.controller.HomeActivity}" drawable="learn_japan" />
+    <!-- ArtStation / ArtStation -->
+    <item component="ComponentInfo{com.ballistiq.artstation/com.ballistiq.artstation.view.activity.BrowseActivity}" drawable="artstation" /><!-- Artstation / Artstation -->
+    <item component="ComponentInfo{com.ballistiq.artstation/com.ballistiq.artstation.view.activity.MainActivity}" drawable="artstation" /><!-- Artstation / Artstation -->
+    <item component="ComponentInfo{com.ballistiq.artstation/com.ballistiq.artstation.view.activity.DiscoverActivity}" drawable="artstation" />
+    <!-- Build: asus / ASUS_Z012DA -->
+    <!-- 相機 / Camera -->
+    <item component="ComponentInfo{com.asus.camera/com.asus.camera.CameraApp}" drawable="camera" />
+    <!-- Build: asus / ASUS_Z012DA -->
+    <!-- 主題 / Themes -->
+    <item component="ComponentInfo{com.asus.themeapp/com.asus.themeapp.ThemeAppActivity}" drawable="flyme_theme" />
 
+    <!-- 手電筒 / Flashlight -->
+    <item component="ComponentInfo{com.asus.flashlight/com.asus.flashlight.FlashLightMainActivity}" drawable="com_android_systemui_flashlight_flashlightactivity_2" />
+    <!-- Librera / Librera -->
+    <item component="ComponentInfo{com.foobnix.pro.pdf.reader/com.foobnix.ui2.MainTabs2}" drawable="librera" /><!-- Librera / Librera -->
+    <item component="ComponentInfo{com.foobnix.pdf.reader/com.foobnix.ui2.MainTabs2}" drawable="librera" />
+    <!-- HERE WeGo / HERE WeGo -->
+    <item component="ComponentInfo{com.here.app.maps/com.here.app.OneAppLauncherAlias}" drawable="here" />
+    <!-- Android Auto / Android Auto -->
+    <item component="ComponentInfo{com.google.android.projection.gearhead/com.google.android.gearhead.vanagon.VnLaunchPadActivity}" drawable="google_android_auto" />
+    <!-- 爱豆 / 爱豆 -->
+    <item component="ComponentInfo{com.idol.android/com.idol.android.activity.main.base.SplashActivity}" drawable="ad" /><!-- 爱豆 / 爱豆 -->
+    <item component="ComponentInfo{com.idol.android/com.idol.android.activity.main.register.MainWelActivity}" drawable="ad" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- 电影天堂 / 电影天堂 -->
+    <item component="ComponentInfo{com.ghost.xiaokanba/com.dianping.movieheaven.activity.SplashActivity}" drawable="movie_heaven" />
+    <!-- JotterPad / JotterPad -->
+    <item component="ComponentInfo{com.jotterpad.x/com.jotterpad.x.MainActivity}" drawable="jotterpad" />
+    <!-- Mindly / Mindly -->
+    <item component="ComponentInfo{com.dripgrind.mindly/com.dripgrind.mindly.highlights.MainActivity}" drawable="mindly" /><!-- Mindly / Mindly -->
+    <item component="ComponentInfo{com.dripgrind.mindly/com.android.ui.MainActivity}" drawable="mindly" />
+    <!-- Yandex.Disk / Yandex.Disk -->
+    <item component="ComponentInfo{ru.yandex.disk/ru.yandex.disk.MainActivity}" drawable="yandex_disk" />
+    <!-- Я.Погода / Weather -->
+    <item component="ComponentInfo{ru.yandex.weatherplugin/ru.yandex.weatherplugin.ui.activity.SplashActivity}" drawable="yandex_weather" />
+    <!-- Maps / Yandex.Maps -->
+    <item component="ComponentInfo{ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}" drawable="yandex_maps" />
+    <!-- Навигатор / Yandex.Navi -->
+    <item component="ComponentInfo{ru.yandex.yandexnavi/ru.yandex.yandexnavi.core.NavigatorActivity}" drawable="yandex_navi" />
+    <!-- 石墨文档 / 石墨文档 -->
+    <item component="ComponentInfo{chuxin.shimo.shimowendang/chuxin.shimo.shimowendang.MainActivity}" drawable="sm" /><!-- 石墨文档 / 石墨文档 -->
+    <item component="ComponentInfo{chuxin.shimo.shimowendang/chuxin.shimo.Home.SplashActivity}" drawable="sm" />
 
 
 
@@ -6088,13 +6119,14 @@
 
 
     <iconback
-        img1="icon_back" />
-    <!--img2="icon_back2"
-    img3="icon_back3"
-    img4="icon_back4"
-    img5="icon_back5"
-    img6="icon_back6"
-    img7="icon_back7"
+        img1="icon_back"/>
+    <!--img2="icon_back_2"
+    img3="icon_back_3"
+    img4="icon_back_4"
+    img5="icon_back_5"
+    img6="icon_back_6"
+    img7="icon_back_7"
+
     img8="icon_back8"
     img9="icon_back9"
     />-->

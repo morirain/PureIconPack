@@ -42,7 +42,7 @@
     <string name="dlg_bt_ok">si</string>
     <string name="dlg_bt_donate_too">donare</string>
 
-    <string name="menu_whats_new">nuovo</string>
+    <string name="menu_whats_new">Nuovo</string>
     <string name="menu_apply">usare</string>
     <string name="menu_about">di</string>
     <string name="menu_filter">Filtrazione</string>
@@ -60,9 +60,9 @@
     <string name="menu_save_icon">Salva questo icona</string>
     <string name="menu_search">ricerca</string>
 
-    <string name="nav_lost">non c\'è</string>
-    <string name="nav_matched">c\'è</string>
-    <string name="nav_all">tutti</string>
+    <string name="nav_lost">Non c\'è</string>
+    <string name="nav_matched">C\'è</string>
+    <string name="nav_all">Tutti</string>
 
     <string name="toast_not_installed">non installare %s oppure stop</string>
     <string name="toast_code_copied">copiato</string>
@@ -124,4 +124,5 @@
 
     <string name="preference_translators">i traduttori</string>
     <string name="toast_rate">VOTO</string>
+    <string name="button_feedback">FEEDBACK</string>
 </resources>
