@@ -2678,6 +2678,10 @@
     <item component="ComponentInfo{com.meizu.media.reader/com.meizu.media.reader.ReaderMainActivity}" drawable="flyme_news" />
     <!-- neta / neta -->
     <item component="ComponentInfo{com.moemoe.lalala/com.stub.stub01.Stub01}" drawable="neta" />
+    <!-- neta / neta -->
+    <item component="ComponentInfo{com.moemoe.lalala/com.qihoo.util.StartActivity}" drawable="neta" />
+    <!-- neta / neta -->
+    <item component="ComponentInfo{com.moemoe.lalala/com.qihoo.util.StartActivity}" drawable="neta" />
     <!-- bilibili直播姬 / bilibili直播姬 -->
     <item component="ComponentInfo{com.bilibili.bilibililive/com.bilibili.bilibililive.splash.SplashActivity}" drawable="bilibili_link" />
     <!-- 券妈妈优惠券 / 券妈妈优惠券 -->
@@ -5584,36 +5588,74 @@
     <!-- 石墨文档 / 石墨文档 -->
     <item component="ComponentInfo{chuxin.shimo.shimowendang/chuxin.shimo.shimowendang.MainActivity}" drawable="sm" /><!-- 石墨文档 / 石墨文档 -->
     <item component="ComponentInfo{chuxin.shimo.shimowendang/chuxin.shimo.Home.SplashActivity}" drawable="sm" />
+    <!-- Build: ZUK / ZUK Z2151 -->
+    <!-- 短信 / Messaging -->
+    <item component="ComponentInfo{com.zui.mms/com.android.messaging.ui.conversationlist.ConversationListActivity}" drawable="messaging" />
+
+    <!-- FocusTimer Pro / FocusTimer Pro -->
+    <item component="ComponentInfo{com.realnumworks.focustimerpro/com.realnumworks.focustimerpro.view.tutorial.SplashActivity}" drawable="focus_timer" /><!-- FocusTimer / FocusTimer -->
+    <item component="ComponentInfo{com.realnumworks.focustimer/com.realnumworks.focustimer.view.tutorial.SplashActivity}" drawable="focus_timer" />
+    <!-- ミリシタ / ミリシタ -->
+    <item component="ComponentInfo{com.bandainamcoent.imas_millionlive_theaterdays/com.inca.security.DexProtect.LauncherActivity}" drawable="game_mirishita" />
+    <!-- ミリシタ / ミリシタ -->
+    <item component="ComponentInfo{com.bandainamcoent.imas_millionlive_theaterdays/com.bandainamcoent.imas_millionlive_theaterdays.player.OverrideActivity}" drawable="game_mirishita" />
+    <!-- ミリシタ / ミリシタ -->
+    <item component="ComponentInfo{com.bandainamcoent.imas_millionlive_theaterdays/com.bandainamcoent.imas_millionlive_theaterdays.player.TheaterDaysActivity}" drawable="game_mirishita" />
+    <!-- 天翼网关 / 天翼网关 -->
+    <item component="ComponentInfo{com.ctc.itv.yueme/com.ctc.itv.yueme.LoadingActivity}" drawable="tywg" />
+
+    <!-- 福昕PDF / Foxit PDF -->
+    <item component="ComponentInfo{com.foxit.mobile.pdf.lite/com.fuxin.home.imp.MainActivity}" drawable="foxit" /><!-- 福昕PDF / Foxit PDF -->
+    <item component="ComponentInfo{com.foxit.mobile.pdf.lite/com.fuxin.home.imp.PermissionActivity}" drawable="foxit" /><!-- 福昕PDF / Foxit PDF -->
+    <item component="ComponentInfo{com.foxit.mobile.pdf.lite/com.stub.stub01.Stub01}" drawable="foxit" />
+    <!-- 西瓜视频 / 西瓜视频 -->
+    <item component="ComponentInfo{com.ss.android.article.video/com.ss.android.article.video.activity.SplashActivity}" drawable="xg" />
+    <!-- 好壁纸 / 好壁纸 -->
+    <item component="ComponentInfo{com.youba.wallpaper/com.youba.wallpaper.LauncherActivity}" drawable="hbz" />
+    <!-- 武汉大学 / 武汉大学 -->
+    <item component="ComponentInfo{com.wisorg.whdx/com.wisorg.wisedu.activity.SplashActivity_}" drawable="whdx" />
+
+    <!-- 阳光体育服务平台 / 阳光体育服务平台 -->
+    <item component="ComponentInfo{com.aipao.hanmoveschool/com.aipao.hanmoveschool.activity.LoginActivity}" drawable="ygtyfwpt" />
+    <!-- Wind金融终端 / Wind金融终端 -->
+    <item component="ComponentInfo{windinfo.android/windinfo.android.WindStartAppSplash}" drawable="wind" />
+    <!-- DeviantArt / DeviantArt -->
+    <item component="ComponentInfo{com.deviantart.android.damobile/com.deviantart.android.damobile.activity.HomeActivity}" drawable="deviant_art" />
 
 
+    <!-- 115 / 115 -->
+    <item component="ComponentInfo{com.ylmf.androidclient/com.yyw.user2.activity.LogActivity}" drawable="ylmf_115" />
+    <!-- 360 Security / 360 Security -->
+    <item component="ComponentInfo{com.qihoo.security/com.qihoo.security.AppEnterActivity}" drawable="qihoo_security_it" />
+    <!-- 360 Security Lite / 360 Security Lite -->
+    <item component="ComponentInfo{com.qihoo.security.lite/com.qihoo.security.lite.AppEnterActivity}" drawable="qihoo_security_lite_it" />
 
+    <!-- Avast Mobile Security / Avast Mobile Security -->
+    <item component="ComponentInfo{com.avast.android.mobilesecurity/com.avast.android.mobilesecurity.app.main.MainActivity}" drawable="avast" />
+    <!-- 同文输入法 / TRIME -->
+    <item component="ComponentInfo{com.osfans.trime/com.osfans.trime.Pref}" drawable="trime" />
 
+    <!-- RE文件管理器 / RE文件管理器 -->
+    <item component="ComponentInfo{com.speedsoftware.rootexplorer/com.kkkpppxzn}" drawable="root_explorer" />
+    <!-- 好轻 / 好轻 -->
+    <item component="ComponentInfo{com.yunmai.scale/com.yunmai.scale.ui.WelcomeActivity}" drawable="hq" />
 
+    <!-- 龙管家 / 龙管家 -->
+    <item component="ComponentInfo{com.rwy.ui/com.stub.plugin.Stub01}" drawable="lgj" />
+    <!-- K米 / KTVme -->
+    <item component="ComponentInfo{com.evideo.MobileKTV/com.evideo.MobileKTV.activity.SplashActivity}" drawable="km" />
+    <!-- 锤子时钟 / Smartisan Clock -->
+    <item component="ComponentInfo{com.smartisan.clock/com.smartisanos.clock.activity.ClockActivity}" drawable="clock" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- 纽扣助手 / 纽扣助手 -->
+    <item component="ComponentInfo{cn.niucoo.niucooapp/cn.niucoo.niucooapp.activity.LoadingAty}" drawable="nkzs" />
+    <!-- Slack / Slack -->
+    <item component="ComponentInfo{com.Slack/com.Slack.ui.HomeActivity}" drawable="slack" />
+    <!-- Lingvist / Lingvist -->
+    <item component="ComponentInfo{io.lingvist.android/io.lingvist.android.activity.LingvistActivity}" drawable="lingvist" /><!-- Lingvist / Lingvist -->
+    <item component="ComponentInfo{io.lingvist.android/com.qihoo.util.StartActivity}" drawable="lingvist" />
+    <!-- Podbean / Podbean -->
+    <item component="ComponentInfo{com.podbean.app.podcast/com.podbean.app.podcast.ui.login.LauncherActivity}" drawable="podbean" />
 
 
 

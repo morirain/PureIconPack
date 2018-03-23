@@ -54,7 +54,6 @@
     <item drawable="camera" />
     <item drawable="camera_2" />
     <item drawable="clock" />
-    <item drawable="flyme_clock" />
     <item drawable="sony_clock" />
     <item drawable="contacts" />
     <item drawable="sony_contacts" />
@@ -763,7 +762,6 @@
     <item drawable="flyme_bbs" />
     <item drawable="flyme_benefits_center" />
     <item drawable="flyme_browser" />
-    <item drawable="flyme_clock" />
     <item drawable="flyme_find_my_phone" />
     <item drawable="flyme_gallery" />
     <item drawable="flyme_game" />
@@ -1049,7 +1047,7 @@
     <item drawable="htc_launcher" />
     <item drawable="huaban" />
     <item drawable="huangyou_camera" />
-    <item drawable="huawei.com.android.manager" />
+    <item drawable="huawei_com_android_manager" />
     <item drawable="huawei_com_android_manager_2" />
     <item drawable="huawei_fans" />
     <item drawable="huawei_hilink" />
