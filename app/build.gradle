@@ -13,7 +13,7 @@ android {
         // Version name format: [version].[num_of_icons]
         versionName "3.3.0.8.nightly"
 
-        resConfigs "en", "zh", "it"
+        //resConfigs "en", "zh", "it"
     }
 
     buildTypes {

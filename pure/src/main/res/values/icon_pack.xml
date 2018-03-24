@@ -481,7 +481,6 @@
         <item>flyme_bbs</item>
         <item>flyme_benefits_center</item>
         <item>flyme_browser</item>
-        <item>flyme_clock</item>
         <item>flyme_find_my_phone</item>
         <item>flyme_gallery</item>
         <item>flyme_game</item>
@@ -767,7 +766,7 @@
         <item>htc_launcher</item>
         <item>huaban</item>
         <item>huangyou_camera</item>
-        <item>huawei.com.android.manager</item>
+        <item>huawei_com_android_manager</item>
         <item>huawei_com_android_manager_2</item>
         <item>huawei_fans</item>
         <item>huawei_hilink</item>

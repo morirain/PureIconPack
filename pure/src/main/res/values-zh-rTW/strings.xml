@@ -18,7 +18,7 @@
 <resources>
 
     <!-- App name -->
-    <string name="app_name">Purezza IconPack</string>
+    <string name="app_name">Pure 圖示包</string>
 
     <!-- About information -->
     <!-- Keep its summary EMPTY (NOT DELETE IT) if you don't want to show certain line. -->
@@ -32,20 +32,20 @@
          -->
 
     <string name="preference_icons_summary_note"></string>
-    <string name="preference_icons_title_author">autore</string>
-    <string name="preference_icons_summary_author">[@morirain](https://play.google.com/store/apps/dev?id=6558247216676845129)</string>
-    <string name="preference_icons_title_contact">Contatta l\'autore</string>
+    <string name="preference_icons_title_author">作者</string>
+    <string name="preference_icons_summary_author">[@森雨Plus](http://coolapk.com/u/533268)</string>
+    <string name="preference_icons_title_contact">聯繫方式</string>
     <string name="preference_icons_summary_contact">[morirain.dev@outlook.com](email:morirain.dev@outlook.com)</string>
     <string name="preference_icons_title_todo_1"></string>
     <string name="preference_icons_summary_todo_1"></string>
-    <string name="preference_icons_title_copyright">Copyright</string>
+    <string name="preference_icons_title_copyright">版權所有</string>
     <string name="preference_icons_summary_copyright">Copyright &#169; 2018 morirain. All rights reserved.</string>
-    <string name="preference_support_title_donate">Donate via Paypal</string>
-    <string name="preference_support_summary_donate">[morirain.dev@outlook.com](email:morirain.dev@outlook.com)</string>
-    <string name="preference_support_title_todo_1">Donate via WeChat</string>
+    <string name="preference_support_title_donate">點擊通過支付寶贊助</string>
+    <string name="preference_support_summary_donate">[morirain.dev@outlook.com](alipay:HTTPS://QR.ALIPAY.COM/FKX07449KZPFUIPH44KCB6|morirain.dev@outlook.com)</string>
+    <string name="preference_support_title_todo_1">通過微信贊助</string>
     <string name="preference_support_summary_todo_1">[The Rainbow](qrcode:wxp://f2f0XEI24sQXT44w0Ydu6u7fKGXjyGI6ch2u)</string>
-    <string name="preference_support_title_sponsors">Sponsor</string>
-    <string name="preference_support_summary_sponsors">[Grazie per la donazione.](usr:morirainoff)</string>
+    <string name="preference_support_title_sponsors">贊助列表</string>
+    <string name="preference_support_summary_sponsors">[感謝贊助支持的用戶們](usr:morirainoff)</string>
     <string name="preference_app_title_app">@string/app_name</string>
     <string name="preference_app_summary_app">v%1$s (%2$d)</string>
     <string name="preference_app_title_todo_1"></string>
@@ -53,6 +53,5 @@
 
 
     <string name="preference_translators_it">Italiano: Lee</string>
-
 
 </resources>
