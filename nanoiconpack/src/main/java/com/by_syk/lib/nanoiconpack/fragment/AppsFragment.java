@@ -445,21 +445,25 @@ public class AppsFragment extends Fragment {
         }
     }
 
-    private class SubmitReqTask extends AsyncTask<String, Integer, Boolean> {
+    //morirain: 18/3/25 改动 如果已申请过适配 则不发出提示
+    private class SubmitReqTask extends AsyncTask<String, Integer, Integer> {
         private int pos;
+        private final int TRUE = 1;
+        private final int FALSE = 2;
+        private final int EXISTED = 3;
 
         SubmitReqTask(int pos) {
             this.pos = pos;
         }
 
         @Override
-        protected Boolean doInBackground(String... strings) {
+        protected Integer doInBackground(String... strings) {
             AppBean bean = appAdapter.getItem(pos);
             if (bean == null || bean.getPkg().equals(bean.getLauncher())) {
-                return false;
+                return FALSE;
             }
-            if (bean.isMark()) {
-                return true;
+            if (bean.isMark() || bean.isAuto()) {
+                return EXISTED;
             }
 
             String labelEn = PkgUtil.getAppLabelEn(getContext(), bean.getPkg(), "");
@@ -484,13 +488,13 @@ public class AppsFragment extends Fragment {
                     bean.setReqTimes(resResBean.getResult());
                     bean.setMark(true);
                     publishProgress();
-                    return true;
+                    return TRUE;
                 }
             } catch (Exception e) {
                 e.printStackTrace();
             }
 
-            return false;
+            return FALSE;
         }
 
         @Override
@@ -501,14 +505,17 @@ public class AppsFragment extends Fragment {
         }
 
         @Override
-        protected void onPostExecute(Boolean result) {
+        protected void onPostExecute(Integer result) {
             super.onPostExecute(result);
 
             if (!isAdded()) {
                 return;
             }
+            if (result == EXISTED) {
+                return;
+            }
 
-            GlobalToast.show(getContext(), result ? R.string.toast_icon_reqed
+            GlobalToast.show(getContext(), result == TRUE ? R.string.toast_icon_reqed
                     : R.string.toast_icon_req_failed);
         }
     }

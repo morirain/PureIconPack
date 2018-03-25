@@ -52,6 +52,9 @@ public class AppBean implements Serializable, Comparable<AppBean> {
     // extra
     private boolean mark = false;
 
+    // 是否为自动适配
+    private boolean isAuto = false;
+
     // extra
     // If true, it shows an app(pkg + launcher) is recorded in appfilter.xml but NOT marked
     private boolean hintMark = false;
@@ -126,6 +129,10 @@ public class AppBean implements Serializable, Comparable<AppBean> {
         this.hintLost = hintLost;
     }
 
+    public void setAuto(boolean auto) {
+        isAuto = auto;
+    }
+
     @Nullable
     public Drawable getIcon() {
         return icon;
@@ -158,6 +165,10 @@ public class AppBean implements Serializable, Comparable<AppBean> {
 
     public int getReqTimes() {
         return reqTimes;
+    }
+
+    public boolean isAuto() {
+        return isAuto;
     }
 
     public boolean isMark() {

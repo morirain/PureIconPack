@@ -5777,28 +5777,54 @@
     <item component="ComponentInfo{com.myfitnesspal.android/com.myfitnesspal.android.login.Welcome}" drawable="my_fitness_pal" />
     <!-- FatSecret / FatSecret -->
     <item component="ComponentInfo{com.fatsecret.android/com.fatsecret.android.ui.activity.StartupActivity}" drawable="fat_secret" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- 4PDA / 4PDA -->
+    <item component="ComponentInfo{ru.fourpda.client/ru.fourpda.client.MainActivity}" drawable="fpda" />
+    <!-- Kate Mobile / Kate Mobile -->
+    <item component="ComponentInfo{com.perm.kate_new_6/com.perm.kate.InitialActivity}" drawable="kate_mobile" />
+    <!-- VK Amberfog / VK Amberfog -->
+    <item component="ComponentInfo{com.amberfog.vkfree/com.amberfog.vkfree.ui.StartupActivity}" drawable="vk_amberfog" />
+    <!-- ОК / OK -->
+    <item component="ComponentInfo{ru.ok.android/ru.ok.android.ui.activity.main.OdklActivity}" drawable="ok" />
+    <!-- 2ГИС / 2GIS -->
+    <item component="ComponentInfo{ru.dublgis.dgismobile/ru.dublgis.dgismobile.GrymMobileActivity}" drawable="tgis" />
+    <!-- 2ГИС beta / 2GIS beta -->
+    <item component="ComponentInfo{ru.dublgis.dgismobile4preview/ru.dublgis.dgismobile.GrymMobileActivity}" drawable="tgis" />
+    <!-- 17TRACK / 17TRACK -->
+    <item component="ComponentInfo{yqtrack.app/yqtrack.app.ui.splash.SplashActivity}" drawable="track" /><!-- 17TRACK / 17TRACK -->
+    <item component="ComponentInfo{yqtrack.app/yqtrack.app.UserInterface.Splash.SplashActivity}" drawable="track" />
+    <!-- Почта России / Почта России -->
+    <item component="ComponentInfo{com.octopod.russianpost.client.android/com.octopod.russianpost.client.android.ui.splash.SplashActivity}" drawable="russianpost" />
+    <!-- MAPS.ME / MAPS.ME -->
+    <item component="ComponentInfo{com.mapswithme.maps.pro/com.mapswithme.maps.DownloadResourcesActivity}" drawable="maps_me" /><!-- MAPS.ME / MAPS.ME -->
+    <item component="ComponentInfo{com.mapswithme.maps.pro/com.mapswithme.maps.SplashActivity}" drawable="maps_me" />
+    <!-- Avito / Avito -->
+    <item component="ComponentInfo{com.avito.android/com.avito.android.Launcher}" drawable="avito" />
+    <!-- AfterShip / AfterShip -->
+    <item component="ComponentInfo{com.aftership.AfterShip/com.aftership.AfterShip.view.SplashActivity.SplashActivity}" drawable="after_ship" />
+    <!-- FedEx / FedEx -->
+    <item component="ComponentInfo{com.fedex.ida.android/com.fedex.ida.android.views.core.FedExHOME}" drawable="fed_ex" />
+    <!-- Kwai / Kwai -->
+    <item component="ComponentInfo{com.kwai.video/com.yxcorp.gifshow.HomeActivity}" drawable="kwai" />
+    <!-- QIWI / QIWI -->
+    <item component="ComponentInfo{ru.mw/ru.mw.Main}" drawable="qiwi" />
+    <!-- 安卓录屏大师 / DU Recorder -->
+    <item component="ComponentInfo{com.duapps.recorder/com.duapps.screen.recorder.SplashActivity}" drawable="du_recorder" />
+    <!-- AZ Screen Recorder / AZ Screen Recorder -->
+    <item component="ComponentInfo{com.hecorat.screenrecorder.free/com.hecorat.screenrecorder.free.activities.MainActivity}" drawable="az_screen_recorder" /><!-- AZ Screen Recorder / AZ Screen Recorder -->
+    <item component="ComponentInfo{com.hecorat.screenrecorder.free/com.hecorat.screenrecorder.free.main.MainActivity}" drawable="az_screen_recorder" /><!-- AZ Screen Recorder / AZ Screen Recorder -->
+    <item component="ComponentInfo{com.hecorat.screenrecorder.free/com.hecorat.screenrecorderlib.MainActivity}" drawable="az_screen_recorder" />
+    <!-- Rutaxi / Rutaxi -->
+    <item component="ComponentInfo{com.its.rto/com.its.app.client.activity.SplashActivity}" drawable="rutaxi" />
+    <!-- Uber Driver / Uber Driver -->
+    <item component="ComponentInfo{com.ubercab.driver/com.ubercab.driver.feature.launch.LauncherActivity}" drawable="uber_driver" />
+    <!-- СвоёРадио / СвоёРадио -->
+    <item component="ComponentInfo{com.svoeradio.trk/com.svoeradio.trk.radio}" drawable="svoeradio" />
+    <!-- KLWP / Kustom LWP -->
+    <item component="ComponentInfo{org.kustom.wallpaper/org.kustom.lib.editor.WpAdvancedEditorActivity}" drawable="kustom_lwp" />
+    <!-- Muzei / Muzei -->
+    <item component="ComponentInfo{net.nurik.roman.muzei/com.google.android.apps.muzei.MuzeiActivity}" drawable="muzei" />
+    <!-- Walli / Walli -->
+    <item component="ComponentInfo{com.shanga.walli/com.shanga.walli.mvp.splash.SplashActivity}" drawable="walli" />
 
 
 

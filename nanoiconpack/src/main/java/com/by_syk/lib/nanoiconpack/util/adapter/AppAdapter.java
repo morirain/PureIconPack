@@ -92,6 +92,12 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
             holder.tvReqTimes.setText("");
         }
 
+        //morirain: 18/3/25 新增 如果从未申请过适配 则进行申请
+        if (bean.getReqTimes() <= 0) {
+            bean.setAuto(true);
+            onItemClickListener.onReqIcon(position, dataList.get(position));
+        }
+
         if (onItemClickListener != null) {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
