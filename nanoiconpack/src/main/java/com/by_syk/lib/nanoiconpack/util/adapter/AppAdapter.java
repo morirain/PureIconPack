@@ -20,6 +20,7 @@ import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -86,17 +87,18 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
 //        }
         holder.tvApp.setText(bean.getLabel());
         holder.tvComponent.setText(PkgUtil.concatComponent(bean.getPkg(), bean.getLauncher()));
+        //morirain: 18/3/25 新增 如果从未申请过适配 则进行申请
+        if (bean.getReqTimes() == 0) {
+            bean.setAuto(true);
+            onItemClickListener.onReqIcon(position, dataList.get(position));
+        }
+
         if (bean.getReqTimes() >= 0) {
             holder.tvReqTimes.setText(ExtraUtil.renderReqTimes(bean.getReqTimes()));
         } else {
             holder.tvReqTimes.setText("");
         }
 
-        //morirain: 18/3/25 新增 如果从未申请过适配 则进行申请
-        if (bean.getReqTimes() <= 0) {
-            bean.setAuto(true);
-            onItemClickListener.onReqIcon(position, dataList.get(position));
-        }
 
         if (onItemClickListener != null) {
             holder.itemView.setOnClickListener(new View.OnClickListener() {

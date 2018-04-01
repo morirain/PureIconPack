@@ -462,7 +462,7 @@ public class AppsFragment extends Fragment {
             if (bean == null || bean.getPkg().equals(bean.getLauncher())) {
                 return FALSE;
             }
-            if (bean.isMark() || bean.isAuto()) {
+            if (bean.isMark()) {
                 return EXISTED;
             }
 
@@ -486,8 +486,12 @@ public class AppsFragment extends Fragment {
                 if (resResBean != null && (resResBean.getStatus() == ResResBean.STATUS_SUCCESS
                         || resResBean.getStatus() == ResResBean.STATUS_EXISTED)) {
                     bean.setReqTimes(resResBean.getResult());
-                    bean.setMark(true);
                     publishProgress();
+                    bean.setMark(true);
+                    if (bean.isAuto()) {
+                        bean.setAuto(false);
+                        return EXISTED;
+                    }
                     return TRUE;
                 }
             } catch (Exception e) {

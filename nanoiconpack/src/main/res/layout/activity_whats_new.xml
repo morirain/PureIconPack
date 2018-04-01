@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
                 android:layout_marginStart="24dp"
-                android:text="  If you like this icon pack, Would you mind taking a moment to rate it with 5 stars?\n  It won't take more than a minute.\n  Thank you." />
+                android:text="If you like this icon pack, Would you mind taking a moment to rate it with 5 stars?\nIt won't take more than a minute.\nThank you." />
 
             <LinearLayout
                 android:layout_width="match_parent"
