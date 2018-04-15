@@ -18,7 +18,7 @@ android {
         applicationId "me.morirain.dev.iconpack.pure"
         minSdkVersion Integer.parseInt(project.MIN_SDK_VERSION)
         targetSdkVersion Integer.parseInt(project.TARGET_SDK_VERSION)
-        versionCode 1804010115
+        versionCode 1804150116
         // Version name format: [version].[num_of_icons]
         versionName '3.7 Android P'
         //resConfigs "en", "zh", "it"

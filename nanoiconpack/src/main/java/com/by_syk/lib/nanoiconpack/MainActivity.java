@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity
             public void onTabReselected(int position) {
                 switch (position) {
                     case 0:
-                        if (System.currentTimeMillis() - lastTapTime < 400) {
+                        if (System.currentTimeMillis() - lastTapTime < 40) {
                             enterConsole();
                             lastTapTime = 0;
                         } else {
