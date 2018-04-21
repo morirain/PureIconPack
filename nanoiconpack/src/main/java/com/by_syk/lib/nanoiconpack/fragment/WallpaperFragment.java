@@ -137,8 +137,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
 
         FastScrollRecyclerView recyclerView = (FastScrollRecyclerView) contentView.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(layoutManager);
-        recyclerView.addItemDecoration(new DividerItemDecoration(getContext(),
-                DividerItemDecoration.VERTICAL));
+        //recyclerView.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.HORIZONTAL));
         recyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
@@ -274,7 +273,6 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
                 return retainedFragment.getAppList();
             }*/
             requestWallpaper();
-            Log.e(TAG, "doInBackground: " + dataList);
             if (getContext() == null) {
                 return dataList;
             }

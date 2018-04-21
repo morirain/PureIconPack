@@ -137,13 +137,13 @@ public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperAdapter.Wall
     }
 
     static class WallpaperViewHolder extends RecyclerView.ViewHolder {
-        CardView cardView;
+        //CardView cardView;
         ImageView thumbImage;
 
         public WallpaperViewHolder(View view) {
             super(view);
 
-            cardView = (CardView) view;
+            //cardView = (CardView) view;
             thumbImage = (ImageView) view.findViewById(R.id.wallpaper_image);
         }
     }
