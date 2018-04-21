@@ -51,9 +51,11 @@ import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
+import com.by_syk.lib.nanoiconpack.bean.WallpaperBean;
 import com.by_syk.lib.nanoiconpack.dialog.ApplyDialog;
 import com.by_syk.lib.nanoiconpack.fragment.AppsFragment;
 import com.by_syk.lib.nanoiconpack.fragment.IconsFragment;
+import com.by_syk.lib.nanoiconpack.fragment.WallpaperFragment;
 import com.by_syk.lib.nanoiconpack.fragment.WhatsNewFragment;
 import com.by_syk.lib.nanoiconpack.util.AllIconsGetter;
 import com.by_syk.lib.nanoiconpack.util.ExtraUtil;
@@ -91,6 +93,13 @@ public class MainActivity extends AppCompatActivity
             .setText("");
 
     private BadgeItem badgeItemNew = new BadgeItem()
+            .setBorderWidth(4)
+            .setAnimationDuration(200)
+            .setBackgroundColor(Color.RED)
+            .setHideOnSelect(false)
+            .setText("");
+
+    private BadgeItem badgeItemWallpaper = new BadgeItem()
             .setBorderWidth(4)
             .setAnimationDuration(200)
             .setBackgroundColor(Color.RED)
@@ -135,8 +144,6 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         viewPager = (ViewPager) findViewById(R.id.view_pager);
         bottomNavigationView = (BottomNavigationBar) findViewById(R.id.bottom_navigation_view);
-        //navigationView = (NavigationView) findViewById(R.id.navigation_view);
-        //抽屉drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         bottomNavigationView.setMode(bottomNavigationView.MODE_SHIFTING);
 
@@ -144,6 +151,7 @@ public class MainActivity extends AppCompatActivity
         //bottomNavigationView.setBarBackgroundColor(R.color.color_primary);
         bottomNavigationView.addItem(new BottomNavigationItem(R.drawable.ic_nav_lost, R.string.nav_lost).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemLost))
                 .addItem(new BottomNavigationItem(R.drawable.ic_action_new_dark, R.string.menu_whats_new).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemNew))
+                .addItem(new BottomNavigationItem(R.drawable.ic_nav_wallpaper, R.string.menu_whats_new).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemWallpaper))//wallpaper
                 .addItem(new BottomNavigationItem(R.drawable.ic_nav_matched, R.string.nav_matched).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemMatched))
                 .addItem(new BottomNavigationItem(R.drawable.ic_nav_all, R.string.nav_all).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemAll))
                 .setFirstSelectedPosition(1)
@@ -198,6 +206,10 @@ public class MainActivity extends AppCompatActivity
                         lastTapTime = 0;
                         viewPager.setCurrentItem(3);
                         break;
+                    case 4:
+                        lastTapTime = 0;
+                        viewPager.setCurrentItem(4);
+                        break;
                 }
             }
 
@@ -211,7 +223,8 @@ public class MainActivity extends AppCompatActivity
                 switch (position) {
                     case 0:
                         if (System.currentTimeMillis() - lastTapTime < 40) {
-                            enterConsole();
+                            //enterConsole();
+                            //不再允许进入控制台
                             lastTapTime = 0;
                         } else {
                             lastTapTime = System.currentTimeMillis();
@@ -338,13 +351,17 @@ public class MainActivity extends AppCompatActivity
                 badgeItemNew.setText(String.valueOf(lastIconsLength));
                 break;
             case 2:
-                badgeItemMatched.setText(String.valueOf(sum));
+                badgeItemWallpaper.setText(String.valueOf(WallpaperBean.getNumWallpaper()));
                 break;
             case 3:
+                badgeItemMatched.setText(String.valueOf(sum));
+                break;
+            case 4:
                 badgeItemAll.setText(String.valueOf(sum));
                 break;
         }
     }
+
 
     class IconsPagerAdapter extends FragmentPagerAdapter {
         IconsPagerAdapter(FragmentManager fm) {
@@ -359,9 +376,11 @@ public class MainActivity extends AppCompatActivity
                 case 1:
                     return WhatsNewFragment.newInstance(position);
                 case 2:
+                    return WallpaperFragment.newInstance(position);
+                case 3:
                     return IconsFragment.newInstance(position, new MatchedIconsGetter(),
                             getResources().getInteger(R.integer.home_grid_item_mode));
-                case 3:
+                case 4:
                     return IconsFragment.newInstance(position, new AllIconsGetter(),
                             getResources().getInteger(R.integer.home_grid_item_mode));
             }
@@ -370,7 +389,7 @@ public class MainActivity extends AppCompatActivity
 
         @Override
         public int getCount() {
-            return 4;
+            return 5;
         }
     }
 }
