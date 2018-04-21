@@ -10,22 +10,10 @@ public class WallpaperBean {
      * source : https://unsplash.com/photos/YGBaA4UdoLY
      */
 
-    private static int numWallpaper;
     private String author;
     private String url;
     private String thumbUrl;
     private String source;
-
-    public static int getNumWallpaper() {
-        //请求接口
-        String url = "https://api.douban.com/v2/book/1220562";
-        
-        return numWallpaper;
-    }
-
-    /*public static void setNumWallpaper(int numWallpaper) {
-        numWallpaper = numWallpaper;
-    }*/
 
     public String getAuthor() {
         return author;

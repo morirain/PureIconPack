@@ -63,7 +63,17 @@ import com.by_syk.lib.nanoiconpack.util.MatchedIconsGetter;
 import com.by_syk.lib.nanoiconpack.util.PkgUtil;
 import com.by_syk.lib.nanoiconpack.util.SimplePageTransformer;
 import com.by_syk.lib.sp.SP;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
+import java.io.IOException;
+import java.util.List;
+
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 import uk.co.samuelwall.materialtaptargetprompt.MaterialTapTargetPrompt;
 
 /**
@@ -71,7 +81,12 @@ import uk.co.samuelwall.materialtaptargetprompt.MaterialTapTargetPrompt;
  */
 
 public class MainActivity extends AppCompatActivity
-        implements IconsFragment.OnLoadDoneListener, AppsFragment.OnLoadDoneListener {
+        implements IconsFragment.OnLoadDoneListener, AppsFragment.OnLoadDoneListener, WallpaperFragment.OnLoadDoneListener {
+
+    private static final String TAG = "MainActivity";
+
+
+    //private int numWallpaper = -1;
 
     public static String PACKAGE_NAME;
 
@@ -351,7 +366,7 @@ public class MainActivity extends AppCompatActivity
                 badgeItemNew.setText(String.valueOf(lastIconsLength));
                 break;
             case 2:
-                badgeItemWallpaper.setText(String.valueOf(WallpaperBean.getNumWallpaper()));
+                badgeItemWallpaper.setText(String.valueOf(sum));
                 break;
             case 3:
                 badgeItemMatched.setText(String.valueOf(sum));
@@ -392,4 +407,11 @@ public class MainActivity extends AppCompatActivity
             return 5;
         }
     }
+
+
+
+
+
+
+
 }
