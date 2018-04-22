@@ -59,9 +59,9 @@ public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperAdapter.Wall
         layoutInflater = LayoutInflater.from(context);
     }
 
-    public void loadDone(List<WallpaperBean> dataList) {
-        this.dataList = dataList;
-    }
+    //public void loadDone(List<WallpaperBean> dataList) {
+    //    this.dataList = dataList;
+    //}
 
     @Override
     public WallpaperViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -76,7 +76,7 @@ public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperAdapter.Wall
     public void onBindViewHolder(final WallpaperViewHolder holder, int position) {
         WallpaperBean bean = dataList.get(position);
         Glide.with(context).load(bean.getThumbUrl()).into(holder.thumbImage);
-        Log.e(TAG, "onBindViewHolder: "+ dataList);
+        //Log.e(TAG, "onBindViewHolder: "+ dataList);
 
         if (onItemClickListener != null) {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -103,25 +103,11 @@ public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperAdapter.Wall
     }
 
     public void refresh(List<WallpaperBean> dataList) {
-        if (dataList == null) {
-            return;
-        }
         if (dataList != null) {
-            return;
+            this.dataList.clear();
+            this.dataList.addAll(dataList);
+            notifyDataSetChanged();
         }
-        for (int i = 0, len = dataList.size(); i < len; ++i) {
-            WallpaperBean newBean = dataList.get(i);
-            for (WallpaperBean oldBean : this.dataList) {
-                if (newBean.getAuthor().equals(oldBean.getAuthor())) {
-                    newBean.setThumbUrl(oldBean.getAuthor());
-                    break;
-                }
-            }
-        }
-
-        //this.dataList.clear();
-        //this.dataList.addAll(dataList);
-        //notifyDataSetChanged();
     }
 
     public void remove(int pos) {

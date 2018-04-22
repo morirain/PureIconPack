@@ -16,48 +16,37 @@
 
 package com.by_syk.lib.nanoiconpack.fragment;
 
-import android.annotation.TargetApi;
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.by_syk.lib.nanoiconpack.MainActivity;
 import com.by_syk.lib.nanoiconpack.R;
-import com.by_syk.lib.nanoiconpack.bean.AppBean;
 import com.by_syk.lib.nanoiconpack.bean.WallpaperBean;
 import com.by_syk.lib.nanoiconpack.util.ExtraUtil;
 import com.by_syk.lib.nanoiconpack.util.adapter.WallpaperAdapter;
-import com.by_syk.lib.nanoiconpack.widget.DividerItemDecoration;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.simplecityapps.recyclerview_fastscroll.interfaces.OnFastScrollStateChangeListener;
 import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
 import com.wang.avi.AVLoadingIndicatorView;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import okhttp3.Call;
-import okhttp3.Callback;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-
-import static android.content.ContentValues.TAG;
 
 
 /**
@@ -102,7 +91,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
         if (contentView == null) {
             contentView = inflater.inflate(R.layout.fragment_wallpaper, container, false);
 
-            (new LoadAppsTask()).execute(false);
+            (new LoadWallpaperTask()).execute(false);
             init();
         }
         return contentView;
@@ -183,7 +172,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                (new LoadAppsTask()).execute(true);
+                (new LoadWallpaperTask()).execute(true);
             }
         });
     }
@@ -212,7 +201,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
 
 
 
-    private class LoadAppsTask extends AsyncTask<Boolean, Integer, List<WallpaperBean>> {
+    private class LoadWallpaperTask extends AsyncTask<Boolean, Integer, List<WallpaperBean>> {
 
 
         private void requestWallpaper() {
@@ -223,7 +212,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
                         .build();
                 Response response = client.newCall(request).execute();
                 String responseData = response.body().string();
-                parseJSONWithGSON(responseData);
+                dataList = WallpaperBean.arrayWallpaperBeanFromData(responseData);
             }catch (Exception e){
                 e.printStackTrace();
             }
@@ -240,24 +229,6 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
             });*/
         }
 
-        private void parseJSONWithGSON(String jsonData){
-            Gson gson = new Gson();
-            dataList = gson.fromJson(jsonData, new TypeToken<List<WallpaperBean>>(){}.getType());
-            //for (WallpaperBean wallpaper : wallpaperList){
-            //if (wallpaper.getNumWallpaper() >= 0) {
-            //if (onLoadDoneListener != null) {
-            //    onLoadDoneListener.onLoadDone(pageId, wallpaper.getNumWallpaper());
-            //}
-            //    continue;
-            //}
-            //Log.e(TAG, "parseJSONWithGSON: "+wallpaper.getAuthor() );
-            //Log.e(TAG, "parseJSONWithGSON: "+wallpaper.getUrl() );
-            //Log.e(TAG, "parseJSONWithGSON: "+wallpaper.getThumbUrl() );
-            //}
-            //dataList = wallpaperList;
-        }
-
-
 
         @Override
         protected void onPreExecute() {
@@ -268,7 +239,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
 
         @Override
         protected List<WallpaperBean> doInBackground(Boolean... booleans) {
-            boolean forceRefresh = booleans.length > 0 && booleans[0];
+            //boolean forceRefresh = booleans.length > 0 && booleans[0];
             /*if (!forceRefresh && retainedFragment.isAppListSaved()) {
                 return retainedFragment.getAppList();
             }*/
@@ -294,7 +265,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
             //retainedFragment.setAppList(list);
 
             ((AVLoadingIndicatorView) contentView.findViewById(R.id.view_loading)).hide();
-            wallpaperAdapter.loadDone(list);
+            //wallpaperAdapter.loadDone(list);
             wallpaperAdapter.refresh(list);
 
             swipeRefreshLayout.setRefreshing(false);

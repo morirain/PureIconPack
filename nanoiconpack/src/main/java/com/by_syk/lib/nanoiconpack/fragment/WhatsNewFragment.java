@@ -114,16 +114,7 @@ public class WhatsNewFragment extends Fragment implements View.OnClickListener/*
         return super.onOptionsItemSelected(item);
     }
 
-    @NonNull
-    public static WhatsNewFragment initRetainedFragment(@NonNull FragmentManager fragmentManager,
-                                                        @NonNull String tag) {
-        WhatsNewFragment fragment = (WhatsNewFragment) fragmentManager.findFragmentByTag(tag);
-        if (fragment == null) {
-            fragment = new WhatsNewFragment();
-            fragmentManager.beginTransaction().add(fragment, tag).commit();
-        }
-        return fragment;
-    }
+
 
     @Override
     public void onClick(View v) {
