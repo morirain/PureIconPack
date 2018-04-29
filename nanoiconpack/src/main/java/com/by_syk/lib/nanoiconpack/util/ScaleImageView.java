@@ -27,6 +27,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by morirain on 2018/4/29.
@@ -115,6 +116,7 @@ public class ScaleImageView {
         mViewPager = (ViewPager) relativeLayout.findViewById(R.id.scale_image_view_pager);
 
         mDialog = new Dialog(mActivity, R.style.WallpaperFullscreen);
+        Objects.requireNonNull(mDialog.getWindow()).setWindowAnimations(R.style.dialogWindowAnim);
         mDialog.setContentView(relativeLayout);
         close.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -185,7 +187,6 @@ public class ScaleImageView {
         if (mStatus == URLS) {
             for (String url : mUrls) {
                 FrameLayout frameLayout = (FrameLayout) mActivity.getLayoutInflater().inflate(R.layout.item_wallpaper_pager, null);
-                frameLayout.setAnimation(AnimationUtils.loadAnimation(mActivity, R.anim.slide_bottom_to_top));
                 SubsamplingScaleImageView imageView = (SubsamplingScaleImageView) frameLayout.findViewById(R.id.scale_image_view);
                 mViews.add(frameLayout);
                 new Thread(new Runnable() {
