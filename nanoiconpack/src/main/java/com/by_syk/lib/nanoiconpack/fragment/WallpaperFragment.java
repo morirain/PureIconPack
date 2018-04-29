@@ -26,7 +26,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,24 +35,19 @@ import com.by_syk.lib.nanoiconpack.MainActivity;
 import com.by_syk.lib.nanoiconpack.R;
 import com.by_syk.lib.nanoiconpack.bean.WallpaperBean;
 import com.by_syk.lib.nanoiconpack.util.ExtraUtil;
+import com.by_syk.lib.nanoiconpack.util.WallpaperDownLoader;
 import com.by_syk.lib.nanoiconpack.util.ScaleImageView;
 import com.by_syk.lib.nanoiconpack.util.adapter.WallpaperAdapter;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import com.simplecityapps.recyclerview_fastscroll.interfaces.OnFastScrollStateChangeListener;
 import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
 import com.wang.avi.AVLoadingIndicatorView;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-import retrofit2.Retrofit;
-
-import static android.content.ContentValues.TAG;
 
 
 /**
@@ -122,7 +116,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
 
 
     private void initAdapter() {
-        final Activity activity = this.getActivity();
+        Activity activity = this.getActivity();
         wallpaperAdapter = new WallpaperAdapter(getContext());
         wallpaperAdapter.setOnItemClickListener(new WallpaperAdapter.OnItemClickListener() {
             /**
@@ -130,13 +124,15 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
              * */
             @Override
             public void onClick(int pos, WallpaperBean bean) {
-                ScaleImageView scaleImageView = new ScaleImageView(activity);
+                ScaleImageView scaleImageView = new ScaleImageView(activity, new WallpaperDownLoader());
                 scaleImageView.setUrls(bean.getAllUrl(), pos);
                 scaleImageView.create();
 
             }
         });
     }
+
+
 
     private void initRecycler() {
         layoutManager = new LinearLayoutManager(getContext());
@@ -222,7 +218,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
 
 
 
-        private boolean requestWallpaper() {
+        private void requestWallpaper() {
             try{
                 OkHttpClient client = new OkHttpClient();
                 Request request = new Request.Builder()
@@ -231,10 +227,8 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
                 Response response = client.newCall(request).execute();
                 String responseData = response.body().string();
                 dataList = WallpaperBean.arrayWallpaperBeanFromData(responseData);
-                return true;
             }catch (Exception e){
                 e.printStackTrace();
-                return false;
 
             }
             /*HttpUtil.sendOkHttpRequest(requestUrl, new Callback() {
@@ -264,9 +258,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
             /*if (!forceRefresh && retainedFragment.isAppListSaved()) {
                 return retainedFragment.getAppList();
             }*/
-            if (!requestWallpaper()) {
-                return new ArrayList<>();
-            }
+            requestWallpaper();
             if (getContext() == null) {
                 return dataList;
             }

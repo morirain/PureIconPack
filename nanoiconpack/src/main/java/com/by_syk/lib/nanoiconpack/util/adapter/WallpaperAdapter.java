@@ -107,9 +107,9 @@ public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperAdapter.Wall
         if (dataList != null) {
             this.dataList.clear();
             this.dataList.addAll(dataList);
-
-            for (WallpaperBean data : dataList) {
-                data.getAllUrl().add(data.getUrl());
+            WallpaperBean.getAllUrl().clear();
+            for (WallpaperBean data : this.dataList) {
+                WallpaperBean.getAllUrl().add(data.getUrl());
             }
             notifyDataSetChanged();
         }
@@ -135,7 +135,7 @@ public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperAdapter.Wall
             super(view);
 
             //itemView = view.findViewById(R.id.wallpaper_image);
-            thumbImage = (ImageView) view.findViewById(R.id.wallpaper_image);
+            thumbImage = view.findViewById(R.id.wallpaper_image);
         }
     }
 }

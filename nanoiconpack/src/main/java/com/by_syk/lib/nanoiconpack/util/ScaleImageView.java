@@ -8,9 +8,9 @@ import android.provider.MediaStore;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -28,8 +28,6 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import static android.content.ContentValues.TAG;
-
 /**
  * Created by morirain on 2018/4/29.
  * E-Mail Address：morirain.dev@outlook.com
@@ -40,65 +38,68 @@ public class ScaleImageView {
 
     private static final byte URLS = 0;//网络查看状态
     private static final byte FILES = 1;//本地查看状态
-    private byte status;//用来表示当前大图查看器的状态
+    private byte mStatus;//用来表示当前大图查看器的状态
 
-    private Activity activity;
+    private Activity mActivity;
 
-    private List<String> urls;//网络查看状态中传入的要查看的图片的Url的List
-    private List<File> files;//本地查看状态中传入的要查看的图片对应的file对象的List
-    private List<File> downloadFiles;//网络查看状态中从Url下载下来的图片对应的Url的List
+    private IImageDownloader mIImageDownloader;
+
+    private List<String> mUrls = new ArrayList<>();//网络查看状态中传入的要查看的图片的Url的List
+    private List<File> mFiles = new ArrayList<>();//本地查看状态中传入的要查看的图片对应的file对象的List
+    private List<File> mDownloadFiles = new ArrayList<>();//网络查看状态中从Url下载下来的图片对应的Url的List
 
     private int selectedPosition;//表示当前被选中的ViewPager的item的位置
 
-    private Dialog dialog;//用于承载整个大图查看器的Dialog
+    private Dialog mDialog;//用于承载整个大图查看器的Dialog
 
-    private ImageView setWallpaper;//删除图片的按钮
-    private ImageView download;//保存图片到本地的按钮
-    private TextView imageCount;//用于显示当前正在查看第几张图片的TextView
-    private ViewPager viewPager;
+    private ImageView mSetWallpaper;//删除图片的按钮
+    private ImageView mDownload;//保存图片到本地的按钮
+    private TextView tvImageCount;//用于显示当前正在查看第几张图片的TextView
+    private ViewPager mViewPager;
 
-    private List<View> views;//ViewPager适配器的数据源
+    private List<View> mViews = new ArrayList<>();//ViewPager适配器的数据源
     private WallpaperPagerAdapter adapter;
 
     private OnDeleteItemListener listener;
-    private int startPosition;//打开大图查看器时，想要查看的ViewPager的item的位置
+    private int mStartPosition;//打开大图查看器时，想要查看的ViewPager的item的位置
 
-    public ScaleImageView(Activity activity) {
-        this.activity = activity;
+    public ScaleImageView(Activity activity, IImageDownloader IImageDownloader) {
+        mActivity = activity;
+        mIImageDownloader = IImageDownloader;
         init();
     }
 
     public void setUrls(List<String> urls, int startPosition) {
-        if (this.urls == null) {
-            this.urls = new ArrayList<>();
+        if (mUrls == null) {
+            mUrls= new ArrayList<>();
         } else {
-            this.urls.clear();
+            mUrls.clear();
         }
-        this.urls.addAll(urls);
-        status = URLS;
-        /*delete.setVisibility(View.GONE);
-        if (downloadFiles == null) {
-            downloadFiles = new ArrayList<>();
+        mUrls.addAll(urls);
+        mStatus = URLS;
+        //imDelete.setVisibility(View.GONE);
+        if (mDownloadFiles == null) {
+            mDownloadFiles = new ArrayList<>();
         } else {
-            downloadFiles.clear();
-        }*/
-        this.startPosition = startPosition++;
-        String text = startPosition + "/" + urls.size();
-        imageCount.setText(text);
+            mDownloadFiles.clear();
+        }
+        mStartPosition = startPosition++;
+        String text = startPosition + " / " + urls.size();
+        tvImageCount.setText(text);
     }
 
     public void setFiles(List<File> files, int startPosition) {
-        if (this.files == null) {
-            this.files = new LinkedList<>();
+        if (mFiles == null) {
+            mFiles = new LinkedList<>();
         } else {
-            this.files.clear();
+            mFiles.clear();
         }
-        this.files.addAll(files);
-        status = FILES;
-        download.setVisibility(View.GONE);
-        this.startPosition = startPosition++;
-        String text = startPosition + "/" + files.size();
-        imageCount.setText(text);
+        mFiles.addAll(files);
+        mStatus = FILES;
+        //imDownload.setVisibility(View.GONE);
+        mStartPosition = startPosition++;
+        String text = startPosition + " / " + files.size();
+        tvImageCount.setText(text);
     }
 
     /*public void setOnDeleteItemListener(OnDeleteItemListener listener) {
@@ -106,55 +107,56 @@ public class ScaleImageView {
     }*/
 
     private void init() {
-        RelativeLayout relativeLayout = (RelativeLayout) activity.getLayoutInflater().inflate(R.layout.dialog_wallpaper, null);
+        RelativeLayout relativeLayout = (RelativeLayout) mActivity.getLayoutInflater().inflate(R.layout.dialog_wallpaper, null);
         ImageView close = (ImageView) relativeLayout.findViewById(R.id.scale_image_close);
-        setWallpaper = (ImageView) relativeLayout.findViewById(R.id.scale_image_set_wallpaper);
-        download = (ImageView) relativeLayout.findViewById(R.id.scale_image_save);
-        imageCount = (TextView) relativeLayout.findViewById(R.id.scale_image_count);
-        viewPager = (ViewPager) relativeLayout.findViewById(R.id.scale_image_view_pager);
-        dialog = new Dialog(activity, R.style.WallpaperFullscreen);
-        dialog.setContentView(relativeLayout);
+        mSetWallpaper = (ImageView) relativeLayout.findViewById(R.id.scale_image_set_wallpaper);
+        mDownload = (ImageView) relativeLayout.findViewById(R.id.scale_image_save);
+        tvImageCount = (TextView) relativeLayout.findViewById(R.id.scale_image_count);
+        mViewPager = (ViewPager) relativeLayout.findViewById(R.id.scale_image_view_pager);
+
+        mDialog = new Dialog(mActivity, R.style.WallpaperFullscreen);
+        mDialog.setContentView(relativeLayout);
         close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dialog.dismiss();
+                mDialog.dismiss();
             }
         });
 
         //设置壁纸
-        setWallpaper.setOnClickListener(new View.OnClickListener() {
+        mSetWallpaper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int size = views.size();
-                files.remove(selectedPosition);
+                int size = mViews.size();
+                mFiles.remove(selectedPosition);
                 if (listener != null) {
                     listener.onDelete(selectedPosition);
                 }
-                viewPager.removeView(views.remove(selectedPosition));
+                mViewPager.removeView(mViews.remove(selectedPosition));
                 if (selectedPosition != size) {
                     int position = selectedPosition + 1;
-                    String text = position + "/" + views.size();
-                    imageCount.setText(text);
+                    String text = position + "/" + mViews.size();
+                    tvImageCount.setText(text);
                 }
                 adapter.notifyDataSetChanged();
             }
         });
 
-        download.setOnClickListener(new View.OnClickListener() {
+        mDownload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 try {
-                    MediaStore.Images.Media.insertImage(activity.getContentResolver(),
-                            downloadFiles.get(selectedPosition).getAbsolutePath(),
-                            downloadFiles.get(selectedPosition).getName(), null);
+                    MediaStore.Images.Media.insertImage(mActivity.getContentResolver(),
+                            mDownloadFiles.get(selectedPosition).getAbsolutePath(),
+                            mDownloadFiles.get(selectedPosition).getName(), null);
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }
-                Snackbar.make(viewPager, "图片保存成功", Snackbar.LENGTH_SHORT).show();
+                //Snackbar.make(mViewPager, "图片保存成功", Snackbar.LENGTH_SHORT).show();
             }
         });
 
-        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
@@ -163,8 +165,8 @@ public class ScaleImageView {
             @Override
             public void onPageSelected(int position) {
                 selectedPosition = position;
-                String text = ++position + "/" + views.size();
-                imageCount.setText(text);
+                String text = ++position + " / " + mViews.size();
+                tvImageCount.setText(text);
             }
 
             @Override
@@ -172,29 +174,28 @@ public class ScaleImageView {
 
             }
         });
+
+
     }
 
     public void create() {
-        dialog.show();
-        views = new ArrayList<>();
-        adapter = new WallpaperPagerAdapter(views, dialog);
-        if (status == URLS) {
-            for (final String url : urls) {
-                FrameLayout frameLayout = (FrameLayout) activity.getLayoutInflater().inflate(R.layout.item_wallpaper_pager, null);
-                final SubsamplingScaleImageView imageView = (SubsamplingScaleImageView) frameLayout.findViewById(R.id.scale_image_view);
-                views.add(frameLayout);
-                Log.e(TAG, "create: "+ url);
+        mDialog.show();
+        mViews = new ArrayList<>();
+        adapter = new WallpaperPagerAdapter(mViews, mDialog);
+        if (mStatus == URLS) {
+            for (String url : mUrls) {
+                FrameLayout frameLayout = (FrameLayout) mActivity.getLayoutInflater().inflate(R.layout.item_wallpaper_pager, null);
+                frameLayout.setAnimation(AnimationUtils.loadAnimation(mActivity, R.anim.slide_bottom_to_top));
+                SubsamplingScaleImageView imageView = (SubsamplingScaleImageView) frameLayout.findViewById(R.id.scale_image_view);
+                mViews.add(frameLayout);
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        final File downLoadFile;
+                        File downLoadFile;
                         try {
-                            downLoadFile = Glide.with(activity)
-                                    .load(url)
-                                    .downloadOnly(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL)
-                                    .get();
-                            downloadFiles.add(downLoadFile);
-                            activity.runOnUiThread(new Runnable() {
+                            downLoadFile = mIImageDownloader.downLoad(url, mActivity);
+                            mDownloadFiles.add(downLoadFile);
+                            mActivity.runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
                                     imageView.setImage(ImageSource.uri(Uri.fromFile(downLoadFile)));
@@ -204,22 +205,22 @@ public class ScaleImageView {
                             e.printStackTrace();
                         }
                     }
-                });
+                }).start();
                 //IOThread.getSingleThread().execute(() -> {
 
                 //});
             }
-            viewPager.setAdapter(adapter);
-        } else if (status == FILES) {
-            for (File file : files) {
-                FrameLayout frameLayout = (FrameLayout) activity.getLayoutInflater().inflate(R.layout.item_wallpaper_pager, null);
+            mViewPager.setAdapter(adapter);
+        } else if (mStatus == FILES) {
+            for (File file : mFiles) {
+                FrameLayout frameLayout = (FrameLayout) mActivity.getLayoutInflater().inflate(R.layout.item_wallpaper_pager, null);
                 SubsamplingScaleImageView imageView = (SubsamplingScaleImageView) frameLayout.findViewById(R.id.scale_image_view);
-                views.add(frameLayout);
+                mViews.add(frameLayout);
                 imageView.setImage(ImageSource.uri(Uri.fromFile(file)));
             }
-            viewPager.setAdapter(adapter);
+            mViewPager.setAdapter(adapter);
         }
-        viewPager.setCurrentItem(startPosition);
+        mViewPager.setCurrentItem(mStartPosition);
     }
 
     private static class WallpaperPagerAdapter extends PagerAdapter {
@@ -273,3 +274,4 @@ public class ScaleImageView {
     }
 
 }
+

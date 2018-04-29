@@ -63,7 +63,7 @@ public class WallpaperBean {
         this.source = source;
     }
 
-    public List<String> getAllUrl() {
+    public static List<String> getAllUrl() {
         return allUrl;
     }
 
