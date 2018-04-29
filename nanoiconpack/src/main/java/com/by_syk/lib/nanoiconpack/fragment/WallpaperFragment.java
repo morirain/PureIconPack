@@ -26,14 +26,17 @@ import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.by_syk.lib.nanoiconpack.MainActivity;
 import com.by_syk.lib.nanoiconpack.R;
 import com.by_syk.lib.nanoiconpack.bean.WallpaperBean;
 import com.by_syk.lib.nanoiconpack.util.ExtraUtil;
+import com.by_syk.lib.nanoiconpack.util.ScaleImageView;
 import com.by_syk.lib.nanoiconpack.util.adapter.WallpaperAdapter;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -41,12 +44,16 @@ import com.simplecityapps.recyclerview_fastscroll.interfaces.OnFastScrollStateCh
 import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
 import com.wang.avi.AVLoadingIndicatorView;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+import retrofit2.Retrofit;
+
+import static android.content.ContentValues.TAG;
 
 
 /**
@@ -71,6 +78,9 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
 
     private OnLoadDoneListener onLoadDoneListener;
 
+    // 网络连接错误的提示
+    private TextView netNotice;
+
     public interface OnLoadDoneListener {
         void onLoadDone(int pageId, int sum);
     }
@@ -90,7 +100,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         if (contentView == null) {
             contentView = inflater.inflate(R.layout.fragment_wallpaper, container, false);
-
+            netNotice = contentView.findViewById(R.id.wallpaper_notice);
             (new LoadWallpaperTask()).execute(false);
             init();
         }
@@ -112,10 +122,17 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
 
 
     private void initAdapter() {
+        final Activity activity = this.getActivity();
         wallpaperAdapter = new WallpaperAdapter(getContext());
         wallpaperAdapter.setOnItemClickListener(new WallpaperAdapter.OnItemClickListener() {
+            /**
+             * 点击缩略图时的操作
+             * */
             @Override
             public void onClick(int pos, WallpaperBean bean) {
+                ScaleImageView scaleImageView = new ScaleImageView(activity);
+                scaleImageView.setUrls(bean.getAllUrl(), pos);
+                scaleImageView.create();
 
             }
         });
@@ -204,7 +221,8 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
     private class LoadWallpaperTask extends AsyncTask<Boolean, Integer, List<WallpaperBean>> {
 
 
-        private void requestWallpaper() {
+
+        private boolean requestWallpaper() {
             try{
                 OkHttpClient client = new OkHttpClient();
                 Request request = new Request.Builder()
@@ -213,8 +231,11 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
                 Response response = client.newCall(request).execute();
                 String responseData = response.body().string();
                 dataList = WallpaperBean.arrayWallpaperBeanFromData(responseData);
+                return true;
             }catch (Exception e){
                 e.printStackTrace();
+                return false;
+
             }
             /*HttpUtil.sendOkHttpRequest(requestUrl, new Callback() {
                 @Override
@@ -243,7 +264,9 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
             /*if (!forceRefresh && retainedFragment.isAppListSaved()) {
                 return retainedFragment.getAppList();
             }*/
-            requestWallpaper();
+            if (!requestWallpaper()) {
+                return new ArrayList<>();
+            }
             if (getContext() == null) {
                 return dataList;
             }
@@ -261,17 +284,22 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
         protected void onPostExecute(List<WallpaperBean> list) {
             super.onPostExecute(list);
 
-
             //retainedFragment.setAppList(list);
 
+            int listSize = list.size();
+            // 如果网络连接错误
+            if (listSize <= 0) {
+                netNotice.setVisibility(View.VISIBLE);
+            } else {
+                netNotice.setVisibility(View.GONE);
+            }
             ((AVLoadingIndicatorView) contentView.findViewById(R.id.view_loading)).hide();
-            //wallpaperAdapter.loadDone(list);
             wallpaperAdapter.refresh(list);
 
             swipeRefreshLayout.setRefreshing(false);
 
             if (onLoadDoneListener != null) {
-                onLoadDoneListener.onLoadDone(pageId, list.size());
+                onLoadDoneListener.onLoadDone(pageId, listSize);
             }
         }
 

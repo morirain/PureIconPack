@@ -21,6 +21,8 @@ public class WallpaperBean {
     private String thumbUrl;
     private String source;
 
+    private static List<String> allUrl = new ArrayList<>();
+
     public static List<WallpaperBean> arrayWallpaperBeanFromData(String str) {
 
         Type listType = new TypeToken<ArrayList<WallpaperBean>>() {
@@ -60,4 +62,10 @@ public class WallpaperBean {
     public void setSource(String source) {
         this.source = source;
     }
+
+    public List<String> getAllUrl() {
+        return allUrl;
+    }
+
+
 }

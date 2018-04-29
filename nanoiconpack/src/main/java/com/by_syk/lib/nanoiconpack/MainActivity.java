@@ -66,6 +66,8 @@ import com.by_syk.lib.sp.SP;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+import org.w3c.dom.Text;
+
 import java.io.IOException;
 import java.util.List;
 
@@ -158,6 +160,8 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         viewPager = (ViewPager) findViewById(R.id.view_pager);
+
+
         bottomNavigationView = (BottomNavigationBar) findViewById(R.id.bottom_navigation_view);
 
         bottomNavigationView.setMode(bottomNavigationView.MODE_SHIFTING);
@@ -263,6 +267,7 @@ public class MainActivity extends AppCompatActivity
         // Set the default page to show.
         // 0: Lost, 1: Matched 2. All
         viewPager.setCurrentItem(1);
+
     }
 
     @Override
@@ -366,6 +371,7 @@ public class MainActivity extends AppCompatActivity
                 badgeItemNew.setText(String.valueOf(lastIconsLength));
                 break;
             case 2:
+
                 badgeItemWallpaper.setText(String.valueOf(sum));
                 break;
             case 3:

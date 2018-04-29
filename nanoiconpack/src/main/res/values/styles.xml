@@ -104,4 +104,9 @@
         <item name="fastScrollPopupTextSize">44sp</item>
     </style>
 
+    <style name="WallpaperFullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
 </resources>

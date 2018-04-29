@@ -18,7 +18,6 @@ package com.by_syk.lib.nanoiconpack.util.adapter;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
@@ -75,11 +74,13 @@ public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperAdapter.Wall
     @Override
     public void onBindViewHolder(final WallpaperViewHolder holder, int position) {
         WallpaperBean bean = dataList.get(position);
-        Glide.with(context).load(bean.getThumbUrl()).into(holder.thumbImage);
+        Glide.with(context)
+                .load(bean.getThumbUrl())
+                .into(holder.thumbImage);
         //Log.e(TAG, "onBindViewHolder: "+ dataList);
 
         if (onItemClickListener != null) {
-            holder.itemView.setOnClickListener(new View.OnClickListener() {
+            holder.thumbImage.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     int pos = holder.getAdapterPosition();
@@ -106,6 +107,10 @@ public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperAdapter.Wall
         if (dataList != null) {
             this.dataList.clear();
             this.dataList.addAll(dataList);
+
+            for (WallpaperBean data : dataList) {
+                data.getAllUrl().add(data.getUrl());
+            }
             notifyDataSetChanged();
         }
     }
@@ -123,13 +128,13 @@ public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperAdapter.Wall
     }
 
     static class WallpaperViewHolder extends RecyclerView.ViewHolder {
-        //CardView cardView;
+        //ImageView itemView;
         ImageView thumbImage;
 
         public WallpaperViewHolder(View view) {
             super(view);
 
-            //cardView = (CardView) view;
+            //itemView = view.findViewById(R.id.wallpaper_image);
             thumbImage = (ImageView) view.findViewById(R.id.wallpaper_image);
         }
     }
