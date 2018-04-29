@@ -7,4 +7,5 @@ import java.io.File;
 
 public interface IImageDownloader {
     File downLoad(String url, Activity activity);
+    boolean copyFile(String oldPath, String newPath);
 }

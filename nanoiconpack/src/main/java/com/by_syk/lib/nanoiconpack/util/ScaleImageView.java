@@ -3,15 +3,26 @@ package com.by_syk.lib.nanoiconpack.util;
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.app.WallpaperManager;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.media.Image;
+import android.media.MediaScannerConnection;
 import android.net.Uri;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -21,13 +32,21 @@ import com.bumptech.glide.request.target.Target;
 import com.by_syk.lib.nanoiconpack.R;
 import com.davemorrissey.labs.subscaleview.ImageSource;
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
+import com.github.chrisbanes.photoview.OnPhotoTapListener;
+import com.github.chrisbanes.photoview.PhotoView;
+import com.github.chrisbanes.photoview.PhotoViewAttacher;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
+
+import static android.Manifest.permission.SET_WALLPAPER;
+import static android.content.ContentValues.TAG;
 
 /**
  * Created by morirain on 2018/4/29.
@@ -53,8 +72,8 @@ public class ScaleImageView {
 
     private Dialog mDialog;//用于承载整个大图查看器的Dialog
 
-    private ImageView mSetWallpaper;//删除图片的按钮
-    private ImageView mDownload;//保存图片到本地的按钮
+    private ImageButton mSetWallpaper;//删除图片的按钮
+    private ImageButton mDownload;//保存图片到本地的按钮
     private TextView tvImageCount;//用于显示当前正在查看第几张图片的TextView
     private ViewPager mViewPager;
 
@@ -109,9 +128,9 @@ public class ScaleImageView {
 
     private void init() {
         RelativeLayout relativeLayout = (RelativeLayout) mActivity.getLayoutInflater().inflate(R.layout.dialog_wallpaper, null);
-        ImageView close = (ImageView) relativeLayout.findViewById(R.id.scale_image_close);
-        mSetWallpaper = (ImageView) relativeLayout.findViewById(R.id.scale_image_set_wallpaper);
-        mDownload = (ImageView) relativeLayout.findViewById(R.id.scale_image_save);
+        ImageButton close = (ImageButton) relativeLayout.findViewById(R.id.scale_image_close);
+        mSetWallpaper = (ImageButton) relativeLayout.findViewById(R.id.scale_image_set_wallpaper);
+        mDownload = (ImageButton) relativeLayout.findViewById(R.id.scale_image_save);
         tvImageCount = (TextView) relativeLayout.findViewById(R.id.scale_image_count);
         mViewPager = (ViewPager) relativeLayout.findViewById(R.id.scale_image_view_pager);
 
@@ -129,32 +148,46 @@ public class ScaleImageView {
         mSetWallpaper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int size = mViews.size();
-                mFiles.remove(selectedPosition);
-                if (listener != null) {
-                    listener.onDelete(selectedPosition);
+                //File picFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/" +
+                //        mDownloadFiles.get(selectedPosition).getName() + ".jpg");
+                Bitmap bmp;
+                //if (picFile.exists()) {
+                    //如果文件已经下载 则直接使用
+                //    bmp = BitmapFactory.decodeFile(picFile.getAbsolutePath());
+                //} else {
+                    //否则使用缓存里的文件
+                    bmp = BitmapFactory.decodeFile(mDownloadFiles.get(selectedPosition).getAbsolutePath());
+                //}
+                try {
+                    WallpaperManager wallpaperManager = (WallpaperManager) mActivity.getSystemService(
+                            Context.WALLPAPER_SERVICE);
+                    if (bmp != null) {
+                        wallpaperManager.setBitmap(bmp);
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
-                mViewPager.removeView(mViews.remove(selectedPosition));
-                if (selectedPosition != size) {
-                    int position = selectedPosition + 1;
-                    String text = position + "/" + mViews.size();
-                    tvImageCount.setText(text);
-                }
-                adapter.notifyDataSetChanged();
             }
         });
 
         mDownload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try {
-                    MediaStore.Images.Media.insertImage(mActivity.getContentResolver(),
-                            mDownloadFiles.get(selectedPosition).getAbsolutePath(),
-                            mDownloadFiles.get(selectedPosition).getName(), null);
-                } catch (FileNotFoundException e) {
-                    e.printStackTrace();
-                }
-                //Snackbar.make(mViewPager, "图片保存成功", Snackbar.LENGTH_SHORT).show();
+                String oldPath = mDownloadFiles.get(selectedPosition).getAbsolutePath();
+                String newPath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/" +
+                        mDownloadFiles.get(selectedPosition).getName() + ".jpg";
+                mIImageDownloader.copyFile(oldPath, newPath);
+
+                MediaScannerConnection.scanFile(mActivity,
+                        arrayOf(newPath),
+                        arrayOf("image/jpeg"),
+                        new MediaScannerConnection.OnScanCompletedListener() {
+                    @Override
+                    public void onScanCompleted(String path, Uri uri) {
+
+                        Snackbar.make(mViewPager, "图片保存成功", Snackbar.LENGTH_SHORT).show();
+                    }
+                });
             }
         });
 
@@ -180,6 +213,11 @@ public class ScaleImageView {
 
     }
 
+    private String[] arrayOf(String string) {
+        String[] s = new String[]{string};
+        return s;
+    }
+
     public void create() {
         mDialog.show();
         mViews = new ArrayList<>();
@@ -188,6 +226,13 @@ public class ScaleImageView {
             for (String url : mUrls) {
                 FrameLayout frameLayout = (FrameLayout) mActivity.getLayoutInflater().inflate(R.layout.item_wallpaper_pager, null);
                 SubsamplingScaleImageView imageView = (SubsamplingScaleImageView) frameLayout.findViewById(R.id.scale_image_view);
+                PhotoView wallpaperView = frameLayout.findViewById(R.id.scale_wallpaper_view);
+                wallpaperView.setOnPhotoTapListener(new OnPhotoTapListener() {
+                    @Override
+                    public void onPhotoTap(ImageView view, float x, float y) {
+                        mDialog.dismiss();
+                    }
+                });
                 mViews.add(frameLayout);
                 new Thread(new Runnable() {
                     @Override
@@ -195,11 +240,16 @@ public class ScaleImageView {
                         File downLoadFile;
                         try {
                             downLoadFile = mIImageDownloader.downLoad(url, mActivity);
-                            mDownloadFiles.add(downLoadFile);
+                            for (int i = 0; i < mUrls.size(); i++) {
+                                if (mUrls.get(i) == url) {
+                                    mDownloadFiles.add(i, downLoadFile);
+                                    break;
+                                }
+                            }
                             mActivity.runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    imageView.setImage(ImageSource.uri(Uri.fromFile(downLoadFile)));
+                                    Glide.with(mActivity).load(downLoadFile).into(wallpaperView);//imageView.setImage(ImageSource.uri(Uri.fromFile(downLoadFile)));
                                 }
                             });
                         } catch (Exception e) {
@@ -216,8 +266,9 @@ public class ScaleImageView {
             for (File file : mFiles) {
                 FrameLayout frameLayout = (FrameLayout) mActivity.getLayoutInflater().inflate(R.layout.item_wallpaper_pager, null);
                 SubsamplingScaleImageView imageView = (SubsamplingScaleImageView) frameLayout.findViewById(R.id.scale_image_view);
+                PhotoView wallpaperView = frameLayout.findViewById(R.id.scale_wallpaper_view);
                 mViews.add(frameLayout);
-                imageView.setImage(ImageSource.uri(Uri.fromFile(file)));
+                Glide.with(mActivity).load(file).into(wallpaperView);//imageView.setImage(ImageSource.uri(Uri.fromFile(file)));
             }
             mViewPager.setAdapter(adapter);
         }

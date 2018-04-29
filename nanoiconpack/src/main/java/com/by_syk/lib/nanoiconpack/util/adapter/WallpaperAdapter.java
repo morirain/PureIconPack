@@ -109,7 +109,12 @@ public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperAdapter.Wall
             this.dataList.addAll(dataList);
             WallpaperBean.getAllUrl().clear();
             for (WallpaperBean data : this.dataList) {
-                WallpaperBean.getAllUrl().add(data.getUrl());
+                for (int i = 0; i < dataList.size(); i++) {
+                    if (dataList.get(i).getUrl() == data.getUrl()) {
+                        WallpaperBean.getAllUrl().add(i, data.getUrl());
+                        break;
+                    }
+                }
             }
             notifyDataSetChanged();
         }

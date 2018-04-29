@@ -114,4 +114,9 @@
         <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
     </style>
 
+    <style name="RippleWhite">
+        <item name="android:colorControlHighlight">#FAFAFA</item>
+        <item name="android:radius">25dp</item>
+    </style>
+
 </resources>
