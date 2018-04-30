@@ -2,29 +2,35 @@ package com.by_syk.lib.nanoiconpack.util;
 
 
 import android.app.Activity;
+import android.support.annotation.NonNull;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.Target;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
+import java.util.concurrent.ExecutionException;
 
-public class WallpaperDownLoader implements IImageDownloader {
-    @Override
-    public File downLoad(String url, Activity activity) {
+public class WallpaperDownLoader {
+
+
+    public void downLoad(String url, Activity activity, @NonNull DownCallback callback) {
         File file = null;
         try {
             file = Glide.with(activity).load(url).downloadOnly(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL).get();
-        } catch (Exception e) {
+            callback.onDownload(file);
+        } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
+            callback.onFailure();
         }
-        return file;
     }
 
-    @Override
-    public boolean copyFile(String oldPath, String newPath) {
+    public void copyFile(String oldPath, String newPath, @NonNull CopyCallback copyCallback) {
+
         try {
             int bytesum = 0;
             int byteread = 0;
@@ -40,13 +46,26 @@ public class WallpaperDownLoader implements IImageDownloader {
                     fs.write(buffer, 0, byteread);
                 }
                 inStream.close();
+                fs.close();
             }
-            return true;
-        }
-        catch (Exception e) {
+            copyCallback.onCopy();
+        } catch (IOException e) {
+            copyCallback.onFailure();
             e.printStackTrace();
-
         }
-        return false;
+
+
+
+    }
+
+    public interface DownCallback {
+        void onDownload(File file);
+        void onFailure();
+    }
+
+    public interface CopyCallback {
+        void onCopy();
+        void onFailure();
+
     }
 }

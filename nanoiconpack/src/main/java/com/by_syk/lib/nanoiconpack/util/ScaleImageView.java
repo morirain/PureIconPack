@@ -1,52 +1,50 @@
 package com.by_syk.lib.nanoiconpack.util;
 
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.WallpaperManager;
 import android.content.Context;
-import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
-import android.media.Image;
+import android.graphics.drawable.ColorDrawable;
 import android.media.MediaScannerConnection;
 import android.net.Uri;
+import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Environment;
-import android.provider.MediaStore;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
+import android.support.v7.widget.ListPopupWindow;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AnimationUtils;
+import android.widget.ArrayAdapter;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.target.Target;
 import com.by_syk.lib.nanoiconpack.R;
-import com.davemorrissey.labs.subscaleview.ImageSource;
+import com.by_syk.lib.nanoiconpack.tasks.SetWallpaperTask;
+import com.by_syk.lib.nanoiconpack.tasks.WallpaperApplyTask;
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
 import com.github.chrisbanes.photoview.OnPhotoTapListener;
 import com.github.chrisbanes.photoview.PhotoView;
-import com.github.chrisbanes.photoview.PhotoViewAttacher;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
-
-import static android.Manifest.permission.SET_WALLPAPER;
-import static android.content.ContentValues.TAG;
 
 /**
  * Created by morirain on 2018/4/29.
@@ -62,11 +60,11 @@ public class ScaleImageView {
 
     private Activity mActivity;
 
-    private IImageDownloader mIImageDownloader;
+    private WallpaperDownLoader mWallpaperDownLoader;
 
     private List<String> mUrls = new ArrayList<>();//网络查看状态中传入的要查看的图片的Url的List
     private List<File> mFiles = new ArrayList<>();//本地查看状态中传入的要查看的图片对应的file对象的List
-    private List<File> mDownloadFiles = new ArrayList<>();//网络查看状态中从Url下载下来的图片对应的Url的List
+    private HashMap<String, File> mDownloadFiles = new HashMap<String, File>();//网络查看状态中从Url下载下来的图片对应的Url的List
 
     private int selectedPosition;//表示当前被选中的ViewPager的item的位置
 
@@ -83,26 +81,18 @@ public class ScaleImageView {
     private OnDeleteItemListener listener;
     private int mStartPosition;//打开大图查看器时，想要查看的ViewPager的item的位置
 
-    public ScaleImageView(Activity activity, IImageDownloader IImageDownloader) {
+    public ScaleImageView(Activity activity) {
         mActivity = activity;
-        mIImageDownloader = IImageDownloader;
+        mWallpaperDownLoader = new WallpaperDownLoader();
         init();
     }
 
     public void setUrls(List<String> urls, int startPosition) {
-        if (mUrls == null) {
-            mUrls= new ArrayList<>();
-        } else {
-            mUrls.clear();
-        }
+        mUrls.clear();
         mUrls.addAll(urls);
         mStatus = URLS;
         //imDelete.setVisibility(View.GONE);
-        if (mDownloadFiles == null) {
-            mDownloadFiles = new ArrayList<>();
-        } else {
-            mDownloadFiles.clear();
-        }
+        mDownloadFiles.clear();
         mStartPosition = startPosition++;
         String text = startPosition + " / " + urls.size();
         tvImageCount.setText(text);
@@ -148,22 +138,56 @@ public class ScaleImageView {
         mSetWallpaper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //File picFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/" +
-                //        mDownloadFiles.get(selectedPosition).getName() + ".jpg");
-                Bitmap bmp;
-                //if (picFile.exists()) {
-                    //如果文件已经下载 则直接使用
-                //    bmp = BitmapFactory.decodeFile(picFile.getAbsolutePath());
-                //} else {
-                    //否则使用缓存里的文件
-                    bmp = BitmapFactory.decodeFile(mDownloadFiles.get(selectedPosition).getAbsolutePath());
-                //}
+                File file = mDownloadFiles.get(String.valueOf(selectedPosition));
+                if (file == null) { return; }
+
+                /*List<String> lists = new ArrayList<>();
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    lists.add(new PopupItem(context.getResources().getString(R.string.menu_apply_lockscreen))
+                            .setType(WallpaperApplyTask.ApplyType.LOCKSCREEN)
+                            .setIcon(R.drawable.ic_toolbar_lockscreen));
+                }
+
+                lists.add(new PopupItem(context.getResources().getString(R.string.menu_apply_homescreen))
+                        .setType(WallpaperApplyTask.ApplyType.HOMESCREEN)
+                        .setIcon(R.drawable.ic_toolbar_homescreen));
+
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    lists.add(new PopupItem(context.getResources().getString(R.string.menu_apply_homescreen_lockscreen))
+                            .setType(WallpaperApplyTask.ApplyType.HOMESCREEN_LOCKSCREEN)
+                            .setIcon(R.drawable.ic_toolbar_homescreen_lockscreen));
+                }
+
+                if (context.getResources().getBoolean(R.bool.enable_wallpaper_download)) {
+                    lists.add(new PopupItem(context.getResources().getString(R.string.menu_save))
+                            .setType(WallpaperApplyTask.ApplyType.DOWNLOAD)
+                            .setIcon(R.drawable.ic_toolbar_download));
+                }
+                ListPopupWindow listPopupWindow = new ListPopupWindow(mActivity);
+                listPopupWindow = new ListPopupWindow(mActivity);
+                listPopupWindow.setAdapter(new ArrayAdapter<String>(mActivity, android.R.layout.simple_list_item_1, lists));
+                listPopupWindow.setWidth(ViewGroup.LayoutParams.WRAP_CONTENT);
+                listPopupWindow.setHeight(ViewGroup.LayoutParams.WRAP_CONTENT);
+                listPopupWindow.setAnchorView(mSetWallpaper);//设置ListPopupWindow的锚点，即关联PopupWindow的显示位置和这个锚点
+                listPopupWindow.setModal(true);//设置是否是模式
+                listPopupWindow.show();*/
+                //SetWallpaperTask.prepare(mActivity)
+                //        .wallpaper(file)
+                //        .start(AsyncTask.THREAD_POOL_EXECUTOR);
+
+
+
+                Bitmap bmp = BitmapFactory.decodeFile(file.getAbsolutePath());
                 try {
                     WallpaperManager wallpaperManager = (WallpaperManager) mActivity.getSystemService(
                             Context.WALLPAPER_SERVICE);
                     if (bmp != null) {
-                        wallpaperManager.setBitmap(bmp);
+                        if (wallpaperManager != null) {
+                            wallpaperManager.setBitmap(bmp);
+                        }
                     }
+                    Snackbar.make(mViewPager, "壁纸设置成功", Snackbar.LENGTH_SHORT).show();
+                    LogUtil.d("onSetWallpaper");
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -173,21 +197,41 @@ public class ScaleImageView {
         mDownload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String oldPath = mDownloadFiles.get(selectedPosition).getAbsolutePath();
+                File file = mDownloadFiles.get(String.valueOf(selectedPosition));
+                if (file == null) { return; }
+                /* GetPermission */
+                if (C.SDK >= 23 && mActivity.checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                        != PackageManager.PERMISSION_GRANTED) {
+                    mActivity.requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 0);
+                }
+
+
+                String oldPath = file.getAbsolutePath();
                 String newPath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/" +
-                        mDownloadFiles.get(selectedPosition).getName() + ".jpg";
-                mIImageDownloader.copyFile(oldPath, newPath);
-
-                MediaScannerConnection.scanFile(mActivity,
-                        arrayOf(newPath),
-                        arrayOf("image/jpeg"),
-                        new MediaScannerConnection.OnScanCompletedListener() {
+                        mDownloadFiles.get(String.valueOf(selectedPosition)).getName() + ".jpg";
+                LogUtil.d(String.valueOf(mDownloadFiles));
+                mWallpaperDownLoader.copyFile(oldPath, newPath, new WallpaperDownLoader.CopyCallback() {
                     @Override
-                    public void onScanCompleted(String path, Uri uri) {
+                    public void onCopy() {
+                        LogUtil.d("onCopy");
+                        MediaScannerConnection.scanFile(mActivity,
+                                arrayOf(newPath),
+                                arrayOf("image/jpeg"),
+                                new MediaScannerConnection.OnScanCompletedListener() {
+                                    @Override
+                                    public void onScanCompleted(String path, Uri uri) {
+                                        Snackbar.make(mViewPager, "图片保存成功", Snackbar.LENGTH_SHORT).show();
+                                    }
+                                });
+                    }
 
-                        Snackbar.make(mViewPager, "图片保存成功", Snackbar.LENGTH_SHORT).show();
+                    @Override
+                    public void onFailure() {
+                        LogUtil.d("onFailure");
                     }
                 });
+
+
             }
         });
 
@@ -214,8 +258,7 @@ public class ScaleImageView {
     }
 
     private String[] arrayOf(String string) {
-        String[] s = new String[]{string};
-        return s;
+        return new String[]{string};
     }
 
     public void create() {
@@ -223,7 +266,9 @@ public class ScaleImageView {
         mViews = new ArrayList<>();
         adapter = new WallpaperPagerAdapter(mViews, mDialog);
         if (mStatus == URLS) {
+            int num = -1;
             for (String url : mUrls) {
+                num += 1;
                 FrameLayout frameLayout = (FrameLayout) mActivity.getLayoutInflater().inflate(R.layout.item_wallpaper_pager, null);
                 SubsamplingScaleImageView imageView = (SubsamplingScaleImageView) frameLayout.findViewById(R.id.scale_image_view);
                 PhotoView wallpaperView = frameLayout.findViewById(R.id.scale_wallpaper_view);
@@ -234,29 +279,38 @@ public class ScaleImageView {
                     }
                 });
                 mViews.add(frameLayout);
+                //这个变量用于分辨顺序
+                int finalNum = num;
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        File downLoadFile;
-                        try {
-                            downLoadFile = mIImageDownloader.downLoad(url, mActivity);
-                            for (int i = 0; i < mUrls.size(); i++) {
-                                if (mUrls.get(i) == url) {
-                                    mDownloadFiles.add(i, downLoadFile);
-                                    break;
-                                }
+                        mWallpaperDownLoader.downLoad(url, mActivity, new WallpaperDownLoader.DownCallback() {
+                            @Override
+                            public void onDownload(File file) {
+
+                                LogUtil.d("onDownload " + file);
+                                mActivity.runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        // 调整次序 以保证顺序
+                                        mDownloadFiles.put(String.valueOf(finalNum), file);
+
+                                        // 把图片显示在画面中
+                                        Glide.with(mActivity).load(file).into(wallpaperView);//imageView.setImage(ImageSource.uri(Uri.fromFile(downLoadFile)));
+                                    }
+                                });
                             }
-                            mActivity.runOnUiThread(new Runnable() {
-                                @Override
-                                public void run() {
-                                    Glide.with(mActivity).load(downLoadFile).into(wallpaperView);//imageView.setImage(ImageSource.uri(Uri.fromFile(downLoadFile)));
-                                }
-                            });
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
+
+                            @Override
+                            public void onFailure() {
+
+                                LogUtil.d("onFailure ");
+                            }
+                        });
+
                     }
                 }).start();
+
                 //IOThread.getSingleThread().execute(() -> {
 
                 //});

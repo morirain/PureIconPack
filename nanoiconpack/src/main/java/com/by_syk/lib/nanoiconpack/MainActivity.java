@@ -59,6 +59,7 @@ import com.by_syk.lib.nanoiconpack.fragment.WallpaperFragment;
 import com.by_syk.lib.nanoiconpack.fragment.WhatsNewFragment;
 import com.by_syk.lib.nanoiconpack.util.AllIconsGetter;
 import com.by_syk.lib.nanoiconpack.util.ExtraUtil;
+import com.by_syk.lib.nanoiconpack.util.LogUtil;
 import com.by_syk.lib.nanoiconpack.util.MatchedIconsGetter;
 import com.by_syk.lib.nanoiconpack.util.PkgUtil;
 import com.by_syk.lib.nanoiconpack.util.SimplePageTransformer;
@@ -153,6 +154,11 @@ public class MainActivity extends AppCompatActivity
 
     private void init() {
         PACKAGE_NAME = getApplicationContext().getPackageName();
+
+        //Enable logging
+        LogUtil.setLoggingTag(getString(R.string.app_name));
+        LogUtil.setLoggingEnabled(true);
+
         sp = new SP(this);
 
         enableStatsModule = getResources().getBoolean(R.bool.enable_req_stats_module);
