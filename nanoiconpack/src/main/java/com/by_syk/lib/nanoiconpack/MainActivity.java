@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity
         //bottomNavigationView.setBarBackgroundColor(R.color.color_primary);
         bottomNavigationView.addItem(new BottomNavigationItem(R.drawable.ic_nav_lost, R.string.nav_lost).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemLost))
                 .addItem(new BottomNavigationItem(R.drawable.ic_action_new_dark, R.string.menu_whats_new).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemNew))
-                .addItem(new BottomNavigationItem(R.drawable.ic_nav_wallpaper, R.string.menu_whats_new).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemWallpaper))//wallpaper
+                .addItem(new BottomNavigationItem(R.drawable.ic_nav_wallpaper, getString(R.string.nav_wallpaper)).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemWallpaper))//wallpaper
                 .addItem(new BottomNavigationItem(R.drawable.ic_nav_matched, R.string.nav_matched).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemMatched))
                 .addItem(new BottomNavigationItem(R.drawable.ic_nav_all, R.string.nav_all).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemAll))
                 .setFirstSelectedPosition(1)

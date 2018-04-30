@@ -120,4 +120,9 @@
 
 
     <string name="button_feedback">反馈</string>
+    <string name="snackbar_wallpaper_download">图片保存成功</string>
+    <string name="snackbar_wallpaper_apply">壁纸设置成功</string>
+    <string name="snackbar_wallpaper_apply_failure">壁纸设置失败</string>
+    <string name="snackbar_wallpaper_download_failure">图片保存失败</string>
+    <string name="nav_wallpaper">壁纸</string>
 </resources>

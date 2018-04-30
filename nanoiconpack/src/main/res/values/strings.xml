@@ -121,4 +121,9 @@
 
     <string name="toast_rate">RATE</string>
     <string name="button_feedback">FEEDBACK</string>
+    <string name="snackbar_wallpaper_download">Picture saved successfully</string>
+    <string name="snackbar_wallpaper_download_failure">Failed to save the picture</string>
+    <string name="snackbar_wallpaper_apply">Wallpaper settings are successful</string>
+    <string name="snackbar_wallpaper_apply_failure">Wallpaper settings failed</string>
+    <string name="nav_wallpaper">Wallpaper</string>
 </resources>

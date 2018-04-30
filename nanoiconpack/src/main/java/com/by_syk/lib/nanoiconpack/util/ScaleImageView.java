@@ -171,26 +171,24 @@ public class ScaleImageView {
                 listPopupWindow.setAnchorView(mSetWallpaper);//设置ListPopupWindow的锚点，即关联PopupWindow的显示位置和这个锚点
                 listPopupWindow.setModal(true);//设置是否是模式
                 listPopupWindow.show();*/
-                //SetWallpaperTask.prepare(mActivity)
-                //        .wallpaper(file)
-                //        .start(AsyncTask.THREAD_POOL_EXECUTOR);
+                SetWallpaperTask.prepare(mActivity)
+                        .wallpaper(file)
+                        .callback(new SetWallpaperTask.SetWallpaperListener() {
+                            @Override
+                            public void onApplyCompleted() {
+                                Snackbar.make(mViewPager, R.string.snackbar_wallpaper_apply, Snackbar.LENGTH_SHORT).show();
+                            }
+
+                            @Override
+                            public void onFailure() {
+                                Snackbar.make(mViewPager, R.string.snackbar_wallpaper_apply_failure, Snackbar.LENGTH_SHORT).show();
+                            }
+                        })
+                        .start(AsyncTask.THREAD_POOL_EXECUTOR);
 
 
 
-                Bitmap bmp = BitmapFactory.decodeFile(file.getAbsolutePath());
-                try {
-                    WallpaperManager wallpaperManager = (WallpaperManager) mActivity.getSystemService(
-                            Context.WALLPAPER_SERVICE);
-                    if (bmp != null) {
-                        if (wallpaperManager != null) {
-                            wallpaperManager.setBitmap(bmp);
-                        }
-                    }
-                    Snackbar.make(mViewPager, "壁纸设置成功", Snackbar.LENGTH_SHORT).show();
-                    LogUtil.d("onSetWallpaper");
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+
             }
         });
 
@@ -220,7 +218,7 @@ public class ScaleImageView {
                                 new MediaScannerConnection.OnScanCompletedListener() {
                                     @Override
                                     public void onScanCompleted(String path, Uri uri) {
-                                        Snackbar.make(mViewPager, "图片保存成功", Snackbar.LENGTH_SHORT).show();
+                                        Snackbar.make(mViewPager, R.string.snackbar_wallpaper_download, Snackbar.LENGTH_SHORT).show();
                                     }
                                 });
                     }
@@ -228,6 +226,7 @@ public class ScaleImageView {
                     @Override
                     public void onFailure() {
                         LogUtil.d("onFailure");
+                        Snackbar.make(mViewPager, R.string.snackbar_wallpaper_download_failure, Snackbar.LENGTH_SHORT).show();
                     }
                 });
 
