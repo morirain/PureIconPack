@@ -10,10 +10,10 @@ import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
+import com.by_syk.lib.nanoiconpack.R;
 import com.by_syk.lib.nanoiconpack.util.LogUtil;
 
 import java.io.File;
@@ -63,7 +63,7 @@ public class SetWallpaperTask extends AsyncTask<Void, Void, Boolean> {
         }
         if (mDialog == null) {
             mDialog = new ProgressDialog(mContext.get());
-            mDialog.setTitle("正在更换壁纸");
+            mDialog.setTitle(R.string.dlg_title_changing_wallpaper);
             mDialog.setCancelable(false);
         }
         if (!mDialog.isShowing() && !mContext.get().isFinishing()) mDialog.show();
@@ -107,16 +107,17 @@ public class SetWallpaperTask extends AsyncTask<Void, Void, Boolean> {
 
     @Override
     protected Boolean doInBackground(Void... voids) {
+        // 获取屏幕长宽
         WindowManager manager = mContext.get().getWindowManager();
         DisplayMetrics outMetrics = new DisplayMetrics();
         manager.getDefaultDisplay().getMetrics(outMetrics);
         int width = outMetrics.widthPixels;
         int height = outMetrics.heightPixels;
         // 姑且优化
-        BitmapFactory.Options options = new BitmapFactory.Options();
+        //BitmapFactory.Options options = new BitmapFactory.Options();
         //options.inSampleSize = 2;
         // 载入
-        Bitmap bmp = BitmapFactory.decodeFile(mWallpaper.getAbsolutePath(), options);
+        Bitmap bmp = BitmapFactory.decodeFile(mWallpaper.getAbsolutePath());//, options);
         // 若图片大于屏幕 则进行缩放
         if (bmp.getHeight() > height) {
             bmp = ImageCrop(bmp, width, height);//clip(bmp, width, height, bmp.getWidth());
@@ -136,6 +137,10 @@ public class SetWallpaperTask extends AsyncTask<Void, Void, Boolean> {
         return false;
     }
 
+
+    /**
+     * Create by morirain.
+     * 居中对齐图片*/
     private Bitmap ImageCrop(Bitmap bitmap, int sWidth, int sHeight)
     {
         if (bitmap == null)
@@ -147,8 +152,8 @@ public class SetWallpaperTask extends AsyncTask<Void, Void, Boolean> {
         int h = bitmap.getHeight();
 
 
-        float bitPropo = getProportion(h, sHeight); //获取图片的比例 1.3左右
-        float nw = (w / bitPropo) / w; //width缩放后的比例
+        float bitProp = getProportion(h, sHeight); //获取图片的比例 1.3左右
+        float nw = (w / bitProp) / w; //width缩放后的比例
         float nh = getProportion(sHeight, h); //获取屏幕与图片的Y轴比例 0.6左右
 
         Matrix matrix = new Matrix();

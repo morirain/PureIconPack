@@ -126,4 +126,5 @@
     <string name="snackbar_wallpaper_apply">Wallpaper settings are successful</string>
     <string name="snackbar_wallpaper_apply_failure">Wallpaper settings failed</string>
     <string name="nav_wallpaper">Wallpaper</string>
+    <string name="dlg_title_changing_wallpaper">Changing wallpaper…</string>
 </resources>

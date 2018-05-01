@@ -15,7 +15,7 @@ import java.util.concurrent.Executor;
  * Created by morirain on 2018/4/30.
  * E-Mail Address：morirain.dev@outlook.com
  */
-
+/*
 
 public class WallpaperApplyTask extends AsyncTask<Void, Void, Boolean> {
 
@@ -102,3 +102,4 @@ public class WallpaperApplyTask extends AsyncTask<Void, Void, Boolean> {
         super.onCancelled();
     }
 }
+*/

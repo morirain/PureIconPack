@@ -125,4 +125,5 @@
     <string name="snackbar_wallpaper_apply_failure">壁纸设置失败</string>
     <string name="snackbar_wallpaper_download_failure">图片保存失败</string>
     <string name="nav_wallpaper">壁纸</string>
+    <string name="dlg_title_changing_wallpaper">正在更换壁纸…</string>
 </resources>

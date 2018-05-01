@@ -76,7 +76,7 @@
     <string name="preference_icons_summary_note"></string>
     <string name="preference_icons_title_author">作者</string>
     <string name="preference_icons_summary_author">[@By_syk](copy:@By_syk)</string>
-    <string name="preference_icons_title_contact">聯繫作者</string>
+    <string name="preference_icons_title_contact">聯絡作者</string>
     <string name="preference_icons_summary_contact">[By_syk@163.com](email:By_syk@163.com)</string>
     <string name="preference_icons_title_todo_1"></string>
     <string name="preference_icons_summary_todo_1"></string>
@@ -125,4 +125,5 @@
     <string name="snackbar_wallpaper_apply">桌布設置成功</string>
     <string name="snackbar_wallpaper_apply_failure">桌布設置失敗</string>
     <string name="nav_wallpaper">桌布</string>
+    <string name="dlg_title_changing_wallpaper">正在更換桌布…</string>
 </resources>

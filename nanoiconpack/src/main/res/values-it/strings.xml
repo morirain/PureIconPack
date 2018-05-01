@@ -130,4 +130,5 @@
     <string name="snackbar_wallpaper_apply">Le impostazioni dello sfondo hanno successo</string>
     <string name="snackbar_wallpaper_apply_failure">Impostazioni dello sfondo fallite</string>
     <string name="nav_wallpaper">Wallpaper</string>
+    <string name="dlg_title_changing_wallpaper">Cambiare lo sfondo…</string>
 </resources>

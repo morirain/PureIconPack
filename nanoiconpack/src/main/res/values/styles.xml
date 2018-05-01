@@ -116,7 +116,7 @@
 
     <style name="RippleWhite">
         <item name="android:colorControlHighlight">#FAFAFA</item>
-        <item name="android:radius">25dp</item>
+        <item name="android:radius">48dp</item>
     </style>
 
 </resources>

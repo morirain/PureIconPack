@@ -125,7 +125,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
             @Override
             public void onClick(int pos, WallpaperBean bean) {
                 ScaleImageView scaleImageView = new ScaleImageView(activity);
-                scaleImageView.setUrls(WallpaperBean.getAllUrl(), pos);
+                scaleImageView.setList(dataList, pos);
                 scaleImageView.create();
 
             }
