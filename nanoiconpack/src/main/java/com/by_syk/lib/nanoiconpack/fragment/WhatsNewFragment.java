@@ -19,14 +19,8 @@ package com.by_syk.lib.nanoiconpack.fragment;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v7.app.ActionBar;
-import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -35,11 +29,7 @@ import android.widget.Button;
 
 import com.by_syk.lib.nanoiconpack.MainActivity;
 import com.by_syk.lib.nanoiconpack.R;
-import com.by_syk.lib.nanoiconpack.bean.AppBean;
-import com.by_syk.lib.nanoiconpack.bean.IconBean;
 import com.by_syk.lib.nanoiconpack.util.LatestIconsGetter;
-import com.by_syk.lib.nanoiconpack.util.PkgUtil;
-
 
 
 /**
@@ -67,8 +57,8 @@ public class WhatsNewFragment extends Fragment implements View.OnClickListener/*
         getFragmentManager().beginTransaction()
                 .replace(R.id.fragment_content, fragment)
                 .commitAllowingStateLoss();
-        Button buttonRate = (Button) contentView.findViewById(R.id.rate_button);
-        Button buttonFeedback = (Button) contentView.findViewById(R.id.feedback_button);
+        Button buttonRate = contentView.findViewById(R.id.rate_button);
+        Button buttonFeedback = contentView.findViewById(R.id.feedback_button);
         buttonRate.setOnClickListener(this);
         buttonFeedback.setOnClickListener(this);
     }
@@ -128,7 +118,7 @@ public class WhatsNewFragment extends Fragment implements View.OnClickListener/*
             Uri uri = Uri.parse("mailto:morirain.dev@outlook.com");
             String[] email = {"morirain.dev@outlook.com"};
             Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
-            intent.putExtra(Intent.EXTRA_CC, email); // 抄送人
+            intent.putExtra(Intent.EXTRA_EMAIL, email); // 收件人
             intent.putExtra(Intent.EXTRA_SUBJECT, "I have some questions"); // 主题
             intent.putExtra(Intent.EXTRA_TEXT, ""); // 正文
             startActivity(Intent.createChooser(intent, "Feedback"));

@@ -170,10 +170,10 @@ public class ReqStatsAdapter extends RecyclerView.Adapter<ReqStatsAdapter.IconVi
             super(itemView);
 
             viewTag = itemView.findViewById(R.id.view_tag);
-            ivIcon = (ImageView) itemView.findViewById(R.id.iv_icon);
-            tvApp = (TextView) itemView.findViewById(R.id.tv_app);
-            tvComponent = (TextView) itemView.findViewById(R.id.tv_component);
-            tvReqTimes = (TextView) itemView.findViewById(R.id.tv_req_times);
+            ivIcon = itemView.findViewById(R.id.iv_icon);
+            tvApp = itemView.findViewById(R.id.tv_app);
+            tvComponent = itemView.findViewById(R.id.tv_component);
+            tvReqTimes = itemView.findViewById(R.id.tv_req_times);
             viewHint = itemView.findViewById(R.id.view_hint);
         }
     }

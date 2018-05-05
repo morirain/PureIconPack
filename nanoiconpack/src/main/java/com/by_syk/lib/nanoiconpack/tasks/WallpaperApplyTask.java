@@ -1,16 +1,6 @@
 package com.by_syk.lib.nanoiconpack.tasks;
 
 
-import android.app.ProgressDialog;
-import android.content.Context;
-import android.os.AsyncTask;
-import android.support.annotation.NonNull;
-
-import com.by_syk.lib.nanoiconpack.bean.WallpaperBean;
-import com.by_syk.lib.nanoiconpack.util.LogUtil;
-
-import java.util.concurrent.Executor;
-
 /**
  * Created by morirain on 2018/4/30.
  * E-Mail Address：morirain.dev@outlook.com

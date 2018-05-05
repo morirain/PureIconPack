@@ -42,7 +42,6 @@ import com.by_syk.lib.nanoiconpack.R;
 import com.by_syk.lib.nanoiconpack.bean.IconBean;
 import com.by_syk.lib.nanoiconpack.util.C;
 import com.by_syk.lib.nanoiconpack.util.ExtraUtil;
-import com.by_syk.lib.nanoiconpack.util.InstalledAppReader;
 import com.by_syk.lib.nanoiconpack.util.PkgUtil;
 import com.by_syk.lib.globaltoast.GlobalToast;
 import com.by_syk.lib.texttag.TextTag;
@@ -136,7 +135,7 @@ public class IconDialog extends DialogFragment {
 
         iconGridView = viewContent.findViewById(R.id.icon_grid);
 
-        ivIcon = (ImageView) viewContent.findViewById(R.id.iv_icon);
+        ivIcon = viewContent.findViewById(R.id.iv_icon);
         ivIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -18,7 +18,6 @@ package com.by_syk.lib.nanoiconpack.fragment;
 
 import android.Manifest;
 import android.annotation.TargetApi;
-import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
@@ -28,7 +27,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
@@ -51,7 +49,6 @@ import com.by_syk.lib.nanoiconpack.util.PkgUtil;
 import com.by_syk.lib.nanoiconpack.util.RetrofitHelper;
 import com.by_syk.lib.nanoiconpack.util.adapter.AppAdapter;
 import com.by_syk.lib.nanoiconpack.util.impl.NanoServerService;
-import com.by_syk.lib.nanoiconpack.widget.DividerItemDecoration;
 import com.simplecityapps.recyclerview_fastscroll.interfaces.OnFastScrollStateChangeListener;
 import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
 import com.wang.avi.AVLoadingIndicatorView;
@@ -167,11 +164,15 @@ public class AppsFragment extends Fragment {
         appAdapter.setOnItemClickListener(new AppAdapter.OnItemClickListener() {
             @Override
             public void onReqIcon(int pos, AppBean bean) {
-                if (ExtraUtil.isNetworkConnected(getContext())) {
-                    (new SubmitReqTask(pos)).execute();
-                } else {
-                    GlobalToast.show(getContext(), R.string.toast_no_net_no_req);
-                }
+                //if (ExtraUtil.isNetworkConnected(getContext())) {
+                    /* 申请适配的主事件 传入参数为Item位置 长按时出现的菜单实际也是调用此处 */
+                    //(new SubmitReqTask(pos)).execute();
+                    /* 由于申请适配的方式改变 所以注释了这里的代码 */
+                    /* 现在改为选中CheckBox */
+                    appAdapter.onClickAppsItem(pos);
+                //} else {
+                //    GlobalToast.show(getContext(), R.string.toast_no_net_no_req);
+                //}
             }
 
             @Override
@@ -191,10 +192,10 @@ public class AppsFragment extends Fragment {
     private void initRecycler() {
         layoutManager = new LinearLayoutManager(getContext());
 
-        FastScrollRecyclerView recyclerView = (FastScrollRecyclerView) contentView.findViewById(R.id.recycler_view);
+        FastScrollRecyclerView recyclerView = contentView.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(layoutManager);
-        recyclerView.addItemDecoration(new DividerItemDecoration(getContext(),
-                DividerItemDecoration.VERTICAL));
+        //recyclerView.addItemDecoration(new DividerItemDecoration(getContext(),
+        //        DividerItemDecoration.VERTICAL));
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
@@ -235,7 +236,7 @@ public class AppsFragment extends Fragment {
     }
 
     private void initSwipeRefresh() {
-        swipeRefreshLayout = (SwipeRefreshLayout) contentView.findViewById(R.id.swipe_refresh_layout);
+        swipeRefreshLayout = contentView.findViewById(R.id.swipe_refresh_layout);
         swipeRefreshLayout.setColorSchemeColors(ExtraUtil.fetchColor(getContext(), R.attr.colorAccent));
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override

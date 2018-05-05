@@ -36,6 +36,7 @@ import com.by_syk.lib.nanoiconpack.R;
 import com.by_syk.lib.nanoiconpack.bean.AppBean;
 import com.by_syk.lib.nanoiconpack.util.ExtraUtil;
 import com.by_syk.lib.nanoiconpack.util.PkgUtil;
+import com.by_syk.lib.nanoiconpack.util.tasks.RequestIconTask;
 import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
 
 import java.util.ArrayList;
@@ -60,6 +61,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
 
     /** create by morirain 2018/5/4 */
     private SparseBooleanArray mCheckStates = new SparseBooleanArray();
+    private List<AppBean> mRequestGroup;
     public SparseBooleanArray getCheckStates() {
         return mCheckStates;
     }
@@ -68,6 +70,31 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
         /* 通知 UI 层进行更新 */
         notifyDataSetChanged();
     }
+    public void onClickAppsItem(int pos) {
+        if (this.mCheckStates.get(pos, false) == false) {
+            this.mCheckStates.put(pos, true);
+        } else {
+            this.mCheckStates.put(pos, false);
+        }
+        notifyDataSetChanged();
+    }
+    /** 申请适配*/
+    public void requestIcon(Context context) {
+
+
+        mRequestGroup = new ArrayList<>();
+        for (int i = 0; i < dataList.size(); i++) {
+            if (mCheckStates.get(i)) {
+                mRequestGroup.add(dataList.get(i));
+            }
+        }
+
+        new RequestIconTask(context, mRequestGroup).execute();
+
+        this.mCheckStates.clear();
+        notifyDataSetChanged();
+    }
+
 
     public interface OnItemClickListener {
         void onReqIcon(int pos, AppBean bean);
@@ -92,11 +119,6 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
 
         holder.viewTag.setBackgroundResource(bean.isMark() ? R.drawable.tag_req : 0);
         holder.ivIcon.setImageDrawable(bean.getIcon());
-//        if (bean.getIcon() != null) {
-//            holder.ivIcon.setImageDrawable(bean.getIcon());
-//        } else {
-//            holder.ivIcon.setImageResource(android.R.drawable.sym_def_app_icon);
-//        }
         holder.tvApp.setText(bean.getLabel());
         holder.tvComponent.setText(PkgUtil.concatComponent(bean.getPkg(), bean.getLauncher()));
         /* create by morirain 2018/3/25 : 新增 如果从未申请过适配 则进行申请 */
@@ -165,15 +187,17 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
         return dataList.get(position).getLabelPinyin().substring(0, 1).toUpperCase();
     }
 
+
+    /* 删除了长按申请适配 */
     @Override
     public void onCreateContextMenu(ContextMenu contextMenu, View view, ContextMenu.ContextMenuInfo contextMenuInfo) {
         contextMenu.setHeaderTitle(dataList.get(contextMenuActiveItemPos).getLabel());
-        contextMenu.add(Menu.NONE, 0, Menu.NONE, R.string.menu_request_icon);
-        contextMenu.add(Menu.NONE, 1, Menu.NONE, R.string.menu_copy_code);
-        contextMenu.add(Menu.NONE, 2, Menu.NONE, R.string.menu_save_icon);
+        //contextMenu.add(Menu.NONE, 0, Menu.NONE, R.string.menu_request_icon);
+        contextMenu.add(Menu.NONE, 0, Menu.NONE, R.string.menu_copy_code);
+        contextMenu.add(Menu.NONE, 1, Menu.NONE, R.string.menu_save_icon);
+        //contextMenu.getItem(0).setOnMenuItemClickListener(this);
         contextMenu.getItem(0).setOnMenuItemClickListener(this);
         contextMenu.getItem(1).setOnMenuItemClickListener(this);
-        contextMenu.getItem(2).setOnMenuItemClickListener(this);
 
         contextMenu.getItem(0).setVisible(enableStatsModule);
     }
@@ -184,15 +208,15 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
             return true;
         }
         switch (menuItem.getItemId()) {
-            case 0:
+            /*case 0:
                 onItemClickListener.onReqIcon(contextMenuActiveItemPos,
                         dataList.get(contextMenuActiveItemPos));
-                break;
-            case 1:
+                break;*/
+            case 0:
                 onItemClickListener.onCopyCode(contextMenuActiveItemPos,
                         dataList.get(contextMenuActiveItemPos));
                 break;
-            case 2:
+            case 1:
                 onItemClickListener.onSaveIcon(contextMenuActiveItemPos,
                         dataList.get(contextMenuActiveItemPos));
                 break;
@@ -261,10 +285,10 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
             super(itemView);
 
             viewTag = itemView.findViewById(R.id.view_tag);
-            ivIcon = (ImageView) itemView.findViewById(R.id.iv_icon);
-            tvApp = (TextView) itemView.findViewById(R.id.tv_app);
-            tvComponent = (TextView) itemView.findViewById(R.id.tv_component);
-            tvReqTimes = (TextView) itemView.findViewById(R.id.tv_req_times);
+            ivIcon = itemView.findViewById(R.id.iv_icon);
+            tvApp = itemView.findViewById(R.id.tv_app);
+            tvComponent = itemView.findViewById(R.id.tv_component);
+            tvReqTimes = itemView.findViewById(R.id.tv_req_times);
             /* create by morirain 2018/5/4 */
             cbCheckBox = itemView.findViewById(R.id.cb_req_select);
         }

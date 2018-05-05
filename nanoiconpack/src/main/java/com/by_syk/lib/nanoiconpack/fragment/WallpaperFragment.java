@@ -35,7 +35,6 @@ import com.by_syk.lib.nanoiconpack.MainActivity;
 import com.by_syk.lib.nanoiconpack.R;
 import com.by_syk.lib.nanoiconpack.bean.WallpaperBean;
 import com.by_syk.lib.nanoiconpack.util.ExtraUtil;
-import com.by_syk.lib.nanoiconpack.util.WallpaperDownLoader;
 import com.by_syk.lib.nanoiconpack.util.ScaleImageView;
 import com.by_syk.lib.nanoiconpack.util.adapter.WallpaperAdapter;
 import com.simplecityapps.recyclerview_fastscroll.interfaces.OnFastScrollStateChangeListener;
@@ -137,7 +136,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
     private void initRecycler() {
         layoutManager = new LinearLayoutManager(getContext());
 
-        FastScrollRecyclerView recyclerView = (FastScrollRecyclerView) contentView.findViewById(R.id.recycler_view);
+        FastScrollRecyclerView recyclerView = contentView.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(layoutManager);
         //recyclerView.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.HORIZONTAL));
         recyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
@@ -180,7 +179,7 @@ public class WallpaperFragment extends Fragment implements View.OnClickListener/
     }
 
     private void initSwipeRefresh() {
-        swipeRefreshLayout = (SwipeRefreshLayout) contentView.findViewById(R.id.swipe_refresh_layout);
+        swipeRefreshLayout = contentView.findViewById(R.id.swipe_refresh_layout);
         swipeRefreshLayout.setColorSchemeColors(ExtraUtil.fetchColor(getContext(), R.attr.colorAccent));
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override

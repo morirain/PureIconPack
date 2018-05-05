@@ -45,7 +45,7 @@ public class UserDialog extends DialogFragment {
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         ViewGroup viewGroup = (ViewGroup) getActivity().getLayoutInflater()
                 .inflate(R.layout.dialog_key, null);
-        etUser = (EditText) viewGroup.findViewById(R.id.et_user);
+        etUser = viewGroup.findViewById(R.id.et_user);
 
         AlertDialog alertDialog = new AlertDialog.Builder(getContext())
                 .setTitle(R.string.dlg_title_set_key)

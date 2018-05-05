@@ -174,7 +174,7 @@ public class IconAdapter extends RecyclerView.Adapter
         IconViewHolder(View itemView) {
             super(itemView);
 
-            ivIcon = (ImageView) itemView.findViewById(R.id.iv_icon);
+            ivIcon = itemView.findViewById(R.id.iv_icon);
         }
     }
 
@@ -185,8 +185,8 @@ public class IconAdapter extends RecyclerView.Adapter
         IconLabelViewHolder(View itemView) {
             super(itemView);
 
-            ivIcon = (ImageView) itemView.findViewById(R.id.iv_icon);
-            tvLabel = (TextView) itemView.findViewById(R.id.tv_label);
+            ivIcon = itemView.findViewById(R.id.iv_icon);
+            tvLabel = itemView.findViewById(R.id.tv_label);
         }
     }
 }

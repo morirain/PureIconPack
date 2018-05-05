@@ -116,12 +116,12 @@ public class ScaleImageView implements View.OnClickListener {
 
     private void init() {
         CoordinatorLayout coordinatorLayout = (CoordinatorLayout) mActivity.getLayoutInflater().inflate(R.layout.dialog_wallpaper, null);
-        ImageButton close = (ImageButton) coordinatorLayout.findViewById(R.id.scale_image_close);
-        mSetWallpaper = (ImageButton) coordinatorLayout.findViewById(R.id.scale_image_set_wallpaper);
-        mSource = (ImageButton) coordinatorLayout.findViewById(R.id.scale_image_source);
-        mDownload = (ImageButton) coordinatorLayout.findViewById(R.id.scale_image_save);
-        tvImageCount = (TextView) coordinatorLayout.findViewById(R.id.scale_image_count);
-        mViewPager = (ViewPager) coordinatorLayout.findViewById(R.id.scale_image_view_pager);
+        ImageButton close = coordinatorLayout.findViewById(R.id.scale_image_close);
+        mSetWallpaper = coordinatorLayout.findViewById(R.id.scale_image_set_wallpaper);
+        mSource = coordinatorLayout.findViewById(R.id.scale_image_source);
+        mDownload = coordinatorLayout.findViewById(R.id.scale_image_save);
+        tvImageCount = coordinatorLayout.findViewById(R.id.scale_image_count);
+        mViewPager = coordinatorLayout.findViewById(R.id.scale_image_view_pager);
 
         mDialog = new Dialog(mActivity, R.style.WallpaperFullscreen);
         Objects.requireNonNull(mDialog.getWindow()).setWindowAnimations(R.style.dialogWindowAnim);
@@ -237,7 +237,7 @@ public class ScaleImageView implements View.OnClickListener {
             for (String url : mUrls) {
                 num += 1;
                 FrameLayout frameLayout = (FrameLayout) mActivity.getLayoutInflater().inflate(R.layout.item_wallpaper_pager, null);
-                SubsamplingScaleImageView imageView = (SubsamplingScaleImageView) frameLayout.findViewById(R.id.scale_image_view);
+                SubsamplingScaleImageView imageView = frameLayout.findViewById(R.id.scale_image_view);
                 PhotoView wallpaperView = frameLayout.findViewById(R.id.scale_wallpaper_view);
                 wallpaperView.setOnPhotoTapListener(new OnPhotoTapListener() {
                     @Override
@@ -286,7 +286,7 @@ public class ScaleImageView implements View.OnClickListener {
         } else if (mStatus == FILES) {
             for (File file : mFiles) {
                 FrameLayout frameLayout = (FrameLayout) mActivity.getLayoutInflater().inflate(R.layout.item_wallpaper_pager, null);
-                SubsamplingScaleImageView imageView = (SubsamplingScaleImageView) frameLayout.findViewById(R.id.scale_image_view);
+                SubsamplingScaleImageView imageView = frameLayout.findViewById(R.id.scale_image_view);
                 PhotoView wallpaperView = frameLayout.findViewById(R.id.scale_wallpaper_view);
                 mViews.add(frameLayout);
                 Glide.with(mActivity).load(file).into(wallpaperView);//imageView.setImage(ImageSource.uri(Uri.fromFile(file)));

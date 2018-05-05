@@ -93,7 +93,7 @@ public class IconsFragment extends Fragment {
         iconsGetter = (IconsGetter) bundle.getSerializable("iconsGetter");
         gridItemMode = bundle.getInt("mode", IconAdapter.MODE_ICON);
 
-        RecyclerView recyclerView = (RecyclerView) contentView.findViewById(R.id.recycler_view);
+        RecyclerView recyclerView = contentView.findViewById(R.id.recycler_view);
 
         int[] gridNumAndWidth = calculateGridNumAndWidth();
         recyclerView.setLayoutManager(new GridLayoutManager(getContext(), gridNumAndWidth[0]));

@@ -16,7 +16,6 @@
 
 package com.by_syk.lib.nanoiconpack;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Color;
@@ -32,12 +31,10 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.util.SparseBooleanArray;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import com.ashokvarma.bottomnavigation.BadgeItem;
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
@@ -80,19 +77,13 @@ public class MainActivity extends AppCompatActivity
 
     private int prevPagePos = 0;
 
-    private BadgeItem mBaseBadgeItem = new BadgeItem()
-            .setBorderWidth(4)
-            .setAnimationDuration(200)
-            .setBackgroundColor(Color.RED)
-            .setHideOnSelect(false)
-            .setText("");
+    private BadgeItem mBadgeItemLost = new BadgeItem();
+    private BadgeItem mBadgeItemNew = new BadgeItem();
+    private BadgeItem mBadgeItemWallpaper = new BadgeItem();
+    private BadgeItem mBadgeItemMatched = new BadgeItem();
+    private BadgeItem mBadgeItemAll = new BadgeItem();
 
-    private BadgeItem mBadgeItemLost = mBaseBadgeItem;
-    private BadgeItem mBadgeItemNew = mBaseBadgeItem;
-    private BadgeItem mBadgeItemWallpaper = mBaseBadgeItem;
-    private BadgeItem mBadgeItemMatched = mBaseBadgeItem;
-    private BadgeItem mBadgeItemAll = mBaseBadgeItem;
-
+    private BadgeItem[] mBaseBadge = new BadgeItem[]{mBadgeItemLost, mBadgeItemNew, mBadgeItemWallpaper, mBadgeItemMatched, mBadgeItemAll};
 
 /*    private NavigationView navigationView;
     private DrawerLayout drawerLayout;*/
@@ -121,6 +112,14 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
 
+        /* 初始化BadgeItem */
+        for (BadgeItem aBaseBadge : mBaseBadge) {
+            aBaseBadge.setBorderWidth(4)
+                    .setAnimationDuration(200)
+                    .setBackgroundColor(Color.RED)
+                    .setHideOnSelect(false)
+                    .setText("");
+        }
 
         bottomNavigationView = (BottomNavigationBar) findViewById(R.id.bottom_navigation_view);
 
@@ -374,8 +373,8 @@ public class MainActivity extends AppCompatActivity
                     dialog.show();
                 } else {
                     /* 清空sparseBooleanArray 并通知CheckBox改变 */
-                    sparseArray.clear();
-                    appAdapter.setCheckStates(sparseArray);
+                    /* 申请适配 */
+                    appAdapter.requestIcon(MainActivity.this);
                 }
             }
         });
