@@ -19,6 +19,7 @@ package com.by_syk.lib.nanoiconpack.fragment;
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Context;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
@@ -27,10 +28,12 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -93,6 +96,21 @@ public class AppsFragment extends Fragment {
         void onLoadDone(int pageId, int sum);
     }
 
+    /** create by morirain 2018/5/5 */
+    public SparseBooleanArray getCheckStates() {
+        return appAdapter.getCheckStates();
+    }
+    public void setCheckStates(SparseBooleanArray sCheckStates) {
+        appAdapter.setCheckStates(sCheckStates);
+    }
+    /* fab的onInitAdapter回调 */
+    private OnInitAdapterListener onInitAdapterListener;
+
+    public interface OnInitAdapterListener {
+        void onInitAdapter(AppAdapter appAdapter);
+    }
+
+
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
@@ -113,12 +131,12 @@ public class AppsFragment extends Fragment {
     }
 
     @Override
-    public void onAttach(Activity activity) {
-        super.onAttach(activity);
+    public void onAttach(Context context) {
+        super.onAttach(context);
 
-        if (activity instanceof OnLoadDoneListener) {
-            onLoadDoneListener = (OnLoadDoneListener) activity;
-        }
+        /* create by morirain 2018/5/5 : 简化代码 设置 onInitAdapterListener */
+        if (context instanceof OnLoadDoneListener) onLoadDoneListener = (OnLoadDoneListener) context;
+        if (context instanceof OnInitAdapterListener) onInitAdapterListener = (OnInitAdapterListener) context;
     }
 
     @Nullable
@@ -166,6 +184,8 @@ public class AppsFragment extends Fragment {
                 saveIcon(bean);
             }
         });
+        /* create by morirain 2018/5/5 : 启动回调 */
+        if (onInitAdapterListener != null) onInitAdapterListener.onInitAdapter(appAdapter);
     }
 
     private void initRecycler() {
@@ -175,7 +195,7 @@ public class AppsFragment extends Fragment {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.addItemDecoration(new DividerItemDecoration(getContext(),
                 DividerItemDecoration.VERTICAL));
-        recyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
+        recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
@@ -342,9 +362,7 @@ public class AppsFragment extends Fragment {
                 }, 400);
             }
 
-            if (onLoadDoneListener != null) {
-                onLoadDoneListener.onLoadDone(pageId, list.size());
-            }
+            if (onLoadDoneListener != null) onLoadDoneListener.onLoadDone(pageId, list.size());
         }
 
         private void removeMatched(@NonNull List<AppBean> appList) {

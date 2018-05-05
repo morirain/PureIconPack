@@ -252,7 +252,7 @@ public class PkgUtil {
             PackageInfo packageInfo = pkgManager.getPackageInfo(pkgName, 0);
             return packageInfo.applicationInfo.loadIcon(pkgManager);
         } catch (Exception e) {
-            Log.d(C.LOG_TAG, pkgName + " is not installed.");
+            e.printStackTrace();//Log.d(C.LOG_TAG, pkgName + " is not installed.");
         }
 
         return null;

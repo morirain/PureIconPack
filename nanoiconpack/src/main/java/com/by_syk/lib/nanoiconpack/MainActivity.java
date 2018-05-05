@@ -16,42 +16,33 @@
 
 package com.by_syk.lib.nanoiconpack;
 
-import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Color;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.NavigationView;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.animation.FastOutSlowInInterpolator;
-import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.util.SparseBooleanArray;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ashokvarma.bottomnavigation.BadgeItem;
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 
-import com.ashokvarma.bottomnavigation.BottomNavigationBar;
-import com.by_syk.lib.nanoiconpack.bean.WallpaperBean;
 import com.by_syk.lib.nanoiconpack.dialog.ApplyDialog;
 import com.by_syk.lib.nanoiconpack.fragment.AppsFragment;
 import com.by_syk.lib.nanoiconpack.fragment.IconsFragment;
@@ -63,20 +54,9 @@ import com.by_syk.lib.nanoiconpack.util.LogUtil;
 import com.by_syk.lib.nanoiconpack.util.MatchedIconsGetter;
 import com.by_syk.lib.nanoiconpack.util.PkgUtil;
 import com.by_syk.lib.nanoiconpack.util.SimplePageTransformer;
+import com.by_syk.lib.nanoiconpack.util.adapter.AppAdapter;
 import com.by_syk.lib.sp.SP;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
-import org.w3c.dom.Text;
-
-import java.io.IOException;
-import java.util.List;
-
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
 import uk.co.samuelwall.materialtaptargetprompt.MaterialTapTargetPrompt;
 
 /**
@@ -84,64 +64,38 @@ import uk.co.samuelwall.materialtaptargetprompt.MaterialTapTargetPrompt;
  */
 
 public class MainActivity extends AppCompatActivity
-        implements IconsFragment.OnLoadDoneListener, AppsFragment.OnLoadDoneListener, WallpaperFragment.OnLoadDoneListener {
-
-    private static final String TAG = "MainActivity";
-
-
-    //private int numWallpaper = -1;
+        implements IconsFragment.OnLoadDoneListener, AppsFragment.OnLoadDoneListener, AppsFragment.OnInitAdapterListener, WallpaperFragment.OnLoadDoneListener {
 
     public static String PACKAGE_NAME;
 
     private SP sp;
 
-    private ViewPager viewPager;
+    private ViewPager mViewPager;
 
     private BottomNavigationBar bottomNavigationView;
+    /* create by morirain 2018/5/4 */
+    private FloatingActionButton mFab;
 
     private boolean enableStatsModule = true;
 
     private int prevPagePos = 0;
 
-    private BadgeItem badgeItemLost = new BadgeItem()
+    private BadgeItem mBaseBadgeItem = new BadgeItem()
             .setBorderWidth(4)
             .setAnimationDuration(200)
             .setBackgroundColor(Color.RED)
             .setHideOnSelect(false)
             .setText("");
 
-    private BadgeItem badgeItemNew = new BadgeItem()
-            .setBorderWidth(4)
-            .setAnimationDuration(200)
-            .setBackgroundColor(Color.RED)
-            .setHideOnSelect(false)
-            .setText("");
-
-    private BadgeItem badgeItemWallpaper = new BadgeItem()
-            .setBorderWidth(4)
-            .setAnimationDuration(200)
-            .setBackgroundColor(Color.RED)
-            .setHideOnSelect(false)
-            .setText("");
-
-    private BadgeItem badgeItemMatched = new BadgeItem()
-            .setBorderWidth(4)
-            .setAnimationDuration(200)
-            .setBackgroundColor(Color.RED)
-            .setHideOnSelect(false)
-            .setText("");
-
-    private BadgeItem badgeItemAll = new BadgeItem()
-            .setBorderWidth(4)
-            .setAnimationDuration(200)
-            .setBackgroundColor(Color.RED)
-            .setHideOnSelect(false)
-            .setText("");
+    private BadgeItem mBadgeItemLost = mBaseBadgeItem;
+    private BadgeItem mBadgeItemNew = mBaseBadgeItem;
+    private BadgeItem mBadgeItemWallpaper = mBaseBadgeItem;
+    private BadgeItem mBadgeItemMatched = mBaseBadgeItem;
+    private BadgeItem mBadgeItemAll = mBaseBadgeItem;
 
 
 /*    private NavigationView navigationView;
     private DrawerLayout drawerLayout;*/
-
 
 
     @Override
@@ -165,22 +119,26 @@ public class MainActivity extends AppCompatActivity
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        viewPager = (ViewPager) findViewById(R.id.view_pager);
+        mViewPager = (ViewPager) findViewById(R.id.view_pager);
 
 
         bottomNavigationView = (BottomNavigationBar) findViewById(R.id.bottom_navigation_view);
 
-        bottomNavigationView.setMode(bottomNavigationView.MODE_SHIFTING);
+        bottomNavigationView.setMode(BottomNavigationBar.MODE_SHIFTING);
 
         bottomNavigationView.setBackgroundStyle(BottomNavigationBar.BACKGROUND_STYLE_STATIC);
         //bottomNavigationView.setBarBackgroundColor(R.color.color_primary);
-        bottomNavigationView.addItem(new BottomNavigationItem(R.drawable.ic_nav_lost, R.string.nav_lost).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemLost))
-                .addItem(new BottomNavigationItem(R.drawable.ic_action_new_dark, R.string.menu_whats_new).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemNew))
-                .addItem(new BottomNavigationItem(R.drawable.ic_nav_wallpaper, getString(R.string.nav_wallpaper)).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemWallpaper))//wallpaper
-                .addItem(new BottomNavigationItem(R.drawable.ic_nav_matched, R.string.nav_matched).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemMatched))
-                .addItem(new BottomNavigationItem(R.drawable.ic_nav_all, R.string.nav_all).setActiveColorResource(R.color.color_primary).setTextBadgeItem(badgeItemAll))
+        bottomNavigationView.addItem(new BottomNavigationItem(R.drawable.ic_nav_lost, R.string.nav_lost).setActiveColorResource(R.color.color_primary).setTextBadgeItem(mBadgeItemLost))
+                .addItem(new BottomNavigationItem(R.drawable.ic_action_new_dark, R.string.menu_whats_new).setActiveColorResource(R.color.color_primary).setTextBadgeItem(mBadgeItemNew))
+                .addItem(new BottomNavigationItem(R.drawable.ic_nav_wallpaper, getString(R.string.nav_wallpaper)).setActiveColorResource(R.color.color_primary).setTextBadgeItem(mBadgeItemWallpaper))//wallpaper
+                .addItem(new BottomNavigationItem(R.drawable.ic_nav_matched, R.string.nav_matched).setActiveColorResource(R.color.color_primary).setTextBadgeItem(mBadgeItemMatched))
+                .addItem(new BottomNavigationItem(R.drawable.ic_nav_all, R.string.nav_all).setActiveColorResource(R.color.color_primary).setTextBadgeItem(mBadgeItemAll))
                 .setFirstSelectedPosition(1)
                 .initialise();
+        /* create by morirain 2018/5/4 : 这是申请适配的按钮 */
+        mFab = (FloatingActionButton) findViewById(R.id.fab_request_apps);
+        /* 把 fab 与 bottomNavigationView 绑定 */
+        bottomNavigationView.setFab(mFab);
 
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
@@ -188,14 +146,15 @@ public class MainActivity extends AppCompatActivity
             //actionBar.setHomeAsUpIndicator(R.drawable.ic_menu);
         }
 
-        viewPager.setOffscreenPageLimit(4); // Keep all 3 pages alive.
-        viewPager.setPageTransformer(true, new SimplePageTransformer(getResources()
+        mViewPager.setOffscreenPageLimit(4); // Keep all 3 pages alive.
+        mViewPager.setPageTransformer(true, new SimplePageTransformer(getResources()
                 .getInteger(R.integer.home_page_transform_anim)));
 
-        viewPager.setAdapter(new IconsPagerAdapter(getSupportFragmentManager()));
-        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        mViewPager.setAdapter(new IconsPagerAdapter(getSupportFragmentManager()));
+        mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {}
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+            }
 
             @Override
             public void onPageSelected(int position) {
@@ -205,7 +164,8 @@ public class MainActivity extends AppCompatActivity
             }
 
             @Override
-            public void onPageScrollStateChanged(int state) {}
+            public void onPageScrollStateChanged(int state) {
+            }
         });
 
         bottomNavigationView.setTabSelectedListener(new BottomNavigationBar.OnTabSelectedListener() {
@@ -217,23 +177,33 @@ public class MainActivity extends AppCompatActivity
                 switch (position) {
                     case 0:
                         lastTapTime = System.currentTimeMillis();
-                        viewPager.setCurrentItem(0);
+                        /* create by morirain 2018/5/4 */
+                        mFab.setVisibility(View.VISIBLE);
+                        mViewPager.setCurrentItem(0);
                         break;
                     case 1:
                         lastTapTime = 0;
-                        viewPager.setCurrentItem(1);
+                        /* create by morirain 2018/5/4 */
+                        mFab.setVisibility(View.INVISIBLE);
+                        mViewPager.setCurrentItem(1);
                         break;
                     case 2:
                         lastTapTime = 0;
-                        viewPager.setCurrentItem(2);
+                        /* create by morirain 2018/5/4 */
+                        mFab.setVisibility(View.INVISIBLE);
+                        mViewPager.setCurrentItem(2);
                         break;
                     case 3:
                         lastTapTime = 0;
-                        viewPager.setCurrentItem(3);
+                        /* create by morirain 2018/5/4 */
+                        mFab.setVisibility(View.INVISIBLE);
+                        mViewPager.setCurrentItem(3);
                         break;
                     case 4:
                         lastTapTime = 0;
-                        viewPager.setCurrentItem(4);
+                        /* create by morirain 2018/5/4 */
+                        mFab.setVisibility(View.INVISIBLE);
+                        mViewPager.setCurrentItem(4);
                         break;
                 }
             }
@@ -248,8 +218,7 @@ public class MainActivity extends AppCompatActivity
                 switch (position) {
                     case 0:
                         if (System.currentTimeMillis() - lastTapTime < 40) {
-                            //enterConsole();
-                            //不再允许进入控制台
+                            //enterConsole();  不再允许进入控制台
                             lastTapTime = 0;
                         } else {
                             lastTapTime = System.currentTimeMillis();
@@ -272,7 +241,7 @@ public class MainActivity extends AppCompatActivity
 
         // Set the default page to show.
         // 0: Lost, 1: Matched 2. All
-        viewPager.setCurrentItem(1);
+        mViewPager.setCurrentItem(1);
 
     }
 
@@ -329,7 +298,7 @@ public class MainActivity extends AppCompatActivity
 
         // If latest icons is provided, show the entrance menu item.
         /*int lastIconsLength = getResources().getStringArray(R.array.latest_icons).length;
-        badgeItemNew.setText(String.valueOf(lastIconsLength));
+        mBadgeItemNew.setText(String.valueOf(lastIconsLength));
         if (lastIconsLength > 0) {
             menu.findItem(R.id.menu_whats_new).setVisible(true);
             if (menu.findItem(R.id.menu_apply).getIcon() == null) {
@@ -370,23 +339,46 @@ public class MainActivity extends AppCompatActivity
     public void onLoadDone(int pageId, int sum) {
         switch (pageId) {
             case 0:
-                badgeItemLost.setText(String.valueOf(sum));
+                mBadgeItemLost.setText(String.valueOf(sum));
                 break;
             case 1:
                 int lastIconsLength = getResources().getStringArray(R.array.latest_icons).length;
-                badgeItemNew.setText(String.valueOf(lastIconsLength));
+                mBadgeItemNew.setText(String.valueOf(lastIconsLength));
                 break;
             case 2:
 
-                badgeItemWallpaper.setText(String.valueOf(sum));
+                mBadgeItemWallpaper.setText(String.valueOf(sum));
                 break;
             case 3:
-                badgeItemMatched.setText(String.valueOf(sum));
+                mBadgeItemMatched.setText(String.valueOf(sum));
                 break;
             case 4:
-                badgeItemAll.setText(String.valueOf(sum));
+                mBadgeItemAll.setText(String.valueOf(sum));
                 break;
         }
+    }
+
+    @Override
+    public void onInitAdapter(AppAdapter appAdapter) {
+        // 申请适配按钮
+        mFab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SparseBooleanArray sparseArray = appAdapter.getCheckStates();
+                if (sparseArray.size() <= 0) {
+                    AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
+                    dialog.setTitle("Request icon");
+                    dialog.setMessage("若要申请适配，请至少选择一个图标。\n(建议最多选择三个图标，以保证适配效率。)");
+                    dialog.setCancelable(false);
+                    dialog.setPositiveButton("OK", null);
+                    dialog.show();
+                } else {
+                    /* 清空sparseBooleanArray 并通知CheckBox改变 */
+                    sparseArray.clear();
+                    appAdapter.setCheckStates(sparseArray);
+                }
+            }
+        });
     }
 
 
@@ -419,11 +411,6 @@ public class MainActivity extends AppCompatActivity
             return 5;
         }
     }
-
-
-
-
-
 
 
 }

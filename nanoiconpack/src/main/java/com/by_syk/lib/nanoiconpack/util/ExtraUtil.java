@@ -410,7 +410,7 @@ public class ExtraUtil {
             return false;
         }
 
-        Log.d(C.LOG_TAG, "record2Gallery(): " + newlyPicFile + ", " + allInDir);
+        //Log.d(C.LOG_TAG, "record2Gallery(): " + newlyPicFile + ", " + allInDir);
 
         if (C.SDK >= 19) {
             String[] filePaths;

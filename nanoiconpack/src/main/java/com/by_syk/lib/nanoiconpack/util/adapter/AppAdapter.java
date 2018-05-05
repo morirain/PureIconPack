@@ -20,13 +20,15 @@ import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
+import android.util.SparseBooleanArray;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -50,11 +52,22 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
 
     private List<AppBean> dataList = new ArrayList<>();
 
-    private boolean enableStatsModule = true;
+    private boolean enableStatsModule;
 
     private int contextMenuActiveItemPos = -1;
 
     private OnItemClickListener onItemClickListener;
+
+    /** create by morirain 2018/5/4 */
+    private SparseBooleanArray mCheckStates = new SparseBooleanArray();
+    public SparseBooleanArray getCheckStates() {
+        return mCheckStates;
+    }
+    public void setCheckStates(SparseBooleanArray checkStates) {
+        this.mCheckStates = checkStates;
+        /* 通知 UI 层进行更新 */
+        notifyDataSetChanged();
+    }
 
     public interface OnItemClickListener {
         void onReqIcon(int pos, AppBean bean);
@@ -64,7 +77,6 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
 
     public AppAdapter(Context context) {
         layoutInflater = LayoutInflater.from(context);
-
         enableStatsModule = context.getResources().getBoolean(R.bool.enable_req_stats_module);
     }
 
@@ -87,7 +99,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
 //        }
         holder.tvApp.setText(bean.getLabel());
         holder.tvComponent.setText(PkgUtil.concatComponent(bean.getPkg(), bean.getLauncher()));
-        //morirain: 18/3/25 新增 如果从未申请过适配 则进行申请
+        /* create by morirain 2018/3/25 : 新增 如果从未申请过适配 则进行申请 */
         if (bean.getReqTimes() == 0) {
             bean.setAuto(true);
             onItemClickListener.onReqIcon(position, dataList.get(position));
@@ -98,7 +110,22 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
         } else {
             holder.tvReqTimes.setText("");
         }
+        /* create by morirain 2018/5/4 : 新增 解决view服用导致的checkbox问题*/
+        holder.cbCheckBox.setTag(position);
+        holder.cbCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
+            /* CheckBox 被选中时的处理 */
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                int pos = (int) buttonView.getTag();
+                if (isChecked) {
+                    mCheckStates.put(pos, true);
+                } else {
+                    mCheckStates.delete(pos);
+                }
+            }
+        });
+        holder.cbCheckBox.setChecked(mCheckStates.get(position, false));
 
         if (onItemClickListener != null) {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -186,9 +213,20 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
             this.dataList.clear();
             this.dataList.addAll(dataList);
 
+            /* 初始化 Checkbox 的状态 */
+            mCheckStates.clear();
+            /* 通知 UI 层进行更新 */
             notifyDataSetChanged();
         }
     }
+
+    /*private void setCheckBoxMaps(List<AppBean> datas, Boolean isChecked) {
+        mCheckBoxMap = new HashMap<>();
+        for (int i = 0; i < datas.size(); i++) {
+            mCheckBoxMap.put(i, isChecked);
+        }
+            
+    }*/
 
 //    public void updateTag(int pos) {
 //        if (!copiedArr[pos]) {
@@ -216,6 +254,8 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
         TextView tvApp;
         TextView tvComponent;
         TextView tvReqTimes;
+        /** create by morirain 2018/5/4 */
+        CheckBox cbCheckBox;
 
         IconViewHolder(View itemView) {
             super(itemView);
@@ -225,6 +265,8 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
             tvApp = (TextView) itemView.findViewById(R.id.tv_app);
             tvComponent = (TextView) itemView.findViewById(R.id.tv_component);
             tvReqTimes = (TextView) itemView.findViewById(R.id.tv_req_times);
+            /* create by morirain 2018/5/4 */
+            cbCheckBox = itemView.findViewById(R.id.cb_req_select);
         }
     }
 }
