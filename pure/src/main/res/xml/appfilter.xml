@@ -6174,10 +6174,105 @@
 
     <!-- 日历 / Calendar -->
     <item component="ComponentInfo{com.android.calendar/com.android.calendar.SplashActivity}" drawable="calendar" />
+    <!-- 腾讯翻译君 / Mr.Translator --> <item component="ComponentInfo{com.qb.qtranslator/com.qb.qtranslator.qactivity.SplashActivity}" drawable="qq_mr_translator" />
+
+    <!-- Build: Meizu / M6 Note -->
+    <!-- 主题美化 / Themes -->
+    <item component="ComponentInfo{com.meizu.customizecenter/com.meizu.customizecenter.frame.activity.CustomizeCenterActivity}" drawable="flyme_theme" />
+    <!-- WordPress / WordPress -->
+    <item component="ComponentInfo{org.wordpress.android/org.wordpress.android.ui.WPLaunchActivity}" drawable="word_press" />
+    <!-- MyWind / MyWind -->
+    <item component="ComponentInfo{it.wind.myWind/it.wind.myWind.SplashActivity}" drawable="my_wind" />
+
+    <!-- 美团 / 美团 -->
+    <item component="ComponentInfo{com.sankuai.meituan/com.meituan.android.pt.homepage.activity.Welcome}" drawable="meituan" />
+
+    <!-- Wakelock Detector Free / Wakelock Detector Free -->
+    <item component="ComponentInfo{com.uzumapps.wakelockdetector.coolapkv/com.uzumapps.wakelockdetector.activity.IntroActivity}" drawable="wakelock_detector" />
+
+    <!-- 微痕迹 / cTrace -->
+    <item component="ComponentInfo{com.pleasure.trace_wechat/com.camellia.trace.activity.SplashActivity}" drawable="weihenji" />
+    <!-- Behance / Behance -->
+    <item component="ComponentInfo{com.behance.behance/com.behance.network.ui.activities.MainActivity}" drawable="behance" />
+
+    <!-- 应用管理 / X-APM -->
+    <item component="ComponentInfo{github.tornaco.xposedmoduletest/github.tornaco.xposedmoduletest.ui.activity.NavigatorActivityBottomNav}" drawable="x_apm" />
 
 
+    <!-- 有道背单词 / 有道背单词 -->
+    <item component="ComponentInfo{com.youdao.reciteword/com.youdao.reciteword.activity.SplashActivity}" drawable="youdao_beidanci" />
+    <!-- 盯盯拍 / DDPai -->
+    <item component="ComponentInfo{com.vyou.vcameraclient/com.vyou.app.ui.activity.SplashDefaultActivity}" drawable="dingdingpai" />
+    <!-- DJI GO 4 / null -->
+    <item component="ComponentInfo{dji.go.v4/dji.pilot.main.activity.DJILauncherActivity}" drawable="dji_go_4" />
+    <!-- 穿梭 / 穿梭 -->
+    <item component="ComponentInfo{com.fobwifi.transocks/com.fobwifi.normal.ui.activity.SplashActivity}" drawable="chuansuo" />
+    <!-- 千牛 / Alibaba Workbench -->
+    <item component="ComponentInfo{com.taobao.qianniu/com.qianniu.launcher.business.splash.InitActivity}" drawable="taobao_qianniu" />
+    <!-- 尚德机构 / 尚德机构 -->
+    <item component="ComponentInfo{com.sunland.app/com.sunland.app.ui.launching.LaunchingActivity}" drawable="shangdejigou" />
+    <!-- 口语易 / 口语易 -->
+    <item component="ComponentInfo{com.kouyuyi.kyystuapp/com.kouyuyi.kyystuapp.MainActivity}" drawable="kouyuyi" />
+    <!-- Build: ZUK / Z2 Plus -->
+    <!-- 相机 / Camera -->
+    <item component="ComponentInfo{org.lineageos.snap/com.android.camera.CameraLauncher}" drawable="camera" />
+    <!-- 薇薇安和骑士 / 薇薇安和骑士 -->
+    <item component="ComponentInfo{com.zhaolu.games.ftg/org.cocos2dx.lua.SplashActivity}" drawable="game_wwa" />
+    <!-- 船讯网 / 船讯网 -->
+    <item component="ComponentInfo{com.shipxy.android/com.shipxy.auth.StartActivity}" drawable="chuanxunwang" />
+    <!-- 美剧可乐 / 美剧可乐 -->
+    <item component="ComponentInfo{com.snif.meijucola/com.snif.meijucola.View.PermissionActivity}" drawable="meijucola" />
+    <!-- 落网 / 落网 -->
+    <item component="ComponentInfo{net.luoo.LuooFM/net.luoo.LuooFM.activity.common.SplashActivity}" drawable="luowang" />
+    <!-- Build: vivo / vivo X7 -->
+    <!-- 游戏中心 / GameCenter -->
+    <item component="ComponentInfo{com.vivo.game/com.vivo.game.ui.LogoActivity}" drawable="vivo_game_center" />
+    <!-- Build: vivo / vivo X7 -->
+    <!-- 儿童模式 / Children -->
+    <item component="ComponentInfo{com.vivo.childrenmode/com.vivo.childrenmode.activity.ChildHomeActivity}" drawable="vivo_child" />
+    <!-- Build: vivo / vivo X7 -->
+    <!-- 云服务 / vivoCloud -->
+    <item component="ComponentInfo{com.bbk.cloud/com.bbk.cloud.activities.BBKCloudHomeScreen}" drawable="vivo_cloud" />
+    <!-- 互传 / EasyShare -->
+    <item component="ComponentInfo{com.vivo.easyshare/com.vivo.easyshare.activity.SplashScreenActivity}" drawable="vivo_easy_share" />
+    <!-- Enpass / Enpass -->
+    <item component="ComponentInfo{io.enpass.app/in.sinew.enpass.MainActivity}" drawable="enpass" />
+    <!-- Uber / Uber -->
+    <item component="ComponentInfo{com.ubercab/com.ubercab.presidio.app.core.root.RootActivity}" drawable="uber" />
+    <!-- Build: Nokia / Nokia 7 plus -->
+    <!-- 相机 / Camera -->
+    <item component="ComponentInfo{com.hmdglobal.camera2/com.android.camera.CameraLauncher}" drawable="camera" />
+    <!-- 苏宁易购 / 苏宁易购 -->
+    <item component="ComponentInfo{com.suning.mobile.ebuy/com.suning.mobile.ebuy.host.InitialActivity}" drawable="suning" />
+    <!-- DMM GAMES / DMM GAMES -->
+    <item component="ComponentInfo{com.dmm.app.store/com.dmm.app.store.activity.SplashActivity}" drawable="dmm_games" />
+    <!-- MoboPlayer / MoboPlayer -->
+    <item component="ComponentInfo{com.clov4r.android.nil.noplug/com.clov4r.android.nil.ui.activity.SplashActivity}" drawable="mobo_player" />
+    <!-- Orfox / Orfox -->
+    <item component="ComponentInfo{info.guardianproject.orfox/info.guardianproject.orfox.App}" drawable="orfox" />
+    <!-- Orbot / Orbot -->
+    <item component="ComponentInfo{org.torproject.android/org.torproject.android.OrbotMainActivity}" drawable="orbot" />
+    <!-- 星图 / Star Chart -->
+    <item component="ComponentInfo{com.escapistgames.starchart/com.escapistgames.starchartgoogleplay.StarChart}" drawable="star_chart" />
+    <!-- 简约图库 / Gallery -->
+    <item component="ComponentInfo{com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.SplashActivity}" drawable="simpleg" />
+    <!-- MX 播放器 / MX Player Pro -->
+    <item component="ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.pro.ActivityMediaList}" drawable="mxplayer" />
+    <!-- 绝地求生 全军出击 / 绝地求生 全军出击 -->
+    <item component="ComponentInfo{com.tencent.tmgp.pubgm/com.epicgames.ue4.SplashActivity}" drawable="game_pubg" />
 
-
+    <!-- 变色龙 / 变色龙 -->
+    <item component="ComponentInfo{com.topcoders.chameleon/com.topcoders.chameleon.activity.MainActivity}" drawable="chameleon" />
+    <!-- 扑飞动漫 / 扑飞动漫 -->
+    <item component="ComponentInfo{net.pufei.dongman/com.hotniao.live.activity.SplashActivity}" drawable="pufei" />
+    <!-- 普通话学习测试 / null -->
+    <item component="ComponentInfo{com.duia.app.Putonghua/com.duia.app.putonghua.activity.welcome.WelcomeActivity}" drawable="pthcs" />
+    <!-- 一个 / 一个 -->
+    <item component="ComponentInfo{one.hh.oneclient/com.stub.plugin.Stub01}" drawable="one" />
+    <!-- 轻课表 / 轻课表 -->
+    <item component="ComponentInfo{com.ruby.timetable/com.ruby.timetable.ui.activity.StartActivity}" drawable="qkb" />
+    <!-- 知到 / 知到 -->
+    <item component="ComponentInfo{com.able.wisdomtree/com.able.wisdomtree.login.StartActivity}" drawable="wisdomtree" />
 
 
 
@@ -6538,7 +6633,7 @@
     <iconupon
         img1="icon_upon" />
     <scale
-        factor="0.60" />
+        factor="1" />
 
     <!-- Just for Nova -->
     <item
