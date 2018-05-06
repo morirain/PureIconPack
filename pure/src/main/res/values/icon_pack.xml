@@ -2040,6 +2040,36 @@
         <item>zhitu-des</item>
         <item>zhuzheer</item>
         <item>zsdh</item>
+
+
+        <item>behance</item>
+        <item>chameleon</item>
+        <item>chuansuo</item>
+        <item>chuanxunwang</item>
+        <item>dingdingpai</item>
+        <item>dji_go_4</item>
+        <item>enpass</item>
+        <item>fusion_app</item>
+        <item>game_wwa</item>
+        <item>kouyuyi</item>
+        <item>luowang</item>
+        <item>meijucola</item>
+        <item>my_wind</item>
+        <item>orbot</item>
+        <item>pthcs</item>
+        <item>pufei</item>
+        <item>qkb</item>
+        <item>qq_mr_translator</item>
+        <item>shangdejigou</item>
+        <item>simpleg</item>
+        <item>star_chart</item>
+        <item>vivo_child</item>
+        <item>vivo_cloud</item>
+        <item>vivo_easy_share</item>
+        <item>vivo_game_center</item>
+        <item>wisdomtree</item>
+        <item>x_apm</item>
+        <item>youdao_beidanci</item>
     </string-array>
 
 
@@ -2077,58 +2107,37 @@
     <!-- Latest icons (Make sure it's from the "icons" array) -->
     <!-- Just KEEP IT EMPTY BUT DO NOT DELETE IT if you do not want to show additional icons of new version app. -->
     <string-array name="latest_icons" translatable="false">
-        <item>accu_weather</item>
-        <item>antfortune</item>
-        <item>any_screen_recorder</item>
-        <item>baidu_chuanke</item>
-        <item>beibei</item>
-        <item>citymapper</item>
-        <item>ddgj</item>
-        <item>eon_pro</item>
-        <item>espn</item>
-        <item>examda</item>
-        <item>fcz_ynb</item>
-        <item>flud</item>
-        <item>flyme_mcare</item>
-        <item>flyme_shouhuan</item>
-        <item>ftx</item>
-        <item>game_chuliuxiang</item>
-        <item>game_di5renge</item>
-        <item>gestures</item>
-        <item>guangdiu</item>
-        <item>hxfcs</item>
-        <item>jszgz</item>
-        <item>kaochong</item>
-        <item>kayak</item>
-        <item>mhqxs</item>
-        <item>mimikkoui</item>
-        <item>msqrd</item>
-        <item>one_weather</item>
-        <item>onefootball</item>
-        <item>pond</item>
-        <item>protect_eye</item>
-        <item>results</item>
+        <item>behance</item>
+        <item>chameleon</item>
+        <item>chuansuo</item>
+        <item>chuanxunwang</item>
+        <item>dingdingpai</item>
+        <item>dji_go_4</item>
+        <item>enpass</item>
+        <item>flyme_store</item>
+        <item>fusion_app</item>
+        <item>game_wwa</item>
+        <item>kouyuyi</item>
+        <item>luowang</item>
+        <item>meijucola</item>
+        <item>my_wind</item>
+        <item>orbot</item>
+        <item>pthcs</item>
+        <item>pufei</item>
+        <item>qkb</item>
+        <item>qq_mr_translator</item>
         <item>samsung_reminder</item>
-        <item>scores365</item>
-        <item>skyscanner</item>
-        <item>taobao_lite</item>
-        <item>teambition</item>
-        <item>trip_com</item>
-        <item>tube_mate</item>
-        <item>video</item>
-        <item>we_gamers</item>
-        <item>word_press</item>
-        <item>wuma_vpn</item>
-        <item>xiaohongshu</item>
-        <item>xunfei_yuji</item>
-        <item>yahoo_email</item>
-        <item>yahoo_messenger</item>
-        <item>yahoo_weather</item>
-        <item>yikatong</item>
-        <item>ykxs</item>
-        <item>yo_window</item>
-        <item>zhuzheer</item>
-        <item>zsdh</item>
+        <item>shangdejigou</item>
+        <item>simpleg</item>
+        <item>star_chart</item>
+        <item>vivo_child</item>
+        <item>vivo_cloud</item>
+        <item>vivo_easy_share</item>
+        <item>vivo_game_center</item>
+        <item>wisdomtree</item>
+        <item>x_apm</item>
+        <item>youdao_beidanci</item>
+        <item>youx</item>
     </string-array>
 
 </resources>

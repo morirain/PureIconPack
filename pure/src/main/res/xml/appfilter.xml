@@ -6273,6 +6273,8 @@
     <item component="ComponentInfo{com.ruby.timetable/com.ruby.timetable.ui.activity.StartActivity}" drawable="qkb" />
     <!-- 知到 / 知到 -->
     <item component="ComponentInfo{com.able.wisdomtree/com.able.wisdomtree.login.StartActivity}" drawable="wisdomtree" />
+    <!-- Fusion App / null -->
+    <item component="ComponentInfo{cn.coldsong.fusionapp/com.androlua.Welcome}" drawable="fusion_app" />
 
 
 

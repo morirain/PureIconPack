@@ -126,4 +126,5 @@
     <string name="snackbar_wallpaper_apply_failure">桌布設置失敗</string>
     <string name="nav_wallpaper">桌布</string>
     <string name="dlg_title_changing_wallpaper">正在更換桌布…</string>
+    <string name="request_notice">請選擇圖示</string>
 </resources>

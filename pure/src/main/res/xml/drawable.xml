@@ -302,6 +302,7 @@
     <item drawable="game_mirishita" />
     <item drawable="game_chuliuxiang" />
     <item drawable="game_di5renge" />
+    <item drawable="game_wwa" />
 
     <category title="All" /><!-- All icons here -->
     <item drawable="a2sd" />
@@ -2323,4 +2324,34 @@
     <item drawable="zhitu-des" />
     <item drawable="zhuzheer" />
     <item drawable="zsdh" />
+
+    <item drawable="behance" />
+    <item drawable="chameleon" />
+    <item drawable="chuansuo" />
+    <item drawable="chuanxunwang" />
+    <item drawable="dingdingpai" />
+    <item drawable="dji_go_4" />
+    <item drawable="enpass" />
+    <item drawable="fusion_app" />
+    <item drawable="game_wwa" />
+    <item drawable="kouyuyi" />
+    <item drawable="luowang" />
+    <item drawable="meijucola" />
+    <item drawable="my_wind" />
+    <item drawable="orbot" />
+    <item drawable="pthcs" />
+    <item drawable="pufei" />
+    <item drawable="qkb" />
+    <item drawable="qq_mr_translator" />
+    <item drawable="shangdejigou" />
+    <item drawable="simpleg" />
+    <item drawable="star_chart" />
+    <item drawable="vivo_child" />
+    <item drawable="vivo_cloud" />
+    <item drawable="vivo_easy_share" />
+    <item drawable="vivo_game_center" />
+    <item drawable="wisdomtree" />
+    <item drawable="x_apm" />
+    <item drawable="youdao_beidanci" />
+
 </resources>

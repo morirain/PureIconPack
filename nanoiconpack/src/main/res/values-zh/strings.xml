@@ -126,4 +126,5 @@
     <string name="snackbar_wallpaper_download_failure">图片保存失败</string>
     <string name="nav_wallpaper">壁纸</string>
     <string name="dlg_title_changing_wallpaper">正在更换壁纸…</string>
+    <string name="request_notice">若要申请适配，请至少选择一个图标。 (建议最多选择三个图标，以保证适配效率。)</string>
 </resources>

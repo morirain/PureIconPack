@@ -367,7 +367,7 @@ public class MainActivity extends AppCompatActivity
                 if (sparseArray.size() <= 0) {
                     AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
                     dialog.setTitle("Request icon");
-                    dialog.setMessage("若要申请适配，请至少选择一个图标。\n(建议最多选择三个图标，以保证适配效率。)");
+                    dialog.setMessage(R.string.request_notice);
                     dialog.setCancelable(false);
                     dialog.setPositiveButton("OK", null);
                     dialog.show();

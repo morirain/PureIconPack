@@ -77,8 +77,8 @@ public class RequestIconTask extends AsyncTask<Void, Void, Boolean> {
                 email.setType("application/octet-stream");
                 //邮件接收者（数组，可以是多位接收者）
                 String[] emailReceiver = {"morirain.dev@outlook.com"};
-                String emailTitle = "标题";
-                String emailContent = "内容";
+                String emailTitle = "Pure: icon request";
+                String emailContent = "";
                 //设置邮件地址
                 email.putExtra(android.content.Intent.EXTRA_EMAIL, emailReceiver);
                 //email.putExtra(Intent.EXTRA_CC, emailReceiver); // 抄送人
@@ -89,7 +89,7 @@ public class RequestIconTask extends AsyncTask<Void, Void, Boolean> {
                 //附件
                 email.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(mOutZip));
                 //调用系统的邮件系统
-                mContext.startActivity(Intent.createChooser(email, "请选择邮件发送软件"));
+                mContext.startActivity(Intent.createChooser(email, "Email to"));
             }
 
             return true;

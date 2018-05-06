@@ -90,7 +90,7 @@
             android:src="?attr/ic_save"
             android:scaleType="center"
             android:layout_width="36dp"
-            android:layout_height="36dp" />
+            android:layout_height="36dp"/>
 
         <ImageView
             android:id="@+id/iv_send_to_home"

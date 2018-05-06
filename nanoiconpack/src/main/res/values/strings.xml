@@ -127,4 +127,5 @@
     <string name="snackbar_wallpaper_apply_failure">Wallpaper settings failed</string>
     <string name="nav_wallpaper">Wallpaper</string>
     <string name="dlg_title_changing_wallpaper">Changing wallpaper…</string>
+    <string name="request_notice">Please choose at least one icon.</string>
 </resources>
