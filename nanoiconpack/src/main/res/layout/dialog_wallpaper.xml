@@ -4,16 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:theme="@style/RippleWhite"
-    android:background="?android:attr/selectableItemBackgroundBorderless"
-    >
+    android:theme="@style/AppThemeDark">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/scale_image_view_pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-        android:theme="@style/RippleWhite"/>
+        android:layout_height="match_parent" />
 
     <ImageButton
         android:id="@+id/scale_image_close"

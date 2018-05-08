@@ -6629,8 +6629,8 @@
     img8="icon_back8"
     img9="icon_back9"
     />-->
-    <!--<iconmaskp
-        img1="icon_mask" />/>-->
+    <iconmask
+        img1="icon_mask" />
     <iconupon
         img1="icon_upon" />
     <scale
