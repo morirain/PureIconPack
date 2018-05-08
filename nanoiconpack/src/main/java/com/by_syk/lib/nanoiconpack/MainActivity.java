@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity
 
         //Enable logging
         LogUtil.setLoggingTag(getString(R.string.app_name));
-        LogUtil.setLoggingEnabled(true);
+        LogUtil.setLoggingEnabled(false);
 
         sp = new SP(this);
 

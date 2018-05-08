@@ -8,6 +8,7 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
+import android.support.v4.content.FileProvider;
 
 import com.by_syk.lib.nanoiconpack.bean.AppBean;
 import com.by_syk.lib.nanoiconpack.util.C;
@@ -25,6 +26,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+
 
 
 /**
@@ -86,8 +88,17 @@ public class RequestIconTask extends AsyncTask<Void, Void, Boolean> {
                 email.putExtra(android.content.Intent.EXTRA_SUBJECT, emailTitle);
                 //设置发送的内容
                 email.putExtra(android.content.Intent.EXTRA_TEXT, emailContent);
+
+
+                Uri outFileUri;
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    outFileUri = FileProvider.getUriForFile(mContext, "com.by_syk.lib.nanoiconpack.fileprovider", this.mOutZip);
+                    email.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                } else {
+                    outFileUri = Uri.fromFile(this.mOutZip);
+                }
                 //附件
-                email.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(mOutZip));
+                email.putExtra(Intent.EXTRA_STREAM,outFileUri);
                 //调用系统的邮件系统
                 mContext.startActivity(Intent.createChooser(email, "Email to"));
             }
