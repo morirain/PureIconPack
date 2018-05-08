@@ -682,8 +682,6 @@
     <item component="ComponentInfo{eu.thedarken.sdm.unlocker/eu.thedarken.sdm.unlocker.SDMGreeting}" drawable="sdmaid" />
     <!-- Alto / Alto -->
     <item component="ComponentInfo{com.noodlecake.altosadventure/com.prime31.UnityPlayerNativeActivity}" drawable="game_alto" />
-    <!-- YouTube / YouTube -->
-    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" />
     <!-- Telegram / Telegram -->
     <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram" />
     <!-- 空调狗 / AirFrozen -->
@@ -6275,7 +6273,8 @@
     <item component="ComponentInfo{com.able.wisdomtree/com.able.wisdomtree.login.StartActivity}" drawable="wisdomtree" />
     <!-- Fusion App / null -->
     <item component="ComponentInfo{cn.coldsong.fusionapp/com.androlua.Welcome}" drawable="fusion_app" />
-
+    <!-- YouTube / YouTube -->
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube_2" />
 
 
 

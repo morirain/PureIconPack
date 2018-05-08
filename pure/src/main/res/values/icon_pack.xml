@@ -2070,6 +2070,7 @@
         <item>wisdomtree</item>
         <item>x_apm</item>
         <item>youdao_beidanci</item>
+        <item>youtube_2</item>
     </string-array>
 
 
@@ -2138,6 +2139,7 @@
         <item>x_apm</item>
         <item>youdao_beidanci</item>
         <item>youx</item>
+        <item>youtube_2</item>
     </string-array>
 
 </resources>

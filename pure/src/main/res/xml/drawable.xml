@@ -168,6 +168,8 @@
     <item drawable="game_pubg_2" />
     <item drawable="game_reigns" />
     <item drawable="game_reigns2" />
+    <item drawable="youtube" />
+    <item drawable="youtube_2" />
 
     <category title="Game" /><!-- Copy game icons here from All category -->
     <item drawable="game_alto" />
@@ -2353,5 +2355,5 @@
     <item drawable="wisdomtree" />
     <item drawable="x_apm" />
     <item drawable="youdao_beidanci" />
-
+    <item drawable="youtube_2" />
 </resources>
