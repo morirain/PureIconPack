@@ -65,8 +65,8 @@ public class RequestIconTask extends AsyncTask<Void, Void, Boolean> {
         //File[] files = new File[mDataLists.size()];
 
         for (int i = 0; i < mDataLists.size(); i++) {
-            if (copyAppCode(mDataLists.get(i))) return false;
-            if (copyAppIcon(mDataLists.get(i))) return false;
+            if (!copyAppCode(mDataLists.get(i))) return false;
+            if (!copyAppIcon(mDataLists.get(i))) return false;
         }
 
         /* 设置压缩包内的文件 */

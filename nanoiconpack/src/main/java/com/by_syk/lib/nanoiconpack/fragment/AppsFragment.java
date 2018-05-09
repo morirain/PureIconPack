@@ -169,7 +169,6 @@ public class AppsFragment extends Fragment {
                     //(new SubmitReqTask(pos)).execute();
                     /* 由于申请适配的方式改变 所以注释了这里的代码 */
                     /* 现在改为选中CheckBox */
-                    appAdapter.onClickAppsItem(pos);
                 //} else {
                 //    GlobalToast.show(getContext(), R.string.toast_no_net_no_req);
                 //}

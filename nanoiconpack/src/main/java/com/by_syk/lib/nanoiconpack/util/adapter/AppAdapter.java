@@ -153,12 +153,13 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    /*int pos = holder.getAdapterPosition();
+                    int pos = holder.getAdapterPosition();
+                    onClickAppsItem(pos);
                     if (enableStatsModule) {
                         onItemClickListener.onReqIcon(pos, dataList.get(pos));
                     } else {
                         onItemClickListener.onCopyCode(pos, dataList.get(pos));
-                    }*/
+                    }
                 }
             });
             holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
