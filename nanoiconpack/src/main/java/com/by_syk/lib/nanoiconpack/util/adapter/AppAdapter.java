@@ -84,7 +84,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
 
         mRequestGroup = new ArrayList<>();
         for (int i = 0; i < dataList.size(); i++) {
-            if (mCheckStates.get(i)) {
+            if (mCheckStates.get(i, false)) {
                 mRequestGroup.add(dataList.get(i));
             }
         }
@@ -122,10 +122,10 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
         holder.tvApp.setText(bean.getLabel());
         holder.tvComponent.setText(PkgUtil.concatComponent(bean.getPkg(), bean.getLauncher()));
         /* create by morirain 2018/3/25 : 新增 如果从未申请过适配 则进行申请 */
-        if (bean.getReqTimes() == 0) {
+        /*if (onItemClickListener != null && bean.getReqTimes() == 0) {
             bean.setAuto(true);
             onItemClickListener.onReqIcon(position, dataList.get(position));
-        }
+        }*/
 
         if (bean.getReqTimes() >= 0) {
             holder.tvReqTimes.setText(ExtraUtil.renderReqTimes(bean.getReqTimes()));
@@ -153,12 +153,12 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    int pos = holder.getAdapterPosition();
+                    /*int pos = holder.getAdapterPosition();
                     if (enableStatsModule) {
                         onItemClickListener.onReqIcon(pos, dataList.get(pos));
                     } else {
                         onItemClickListener.onCopyCode(pos, dataList.get(pos));
-                    }
+                    }*/
                 }
             });
             holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
