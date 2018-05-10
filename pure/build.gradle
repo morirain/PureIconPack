@@ -25,9 +25,6 @@ android {
         //resConfigs "en", "zh", "it"
     }
     buildTypes {
-        debug {
-            minifyEnabled true
-        }
         release {
             shrinkResources false // Keep false, or icons in /drawable-nodpi/ will become black.
             minifyEnabled true

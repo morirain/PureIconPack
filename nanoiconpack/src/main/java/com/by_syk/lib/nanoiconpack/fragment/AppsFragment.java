@@ -94,12 +94,6 @@ public class AppsFragment extends Fragment {
     }
 
     /** create by morirain 2018/5/5 */
-    public SparseBooleanArray getCheckStates() {
-        return appAdapter.getCheckStates();
-    }
-    public void setCheckStates(SparseBooleanArray sCheckStates) {
-        appAdapter.setCheckStates(sCheckStates);
-    }
     /* fab的onInitAdapter回调 */
     private OnInitAdapterListener onInitAdapterListener;
 

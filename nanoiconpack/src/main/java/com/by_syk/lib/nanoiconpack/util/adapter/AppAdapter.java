@@ -61,20 +61,15 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
 
     /** create by morirain 2018/5/4 */
     private SparseBooleanArray mCheckStates = new SparseBooleanArray();
-    private List<AppBean> mRequestGroup;
+
     public SparseBooleanArray getCheckStates() {
         return mCheckStates;
     }
-    public void setCheckStates(SparseBooleanArray checkStates) {
-        this.mCheckStates = checkStates;
-        /* 通知 UI 层进行更新 */
-        notifyDataSetChanged();
-    }
-    public void onClickAppsItem(int pos) {
-        if (this.mCheckStates.get(pos, false) == false) {
-            this.mCheckStates.put(pos, true);
-        } else {
+    private void onClickAppsItem(int pos) {
+        if (this.mCheckStates.get(pos, false)) {
             this.mCheckStates.put(pos, false);
+        } else {
+            this.mCheckStates.put(pos, true);
         }
         notifyDataSetChanged();
     }
@@ -82,7 +77,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
     public void requestIcon(Context context) {
 
 
-        mRequestGroup = new ArrayList<>();
+        List<AppBean> mRequestGroup = new ArrayList<>();
         for (int i = 0; i < dataList.size(); i++) {
             if (mCheckStates.get(i, false)) {
                 mRequestGroup.add(dataList.get(i));
@@ -143,7 +138,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
                 if (isChecked) {
                     mCheckStates.put(pos, true);
                 } else {
-                    mCheckStates.delete(pos);
+                    mCheckStates.put(pos, false);
                 }
             }
         });
@@ -155,11 +150,11 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
                 public void onClick(View view) {
                     int pos = holder.getAdapterPosition();
                     onClickAppsItem(pos);
-                    if (enableStatsModule) {
+                    /*if (enableStatsModule) {
                         onItemClickListener.onReqIcon(pos, dataList.get(pos));
                     } else {
                         onItemClickListener.onCopyCode(pos, dataList.get(pos));
-                    }
+                    }*/
                 }
             });
             holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
