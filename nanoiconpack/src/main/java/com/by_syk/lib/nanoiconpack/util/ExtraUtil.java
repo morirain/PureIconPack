@@ -24,6 +24,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.PixelFormat;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.media.MediaScannerConnection;
@@ -352,22 +354,57 @@ public class ExtraUtil {
                 .replaceAll("_{2,}", "_");
     }
 
+
+    /**
+     * Drawable to bitmap.
+     * Added by morirain
+     *
+     * @param drawable The drawable.
+     * @return bitmap
+     */
+    public static Bitmap drawable2Bitmap(final Drawable drawable) {
+        if (drawable instanceof BitmapDrawable) {
+            BitmapDrawable bitmapDrawable = (BitmapDrawable) drawable;
+            if (bitmapDrawable.getBitmap() != null) {
+                return bitmapDrawable.getBitmap();
+            }
+        }
+        Bitmap bitmap;
+        if (drawable.getIntrinsicWidth() <= 0 || drawable.getIntrinsicHeight() <= 0) {
+            bitmap = Bitmap.createBitmap(1, 1,
+                    drawable.getOpacity() != PixelFormat.OPAQUE
+                            ? Bitmap.Config.ARGB_8888
+                            : Bitmap.Config.RGB_565);
+        } else {
+            bitmap = Bitmap.createBitmap(drawable.getIntrinsicWidth(),
+                    drawable.getIntrinsicHeight(),
+                    drawable.getOpacity() != PixelFormat.OPAQUE
+                            ? Bitmap.Config.ARGB_8888
+                            : Bitmap.Config.RGB_565);
+        }
+        Canvas canvas = new Canvas(bitmap);
+        drawable.setBounds(0, 0, canvas.getWidth(), canvas.getHeight());
+        drawable.draw(canvas);
+        return bitmap;
+    }
+
+
     public static boolean saveIcon(Context context, Drawable drawable, String name) {
         if (context == null || drawable == null || TextUtils.isEmpty(name)) {
             return false;
         }
 
-        Bitmap bitmap = ((BitmapDrawable) drawable).getBitmap();
-        if (bitmap == null) {
-            return false;
-        }
+        Bitmap bitmap = drawable2Bitmap(drawable);
+        if (bitmap == null) return false;
 
         // Create a path where we will place our picture
         // in the user's public pictures directory.
         File picDir = new File(Environment.getExternalStoragePublicDirectory(Environment
                 .DIRECTORY_PICTURES), "Icons");
         // Make sure the Pictures directory exists.
-        picDir.mkdirs();
+        if (!picDir.mkdirs()) {
+            return false;
+        }
         File targetFile = new File(picDir, "ic_" + name + "_"
                 + bitmap.getByteCount() + ".png");
 

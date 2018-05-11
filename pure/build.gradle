@@ -19,9 +19,9 @@ android {
         applicationId "me.morirain.dev.iconpack.pure"
         minSdkVersion Integer.parseInt(project.MIN_SDK_VERSION)
         targetSdkVersion Integer.parseInt(project.TARGET_SDK_VERSION)
-        versionCode 1805090127
+        versionCode 1805120128
         // Version name format: [version].[num_of_icons]
-        versionName '3.9.2 Android P'
+        versionName '5.12 Mother\'s Day'
         //resConfigs "en", "zh", "it"
     }
     buildTypes {
@@ -56,7 +56,7 @@ android {
 
 
 dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile project(':nanoiconpack')

@@ -16,6 +16,8 @@
 
 package com.by_syk.lib.nanoiconpack.fragment;
 
+import android.content.ActivityNotFoundException;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -26,6 +28,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.by_syk.lib.nanoiconpack.MainActivity;
 import com.by_syk.lib.nanoiconpack.R;
@@ -113,7 +116,13 @@ public class WhatsNewFragment extends Fragment implements View.OnClickListener/*
             Uri uri = Uri.parse("market://details?id=" + MainActivity.PACKAGE_NAME);
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(intent);
+            try {
+                startActivity(intent);
+            } catch (ActivityNotFoundException ignored) {
+                Uri newUri = Uri.parse("https://play.google.com/store/apps/details?id=me.morirain.dev.iconpack.pure");
+                intent = new Intent(Intent.ACTION_VIEW, newUri);
+                startActivity(intent);
+            }
         } else if(i == R.id.feedback_button) {
             Uri uri = Uri.parse("mailto:morirain.dev@outlook.com");
             String[] email = {"morirain.dev@outlook.com"};

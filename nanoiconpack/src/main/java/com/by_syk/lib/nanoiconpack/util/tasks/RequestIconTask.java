@@ -3,13 +3,11 @@ package com.by_syk.lib.nanoiconpack.util.tasks;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.Canvas;
-import android.graphics.PixelFormat;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
+import android.support.annotation.NonNull;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AlertDialog;
 
@@ -30,7 +28,6 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-
 
 
 /**
@@ -70,7 +67,7 @@ public class RequestIconTask extends AsyncTask<Void, Void, Boolean> {
         }
 
         /* 设置压缩包内的文件 */
-        List<File> zipFiles = new ArrayList<>(mFileIcon);
+        ArrayList<File> zipFiles = new ArrayList<>(mFileIcon);
         zipFiles.add(mFileIconCode);
         /* 设置压缩文件的名称 */
         this.mOutZip = new File(mExternalCacheDir + "/IconRequest_" + zipFiles.size() + ".zip");
@@ -126,38 +123,6 @@ public class RequestIconTask extends AsyncTask<Void, Void, Boolean> {
         }
     }
 
-    /**
-     * Drawable to bitmap.
-     *
-     * @param drawable The drawable.
-     * @return bitmap
-     */
-    private static Bitmap drawable2Bitmap(final Drawable drawable) {
-        if (drawable instanceof BitmapDrawable) {
-            BitmapDrawable bitmapDrawable = (BitmapDrawable) drawable;
-            if (bitmapDrawable.getBitmap() != null) {
-                return bitmapDrawable.getBitmap();
-            }
-        }
-        Bitmap bitmap;
-        if (drawable.getIntrinsicWidth() <= 0 || drawable.getIntrinsicHeight() <= 0) {
-            bitmap = Bitmap.createBitmap(1, 1,
-                    drawable.getOpacity() != PixelFormat.OPAQUE
-                            ? Bitmap.Config.ARGB_8888
-                            : Bitmap.Config.RGB_565);
-        } else {
-            bitmap = Bitmap.createBitmap(drawable.getIntrinsicWidth(),
-                    drawable.getIntrinsicHeight(),
-                    drawable.getOpacity() != PixelFormat.OPAQUE
-                            ? Bitmap.Config.ARGB_8888
-                            : Bitmap.Config.RGB_565);
-        }
-        Canvas canvas = new Canvas(bitmap);
-        drawable.setBounds(0, 0, canvas.getWidth(), canvas.getHeight());
-        drawable.draw(canvas);
-        return bitmap;
-    }
-
     /* Complete */
     private boolean copyAppIcon(AppBean bean) {
 
@@ -165,11 +130,11 @@ public class RequestIconTask extends AsyncTask<Void, Void, Boolean> {
         String name = bean.getLabel();
 
         Bitmap bitmap = null;
-        if (drawable != null) bitmap = drawable2Bitmap(drawable);//((BitmapDrawable) drawable).getBitmap();
+        if (drawable != null) bitmap = ExtraUtil.drawable2Bitmap(drawable);//((BitmapDrawable) drawable).getBitmap();
         if (bitmap == null) return false;
         // Make sure the Pictures directory exists.
         File targetFile = new File(mDirCache, "ic_" + name + "_"
-                + bitmap.getByteCount() + ".png");
+                + String.valueOf(bitmap.getByteCount()) + ".png");
 
         boolean result = false;
         OutputStream outputStream = null;
@@ -213,12 +178,12 @@ public class RequestIconTask extends AsyncTask<Void, Void, Boolean> {
         }
         //boolean isSysApp = PkgUtil.isSysApp(mContext.get(), bean.getPkg());
         String code = String.format(Locale.US, C.APP_CODE_LABEL, label, labelEn);
-        code += "\n" + String.format(Locale.US, C.APP_CODE_COMPONENT,
-                bean.getPkg(), bean.getLauncher(), iconName);
+        code += "\r\n"
+                + String.format(Locale.US, C.APP_CODE_COMPONENT, bean.getPkg(), bean.getLauncher(), iconName)
+                + "\r\n\r\n";
         /*if (isSysApp) {
             code = String.format(Locale.US, C.APP_CODE_BUILD, Build.BRAND, Build.MODEL) + "\n" + code;
         }*/
-        code += "\n\n";
 
         BufferedWriter out = null;
         try {

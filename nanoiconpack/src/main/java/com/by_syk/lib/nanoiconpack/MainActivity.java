@@ -40,6 +40,7 @@ import com.ashokvarma.bottomnavigation.BadgeItem;
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 
+import com.bolex.autoEx.AutoEx;
 import com.by_syk.lib.nanoiconpack.dialog.ApplyDialog;
 import com.by_syk.lib.nanoiconpack.fragment.AppsFragment;
 import com.by_syk.lib.nanoiconpack.fragment.IconsFragment;
@@ -100,9 +101,11 @@ public class MainActivity extends AppCompatActivity
     private void init() {
         PACKAGE_NAME = getApplicationContext().getPackageName();
 
-        //Enable logging
+        // Enable logging
         LogUtil.setLoggingTag(getString(R.string.app_name));
         LogUtil.setLoggingEnabled(false);
+        // Enable AutoEx
+        AutoEx.apply();
 
         sp = new SP(this);
 

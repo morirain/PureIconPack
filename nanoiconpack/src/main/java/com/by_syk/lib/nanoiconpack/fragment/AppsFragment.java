@@ -17,6 +17,7 @@
 package com.by_syk.lib.nanoiconpack.fragment;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -31,7 +32,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,6 +45,7 @@ import com.by_syk.lib.nanoiconpack.util.AppfilterReader;
 import com.by_syk.lib.nanoiconpack.util.C;
 import com.by_syk.lib.nanoiconpack.util.ExtraUtil;
 import com.by_syk.lib.nanoiconpack.util.InstalledAppReader;
+import com.by_syk.lib.nanoiconpack.util.LogUtil;
 import com.by_syk.lib.nanoiconpack.util.PkgUtil;
 import com.by_syk.lib.nanoiconpack.util.RetrofitHelper;
 import com.by_syk.lib.nanoiconpack.util.adapter.AppAdapter;
@@ -363,18 +364,22 @@ public class AppsFragment extends Fragment {
             if (appList.isEmpty()) {
                 return;
             }
-
-            Set<String> appfilterComponentSet = AppfilterReader
-                    .getInstance(getResources()).getComponentSet();
-            Iterator<AppBean> iterator = appList.iterator();
-            while (iterator.hasNext()) {
-                AppBean bean = iterator.next();
-                if (appfilterComponentSet.contains(bean.getPkg() + "/" + bean.getLauncher())) {
-                    iterator.remove();
-                    // To remove all polyphone items, cannot use break
-                    //break;
+            try {
+                Set<String> appfilterComponentSet = AppfilterReader
+                        .getInstance(getResources()).getComponentSet();
+                Iterator<AppBean> iterator = appList.iterator();
+                while (iterator.hasNext()) {
+                    AppBean bean = iterator.next();
+                    if (appfilterComponentSet.contains(bean.getPkg() + "/" + bean.getLauncher())) {
+                        iterator.remove();
+                        // To remove all polyphone items, cannot use break
+                        //break;
+                    }
                 }
+            } catch (IllegalStateException ignored) {
+                LogUtil.d("IllegalStateException.");
             }
+
         }
     }
 
@@ -387,6 +392,9 @@ public class AppsFragment extends Fragment {
 
             PackageManager packageManager = getContext().getPackageManager();
             for (int i = pos[0]; i <= pos[1]; ++i) {
+                if (packageManager == null) {
+                    return false;
+                }
                 if (isCancelled() || !isAdded()) {
                     return false;
                 }
@@ -394,7 +402,6 @@ public class AppsFragment extends Fragment {
                 if (bean == null || bean.getIcon() != null) {
                     continue;
                 }
-//                Drawable icon = PkgUtil.getIcon(packageManager, bean.getPkg());
                 Drawable icon = PkgUtil.getIcon(packageManager, bean.getPkg(), bean.getLauncher());
                 if (icon != null) {
                     bean.setIcon(icon);
