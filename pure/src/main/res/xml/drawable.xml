@@ -45,6 +45,7 @@
     <item drawable="drawer_avicii" />
     <item drawable="drawer_morirain" />
     <item drawable="drawer_morirain_2" />
+    <item drawable="drawer_finger" />
 
     <category title="Basic" /><!-- Copy basic icons here from All category -->
     <item drawable="browser" />
@@ -170,6 +171,13 @@
     <item drawable="game_reigns2" />
     <item drawable="youtube" />
     <item drawable="youtube_2" />
+    <item drawable="jd" />
+    <item drawable="jd_2" />
+    <item drawable="zarchiver_pro" />
+    <item drawable="zarchiver" />
+    <item drawable="retro_music" />
+    <item drawable="retro_music_2" />
+
 
     <category title="Game" /><!-- Copy game icons here from All category -->
     <item drawable="game_alto" />
@@ -2356,4 +2364,61 @@
     <item drawable="x_apm" />
     <item drawable="youdao_beidanci" />
     <item drawable="youtube_2" />
+
+    <item drawable="aiqingyh" />
+    <item drawable="ali_tmalljl" />
+    <item drawable="baixiong" />
+    <item drawable="buzz" />
+    <item drawable="cloud_189" />
+    <item drawable="cto51" />
+    <item drawable="daum_cafe" />
+    <item drawable="drawer_finger" />
+    <item drawable="flyme7_gallery" />
+    <item drawable="flyme7_game" />
+    <item drawable="flyme7_news" />
+    <item drawable="flyme7_video" />
+    <item drawable="fundo_bracelet" />
+    <item drawable="game_heretic_gods" />
+    <item drawable="gif_master" />
+    <item drawable="gltools" />
+    <item drawable="gome" />
+    <item drawable="guangdayh" />
+    <item drawable="haohaozhu" />
+    <item drawable="hegaoxiao" />
+    <item drawable="hfcard" />
+    <item drawable="historymap" />
+    <item drawable="hopewoofund" />
+    <item drawable="htc_zoe_video_editor" />
+    <item drawable="hxwj" />
+    <item drawable="jd_2" />
+    <item drawable="jtjr99" />
+    <item drawable="launcher" />
+    <item drawable="leting" />
+    <item drawable="lianbi" />
+    <item drawable="lyft" />
+    <item drawable="market_flyme7" />
+    <item drawable="miaopai" />
+    <item drawable="njcitizencard" />
+    <item drawable="olympus_image_share" />
+    <item drawable="pdou" />
+    <item drawable="pl" />
+    <item drawable="pp_sport" />
+    <item drawable="qianji" />
+    <item drawable="qihoo_feedback" />
+    <item drawable="qihoo_privacy_system" />
+    <item drawable="qihoo_security_service" />
+    <item drawable="qihoo_sos" />
+    <item drawable="qoo_app" />
+    <item drawable="retro_music_2" />
+    <item drawable="sklm" />
+    <item drawable="state_council" />
+    <item drawable="venmo" />
+    <item drawable="weidian" />
+    <item drawable="weitools" />
+    <item drawable="xykgj" />
+    <item drawable="yixue24" />
+    <item drawable="yo_mail" />
+    <item drawable="zaigongda" />
+    <item drawable="zarchiver_pro" />
+    <item drawable="zuanke8" />
 </resources>

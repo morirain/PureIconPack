@@ -20,6 +20,7 @@ import android.app.Dialog;
 import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
@@ -69,6 +70,16 @@ public class ApplyDialog extends DialogFragment {
         if (TextUtils.isEmpty(launcherPkgs[pos])) {
             HintDialog.newInstance(null, getString(R.string.more_launchers_desc),
                     getString(R.string.dlg_bt_got_it)).show(getFragmentManager(), "hintDialog");
+            return;
+        } else if (launcherPkgs[pos].equals("MIUI")) {
+            Uri uri = Uri.parse("http://zhuti.xiaomi.com/detail/d555981b-e6af-4ea9-9eb2-e47cfbc3edfa");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+            return;
+        } else if (launcherPkgs[pos].equals("FLYME")) {
+            Uri uri = Uri.parse("http://theme.flyme.cn/themes/public/detail?package_name=com.meizu.theme.darenpureqingyu.eipacl4y&mzos=6.0");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
             return;
         }
         if (!PkgUtil.isPkgInstalledAndEnabled(getContext(), launcherPkgs[pos])) {

@@ -48,7 +48,10 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="8dp"
             android:layout_toEndOf="@+id/view_tag"
-            android:checked="false" />
+            android:checked="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
 
         <ImageView
             android:id="@+id/iv_icon"

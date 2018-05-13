@@ -65,14 +65,15 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
     public SparseBooleanArray getCheckStates() {
         return mCheckStates;
     }
-    private void onClickAppsItem(int pos) {
+    /*private void onClickAppsItem(int pos) {
         if (this.mCheckStates.get(pos, false)) {
             this.mCheckStates.put(pos, false);
+            holder.cbCheckBox.setChecked(true);
         } else {
             this.mCheckStates.put(pos, true);
         }
         notifyDataSetChanged();
-    }
+    }*/
     /** 申请适配*/
     public void requestIcon(Context context) {
 
@@ -111,7 +112,6 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
     @Override
     public void onBindViewHolder(final IconViewHolder holder, int position) {
         AppBean bean = dataList.get(position);
-
         holder.viewTag.setBackgroundResource(bean.isMark() ? R.drawable.tag_req : 0);
         holder.ivIcon.setImageDrawable(bean.getIcon());
         holder.tvApp.setText(bean.getLabel());
@@ -137,24 +137,37 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
                 int pos = (int) buttonView.getTag();
                 if (isChecked) {
                     mCheckStates.put(pos, true);
+                    holder.cbCheckBox.setChecked(true);
                 } else {
                     mCheckStates.put(pos, false);
+                    holder.cbCheckBox.setChecked(false);
                 }
             }
         });
-        holder.cbCheckBox.setChecked(mCheckStates.get(position, false));
+        if (mCheckStates.get(holder.getAdapterPosition()) != holder.cbCheckBox.isChecked()) {
+            holder.cbCheckBox.setChecked(false);
+            mCheckStates.put(holder.getAdapterPosition(), false);
+        }
 
         if (onItemClickListener != null) {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     int pos = holder.getAdapterPosition();
-                    onClickAppsItem(pos);
+                    //onClickAppsItem(pos, holder);
                     /*if (enableStatsModule) {
                         onItemClickListener.onReqIcon(pos, dataList.get(pos));
                     } else {
                         onItemClickListener.onCopyCode(pos, dataList.get(pos));
                     }*/
+                    if (mCheckStates.get(pos, false)) {
+                        mCheckStates.put(pos, false);
+                        holder.cbCheckBox.setChecked(false);
+                    } else {
+                        mCheckStates.put(pos, true);
+                        holder.cbCheckBox.setChecked(true);
+                    }
+
                 }
             });
             holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
@@ -229,7 +242,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
     }
 
     public void refresh(List<AppBean> dataList) {
-        if (dataList != null) {
+        if (dataList != null && !dataList.equals(this.dataList)) {
             this.dataList.clear();
             this.dataList.addAll(dataList);
 

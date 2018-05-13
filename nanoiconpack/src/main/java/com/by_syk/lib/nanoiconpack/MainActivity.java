@@ -20,6 +20,7 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Debug;
 import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
@@ -101,11 +102,13 @@ public class MainActivity extends AppCompatActivity
     private void init() {
         PACKAGE_NAME = getApplicationContext().getPackageName();
 
-        // Enable logging
-        LogUtil.setLoggingTag(getString(R.string.app_name));
-        LogUtil.setLoggingEnabled(false);
-        // Enable AutoEx
-        AutoEx.apply();
+        if (false) {
+            // Enable logging
+            LogUtil.setLoggingTag(getString(R.string.app_name));
+            LogUtil.setLoggingEnabled(true);
+            // Enable AutoEx
+            AutoEx.apply();
+        }
 
         sp = new SP(this);
 
