@@ -35,23 +35,23 @@
 
         android:minHeight="@dimen/app_list_item_height">
 
-        <View
+        <!--<View
             android:id="@+id/view_tag"
             android:layout_width="@dimen/tag_width"
             android:layout_height="@dimen/list_icon_size"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true" />-->
 
         <CheckBox
             android:id="@+id/cb_req_select"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:layout_marginStart="8dp"
-            android:layout_toEndOf="@+id/view_tag"
             android:checked="false"
             android:clickable="false"
             android:focusable="false"
-            android:focusableInTouchMode="false"/>
+            android:focusableInTouchMode="false" />
 
         <ImageView
             android:id="@+id/iv_icon"
@@ -71,10 +71,10 @@
             android:layout_toEndOf="@+id/iv_icon"
             android:gravity="center_vertical"
             android:orientation="vertical"
+            android:paddingBottom="8dp"
             android:paddingEnd="16dp"
             android:paddingStart="0dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+            android:paddingTop="8dp">
 
             <LinearLayout
                 android:layout_width="match_parent"

@@ -112,7 +112,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
     @Override
     public void onBindViewHolder(final IconViewHolder holder, int position) {
         AppBean bean = dataList.get(position);
-        holder.viewTag.setBackgroundResource(bean.isMark() ? R.drawable.tag_req : 0);
+        //holder.viewTag.setBackgroundResource(bean.isMark() ? R.drawable.tag_req : 0);
         holder.ivIcon.setImageDrawable(bean.getIcon());
         holder.tvApp.setText(bean.getLabel());
         holder.tvComponent.setText(PkgUtil.concatComponent(bean.getPkg(), bean.getLauncher()));
@@ -282,7 +282,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
     }
 
     static class IconViewHolder extends RecyclerView.ViewHolder {
-        View viewTag;
+        //View viewTag;
         ImageView ivIcon;
         TextView tvApp;
         TextView tvComponent;
@@ -293,7 +293,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
         IconViewHolder(View itemView) {
             super(itemView);
 
-            viewTag = itemView.findViewById(R.id.view_tag);
+            //viewTag = itemView.findViewById(R.id.view_tag);
             ivIcon = itemView.findViewById(R.id.iv_icon);
             tvApp = itemView.findViewById(R.id.tv_app);
             tvComponent = itemView.findViewById(R.id.tv_component);

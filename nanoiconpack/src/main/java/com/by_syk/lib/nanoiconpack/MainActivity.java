@@ -20,7 +20,6 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Debug;
 import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
@@ -37,10 +36,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.ashokvarma.bottomnavigation.BadgeItem;
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 
+import com.ashokvarma.bottomnavigation.TextBadgeItem;
 import com.bolex.autoEx.AutoEx;
 import com.by_syk.lib.nanoiconpack.dialog.ApplyDialog;
 import com.by_syk.lib.nanoiconpack.fragment.AppsFragment;
@@ -79,13 +78,13 @@ public class MainActivity extends AppCompatActivity
 
     private int prevPagePos = 0;
 
-    private BadgeItem mBadgeItemLost = new BadgeItem();
-    private BadgeItem mBadgeItemNew = new BadgeItem();
-    private BadgeItem mBadgeItemWallpaper = new BadgeItem();
-    private BadgeItem mBadgeItemMatched = new BadgeItem();
-    private BadgeItem mBadgeItemAll = new BadgeItem();
+    private TextBadgeItem mBadgeItemLost = new TextBadgeItem();
+    private TextBadgeItem mBadgeItemNew = new TextBadgeItem();
+    private TextBadgeItem mBadgeItemWallpaper = new TextBadgeItem();
+    private TextBadgeItem mBadgeItemMatched = new TextBadgeItem();
+    private TextBadgeItem mBadgeItemAll = new TextBadgeItem();
 
-    private BadgeItem[] mBaseBadge = new BadgeItem[]{mBadgeItemLost, mBadgeItemNew, mBadgeItemWallpaper, mBadgeItemMatched, mBadgeItemAll};
+    private TextBadgeItem[] mBaseBadge = new TextBadgeItem[]{mBadgeItemLost, mBadgeItemNew, mBadgeItemWallpaper, mBadgeItemMatched, mBadgeItemAll};
 
 /*    private NavigationView navigationView;
     private DrawerLayout drawerLayout;*/
@@ -119,7 +118,7 @@ public class MainActivity extends AppCompatActivity
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
 
         /* 初始化BadgeItem */
-        for (BadgeItem aBaseBadge : mBaseBadge) {
+        for (TextBadgeItem aBaseBadge : mBaseBadge) {
             aBaseBadge.setBorderWidth(4)
                     .setAnimationDuration(200)
                     .setBackgroundColor(Color.RED)
@@ -133,11 +132,11 @@ public class MainActivity extends AppCompatActivity
 
         bottomNavigationView.setBackgroundStyle(BottomNavigationBar.BACKGROUND_STYLE_STATIC);
         //bottomNavigationView.setBarBackgroundColor(R.color.color_primary);
-        bottomNavigationView.addItem(new BottomNavigationItem(R.drawable.ic_nav_lost, R.string.nav_lost).setActiveColorResource(R.color.color_primary).setTextBadgeItem(mBadgeItemLost))
-                .addItem(new BottomNavigationItem(R.drawable.ic_action_new_dark, R.string.menu_whats_new).setActiveColorResource(R.color.color_primary).setTextBadgeItem(mBadgeItemNew))
-                .addItem(new BottomNavigationItem(R.drawable.ic_nav_wallpaper, getString(R.string.nav_wallpaper)).setActiveColorResource(R.color.color_primary).setTextBadgeItem(mBadgeItemWallpaper))//wallpaper
-                .addItem(new BottomNavigationItem(R.drawable.ic_nav_matched, R.string.nav_matched).setActiveColorResource(R.color.color_primary).setTextBadgeItem(mBadgeItemMatched))
-                .addItem(new BottomNavigationItem(R.drawable.ic_nav_all, R.string.nav_all).setActiveColorResource(R.color.color_primary).setTextBadgeItem(mBadgeItemAll))
+        bottomNavigationView.addItem(new BottomNavigationItem(R.drawable.ic_nav_lost, R.string.nav_lost).setActiveColorResource(R.color.color_primary).setBadgeItem(mBadgeItemLost))
+                .addItem(new BottomNavigationItem(R.drawable.ic_action_new_dark, R.string.menu_whats_new).setActiveColorResource(R.color.color_primary).setBadgeItem(mBadgeItemNew))
+                .addItem(new BottomNavigationItem(R.drawable.ic_nav_wallpaper, getString(R.string.nav_wallpaper)).setActiveColorResource(R.color.color_primary).setBadgeItem(mBadgeItemWallpaper))//wallpaper
+                .addItem(new BottomNavigationItem(R.drawable.ic_nav_matched, R.string.nav_matched).setActiveColorResource(R.color.color_primary).setBadgeItem(mBadgeItemMatched))
+                .addItem(new BottomNavigationItem(R.drawable.ic_nav_all, R.string.nav_all).setActiveColorResource(R.color.color_primary).setBadgeItem(mBadgeItemAll))
                 .setFirstSelectedPosition(1)
                 .initialise();
         /* create by morirain 2018/5/4 : 这是申请适配的按钮 */
