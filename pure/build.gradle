@@ -19,7 +19,7 @@ android {
         applicationId "me.morirain.dev.iconpack.pure"
         minSdkVersion Integer.parseInt(project.MIN_SDK_VERSION)
         targetSdkVersion Integer.parseInt(project.TARGET_SDK_VERSION)
-        versionCode 1805130129
+        versionCode 1805130130
         // Version name format: [version].[num_of_icons]
         versionName '5.13 Mother\'s Day'
         //resConfigs "en", "zh", "it"
@@ -27,7 +27,7 @@ android {
     buildTypes {
         release {
             shrinkResources false // Keep false, or icons in /drawable-nodpi/ will become black.
-            minifyEnabled true
+            minifyEnabled false
             zipAlignEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 
