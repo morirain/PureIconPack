@@ -27,8 +27,7 @@ android {
     buildTypes {
         release {
             shrinkResources false // Keep false, or icons in /drawable-nodpi/ will become black.
-            minifyEnabled false
-            zipAlignEnabled true
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 
             // For formatting apk file name, like com.by_syk.template_v1.0.0(17012500).apk
@@ -56,8 +55,8 @@ android {
 
 
 dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     testCompile 'junit:junit:4.12'
     compile project(':nanoiconpack')
 }
