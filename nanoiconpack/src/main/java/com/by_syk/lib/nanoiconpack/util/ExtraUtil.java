@@ -402,8 +402,8 @@ public class ExtraUtil {
         File picDir = new File(Environment.getExternalStoragePublicDirectory(Environment
                 .DIRECTORY_PICTURES), "Icons");
         // Make sure the Pictures directory exists.
-        if (!picDir.mkdirs()) {
-            return false;
+        if (!picDir.exists()) {
+            picDir.mkdirs();
         }
         File targetFile = new File(picDir, "ic_" + name + "_"
                 + bitmap.getByteCount() + ".png");
