@@ -2,7 +2,14 @@ apply plugin: 'com.android.application'
 
 
 android {
-
+    signingConfigs {
+        signing {
+            keyAlias 'morirain'
+            keyPassword 'morirain'
+            storeFile file('C:/Users/Administrator/morirainkey.jks')
+            storePassword 'morirain'
+        }
+    }
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES'
         exclude 'META-INF/NOTICE'
@@ -23,14 +30,25 @@ android {
         // Version name format: [version].[num_of_icons]
         versionName '5.13 Mother\'s Day'
         //resConfigs "en", "zh", "it"
+        signingConfig signingConfigs.signing
     }
     buildTypes {
+        debug {
+            shrinkResources false
+            android.applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null) {
+                        def fileName = "${defaultConfig.applicationId}_v${defaultConfig.versionName}(${defaultConfig.versionCode}).apk"
+                        outputFileName = fileName
+                    }
+                }
+            }
+            signingConfig signingConfigs.signing
+        }
         release {
             shrinkResources false // Keep false, or icons in /drawable-nodpi/ will become black.
-            minifyEnabled false
-            zipAlignEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-
             // For formatting apk file name, like com.by_syk.template_v1.0.0(17012500).apk
             android.applicationVariants.all { variant ->
                 variant.outputs.all { output ->
@@ -41,6 +59,7 @@ android {
                     }
                 }
             }
+            signingConfig signingConfigs.signing
         }
     }
     lintOptions {
@@ -56,8 +75,8 @@ android {
 
 
 dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
-    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile project(':nanoiconpack')
+    implementation project(':nanoiconpack')
 }

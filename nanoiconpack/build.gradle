@@ -36,7 +36,7 @@ dependencies {
     compile 'com.github.by-syk:GlobalToast:1.2.2'
     compile 'com.github.by-syk:SP:1.0.9'
     // RecyclerView-FastScroll: https://github.com/timusus/RecyclerView-FastScroll
-    compile 'com.simplecityapps:recyclerview-fastscroll:1.0.11'
+    compile 'com.simplecityapps:recyclerview-fastscroll:1.0.18'
     // Alipay ZeroSdk: https://github.com/fython/AlipayZeroSdk
     //    compile 'moe.feng:AlipayZeroSdk:1.1'
     // QRGen: https://github.com/kenglxn/QRGen
