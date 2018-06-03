@@ -6119,7 +6119,7 @@
     <item component="ComponentInfo{com.phoenixstudios.aiogestures/com.phoenixstudios.aiogestures.SplashScreen}" drawable="gestures" />
     <!-- Build: samsung / SM-G9550 -->
     <!-- 提醒 / Reminder -->
-    <item component="ComponentInfo{com.samsung.android.app.reminder/com.samsung.android.app.reminder.ui.LaunchMainActivity}" drawable="samsung_reminder" />
+    <item component="ComponentInfo{com.samsung.android.app.reminder/com.samsung.android.app.reminder.ui.LaunchMainActivity}" drawable="samsung_not" />
     <!-- Citymapper / Citymapper -->
     <item component="ComponentInfo{com.citymapper.app.release/com.citymapper.app.MainActivity}" drawable="citymapper" />
     <!-- 讯飞语记 / VoiceNote -->
@@ -6502,6 +6502,227 @@
     <item component="ComponentInfo{com.chaoxing.mobile/com.chaoxing.mobile.activity.SplashActivity}" drawable="xxt" />
     <!-- DaumCafe / DaumCafe -->
     <item component="ComponentInfo{net.daum.android.cafe/net.daum.android.cafe.activity.init.InitActivity}" drawable="daum_cafe" />
+    <!-- 爱交院 / 爱交院 -->
+    <item component="ComponentInfo{com.wisdomschool.stu/com.wisdomschool.stu.ui.activities.LauncherActivity}" drawable="wisdomschool" />
+    <!-- 青岛银行 / 青岛银行 -->
+    <item component="ComponentInfo{com.rytong.bankqd/com.rytong.bankqd.MainActivity}" drawable="qdyh" />
+    <!-- 运动宝 / 运动宝 -->
+    <item component="ComponentInfo{com.zhuoyou.plugin.runningyundongbao/com.xdd.tenp.ActivityLogin}" drawable="yundongbao" />
+    <!-- Geometry Dash / Geometry Dash -->
+    <item component="ComponentInfo{com.robtopx.geometryjump/com.robtopx.geometryjump.GeometryJump}" drawable="game_geometry_dash" />
+    <!-- 大角虫漫画 / 大角虫漫画 -->
+    <item component="ComponentInfo{cn.kidstone.cartoon/cn.kidstone.cartoon.StartApp}" drawable="dajiaochong" />
+    <!-- 快牙 / Zapya -->
+    <item component="ComponentInfo{com.dewmobile.kuaiya.play/com.dewmobile.kuaiya.act.DmStartupActivity}" drawable="kuaiya" />
+    <!-- 小磁力BT Pro / Little Magnet BT Pro -->
+    <item component="ComponentInfo{io.github.skyhacker2.magnetsearchpro/io.github.skyhacker2.magnetsearch.SplashActivity}" drawable="xiaocili" />
+    <!-- 影音先锋 / Xfplay -->
+    <item component="ComponentInfo{com.xfplay.play/com.xabber.android.ui.activity.LoadActivity}" drawable="xfplay" />
+    <!-- 异次元通讯 / 异次元通讯 -->
+    <item component="ComponentInfo{com.rekall.extramessage/com.rekall.extramessage.base.SplashScreenActivity}" drawable="game_yiciyuantongxun" />
+    <!-- 南宁轨道交通 / 南宁轨道交通 -->
+    <item component="ComponentInfo{com.nngdjt.app/com.nngdjt.app.m00_welcome.LaunchActivity}" drawable="nngdjt" />
+    <!-- 无他相机 / WutaCam -->
+    <item component="ComponentInfo{com.benqu.wuta/com.benqu.wuta.activities.splash.SplashActivity}" drawable="wuta" />
+    <!-- 长江e号 / 长江e号 -->
+    <item component="ComponentInfo{com.eno.android.cj.page/com.eno.android.cj.page.Activity_login}" drawable="cjeh" />
+    <!-- 国盛乐金宝 / 国盛乐金宝 -->
+    <item component="ComponentInfo{com.hundsun.stockwinner.gszq/com.hundsun.winner.application.hsactivity.splash.SplashActivity}" drawable="gsljb" />
+    <!-- Hi-Fi Cast / Hi-Fi Cast -->
+    <item component="ComponentInfo{com.findhdmusic.app.upnpcast/com.findhdmusic.app.upnpcast.MainActivity}" drawable="hi_fi_cast" />
+    <!-- Lite / Messenger Lite -->
+    <item component="ComponentInfo{com.facebook.mlite/com.facebook.mlite.coreui.view.MainActivity}" drawable="messenger_lite" />
+    <!-- 一言 / 一言 -->
+    <item component="ComponentInfo{com.hitokoto/com.hitokoto.ui.MainActivity}" drawable="yiyan" />
+    <!-- TapTap / null -->
+    <item component="ComponentInfo{com.taptap/com.play.taptap.ui.SplashAct}" drawable="taptap" />
+    <!-- MT论坛 / MT论坛 -->
+    <item component="ComponentInfo{cc.binmt.bbs.v2/cc.binmt.bbs.MainActivity}" drawable="mtluntan" />
+    <!-- 我爱网 / 我爱网 -->
+    <item component="ComponentInfo{com.qzone520.qqmusic/com.qzone520.qqmusic.welcome}" drawable="woaiwang" />
+    <!-- Garanti Cep / Garanti Cep -->
+    <item component="ComponentInfo{com.garanti.cepsubesi/com.garanti.pfm.activity.SplashScreenActivity}" drawable="garanti_cep" />
+    <!-- 日子 / 日子 -->
+    <item component="ComponentInfo{com.chenupt.memory/com.chenupt.memory.launch.SplashActivity}" drawable="chenupt_memory" />
+    <!-- Xperia助手 / Xperia Assist -->
+    <item component="ComponentInfo{com.sonymobile.assist/com.sonymobile.assist.AssistMainActivity}" drawable="sony_assist" />
+    <!-- Build: samsung / SM-G950F -->
+    <!-- 天气 / Weather -->
+    <item component="ComponentInfo{com.sec.android.daemonapp/com.samsung.android.weather.app.AppLauncherActivity}" drawable="samsung_weather" />
+    <!-- 浪Live / 浪Live -->
+    <item component="ComponentInfo{com.lang.lang/com.lang.lang.ui.activity.WelcomeActivity}" drawable="lang" />
+    <!-- 天使动漫论坛 / 天使动漫论坛 -->
+    <item component="ComponentInfo{net.tsdm.tut/net.tsdm.tut.MainActivity}" drawable="tsdmbbs" />
+
+    <!-- 51信用卡管家 / 51信用卡管家 -->
+    <item component="ComponentInfo{com.zhangdan.app/com.zhangdan.app.activities.SplashActivity}" drawable="xykgj" />
+    <!-- 试客联盟 / 试客联盟 -->
+    <item component="ComponentInfo{com.shikee.shikeeapp/com.shikee.ui.activity.SplashActivity}" drawable="sklm" />
+    <!-- OneVPN / OneVPN -->
+    <item component="ComponentInfo{pro.onevpn.onevpnandroid/pro.onevpn.onevpnandroid.controller.MainActivity}" drawable="one_vpn" />
+    <!-- 换机助手 / Migratool -->
+    <item component="ComponentInfo{com.meizu.datamigration/com.meizu.datamigration.capture.DataMigrationActivity}" drawable="flyme_migratool" />
+    <!-- 章鱼 / 章鱼 -->
+    <item component="ComponentInfo{com.zhangyu/com.zhangyu.activity.ZYTVWelcomeActivity}" drawable="zhangyu" />
+    <!-- 绅士先生 / 绅士先生 -->
+    <item component="ComponentInfo{cn.soloho.oraclebb/cn.soloho.oraclebb.view.SplashActivity}" drawable="shenshixianshen" />
+
+    <!-- 微信群消息助手 / 微信群消息助手 -->
+    <item component="ComponentInfo{com.zdy.project.wechat_chatroom_helper/com.zdy.project.wechat_chatroom_helper.LauncherDelegate}" drawable="wechat_chatroom_helper" />
+    <!-- Brook / Brook -->
+    <item component="ComponentInfo{com.txthinking.brook/com.txthinking.brook.MainActivity}" drawable="brook" />
+    <!-- 苏宁推客 / 苏宁推客 -->
+    <item component="ComponentInfo{com.suning.mobile.microshop/com.suning.mobile.microshop.base.initial.InitialActivity}" drawable="tuike" />
+    <!-- Share / Share -->
+    <item component="ComponentInfo{com.hengye.share/com.hengye.share.Launcher5}" drawable="share_weibo" />
+    <!-- 健康通 / 健康通 -->
+    <item component="ComponentInfo{com.ylzinfo.ylzpayment/com.stub.plugin.Stub01}" drawable="jiankangtong" />
+    <!-- e福州 / e福州 -->
+    <item component="ComponentInfo{com.digitalchina.mobile.dfhfz1/com.systoon.toon.user.login.view.WelcomeActivity}" drawable="efuzhou" />
+    <!-- Build: LeEco / Le X820 -->
+    <!-- 系统更新 / System Update -->
+    <item component="ComponentInfo{com.letv.android.ota/com.letv.android.ota.LeSystemUpgrade}" drawable="sys_update" />
+    <!-- Psnine / Psnine -->
+    <item component="ComponentInfo{com.psnine/com.psnine.MainActivity}" drawable="psnine" />
+    <!-- 名片全能王 / CamCard -->
+    <item component="ComponentInfo{com.intsig.BizCardReader/com.intsig.camcard.BcrFirstLaunchGuide}" drawable="biz_card_reader" />
+    <!-- 链家 / 链家 -->
+    <item component="ComponentInfo{com.homelink.android/com.homelink.android.SplashScreenActivity}" drawable="homelink" />
+    <!-- 小方 / 小方 -->
+    <item component="ComponentInfo{com.foundersc.app.xf/com.foundersc.app.intro.XFAppIntro}" drawable="fangzheng" />
+    <!-- 夜间护眼 / 夜间护眼 -->
+    <item component="ComponentInfo{com.chenai.ieyes/com.chenai.eyesij.act.MainAct}" drawable="chenai_ieyes" />
+    <!-- CONNECTION / CONNECTION -->
+    <item component="ComponentInfo{com.infinitygames.connection/com.unity3d.player.UnityPlayerActivity}" drawable="game_connection" />
+    <!-- 猫耳FM / 猫耳FM -->
+    <item component="ComponentInfo{cn.missevan/cn.missevan.activity.MainActivity}" drawable="mefm" />
+    <!-- Internet beta / Samsung Internet Beta -->
+    <item component="ComponentInfo{com.sec.android.app.sbrowser.beta/com.sec.android.app.sbrowser.SBrowserMainActivity}" drawable="samsung_browser_beta" />
+    <!-- AutomaTag / AutomaTag -->
+    <item component="ComponentInfo{com.fillobotto.mp3tagger/activities.MainActivity}" drawable="automa_tag" />
+    <!-- Bitwarden / null -->
+    <item component="ComponentInfo{com.x8bit.bitwarden/md5fb78b69c5ddbc157f4db38fd738139a6.SplashActivity}" drawable="bitwarden" />
+    <!-- Edmodo / Edmodo -->
+    <item component="ComponentInfo{com.fusionprojects.edmodo/com.edmodo.authenticate.SplashActivity}" drawable="edmodo" />
+    <!-- Portal / Portal -->
+    <item component="ComponentInfo{com.pushbullet.android.portal/com.pushbullet.android.portal.ui.LaunchActivity}" drawable="portal" />
+    <!-- ProtonVPN / ProtonVPN -->
+    <item component="ComponentInfo{com.protonvpn.android/com.protonvpn.android.ui.onboarding.SplashActivity}" drawable="proton_vpn" />
+    <!-- Tasks / Tasks -->
+    <item component="ComponentInfo{com.google.android.apps.tasks/com.google.android.apps.tasks.ui.TaskListsActivity}" drawable="google_tasks" />
+    <!-- SystemUI Tuner / SystemUI Tuner -->
+    <item component="ComponentInfo{com.zacharee1.systemuituner/com.zacharee1.systemuituner.LauncherActivity}" drawable="system_ui_tuner" />
+    <!-- 照片扫描仪 / PhotoScan -->
+    <item component="ComponentInfo{com.google.android.apps.photos.scanner/com.google.android.apps.photos.scanner.home.HomeActivity}" drawable="google_photo_scan" />
+    <!-- 智能助理 / Assistant -->
+    <item component="ComponentInfo{com.google.android.apps.googleassistant/com.google.android.apps.googleassistant.AssistantActivity}" drawable="google_assistant" />
+    <!-- UZER.ME / UZER.ME -->
+    <item component="ComponentInfo{com.xietong.uzerme/com.xietong.uzerme.LoginActivity}" drawable="uzer_me" />
+    <!-- 向日葵远程控制 / Sunlogin Remote Control -->
+    <item component="ComponentInfo{com.oray.sunlogin/com.oray.sunlogin.application.Main}" drawable="sunlogin_remote_control" />
+    <!-- Wifi分析助手 / Wifi Analyzer -->
+    <item component="ComponentInfo{io.github.jackzrliu.wificonsultant/io.github.jackzrliu.wificonsultant.view.activity.SplashActivity}" drawable="wifi_analyzer" />
+    <!-- 相机 / Camera -->
+    <item component="ComponentInfo{com.google.android.Pixel2Mod/com.android.camera.CameraLauncher}" drawable="google_camera" />
+    <!-- Build: ZUK / ZUK Z2131 -->
+    <!-- 点唱机 / Phonograph -->
+    <item component="ComponentInfo{com.kabouzeid.gramophone.pro/com.kabouzeid.gramophone.ui.activities.MainActivity}" drawable="phonograph" />
+    <!-- Stitch / Stitch -->
+    <item component="ComponentInfo{com.inklin.stitch/com.inklin.stitch.SplashActivity}" drawable="stitch" />
+    <!-- 智友 / null -->
+    <item component="ComponentInfo{com.zhiyoo.A9/com.zhiyoo.A9.ui.MainActivity}" drawable="zhiyoo" />
+    <!-- 小磁力BT / Little Magnet BT -->
+    <item component="ComponentInfo{io.github.skyhacker2.magnetsearch/io.github.skyhacker2.magnetsearch.SplashActivity}" drawable="xiaocili" />
+    <!-- 戒烟军团 / 戒烟军团 -->
+    <item component="ComponentInfo{com.nxnresearch/com.nxnresearch.activitys.FirstActivity}" drawable="jieyanjuntuan" />
+    <!-- 天天中彩票 / 天天中彩票 -->
+    <item component="ComponentInfo{com.zhongcai500/com.host.ui.InitActivity}" drawable="tiantianzhongcaipiao" />
+    <!-- 小米贷款 / 小米贷款 -->
+    <item component="ComponentInfo{com.xiaomi.loan/com.xiaomi.jr.MiFinanceActivity}" drawable="mi_daikuan" />
+    <!-- 搜狐视频 / Sohu TV -->
+    <item component="ComponentInfo{com.sohu.sohuvideo/com.sohu.sohuvideo.ui.MainActivity}" drawable="sohu_video" />
+    <!-- Build: Lenovo / Lenovo A6020l36 -->
+    <!-- Bússola / Compass -->
+    <item component="ComponentInfo{com.wingtech.compass/com.wingtech.compass.CompassActivity}" drawable="compass" />
+
+    <!-- Build: Lenovo / Lenovo A6020l36 -->
+    <!-- Calculadora / Calculator -->
+    <item component="ComponentInfo{com.wingtech.calc/com.wingtech.calc.Calculator}" drawable="calculator" />
+    <!-- Build: Lenovo / Lenovo A6020l36 -->
+    <!-- Galeria / Gallery -->
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.PermissionActivity}" drawable="gallery" />
+    <!-- Build: Lenovo / Lenovo A6020l36 -->
+    <!-- Rádio FM / FM Radio -->
+    <item component="ComponentInfo{com.wingtech.fmradio/com.wingtech.fmradio.FMRadio}" drawable="fm_radio" />
+    <!-- Build: Lenovo / Lenovo A6020l36 -->
+    <!-- SYNCit / SYNCit -->
+    <item component="ComponentInfo{com.lenovo.leos.cloud.sync.row/com.lenovo.leos.cloud.sync.row.common.activity.SplashScreenActivity}" drawable="lenovo_syncit" />
+    <!-- Booster / Booster -->
+    <item component="ComponentInfo{com.speed.boost.booster/com.keniu.security.main.NewMainActivity}" drawable="booster" />
+    <!-- Letras / Letras -->
+    <item component="ComponentInfo{com.studiosol.player.letras/com.studiosol.player.letras.Activities.MainActivity}" drawable="letras" />
+    <!-- 公信宝 / 公信宝 -->
+    <item component="ComponentInfo{com.gxb.wallet.app/com.gxb.sdk.showcase.LanuchActivity}" drawable="gongxinbao" />
+    <!-- 情侣空间 / 情侣空间 -->
+    <item component="ComponentInfo{com.welove520.qqsweet/com.welove520.welove.LaunchActivity}" drawable="welove520" />
+
+    <!-- Build: HONOR / DUK-AL20 -->
+    <!-- 游戏助手 / Game Suite -->
+    <item component="ComponentInfo{com.huawei.gameassistant/com.huawei.gameassistant.views.GameassistantMainActivity}" drawable="huawei_game_assistant" />
+    <!-- 皇室战争 / Clash Royale -->
+    <item component="ComponentInfo{com.supercell.clashroyale.kunlun/com.supercell.clashroyale.GameAppKunlun}" drawable="game_cr" />
+    <!-- VLC / VLC -->
+    <item component="ComponentInfo{org.videolan.vlc.betav7neon/org.videolan.vlc.betav7neon.gui.MainActivity}" drawable="vlc" />
+    <!-- JMobile / JMobile -->
+    <item component="ComponentInfo{com.jeunesseglobal.JMobile/com.tradeweb.mainSDK.Activities.MainActivity}" drawable="jmobile" />
+    <!-- Build: Xiaomi / Redmi 3X -->
+    <!-- 极光设置 / 极光设置 -->
+    <item component="ComponentInfo{com.aurora.h30l01settings/com.aurora.checl10settings.MainActivity}" drawable="aurora_setting" />
+    <!-- iHeartRadio / iHeartRadio -->
+    <item component="ComponentInfo{com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.controller.activities.NavDrawerActivity}" drawable="i_heart_radio" />
+    <!-- 全能车 / 全能车 -->
+    <item component="ComponentInfo{com.qnche/com.qnche.ui.activity.main.WelcomeActivity}" drawable="qnche" />
+    <!-- Build: vivo / vivo Y66 -->
+    <!-- 使用技巧 / Tips -->
+    <item component="ComponentInfo{com.vivo.Tips/com.vivo.Tips.MainActivity}" drawable="vivo_tips" />
+    <!-- Betternet / Betternet -->
+    <item component="ComponentInfo{com.freevpnintouch/com.pages.Starter}" drawable="betternet" />
+    <!-- Talon / Talon -->
+    <item component="ComponentInfo{com.klinker.android.twitter_l/com.klinker.android.twitter_l.activities.MainActivity}" drawable="talon" />
+    <!-- Traveloka / Traveloka -->
+    <item component="ComponentInfo{com.traveloka.android/com.traveloka.android.appentry.splash.SplashActivity}" drawable="traveloka" />
+    <!-- Keyboard SwiftKey / SwiftKey Keyboard -->
+    <item component="ComponentInfo{com.touchtype.swiftkey/com.touchtype.LauncherActivityIcon}" drawable="swiftkey_input" />
+    <!-- Keamanan Trustlook / Trustlook Security -->
+    <item component="ComponentInfo{com.trustlook.antivirus.pro/com.trustlook.antivirus.main.MainActivity}" drawable="trustlook_security" />
+    <!-- Grab / Grab -->
+    <item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.Home}" drawable="grab" />
+    <!-- Build: OPPO / CPH1701 -->
+    <!-- Tema / Theme Store -->
+    <item component="ComponentInfo{com.nearme.themespace/com.nearme.themespace.activities.ThemeActivity}" drawable="vivo_theme" />
+    <!-- Build: OPPO / CPH1701 -->
+    <!-- Video / Video -->
+    <item component="ComponentInfo{com.coloros.video/com.oppo.video.VideoListActivity}" drawable="video" />
+    <!-- FreeAppsNow / FreeAppsNow -->
+    <item component="ComponentInfo{com.tourbillon.freeappsnow/com.tourbillon.freeappsnow.MainActivity}" drawable="free_apps_now" />
+    <!-- Rappler / Rappler -->
+    <item component="ComponentInfo{com.rappler.RapplerMobile/com.rappler.RapplerMobile.activity.SplashActivity}" drawable="rappler" />
+    <!-- FreeFlix HQ / FreeFlix HQ -->
+    <item component="ComponentInfo{tonybits.com.ffhq/tonybits.com.ffhq.activities.SplashScreenActivity}" drawable="free_flix_hq" />
+    <!-- Shazam / Shazam -->
+    <item component="ComponentInfo{com.shazam.android/com.shazam.android.activities.SplashActivity}" drawable="shazam" />
+    <!-- Build: HUAWEI / BLA-L29 -->
+    <!-- CNN / CNN -->
+    <item component="ComponentInfo{com.cnn.mobile.android.phone/com.cnn.mobile.android.phone.features.splash.SplashActivity}" drawable="cnn" />
+
+
+
+
+
+
+
+
+
 
 
 

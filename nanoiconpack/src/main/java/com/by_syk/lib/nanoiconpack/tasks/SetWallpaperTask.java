@@ -161,6 +161,7 @@ public class SetWallpaperTask extends AsyncTask<Void, Void, Boolean> {
 
         Bitmap bmp = Bitmap.createBitmap(bitmap, 0, 0, w, h, matrix, true);
         int retX = (bmp.getWidth() / 2) - (sWidth / 2);
+        if (retX < 0 ) retX = 0;
         int retY = 0;
         return Bitmap.createBitmap(bmp, retX, retY, sWidth, sHeight, null, false);
     }

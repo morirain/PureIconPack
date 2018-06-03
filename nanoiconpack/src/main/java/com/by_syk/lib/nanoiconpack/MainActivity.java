@@ -38,7 +38,6 @@ import android.view.View;
 
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
-
 import com.ashokvarma.bottomnavigation.TextBadgeItem;
 import com.bolex.autoEx.AutoEx;
 import com.by_syk.lib.nanoiconpack.dialog.ApplyDialog;
