@@ -26,7 +26,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v4.view.animation.FastOutSlowInInterpolator;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -39,7 +38,6 @@ import android.view.View;
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 import com.ashokvarma.bottomnavigation.TextBadgeItem;
-import com.bolex.autoEx.AutoEx;
 import com.by_syk.lib.nanoiconpack.dialog.ApplyDialog;
 import com.by_syk.lib.nanoiconpack.fragment.AppsFragment;
 import com.by_syk.lib.nanoiconpack.fragment.IconsFragment;
@@ -53,8 +51,6 @@ import com.by_syk.lib.nanoiconpack.util.PkgUtil;
 import com.by_syk.lib.nanoiconpack.util.SimplePageTransformer;
 import com.by_syk.lib.nanoiconpack.util.adapter.AppAdapter;
 import com.by_syk.lib.sp.SP;
-
-import uk.co.samuelwall.materialtaptargetprompt.MaterialTapTargetPrompt;
 
 /**
  * Created by By_syk on 2016-07-16.
@@ -99,13 +95,10 @@ public class MainActivity extends AppCompatActivity
 
     private void init() {
         PACKAGE_NAME = getApplicationContext().getPackageName();
-
-        if (false) {
+        if (BuildConfig.DEBUG) {
             // Enable logging
             LogUtil.setLoggingTag(getString(R.string.app_name));
             LogUtil.setLoggingEnabled(true);
-            // Enable AutoEx
-            AutoEx.apply();
         }
 
         sp = new SP(this);
@@ -271,7 +264,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void showReqPrompt() {
-        (new MaterialTapTargetPrompt.Builder(this))
+        /*(new MaterialTapTargetPrompt.Builder(this))
                 //.setTarget(bottomNavigationView.findViewById(R.id.nav_lost))
                 .setPrimaryText(getString(R.string.prompt_req))
                 .setSecondaryText(getString(R.string.prompt_req_desc))
@@ -279,7 +272,7 @@ public class MainActivity extends AppCompatActivity
                 .setAutoDismiss(false)
                 .setCaptureTouchEventOutsidePrompt(true)
                 .setAnimationInterpolator(new FastOutSlowInInterpolator())
-                .show();
+                .show();*/
     }
 
     private void enterConsole() {
