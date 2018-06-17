@@ -6714,6 +6714,8 @@
     <!-- Build: HUAWEI / BLA-L29 -->
     <!-- CNN / CNN -->
     <item component="ComponentInfo{com.cnn.mobile.android.phone/com.cnn.mobile.android.phone.features.splash.SplashActivity}" drawable="cnn" />
+    <!-- Month / null -->
+    <item component="ComponentInfo{com.candl.chronos/com.candl.chronos.MainActivity}" drawable="month" />
 
 
 
