@@ -26,9 +26,9 @@ android {
         applicationId "me.morirain.dev.iconpack.pure"
         minSdkVersion Integer.parseInt(project.MIN_SDK_VERSION)
         targetSdkVersion Integer.parseInt(project.TARGET_SDK_VERSION)
-        versionCode 1806030132
+        versionCode 1806180136
         // Version name format: [version].[num_of_icons]
-        versionName '5.20 Grain in Ear'
+        versionName '5.21 Dragon Boat Festival'
         //resConfigs "en", "zh", "it"
         signingConfig signingConfigs.signing
     }
