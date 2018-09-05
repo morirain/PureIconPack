@@ -63,6 +63,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import retrofit2.Call;
 
@@ -90,11 +92,15 @@ public class AppsFragment extends Fragment {
 
     private OnLoadDoneListener onLoadDoneListener;
 
+    private ExecutorService mThreadPool = Executors.newCachedThreadPool();
+
     public interface OnLoadDoneListener {
         void onLoadDone(int pageId, int sum);
     }
 
-    /** create by morirain 2018/5/5 */
+    /**
+     * create by morirain 2018/5/5
+     */
     /* fab的onInitAdapter回调 */
     private OnInitAdapterListener onInitAdapterListener;
 
@@ -127,8 +133,10 @@ public class AppsFragment extends Fragment {
         super.onAttach(context);
 
         /* create by morirain 2018/5/5 : 简化代码 设置 onInitAdapterListener */
-        if (context instanceof OnLoadDoneListener) onLoadDoneListener = (OnLoadDoneListener) context;
-        if (context instanceof OnInitAdapterListener) onInitAdapterListener = (OnInitAdapterListener) context;
+        if (context instanceof OnLoadDoneListener)
+            onLoadDoneListener = (OnLoadDoneListener) context;
+        if (context instanceof OnInitAdapterListener)
+            onInitAdapterListener = (OnInitAdapterListener) context;
     }
 
     @Nullable
@@ -160,10 +168,10 @@ public class AppsFragment extends Fragment {
             @Override
             public void onReqIcon(int pos, AppBean bean) {
                 //if (ExtraUtil.isNetworkConnected(getContext())) {
-                    /* 申请适配的主事件 传入参数为Item位置 长按时出现的菜单实际也是调用此处 */
-                    //(new SubmitReqTask(pos)).execute();
-                    /* 由于申请适配的方式改变 所以注释了这里的代码 */
-                    /* 现在改为选中CheckBox */
+                /* 申请适配的主事件 传入参数为Item位置 长按时出现的菜单实际也是调用此处 */
+                //(new SubmitReqTask(pos)).execute();
+                /* 由于申请适配的方式改变 所以注释了这里的代码 */
+                /* 现在改为选中CheckBox */
                 //} else {
                 //    GlobalToast.show(getContext(), R.string.toast_no_net_no_req);
                 //}
@@ -188,6 +196,7 @@ public class AppsFragment extends Fragment {
 
         FastScrollRecyclerView recyclerView = contentView.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setFastScrollEnabled(false);
         //recyclerView.addItemDecoration(new DividerItemDecoration(getContext(),
         //        DividerItemDecoration.VERTICAL));
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
@@ -207,22 +216,32 @@ public class AppsFragment extends Fragment {
                 }
             }
         });
-        recyclerView.setStateChangeListener(new OnFastScrollStateChangeListener() {
+        recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
-            public void onFastScrollStart() {
-                if (lazyLoadTask != null) {
-                    lazyLoadTask.cancel(true);
-                    lazyLoadTask = null;
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+                LinearLayoutManager manager = (LinearLayoutManager) recyclerView.getLayoutManager();
+                // 正在滑动
+                if (newState == RecyclerView.SCROLL_STATE_DRAGGING) {
+                    if (lazyLoadTask != null) {
+                        lazyLoadTask.cancel(true);
+                        lazyLoadTask = null;
+                    }
                 }
+                // 当手松开
+                if (newState == RecyclerView.SCROLL_STATE_IDLE) {
+                    if (lazyLoadTask == null) {
+                        lazyLoadTask = new LazyLoadTask();
+                        lazyLoadTask.executeOnExecutor(mThreadPool, layoutManager.findFirstVisibleItemPosition(),
+                                layoutManager.findLastVisibleItemPosition());
+                    }
+                }
+
             }
 
             @Override
-            public void onFastScrollStop() {
-                if (lazyLoadTask == null) {
-                    lazyLoadTask = new LazyLoadTask();
-                    lazyLoadTask.execute(layoutManager.findFirstVisibleItemPosition(),
-                            layoutManager.findLastVisibleItemPosition());
-                }
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
             }
         });
 
@@ -235,7 +254,9 @@ public class AppsFragment extends Fragment {
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                (new LoadAppsTask()).execute(true);
+                // 原方法 (new LoadAppsTask()).execute(true);
+                // emm，直接execute会存在堵塞现象 导致doInBackground延迟执行 所以新建一个线程池 bug解决
+                (new LoadAppsTask()).executeOnExecutor(mThreadPool, true);
             }
         });
     }
@@ -301,6 +322,11 @@ public class AppsFragment extends Fragment {
 
         @Override
         protected List<AppBean> doInBackground(Boolean... booleans) {
+            try {
+                Thread.sleep(400);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             boolean forceRefresh = booleans.length > 0 && booleans[0];
             if (!forceRefresh && retainedFragment.isAppListSaved()) {
                 return retainedFragment.getAppList();
@@ -341,8 +367,6 @@ public class AppsFragment extends Fragment {
 
             appAdapter.refresh(list);
 
-            swipeRefreshLayout.setRefreshing(false);
-
             if (getUserVisibleHint()) {
                 handler.postDelayed(new Runnable() {
                     @Override
@@ -358,6 +382,16 @@ public class AppsFragment extends Fragment {
             }
 
             if (onLoadDoneListener != null) onLoadDoneListener.onLoadDone(pageId, list.size());
+
+            swipeRefreshLayout.setRefreshing(false);
+            // 主动启用lazyLoad
+            if (lazyLoadTask != null) {
+                lazyLoadTask.cancel(true);
+                lazyLoadTask = null;
+            }
+            lazyLoadTask = new LazyLoadTask();
+            lazyLoadTask.executeOnExecutor(mThreadPool, layoutManager.findFirstVisibleItemPosition(),
+                    layoutManager.findLastVisibleItemPosition());
         }
 
         private void removeMatched(@NonNull List<AppBean> appList) {

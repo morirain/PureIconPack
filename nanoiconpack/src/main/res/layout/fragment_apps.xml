@@ -27,7 +27,6 @@
         android:layout_height="match_parent">
 
         <com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView
-            style="@style/FastScroller"
             android:id="@+id/recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

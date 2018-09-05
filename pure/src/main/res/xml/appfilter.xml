@@ -7326,7 +7326,7 @@
 
     <!-- MIUI白噪音 / WhiteNoise -->
     <item component="ComponentInfo{com.miui.whitenoise/com.miui.whitenoise.MainActivity}" drawable="mi_white_noise" />
-    <!-- MIUI白噪音 / WhiteNoise -->
+    <!-- 大实验 -->
     <item component="ComponentInfo{com.BigSy.user/com.androlua.Welcome}" drawable="bigsy" />
     <!-- Down Dog / Down Dog -->
     <item component="ComponentInfo{com.downdogapp/com.downdogapp.AppActivity}" drawable="down_dog" />
@@ -7598,6 +7598,38 @@
     <item component="ComponentInfo{com.skt.tmap.ku/com.skt.tmap.activity.TmapIntroActivity}" drawable="t_map" />
     <!-- 메가박스 / 메가박스 -->
     <item component="ComponentInfo{com.megabox.mop/com.megabox.mop.activity.IntroActivity}" drawable="megabox" />
+    <!-- 斗鱼直播 / 斗鱼直播 -->
+    <item component="ComponentInfo{air.tv.douyu.android/tv.douyu.view.activity.launcher.DYLauncherActivity}" drawable="douyu_tv" />
+    <!-- 边缘任务切换 / 边缘任务切换 -->
+    <item component="ComponentInfo{com.gesture.s/com.gesture.s.OpenActivity}" drawable="byrwqh" />
+    <!-- 菜鸟裹裹 / null -->
+    <item component="ComponentInfo{com.cainiao.wireless/com.cainiao.wireless.homepage.presentation.view.activity.NewHomepageActivity}" drawable="cainiao" />
+    <!-- Gif 助手 / GIF Master -->
+    <item component="ComponentInfo{com.didikee.gifparser/android.didikee.gif.SplashActivity}" drawable="gif_master" />
+    <!-- 米聊 / Mi Talk -->
+    <item component="ComponentInfo{com.xiaomi.channel/com.xiaomi.channel.activity.SplashActivity}" drawable="mi_talk" />
+    <!-- Termux / Termux -->
+    <item component="ComponentInfo{com.termux/com.termux.app.TermuxActivity}" drawable="termux" />
+    <!-- PureIconPack Lite / PureIconPack Lite -->
+    <item component="ComponentInfo{me.morirain.dev.iconpack.pure.lite/me.morirain.dev.iconpack.pure.lite.LiteIconActivity}" drawable="pure_lite" />
+    <!-- 招商银行 / null -->
+    <item component="ComponentInfo{cmb.pb/cmb.pb.launch.PBInitActivity}" drawable="cmb" />
+    <!-- 中国银行 / 中国银行 -->
+    <item component="ComponentInfo{com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.buss.system.splash.SplashActivity}" drawable="bocmbci" />
+    <!-- 滴滴出行 / DiDi -->
+    <item component="ComponentInfo{com.sdu.didi.psnger/com.didi.sdk.app.launch.DidiLoadDexActivity}" drawable="didi" />
+    <!-- MikuTap / null -->
+    <item component="ComponentInfo{com.MyFusApp.MikuTap/com.androlua.Welcome}" drawable="miku_tap" />
+    <!-- Flyme社区 / Flyme社区 -->
+    <item component="ComponentInfo{com.meizu.flyme.flymebbs/com.meizu.flyme.flymebbs.ui.LoadingActivity}" drawable="flyme_bbs" />
+    <!-- Cuto / Cuto -->
+    <item component="ComponentInfo{com.sspai.cuto.android/com.sspai.cuto.android.ui.main.MainActivity}" drawable="pi_cuto" />
+    <!-- 中国建设银行 / 中国建设银行 -->
+    <item component="ComponentInfo{com.chinamworld.main/com.ccb.start.MainActivity}" drawable="ccb" />
+    <!-- Keep / Keep -->
+    <item component="ComponentInfo{com.gotokeep.keep/com.gotokeep.keep.splash.SplashActivity}" drawable="keep" />
+    <!-- 小米白噪音 / Mi Relax -->
+    <item component="ComponentInfo{com.miui.whitenoise/com.miui.whitenoise.HomeActivity}" drawable="mi_white_noise" />
 
 
 

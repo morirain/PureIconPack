@@ -41,6 +41,7 @@ import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Executors;
 
 /**
  * Created by By_syk on 2017-01-27.
@@ -84,10 +85,8 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
                 mRequestGroup.add(dataList.get(i));
             }
         }
-
-        new RequestIconTask(context, mRequestGroup).execute();
-
-        this.mCheckStates.clear();
+        mCheckStates.clear();
+        new RequestIconTask(context, mRequestGroup).executeOnExecutor(Executors.newCachedThreadPool());
         notifyDataSetChanged();
     }
 
@@ -144,27 +143,23 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.IconViewHolder>
                 }
             }
         });
-        if (mCheckStates.get(holder.getAdapterPosition()) != holder.cbCheckBox.isChecked()) {
+        // 这么明显的逻辑错误到底是谁写的?
+        /*if (mCheckStates.get(position) != holder.cbCheckBox.isChecked()) {
             holder.cbCheckBox.setChecked(false);
-            mCheckStates.put(holder.getAdapterPosition(), false);
-        }
+            mCheckStates.put(position, false);
+        }*/
+        holder.cbCheckBox.setChecked(mCheckStates.get(position, false));
 
         if (onItemClickListener != null) {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    int pos = holder.getAdapterPosition();
-                    //onClickAppsItem(pos, holder);
-                    /*if (enableStatsModule) {
-                        onItemClickListener.onReqIcon(pos, dataList.get(pos));
-                    } else {
-                        onItemClickListener.onCopyCode(pos, dataList.get(pos));
-                    }*/
-                    if (mCheckStates.get(pos, false)) {
-                        mCheckStates.put(pos, false);
+                    //int pos = holder.getAdapterPosition();
+                    if (mCheckStates.get(position, false)) {
+                        mCheckStates.put(position, false);
                         holder.cbCheckBox.setChecked(false);
                     } else {
-                        mCheckStates.put(pos, true);
+                        mCheckStates.put(position, true);
                         holder.cbCheckBox.setChecked(true);
                     }
 

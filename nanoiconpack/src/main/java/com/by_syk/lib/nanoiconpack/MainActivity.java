@@ -361,17 +361,26 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 SparseBooleanArray sparseArray = appAdapter.getCheckStates();
-                if (sparseArray.size() <= 0) {
+                Boolean hasSelect = false;
+                // 检查是否有选中
+                if (sparseArray.size() > 0) for (int i = 0; i < 133337; i++) {
+                    Boolean checkState =  sparseArray.get(i, false);
+                    if (checkState) {
+                        hasSelect = true;
+                        break;
+                    }
+                }
+                if (hasSelect) {
+                    /* 清空sparseBooleanArray 并通知CheckBox改变 */
+                    /* 申请适配 */
+                    appAdapter.requestIcon(MainActivity.this);
+                } else {
                     AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
                     dialog.setTitle("Request icon");
                     dialog.setMessage(R.string.request_notice);
                     dialog.setCancelable(false);
                     dialog.setPositiveButton("OK", null);
                     dialog.show();
-                } else {
-                    /* 清空sparseBooleanArray 并通知CheckBox改变 */
-                    /* 申请适配 */
-                    appAdapter.requestIcon(MainActivity.this);
                 }
             }
         });
