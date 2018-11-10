@@ -1,4 +1,4 @@
-/*
+ /*
  * Copyright (c) 2018. Jahir Fiquitiva
  *
  * Licensed under the CreativeCommons Attribution-ShareAlike
@@ -28,75 +28,87 @@ apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
-android {
-    compileSdkVersion versions.targetSdk
-    buildToolsVersion versions.buildTools
+ android {
+     signingConfigs {
+         morirain {
+             keyAlias 'morirain'
+             keyPassword 'morirain'
+             storeFile file('C:/Users/morir/morirainkey.jks')
+             storePassword 'morirain'
+         }
+     }
+     compileSdkVersion versions.targetSdk
+     buildToolsVersion versions.buildTools
 
-    applicationVariants.all { variant ->
-        variant.outputs.all { output ->
-            outputFileName = "MyBlueprintApp-v${variant.versionName}-${variant.name}.apk"
-        }
-    }
+     applicationVariants.all { variant ->
+         variant.outputs.all { output ->
+             outputFileName = "MyBlueprintApp-v${variant.versionName}-${variant.name}.apk"
+         }
+     }
 
-    lintOptions {
-        abortOnError false
-        checkReleaseBuilds false
-        disable 'MissingTranslation', 'GoogleAppIndexingWarning'
-    }
+     lintOptions {
+         abortOnError false
+         checkReleaseBuilds false
+         disable 'MissingTranslation', 'GoogleAppIndexingWarning'
+     }
 
-    defaultConfig {
-        // TODO: Remove comment marks to enable
-        /*
-        manifestPlaceholders = [onesignal_app_id               : "abcd-1234-efgh-5678",
-                                // Project number pulled from dashboard, local value is ignored.
-                                onesignal_google_project_number: "1234567890"]
-                                */
+     defaultConfig {
+         // TODO: Remove comment marks to enable
+         /*
+         manifestPlaceholders = [onesignal_app_id               : "abcd-1234-efgh-5678",
+                                 // Project number pulled from dashboard, local value is ignored.
+                                 onesignal_google_project_number: "1234567890"]
+                                 */
 
-        applicationId "jahirfiquitiva.apps.blueprint.demo"
-        minSdkVersion versions.minSdk
-        targetSdkVersion versions.targetSdk
-        versionCode 131
-        versionName "1.3.1"
-        vectorDrawables.useSupportLibrary = true
-        proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
-        consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
-    }
+         applicationId "me.morirain.dev.iconpack.pure"
+         minSdkVersion versions.minSdk
+         targetSdkVersion versions.targetSdk
+         versionCode 1811110222
+         versionName 'v7.0 double eleven'
+         vectorDrawables.useSupportLibrary = true
+         proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+         consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+     }
 
-    buildTypes {
-        release {
-            debuggable false
-            zipAlignEnabled true
-            minifyEnabled true
-            shrinkResources false
-            proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
-            consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
-        }
-    }
+     buildTypes {
+         release {
+             debuggable false
+             zipAlignEnabled true
+             minifyEnabled true
+             shrinkResources false
+             proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+             consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+             signingConfig signingConfigs.morirain
+         }
+         debug {
+             signingConfig signingConfigs.morirain
+         }
+     }
 
-    aaptOptions {
-        noCompress 'zw', 'zip', 'komp', 'klwp', 'kwgt', 'klck', 'kwch', 'xml'
-    }
+     aaptOptions {
+         noCompress 'zw', 'zip', 'komp', 'klwp', 'kwgt', 'klck', 'kwch', 'xml'
+     }
 
-    sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
-    }
+     sourceSets {
+         main.java.srcDirs += 'src/main/kotlin'
+     }
 
-    packagingOptions {
-        pickFirst 'META-INF/core_debug.kotlin_module'
-        pickFirst 'META-INF/core_release.kotlin_module'
-        pickFirst 'META-INF/library_debug.kotlin_module'
-        pickFirst 'META-INF/library_release.kotlin_module'
-    }
-}
+     packagingOptions {
+         pickFirst 'META-INF/core_debug.kotlin_module'
+         pickFirst 'META-INF/core_release.kotlin_module'
+         pickFirst 'META-INF/library_debug.kotlin_module'
+         pickFirst 'META-INF/library_release.kotlin_module'
+     }
+ }
 
-dependencies {
-    // Blueprint
-    implementation('com.jahirfiquitiva:Blueprint:1.3.1@aar') {
-        transitive = true
-    }
-    // TODO: Remove comment marks to enable
-    // implementation libraries.oneSignal
-}
+ dependencies {
+     // Blueprint
+     implementation('com.jahirfiquitiva:Blueprint:1.3.1@aar') {
+         transitive = true
+     }
+     // TODO: Remove comment marks to enable
+     // implementation libraries.oneSignal
+ }
 
 tasks.whenTaskAdded { task ->
     if (task.name.contains("lint") || task.name.contains("test")) {

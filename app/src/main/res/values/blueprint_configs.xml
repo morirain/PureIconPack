@@ -17,14 +17,14 @@
 <!--suppress CheckTagEmptyBody -->
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Icon Pack designer/owner e-mail -->
-    <string name="email">someone@email.com</string>
+    <string name="email">pure-iconpack@outlook.com</string>
 
     <!-- Mail subjects for simple e-mail and requests e-mail -->
-    <string name="email_subject">Blueprint</string>
-    <string name="request_title">Blueprint Icon Request</string>
+    <string name="email_subject">PureIconPack</string>
+    <string name="request_title">Icon Request</string>
 
     <!-- Strings for Wallpapers and Requests -->
-    <string name="request_save_location">%1$s/Blueprint/Requests/</string>
+    <string name="request_save_location">%1$s/PureIconPack/Requests/</string>
 
     <!--
         Do you want to show the general information in home section?
@@ -47,7 +47,7 @@
         Do you want the app to read the icons from res/xml/drawable.xml ? (true)
         Or do you prefer the icons to be loaded from res/values/icon_pack.xml ? (false)
     -->
-    <bool name="xml_drawable_enabled">false</bool>
+    <bool name="xml_drawable_enabled">true</bool>
 
 
     <!--
@@ -82,8 +82,8 @@
     If the time limit is set to 0 or less, users will be able to request as many times they want,
     with the max apps limit.
     -->
-    <integer name="max_apps_to_request">-1</integer>
-    <integer name="time_limit_in_minutes">0</integer>
+    <integer name="max_apps_to_request">5</integer>
+    <integer name="time_limit_in_minutes">60</integer>
 
     <!-- Leave empty to disable. A URL to an Arctic Request Manager server, e.g. https://arcticmanager.com -->
     <string name="arctic_backend_host"></string>
