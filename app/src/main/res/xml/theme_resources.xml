@@ -28,6 +28,8 @@
     <DockMenuAppIcon selector="drawer" />
 	<!-- 幸运破解器 / Lucky Patcher -->
 	<AppIcon name="com.android.vending.billing.InAppBillingService.COIN/com.android.vending.billing.InAppBillingService.COIN.MainActivityOriginal" image="lucky_patcher" />
+	<AppIcon name="com.netease.uu/com.netease.uu.activity.MainActivity}" image="netease_uu" />
+	<AppIcon name="ComponentInfo{com.One.WoodenLetter/com.One.WoodenLetter.LetterActivity}" image="one_woodenletter" />
 
 	<AppIcon name="me.morirain.dev.iconpack.pure/me.morirain.dev.iconpack.pure.MainActivity" image="ic_launcher" />
     <AppIcon 

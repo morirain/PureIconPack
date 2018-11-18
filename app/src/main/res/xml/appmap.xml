@@ -23,6 +23,8 @@
     <item class="me.morirain.dev.iconpack.pure.MainActivity" name="ic_launcher" />
     <!-- 幸运破解器 / Lucky Patcher -->
     <item class="com.android.vending.billing.InAppBillingService.COIN.MainActivityOriginal}" name="lucky_patcher" />
+    <item class="com.netease.uu.activity.MainActivity}" name="netease_uu" />
+    <item class="com.One.WoodenLetter.LetterActivity}" name="one_woodenletter" />
 
     <!-- Contacts App -->
     <item class="com.android.browser.BrowserLauncher" name="browser" />

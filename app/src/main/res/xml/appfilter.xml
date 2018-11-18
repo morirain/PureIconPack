@@ -8500,6 +8500,8 @@
 <item component="ComponentInfo{com.dbs.sg.posbmbanking/com.dbs.sg.posbmbanking.MBSG}" drawable="posb" />
     <!-- 幸运破解器 / Lucky Patcher -->
     <item component="ComponentInfo{com.android.vending.billing.InAppBillingService.COIN/com.android.vending.billing.InAppBillingService.COIN.MainActivityOriginal}" drawable="lucky_patcher" />
+    <item component="ComponentInfo{com.netease.uu/com.netease.uu.activity.MainActivity}" drawable="netease_uu" />
+    <item component="ComponentInfo{com.One.WoodenLetter/com.One.WoodenLetter.LetterActivity}" drawable="one_woodenletter" />
 
 
 
