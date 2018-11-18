@@ -33,4 +33,6 @@
 
     <!-- Terms and Conditions link or url -->
     <string name="terms_conditions_link">""</string>
+
+    <string name="useful_links">Donation</string>
 </resources>

@@ -18,6 +18,8 @@ package me.morirain.dev.iconpack.pure
 import com.github.javiersantos.piracychecker.PiracyChecker
 import jahirfiquitiva.libs.blueprint.models.NavigationItem
 import jahirfiquitiva.libs.blueprint.ui.activities.BottomNavigationBlueprintActivity
+import me.morirain.dev.iconpack.pure.BuildConfig.GOOGLE_VERSION
+
 
 /**
  * You can choose between:
@@ -32,8 +34,8 @@ class MainActivity : BottomNavigationBlueprintActivity() {
     override var donationsEnabled = false
 
     override fun amazonInstallsEnabled(): Boolean = true
-    override fun checkLPF(): Boolean = false
-    override fun checkStores(): Boolean = false
+    override fun checkLPF(): Boolean = true
+    override fun checkStores(): Boolean = true
 
     /**
      * This is your app's license key. Get yours on Google Play Dev Console.
@@ -49,7 +51,7 @@ class MainActivity : BottomNavigationBlueprintActivity() {
      */
     override fun getLicenseChecker(): PiracyChecker? {
         destroyChecker() // Important
-        return if (BuildConfig.DEBUG) null
+        return if ((!GOOGLE_VERSION) or BuildConfig.DEBUG) null
         else super.getLicenseChecker()
     }
 

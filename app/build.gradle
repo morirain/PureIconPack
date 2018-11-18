@@ -42,7 +42,7 @@ apply plugin: 'kotlin-android'
 
      applicationVariants.all { variant ->
          variant.outputs.all { output ->
-             outputFileName = "MyBlueprintApp-v${variant.versionName}-${variant.name}.apk"
+             outputFileName = "PureIconPack-v${variant.versionName}-${variant.name}.apk"
          }
      }
 
@@ -63,12 +63,26 @@ apply plugin: 'kotlin-android'
          applicationId "me.morirain.dev.iconpack.pure"
          minSdkVersion versions.minSdk
          targetSdkVersion versions.targetSdk
-         versionCode 1811110222
-         versionName 'v7.0 double eleven'
+         versionCode 1811190333
+         versionName '7.0 Light Snow'
          vectorDrawables.useSupportLibrary = true
          proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
          consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+         flavorDimensions "pure"
+         productFlavors {
+             google {
+                 buildConfigField "boolean", "GOOGLE_VERSION", "true"
+             }
+             coolapk {
+                 buildConfigField "boolean", "GOOGLE_VERSION", "false"
+             }
+         }
+
      }
+
+     //差异化打包
+
+
 
      buildTypes {
          release {

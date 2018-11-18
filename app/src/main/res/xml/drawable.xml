@@ -2,309 +2,377 @@
 
 <resources>
 
-    <version>1</version>
+<version>1</version>
 
 
-    <category title="Drawer" />
-    <item drawable="drawer" />
-    <item drawable="drawer_night" />
-    <item drawable="drawer_2" />
-    <item drawable="drawer_2_2" />
-    <item drawable="drawer_3" />
-    <item drawable="drawer_3_2" />
-    <item drawable="drawer_kc4k" />
-    <item drawable="drawer_monster_cat" />
-    <item drawable="drawer_omfg" />
-    <item drawable="drawer_panda_eyes" />
-    <item drawable="drawer_the_fat_rat" />
-    <item drawable="drawer_tobu" />
-    <item drawable="drawer_wispx" />
-    <item drawable="drawer_env" />
-    <item drawable="drawer_jacoo" />
-    <item drawable="drawer_jojo" />
-    <item drawable="drawer_jojo_2" />
-    <item drawable="drawer_xumengyuan" />
-    <item drawable="drawer_you_are_free" />
-    <item drawable="drawer_91" />
-    <item drawable="drawer_avicii" />
-    <item drawable="drawer_morirain" />
-    <item drawable="drawer_morirain_2" />
-    <item drawable="drawer_finger" />
+<category title="Drawer" />
+<item drawable="drawer" />
+<item drawable="drawer_night" />
+<item drawable="drawer_2" />
+<item drawable="drawer_2_2" />
+<item drawable="drawer_3" />
+<item drawable="drawer_3_2" />
+<item drawable="drawer_kc4k" />
+<item drawable="drawer_monster_cat" />
+<item drawable="drawer_omfg" />
+<item drawable="drawer_panda_eyes" />
+<item drawable="drawer_the_fat_rat" />
+<item drawable="drawer_tobu" />
+<item drawable="drawer_wispx" />
+<item drawable="drawer_env" />
+<item drawable="drawer_jacoo" />
+<item drawable="drawer_jojo" />
+<item drawable="drawer_jojo_2" />
+<item drawable="drawer_xumengyuan" />
+<item drawable="drawer_you_are_free" />
+<item drawable="drawer_91" />
+<item drawable="drawer_avicii" />
+<item drawable="drawer_morirain" />
+<item drawable="drawer_morirain_2" />
+<item drawable="drawer_finger" />
 
-    <category title="Basic" /><!-- Copy basic icons here from All category -->
-    <item drawable="browser" />
-    <item drawable="calculator" />
-    <item drawable="calculator_2" />
-    <item drawable="mi_calculator" />
-    <item drawable="camera" />
-    <item drawable="camera_2" />
-    <item drawable="clock" />
-    <item drawable="sony_clock" />
-    <item drawable="contacts" />
-    <item drawable="sony_contacts" />
-    <item drawable="email" />
-    <item drawable="mi_email" />
-    <item drawable="gallery" />
-    <item drawable="gallery_2" />
-    <item drawable="flyme_gallery" />
-    <item drawable="music" />
-    <item drawable="music_2" />
-    <item drawable="mi_music" />
-    <item drawable="flyme_music" />
-    <item drawable="sony_music" />
-    <item drawable="phone" />
-    <item drawable="sony_phone" />
-    <item drawable="settings" />
-    <item drawable="sms_5" />
-    <item drawable="sony_sms" />
-    <item drawable="sms_2" />
+<category title="Basic" /><!-- Copy basic icons here from All category -->
+<item drawable="browser" />
+<item drawable="calculator" />
+<item drawable="calculator_2" />
+<item drawable="mi_calculator" />
+<item drawable="camera" />
+<item drawable="camera_2" />
+<item drawable="clock" />
+<item drawable="sony_clock" />
+<item drawable="contacts" />
+<item drawable="sony_contacts" />
+<item drawable="email" />
+<item drawable="mi_email" />
+<item drawable="gallery" />
+<item drawable="gallery_2" />
+<item drawable="flyme_gallery" />
+<item drawable="music" />
+<item drawable="music_2" />
+<item drawable="mi_music" />
+<item drawable="flyme_music" />
+<item drawable="sony_music" />
+<item drawable="phone" />
+<item drawable="sony_phone" />
+<item drawable="settings" />
+<item drawable="sms_5" />
+<item drawable="sony_sms" />
+<item drawable="sms_2" />
 
-    <category title="Shortcut" /><!-- Copy basic icons here from All category -->
-    <item drawable="alipay_shortcut_3" />
-    <item drawable="alipay_shortcut_2" />
-    <item drawable="alipay_shortcut_1" />
-    <item drawable="wechat_shortcut_1" />
+<category title="Shortcut" /><!-- Copy basic icons here from All category -->
+<item drawable="alipay_shortcut_3" />
+<item drawable="alipay_shortcut_2" />
+<item drawable="alipay_shortcut_1" />
+<item drawable="wechat_shortcut_1" />
 
-    <category title="Alternative" /><!-- Copy alternative icons here from All category -->
+<category title="Alternative" /><!-- Copy alternative icons here from All category -->
 
-    <item drawable="game_coc" />
-    <item drawable="game_coc_2" />
-    <item drawable="game_onmyoji" />
-    <item drawable="game_onmyoji_2" />
-    <item drawable="game_meow" />
-    <item drawable="game_meow_2" />
-    <item drawable="game_meow_3" />
-    <item drawable="game_wangzhery" />
-    <item drawable="game_wangzhery_2" />
-    <item drawable="game_wangzhery_3" />
-    <item drawable="game_wangzhery_4" />
-    <item drawable="game_wangzhery_5" />
-    <item drawable="game_wangzhery_6" />
-    <item drawable="game_witchspring" />
-    <item drawable="game_witchspring_2" />
-    <item drawable="game_witchspring_3" />
-    <item drawable="calculator" />
-    <item drawable="calculator_2" />
-    <item drawable="camera" />
-    <item drawable="camera_2" />
-    <item drawable="gallery" />
-    <item drawable="gallery_2" />
-    <item drawable="game_monument_valley" />
-    <item drawable="game_monument_valley_2" />
-    <item drawable="game_monument_valley_zz" />
-    <item drawable="game_onmyoji_hq" />
-    <item drawable="music" />
-    <item drawable="music_2" />
-    <item drawable="net_ease_music" />
-    <item drawable="net_ease_music_2" />
-    <item drawable="net_ease_music_3" />
-    <item drawable="net_ease_music_4" />
-    <item drawable="qq" />
-    <item drawable="qq_2" />
-    <item drawable="qq_3" />
-    <item drawable="qq_4" />
-    <item drawable="qq_5" />
-    <item drawable="qq_hd" />
-    <item drawable="qq_i" />
-    <item drawable="qq_lite" />
-    <item drawable="qq_6" />
-    <item drawable="qq_7" />
-    <item drawable="qq_8" />
-    <item drawable="qq_9" />
-    <item drawable="sfacg" />
-    <item drawable="sfacg_2" />
-    <item drawable="sms" />
-    <item drawable="sms_2" />
-    <item drawable="sms_3" />
-    <item drawable="sms_4" />
-    <item drawable="sms_5" />
-    <item drawable="wechat_2" />
-    <item drawable="wechat" />
-    <item drawable="weibo" />
-    <item drawable="weibo_c" />
-    <item drawable="weibo_2" />
-    <item drawable="picacomic_2" />
-    <item drawable="picacomic" />
-    <item drawable="milk_2" />
-    <item drawable="milk" />
-    <item drawable="oneplus_user_feedback_2" />
-    <item drawable="oneplus_user_feedback" />
-    <item drawable="via" />
-    <item drawable="via_2" />
-    <item drawable="game_bh3" />
-    <item drawable="game_bh3_2" />
-    <item drawable="game_rr3" />
-    <item drawable="game_rr3_2" />
-    <item drawable="game_girls_front_line_shaonvqianxian_kr" />
-    <item drawable="game_girls_front_line_shaonvqianxian_tw" />
-    <item drawable="game_girls_front_line_shaonvqianxian" />
-    <item drawable="sim_toolkit" />
-    <item drawable="sim_toolkit_2" />
-    <item drawable="game_klsdzj" />
-    <item drawable="game_klsdzj_2" />
-    <item drawable="game_lovelive" />
-    <item drawable="game_lovelive_2" />
-    <item drawable="game_fate_grand_order" />
-    <item drawable="game_fate_grand_order_jp" />
-    <item drawable="cool_apk" />
-    <item drawable="coolapkwhite" />
-    <item drawable="cool_apk_pink" />
-    <item drawable="game_pubg" />
-    <item drawable="game_pubg_2" />
-    <item drawable="game_reigns" />
-    <item drawable="game_reigns2" />
-    <item drawable="youtube" />
-    <item drawable="youtube_2" />
-    <item drawable="jd" />
-    <item drawable="jd_2" />
-    <item drawable="zarchiver_pro" />
-    <item drawable="zarchiver" />
-    <item drawable="retro_music" />
-    <item drawable="retro_music_2" />
-    <item drawable="google_gmail" />
-    <item drawable="google_gmail_2" />
-    <item drawable="samsung_browser_beta" />
-    <item drawable="samsung_browser" />
+<item drawable="game_coc" />
+<item drawable="game_coc_2" />
+<item drawable="game_onmyoji" />
+<item drawable="game_onmyoji_2" />
+<item drawable="game_meow" />
+<item drawable="game_meow_2" />
+<item drawable="game_meow_3" />
+<item drawable="game_wangzhery" />
+<item drawable="game_wangzhery_2" />
+<item drawable="game_wangzhery_3" />
+<item drawable="game_wangzhery_4" />
+<item drawable="game_wangzhery_5" />
+<item drawable="game_wangzhery_6" />
+<item drawable="game_witchspring" />
+<item drawable="game_witchspring_2" />
+<item drawable="game_witchspring_3" />
+<item drawable="calculator" />
+<item drawable="calculator_2" />
+<item drawable="camera" />
+<item drawable="camera_2" />
+<item drawable="gallery" />
+<item drawable="gallery_2" />
+<item drawable="game_monument_valley" />
+<item drawable="game_monument_valley_2" />
+<item drawable="game_monument_valley_zz" />
+<item drawable="game_onmyoji_hq" />
+<item drawable="music" />
+<item drawable="music_2" />
+<item drawable="net_ease_music" />
+<item drawable="net_ease_music_2" />
+<item drawable="net_ease_music_3" />
+<item drawable="net_ease_music_4" />
+<item drawable="qq" />
+<item drawable="qq_2" />
+<item drawable="qq_3" />
+<item drawable="qq_4" />
+<item drawable="qq_5" />
+<item drawable="qq_hd" />
+<item drawable="qq_i" />
+<item drawable="qq_lite" />
+<item drawable="qq_6" />
+<item drawable="qq_7" />
+<item drawable="qq_8" />
+<item drawable="qq_9" />
+<item drawable="sfacg" />
+<item drawable="sfacg_2" />
+<item drawable="sms" />
+<item drawable="sms_2" />
+<item drawable="sms_3" />
+<item drawable="sms_4" />
+<item drawable="sms_5" />
+<item drawable="wechat_2" />
+<item drawable="wechat" />
+<item drawable="weibo" />
+<item drawable="weibo_c" />
+<item drawable="weibo_2" />
+<item drawable="picacomic_2" />
+<item drawable="picacomic" />
+<item drawable="milk_2" />
+<item drawable="milk" />
+<item drawable="oneplus_user_feedback_2" />
+<item drawable="oneplus_user_feedback" />
+<item drawable="via" />
+<item drawable="via_2" />
+<item drawable="game_bh3" />
+<item drawable="game_bh3_2" />
+<item drawable="game_rr3" />
+<item drawable="game_rr3_2" />
+<item drawable="game_girls_front_line_shaonvqianxian_kr" />
+<item drawable="game_girls_front_line_shaonvqianxian_tw" />
+<item drawable="game_girls_front_line_shaonvqianxian" />
+<item drawable="sim_toolkit" />
+<item drawable="sim_toolkit_2" />
+<item drawable="game_klsdzj" />
+<item drawable="game_klsdzj_2" />
+<item drawable="game_lovelive" />
+<item drawable="game_lovelive_2" />
+<item drawable="game_fate_grand_order" />
+<item drawable="game_fate_grand_order_jp" />
+<item drawable="cool_apk" />
+<item drawable="coolapkwhite" />
+<item drawable="cool_apk_pink" />
+<item drawable="game_pubg" />
+<item drawable="game_pubg_2" />
+<item drawable="game_reigns" />
+<item drawable="game_reigns2" />
+<item drawable="youtube" />
+<item drawable="youtube_2" />
+<item drawable="jd" />
+<item drawable="jd_2" />
+<item drawable="zarchiver_pro" />
+<item drawable="zarchiver" />
+<item drawable="retro_music" />
+<item drawable="retro_music_2" />
+<item drawable="google_gmail" />
+<item drawable="google_gmail_2" />
+<item drawable="samsung_browser_beta" />
+<item drawable="samsung_browser" />
 
-    <category title="Game" /><!-- Copy game icons here from All category -->
-    <item drawable="game_alto" />
-    <item drawable="game_azurlane" />
-    <item drawable="game_bh3" />
-    <item drawable="game_bh3_2" />
-    <item drawable="game_bhxy" />
-    <item drawable="game_coc" />
-    <item drawable="game_coc_2" />
-    <item drawable="game_cr" />
-    <item drawable="game_deemo" />
-    <item drawable="game_dungeon_shooter" />
-    <item drawable="game_falloutshelter" />
-    <item drawable="game_framed" />
-    <item drawable="game_hearthstone" />
-    <item drawable="game_kingdomrushorigins" />
-    <item drawable="game_mine" />
-    <item drawable="game_monument_valley" />
-    <item drawable="game_monument_valley_2" />
-    <item drawable="game_monument_valley_zz" />
-    <item drawable="game_onmyoji" />
-    <item drawable="game_onmyoji_2" />
-    <item drawable="game_onmyoji_hq" />
-    <item drawable="game_smashhit" />
-    <item drawable="game_voez" />
-    <item drawable="game_wangzhery" />
-    <item drawable="game_wangzhery_2" />
-    <item drawable="game_wangzhery_3" />
-    <item drawable="game_wangzhery_4" />
-    <item drawable="game_wangzhery_5" />
-    <item drawable="game_wangzhery_6" />
-    <item drawable="game_wangzhery_7" />
-    <item drawable="game_wangzhery_8" />
-    <item drawable="game_witchspring" />
-    <item drawable="game_witchspring_2" />
-    <item drawable="game_witchspring_3" />
-    <item drawable="game_zjsn" />
-    <item drawable="game_vainglory" />
-    <item drawable="game_cf" />
-    <item drawable="game_mc" />
-    <item drawable="game_noesis" />
-    <item drawable="game_doudizhu" />
-    <item drawable="game_fate_grand_order" />
-    <item drawable="game_fate_grand_order_jp" />
-    <item drawable="game_musync_miaosaike" />
-    <item drawable="game_nuannuan" />
-    <item drawable="game_tiantiankupao" />
-    <item drawable="game_xyjmud" />
-    <item drawable="game_werewolf_ttlangrensha" />
-    <item drawable="game_neko_rpg" />
-    <item drawable="game_girls_front_line_shaonvqianxian" />
-    <item drawable="game_ouxiangdashi" />
-    <item drawable="game_qq" />
-    <item drawable="game_tiantianfeiche" />
-    <item drawable="game_djlw" />
-    <item drawable="game_kgtw_csdj" />
-    <item drawable="game_mobile300" />
-    <item drawable="game_naruto" />
-    <item drawable="game_otogi" />
-    <item drawable="game_mxzhw" />
-    <item drawable="game_asphalt_8" />
-    <item drawable="game_arcaea" />
-    <item drawable="game_lanota" />
-    <item drawable="game_shadowfight" />
-    <item drawable="game_whcl" />
-    <item drawable="game_whcl_2" />
-    <item drawable="game_monument2" />
-    <item drawable="game_mjj" />
-    <item drawable="game_fj_wolf" />
-    <item drawable="game_doodle_jump" />
-    <item drawable="game_bwlb3" />
-    <item drawable="game_kpgs" />
-    <item drawable="game_rr3" />
-    <item drawable="game_rr3_2" />
-    <item drawable="game_sdmht" />
-    <item drawable="game_tcs" />
-    <item drawable="game_fzjh" />
-    <item drawable="game_girls_front_line_shaonvqianxian_kr" />
-    <item drawable="game_girls_front_line_shaonvqianxian_tw" />
-    <item drawable="game_hhw" />
-    <item drawable="game_klsdzj" />
-    <item drawable="game_klsdzj_2" />
-    <item drawable="game_lovelive_2" />
-    <item drawable="game_mhxy" />
-    <item drawable="game_zyzz" />
-    <item drawable="game_jjddz" />
-    <item drawable="game_kxxxl" />
-    <item drawable="game_ingress" />
-    <item drawable="game_hlmj" />
-    <item drawable="game_jh" />
-    <item drawable="game_sgs" />
-    <item drawable="game_cytus" />
-    <item drawable="game_cytus_ii" />
-    <item drawable="game_meow" />
-    <item drawable="game_meow_2" />
-    <item drawable="game_meow_3" />
-    <item drawable="game_icey" />
-    <item drawable="game_nyhx" />
-    <item drawable="game_bangdream" />
-    <item drawable="game_hyxd" />
-    <item drawable="game_cywl" />
-    <item drawable="game_shadowverse" />
-    <item drawable="game_kc" />
-    <item drawable="game_limbo" />
-    <item drawable="game_mxxz" />
-    <item drawable="game_plague_inc" />
-    <item drawable="game_tencent_cj" />
-    <item drawable="game_fire_emblem_heroes" />
-    <item drawable="game_gta" />
-    <item drawable="game_jzpaj" />
-    <item drawable="game_qqfc" />
-    <item drawable="game_qqfc_2" />
-    <item drawable="game_yszzs" />
-    <item drawable="game_yyd7rzd" />
-    <item drawable="game_implosion" />
-    <item drawable="game_terraria" />
-    <item drawable="game_yyzy" />
-    <item drawable="game_downwell" />
-    <item drawable="game_pubg" />
-    <item drawable="game_pubg_2" />
-    <item drawable="game_reigns" />
-    <item drawable="game_reigns2" />
-    <item drawable="game_subwaysurf" />
-    <item drawable="game_boom_beach" />
-    <item drawable="game_brncl" />
-    <item drawable="game_dynamix" />
-    <item drawable="game_florence" />
-    <item drawable="game_mario" />
-    <item drawable="game_mi_qz" />
-    <item drawable="game_pokemon" />
-    <item drawable="game_shadowfight_2" />
-    <item drawable="game_mirishita" />
-    <item drawable="game_chuliuxiang" />
-    <item drawable="game_di5renge" />
-    <item drawable="game_wwa" />
-    <item drawable="game_connection" />
-    <item drawable="game_geometry_dash" />
-    <item drawable="game_yiciyuantongxun" />
-    <item drawable="game_trust" />
-    <item drawable="game_dont_tap_the_white_tile" />
+<category title="Game" /><!-- Copy game icons here from All category -->
+<item drawable="game_alto" />
+<item drawable="game_azurlane" />
+<item drawable="game_bh3" />
+<item drawable="game_bh3_2" />
+<item drawable="game_bhxy" />
+<item drawable="game_coc" />
+<item drawable="game_coc_2" />
+<item drawable="game_cr" />
+<item drawable="game_deemo" />
+<item drawable="game_dungeon_shooter" />
+<item drawable="game_falloutshelter" />
+<item drawable="game_framed" />
+<item drawable="game_hearthstone" />
+<item drawable="game_kingdomrushorigins" />
+<item drawable="game_mine" />
+<item drawable="game_monument_valley" />
+<item drawable="game_monument_valley_2" />
+<item drawable="game_monument_valley_zz" />
+<item drawable="game_onmyoji" />
+<item drawable="game_onmyoji_2" />
+<item drawable="game_onmyoji_hq" />
+<item drawable="game_smashhit" />
+<item drawable="game_voez" />
+<item drawable="game_wangzhery" />
+<item drawable="game_wangzhery_2" />
+<item drawable="game_wangzhery_3" />
+<item drawable="game_wangzhery_4" />
+<item drawable="game_wangzhery_5" />
+<item drawable="game_wangzhery_6" />
+<item drawable="game_wangzhery_7" />
+<item drawable="game_wangzhery_8" />
+<item drawable="game_witchspring" />
+<item drawable="game_witchspring_2" />
+<item drawable="game_witchspring_3" />
+<item drawable="game_zjsn" />
+<item drawable="game_vainglory" />
+<item drawable="game_cf" />
+<item drawable="game_mc" />
+<item drawable="game_noesis" />
+<item drawable="game_doudizhu" />
+<item drawable="game_fate_grand_order" />
+<item drawable="game_fate_grand_order_jp" />
+<item drawable="game_musync_miaosaike" />
+<item drawable="game_nuannuan" />
+<item drawable="game_tiantiankupao" />
+<item drawable="game_xyjmud" />
+<item drawable="game_werewolf_ttlangrensha" />
+<item drawable="game_neko_rpg" />
+<item drawable="game_girls_front_line_shaonvqianxian" />
+<item drawable="game_ouxiangdashi" />
+<item drawable="game_qq" />
+<item drawable="game_tiantianfeiche" />
+<item drawable="game_djlw" />
+<item drawable="game_kgtw_csdj" />
+<item drawable="game_mobile300" />
+<item drawable="game_naruto" />
+<item drawable="game_otogi" />
+<item drawable="game_mxzhw" />
+<item drawable="game_asphalt_8" />
+<item drawable="game_arcaea" />
+<item drawable="game_lanota" />
+<item drawable="game_shadowfight" />
+<item drawable="game_whcl" />
+<item drawable="game_whcl_2" />
+<item drawable="game_monument2" />
+<item drawable="game_mjj" />
+<item drawable="game_fj_wolf" />
+<item drawable="game_doodle_jump" />
+<item drawable="game_bwlb3" />
+<item drawable="game_kpgs" />
+<item drawable="game_rr3" />
+<item drawable="game_rr3_2" />
+<item drawable="game_sdmht" />
+<item drawable="game_tcs" />
+<item drawable="game_fzjh" />
+<item drawable="game_girls_front_line_shaonvqianxian_kr" />
+<item drawable="game_girls_front_line_shaonvqianxian_tw" />
+<item drawable="game_hhw" />
+<item drawable="game_klsdzj" />
+<item drawable="game_klsdzj_2" />
+<item drawable="game_lovelive_2" />
+<item drawable="game_mhxy" />
+<item drawable="game_zyzz" />
+<item drawable="game_jjddz" />
+<item drawable="game_kxxxl" />
+<item drawable="game_ingress" />
+<item drawable="game_hlmj" />
+<item drawable="game_jh" />
+<item drawable="game_sgs" />
+<item drawable="game_cytus" />
+<item drawable="game_cytus_ii" />
+<item drawable="game_meow" />
+<item drawable="game_meow_2" />
+<item drawable="game_meow_3" />
+<item drawable="game_icey" />
+<item drawable="game_nyhx" />
+<item drawable="game_bangdream" />
+<item drawable="game_hyxd" />
+<item drawable="game_cywl" />
+<item drawable="game_shadowverse" />
+<item drawable="game_kc" />
+<item drawable="game_limbo" />
+<item drawable="game_mxxz" />
+<item drawable="game_plague_inc" />
+<item drawable="game_tencent_cj" />
+<item drawable="game_fire_emblem_heroes" />
+<item drawable="game_gta" />
+<item drawable="game_jzpaj" />
+<item drawable="game_qqfc" />
+<item drawable="game_qqfc_2" />
+<item drawable="game_yszzs" />
+<item drawable="game_yyd7rzd" />
+<item drawable="game_implosion" />
+<item drawable="game_terraria" />
+<item drawable="game_yyzy" />
+<item drawable="game_downwell" />
+<item drawable="game_pubg" />
+<item drawable="game_pubg_2" />
+<item drawable="game_reigns" />
+<item drawable="game_reigns2" />
+<item drawable="game_subwaysurf" />
+<item drawable="game_boom_beach" />
+<item drawable="game_brncl" />
+<item drawable="game_dynamix" />
+<item drawable="game_florence" />
+<item drawable="game_mario" />
+<item drawable="game_mi_qz" />
+<item drawable="game_pokemon" />
+<item drawable="game_shadowfight_2" />
+<item drawable="game_mirishita" />
+<item drawable="game_chuliuxiang" />
+<item drawable="game_di5renge" />
+<item drawable="game_wwa" />
+<item drawable="game_connection" />
+<item drawable="game_geometry_dash" />
+<item drawable="game_yiciyuantongxun" />
+<item drawable="game_trust" />
+<item drawable="game_dont_tap_the_white_tile" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <category title="All" /><!-- All icons here -->
     <item drawable="a2sd" />
@@ -2225,7 +2293,6 @@
     <item drawable="xqe" />
     <item drawable="ygtyfwpt" />
     <item drawable="ykb" />
-
     <item drawable="anghami" />
     <item drawable="askfm" />
     <item drawable="avnight" />
@@ -2249,7 +2316,6 @@
     <item drawable="live_me" />
     <item drawable="magisto" />
     <item drawable="mi_drop" />
-    <item drawable="muse" />
     <item drawable="neets" />
     <item drawable="nubia_bbs" />
     <item drawable="palco_mp_3" />
@@ -2273,7 +2339,6 @@
     <item drawable="yeecall" />
     <item drawable="yoho" />
     <item drawable="zhongdu" />
-
     <item drawable="accu_weather" />
     <item drawable="antfortune" />
     <item drawable="any_screen_recorder" />
@@ -2326,7 +2391,6 @@
     <item drawable="zhitu-des" />
     <item drawable="zhuzheer" />
     <item drawable="zsdh" />
-
     <item drawable="behance" />
     <item drawable="chameleon" />
     <item drawable="chuansuo" />
@@ -2356,7 +2420,6 @@
     <item drawable="x_apm" />
     <item drawable="youdao_beidanci" />
     <item drawable="youtube_2" />
-
     <item drawable="aiqingyh" />
     <item drawable="ali_tmalljl" />
     <item drawable="baixiong" />
@@ -2486,7 +2549,6 @@
     <item drawable="yundongbao" />
     <item drawable="zhangyu" />
     <item drawable="samsung_not" />
-
     <item drawable="a_9vg" />
     <item drawable="beoplay" />
     <item drawable="black_shark_forum" />
@@ -2539,7 +2601,6 @@
     <item drawable="xiaoshuting" />
     <item drawable="yuanfudao" />
     <item drawable="zenmeasure_smart_thermometer" />
-
     <item drawable="air_battery" />
     <item drawable="ali_mama" />
     <item drawable="app_go" />
@@ -2639,7 +2700,6 @@
     <item drawable="yiwei" />
     <item drawable="youdao_hanyu" />
     <item drawable="zen_mate" />
-
     <item drawable="ahn_lab_v_3_mobile_plus_2_0" />
     <item drawable="ali_express" />
     <item drawable="anywayanyday" />
@@ -2741,5 +2801,112 @@
     <item drawable="youdao_ed" />
     <item drawable="yyuxy" />
     <item drawable="ziru" />
+    <item drawable="acres99" />
+    <item drawable="aldi_talk" />
+    <item drawable="amino" />
+    <item drawable="andfetion" />
+    <item drawable="andromeda" />
+    <item drawable="asus_power_save" />
+    <item drawable="avg" />
+    <item drawable="badoo" />
+    <item drawable="bad_lock" />
+    <item drawable="baicizhan_ireading" />
+    <item drawable="baidu_tg" />
+    <item drawable="bank_id" />
+    <item drawable="bcp_bank" />
+    <item drawable="bembos" />
+    <item drawable="bima_plus" />
+    <item drawable="bk101" />
+    <item drawable="cabify" />
+    <item drawable="cai" />
+    <item drawable="celcom_life" />
+    <item drawable="clover" />
+    <item drawable="cz_file_manager" />
+    <item drawable="destiny" />
+    <item drawable="directv" />
+    <item drawable="dodol" />
+    <item drawable="duola_print" />
+    <item drawable="game_neoforce" />
+    <item drawable="gear_best" />
+    <item drawable="gg_p" />
+    <item drawable="google_home" />
+    <item drawable="hago" />
+    <item drawable="haochang" />
+    <item drawable="hotlink_red" />
+    <item drawable="hvv" />
+    <item drawable="jenius" />
+    <item drawable="jiangnan" />
+    <item drawable="jjxy" />
+    <item drawable="kakao_map" />
+    <item drawable="kakao_t" />
+    <item drawable="kakao_wheel" />
+    <item drawable="kapianjia" />
+    <item drawable="kbcard" />
+    <item drawable="kbstar" />
+    <item drawable="kmplayer" />
+    <item drawable="korail" />
+    <item drawable="ktshow" />
+    <item drawable="kt_navi" />
+    <item drawable="kt_y" />
+    <item drawable="latam" />
+    <item drawable="la_banca_mobile" />
+    <item drawable="liepin" />
+    <item drawable="llmbs" />
+    <item drawable="llmbs_2" />
+    <item drawable="malclient" />
+    <item drawable="manga_rock" />
+    <item drawable="mcdonalds_pro" />
+    <item drawable="measure" />
+    <item drawable="mixin" />
+    <item drawable="mi_ai" />
+    <item drawable="mi_ai_2" />
+    <item drawable="mobi_kwik" />
+    <item drawable="monkeybook" />
+    <item drawable="moodwhite_notes" />
+    <item drawable="moon_climbing" />
+    <item drawable="moovit" />
+    <item drawable="mozhexz" />
+    <item drawable="my_icebox" />
+    <item drawable="my_italian_recipes" />
+    <item drawable="neobanking" />
+    <item drawable="nytimes" />
+    <item drawable="package_radar" />
+    <item drawable="pedidos_ya" />
+    <item drawable="posb" />
+    <item drawable="pure_radio" />
+    <item drawable="qcschool" />
+    <item drawable="qq_umall" />
+    <item drawable="quizlet" />
+    <item drawable="remote_call_service" />
+    <item drawable="samsung_bixby_vision" />
+    <item drawable="samsung_edge_touch" />
+    <item drawable="samsung_finder" />
+    <item drawable="shcard" />
+    <item drawable="shopee" />
+    <item drawable="shurufa" />
+    <item drawable="slowly" />
+    <item drawable="smartshinhan" />
+    <item drawable="smule" />
+    <item drawable="sol_calendar" />
+    <item drawable="sonkwoapp" />
+    <item drawable="spark_post" />
+    <item drawable="storage_redirect" />
+    <item drawable="surfboard" />
+    <item drawable="tcc_vivo" />
+    <item drawable="tether" />
+    <item drawable="ttpt" />
+    <item drawable="tv_programm" />
+    <item drawable="unicorn" />
+    <item drawable="vamos" />
+    <item drawable="vultr_client" />
+    <item drawable="whowho" />
+    <item drawable="wisedu" />
+    <item drawable="wom" />
+    <item drawable="word_crush" />
+    <item drawable="yaofangwang" />
+    <item drawable="you_porn" />
+    <item drawable="you_tube_vanced" />
+    <item drawable="yudixiguan" />
+    <item drawable="yw" />
 
 </resources>

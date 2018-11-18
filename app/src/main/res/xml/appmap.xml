@@ -19,11 +19,598 @@
   -->
 
 <appmap>
+<!-- ((class=") -->
+    <item class="me.morirain.dev.iconpack.pure.MainActivity" name="ic_launcher" />
+    <!-- 幸运破解器 / Lucky Patcher -->
+    <item class="com.android.vending.billing.InAppBillingService.COIN.MainActivityOriginal}" name="lucky_patcher" />
 
     <!-- Contacts App -->
-    <item
-        class="com.android.contacts.DialtactsContactsEntryActivity"
-        name="people" />
+    <item class="com.android.browser.BrowserLauncher" name="browser" />
+    <item class="com.android.browser.BrowserActivity" name="browser" />
+    <item class="com.android.browser.GNBrowserActivity" name="browser" />
+    <item class="com.android.browser.MainActivity" name="browser" />
+    <item class="com.tencent.mtt.SplashActivity" name="browser" />
+    <item class="com.lenovo.browser.BrowserActivity" name="browser" />
+    <item class="com.google.android.apps.chrome.Main" name="browser" />
+    <item class="com.sec.android.app.sbrowser.SBrowserMainActivity" name="browser" />
+    <item class="com.zui.browser.BrowserActivity" name="browser" />
+    <item class="com.android.browser.BrowserLauncher" name="browser" />
+    <item class="org.lineageos.jelly.MainActivity" name="browser" />
+    <!-- 浏览器 / Browser -->
+    <item class="com.tencent.mtt.SplashActivity" name="browser" /><!-- 浏览器 / Browser -->
+    <item class="com.android.browser.BrowserActivity" name="browser" /><!-- 浏览器 / Browser -->
+    <item class="com.UCMobile.main.UCMobile" name="browser" /><!-- 浏览器 / SonyBrowser -->
+    <item class="com.google.android.apps.chrome.Main" name="browser" /><!-- 浏览器 / Browser -->
+    <item class="com.android.browser.MainActivity" name="browser" /><!-- 浏览器 / Browser -->
+    <item class="com.android.browser.GNBrowserActivity" name="browser" /><!-- 浏览器 / Browser -->
+    <item class="org.chromium.chrome.browser.ChromeTabbedActivity" name="browser" /><!-- Browser / Browser -->
+    <item class="com.android.browser.BrowserActivity" name="browser" /><!-- 浏览器 / Browser -->
+    <item class="com.android.browser.SplashActivity" name="browser" />
+    <!-- 浏览器 / 浏览器 -->
+    <item class="com.vivo.browser.BrowserActivity" name="browser" />
+    <!-- Build: Xiaomi / Redmi Note 4X -->
+    <!-- 浏览器 / Browser -->
+    <item class="com.browser2345.StartBrowserActivity" name="browser" />
+    <!-- 浏览器 / Samsung Internet -->
+    <item class="com.sec.android.app.sbrowser.SBrowserMainActivity" name="samsung_browser" />
+
+
+
+
+
+
+
+    <item class="cn.nubia.calculator2.Calculator" name="calculator" />
+    <item class="com.android.bbkcalculator.Calculator" name="calculator" />
+    <item class="com.android.calculator2.Calculator" name="calculator" />
+    <item class="com.candl.athena.activity.Calculator" name="calculator" />
+    <item class="com.android.calculator2.Calculator" name="calculator" />
+    <item class="com.android.calculator2.Calculator" name="calculator" />
+    <item class="com.meizu.flyme.calculator.Calculator" name="calculator" />
+    <item class="com.miui.calculator.cal.CalculatorActivity" name="mi_calculator" />
+    <item class="com.oneplus.calculator.Calculator" name="calculator" />
+    <item class="com.sec.android.app.popupcalculator.Calculator" name="calculator" />
+    <item class="com.smartisanos.calculator.Calculator" name="calculator" />
+    <item class="com.zui.calculator.Calculator" name="calculator" />
+    <item class="jp.co.sharp.android.calc.CalculatorActivity" name="calculator" />
+    <!-- Build: Lenovo / Lenovo P770 -->
+    <!-- 计算器 / Calculator -->
+    <item class="com.lenovo.calculator.Calculator" name="calculator" />
+    <!-- 计算器 / Calculator -->
+    <item class="com.sonymobile.exactcalculator.Calculator" name="calculator" />
+
+
+    <item class="com.android.camera.Camera" name="camera_2" />
+    <item class="com.android.camera.CameraActivity" name="camera_2" />
+    <item class="com.android.camera.CameraLauncher" name="camera_2" />
+    <item class="com.android.camera.CameraLauncher" name="camera_2" />
+    <item class="com.android.camera.CameraLauncher" name="camera_2" />
+    <item class="com.android.camera.CameraLauncher" name="camera_2" />
+    <item class="com.android.camera.CameraLauncher" name="google_camera" />
+
+    <item class="com.htc.camera2.CameraEntry" name="camera_2" />
+    <item class="com.huawei.camera" name="camera_2" />
+    <item class="com.lenovo.scg.camera.CameraLauncher" name="camera_2" />
+    <item class="com.lge.camera.CameraAppLauncher" name="camera_2" />
+    <item class="com.meizu.media.camera.CameraLauncher" name="camera_2" />
+    <item class="com.motorola.camera.Camera" name="camera_2" />
+    <item class="com.oneplus.camera.OPCameraActivity" name="camera_2" />
+    <item class="com.oppo.camera.Camera" name="camera_2" />
+    <item class="com.sec.android.app.camera.Camera" name="camera_2" />
+    <item class="com.sonyericsson.android.camera.CameraActivity" name="camera_2" />
+    <item class="com.zte.camera.CameraActivity" name="camera_2" />
+    <item class="com.zui.cameragallery.camera.CameraActivity" name="camera_2" />
+    <item class="com.android.camera.CameraLauncher" name="camera_2" />
+    <item class="com.android.camera.CameraLauncher" name="camera_2" />
+    <!-- 相机 / Gallery --><!-- 指南针 / Compass -->
+    <item class="jlzn.com.android.compass.JLZN_CompassActivity" name="compass" />
+    <item class="com.android.camera.CameraLauncher" name="camera_2" />
+    <!-- 相机 / Camera -->
+    <item class="com.motorola.camera.Camera" name="camera_2" />
+
+
+    <item class="cn.nubia.deskclock.DeskClock" name="clock" />
+    <item class="com.meizu.flyme.alarmclock.DeskClock" name="flyme_clock" />
+    <item class="com.android.BBKClock.Timer" name="clock" />
+    <item class="com.android.deskclock.AlarmClock" name="clock" />
+    <item class="com.android.deskclock.AlarmsMainActivity" name="clock" />
+    <item class="com.android.deskclock.DeskClock" name="clock" />
+    <item class="com.android.deskclock.DeskClockTabActivity" name="clock" />
+    <item class="com.coloros.alarmclock.AlarmClock" name="clock" />
+    <item class="com.android.deskclock.DeskClock" name="clock" />
+    <item class="com.htc.android.worldclock.WorldClockTabControl" name="clock" />
+    <item class="com.lenovo.deskclock.DeskClock" name="clock" />
+    <item class="com.lge.clock.AlarmClockActivity" name="clock" />
+    <item class="com.oneplus.deskclock.DeskClock" name="clock" />
+    <item class="com.sec.android.app.clockpackage.ClockPackage" name="clock" />
+    <item class="com.sec.android.app.clockpackage.ClockPackage" name="clock" />
+    <item class="com.smartisanos.clock.activity.ClockActivity" name="clock" />
+    <item class="com.sonyericsson.organizer.Organizer" name="sony_clock" />
+    <item class="yulong.xtime.ui.main.XTimeActivity" name="clock" />
+    <item class="com.zui.deskclock.DeskClock" name="clock" />
+    <item class="net.oneplus.deskclock.DeskClock" name="clock" />
+    <item class="zte.com.cn.alarmclock.AlarmClock" name="clock" />
+
+    <item class="com.coloros.compass.flat.FlatCompass" name="compass" />
+    <item class="com.huawei.compass.MainActivity" name="compass" />
+    <item class="com.lenovo.compass.CompassActivity" name="compass" />
+    <item class="com.letv.android.compass.MainActivity" name="compass" />
+    <item class="com.miui.compass.CompassActivity" name="mi_compass" />
+    <item class="com.oppo.compass.flat.FlatCompass" name="compass" />
+    <item class="com.qiku.android.compass.CompassActivity" name="compass" />
+    <item class="com.vivo.compass.CalibrationActivity" name="compass" />
+    <item class="com.yulong.android.compass.CompassActivity" name="compass" />
+    <item class="com.zui.compass.CompassActivity" name="compass" />
+    <!-- 指南针 / Compass -->
+    <item class="jlzn.com.android.compass.JLZN_CompassActivity" name="compass" />
+
+    <item class="com.android.contacts.activities.PeopleActivity" name="contacts" />
+    <item class="com.android.contacts.DialtactsContactsEntryActivity" name="contacts" />
+    <item class="com.android.contacts.PeopleActivityAlias" name="contacts" />
+    <item class="com.oneplus.contacts.activities.OPPeopleActivity" name="contacts" />
+    <item class="com.yulong.android.contacts.ui.main.ContactMainActivity" name="contacts" />
+    <item class="com.android.contacts.activities.PeopleDrawerActivity" name="contacts" />
+    <item class="com.android.contacts.activities.PeopleActivity" name="contacts" />
+    <item class="com.lenovo.ideafriend.alias.PeopleActivity" name="contacts" />
+    <item class="com.android.contacts.activities.PeopleActivity" name="contacts" />
+    <item class="com.sonyericsson.android.socialphonebook.LaunchActivity" name="sony_contacts" />
+    <item class="com.android.contacts.activities.PeopleActivity" name="sony_contacts" />
+    <!-- 联系人 / nubia Contacts -->
+    <item class="cn.nubia.contacts.mainlist.PeopleActivity" name="contacts" /><!-- 联系人 / Nubia Contacts -->
+    <item class="com.android.contacts.mainlist.PeopleActivity" name="contacts" />
+    <!-- Build: TGStartover / ZUK Z2121 -->
+    <!-- 联系人 / Contacts -->
+    <item class="com.android.newcontact.vl.activity.XLaunchActivity" name="contacts" />
+
+    <item class="com.android.providers.downloads.ui.DownloadActivity" name="downloads" />
+    <item class="com.android.providers.downloads.ui.DownloadList" name="downloads" />
+    <item class="com.jide.remixos.downloadsui.JideDownloadStarter" name="downloads" />
+    <!-- 下载管理 / Downloads -->
+    <item class="com.android.providers.downloads.ui.GnDownloadTabActivity" name="downloads" />
+
+    <!-- 我的下载 / File Manager -->
+    <item class="com.yulong.android.filebrowser.activity.FileLatestActivity" name="downloads" />
+    <item class="com.android.documentsui.LauncherActivity" name="downloads" />
+
+    <item class="com.android.email.activity.Welcome" name="email" />
+    <item class="com.android.email.activity.EmailActivity" name="email" />
+    <item class="com.android.email.activity.Welcome" name="email" />
+    <item class="com.htc.android.mail.MultipleActivitiesMain" name="email" />
+    <item class="com.kingsoft.email.activity.Welcome" name="email" />
+    <item class="com.lge.email.ui.setupwizard.Welcome" name="email" />
+    <item class="com.android.email.activity.Welcome" name="email" />
+    <item class="com.netease.mobimail.activity.LaunchActivity" name="email" />
+    <item class="com.samsung.android.email.ui.activity.MessageListXL" name="email" />
+    <item class="com.samsung.android.email.ui.activity.MessageListXL" name="email" />
+    <item class="com.sonymobile.email.activity.Welcome" name="email" />
+    <item class="com.vivo.email.activity.Welcome" name="email" />
+    <item class="com.kingsoft.email.activity.Welcome" name="email" />
+
+    <item class="cn.nubia.myfile.CategoryActivity" name="files" />
+    <item class="com.amaze.filemanager.activities.MainActivity" name="files" />
+    <item class="com.android.documentsui.DocumentsActivity" name="files" />
+    <item class="com.android.fileexplorer.FileExplorerTabActivity" name="files" />
+    <item class="com.android.filemanager.FileManagerActivity" name="files" />
+    <item class="com.coloros.filemanager.Main" name="files" />
+    <item class="com.cyanogenmod.filemanager.activities.NavigationActivity" name="files" />
+    <item class="com.fihtdc.filemanager.FileManager" name="files" />
+    <item class="com.htc.filemanager.FileManagerActivity" name="files" />
+    <item class="com.huawei.hidisk.filemanager.FileManager" name="files" />
+    <item class="com.intel.filemanager.FileMainActivity" name="files" />
+    <item class="com.jide.filemanager.FileManagerActivity" name="files" />
+    <item class="com.lenovo.FileBrowser.activities.FileBrowserMain" name="files" />
+    <item class="com.letv.android.filemanager.activities.FileManagerActivity" name="files" />
+    <item class="com.lge.filemanager.view.LaunchActivity" name="files" />
+    <item class="com.mediatek.filemanager.FileManagerOperationActivity" name="files" />
+    <item class="com.meizu.flyme.filemanager.activity.HomeActivity" name="files" />
+    <item class="com.mobisystems.files.FileBrowser" name="files" />
+    <item class="com.mobisystems.files.FileBrowser" name="files" />
+    <item class="com.oneplus.filemanager.HomePageActivity" name="files" />
+    <item class="com.sec.android.app.myfiles.common.MainActivity" name="files" />
+    <item class="com.sec.android.app.myfiles.MainActivity" name="files" />
+    <item class="com.smartisan.filemanager.MainActivity" name="files" />
+    <item class="com.yulong.android.filebrowser.activity.LeadingActivity" name="files" />
+    <item class="com.zui.filemanager.MainActivity" name="files" />
+    <item class="com.amaze.filemanager.activities.MainActivity" name="files" />
+    <item class="zte.com.cn.filer.FilerActivity" name="files" />
+    <!-- 文件管理器 / File Master -->
+    <item class="com.fteam.openmaster.SplashActivity" name="files" />
+    <!-- 文件管理 / Files -->
+    <item class="com.yulong.android.filebrowser.activity.LeadingActivity" name="files" />
+    <!-- 文件管理 / Explorer -->
+    <item class="com.android.fileexplorer.FileExplorerTabActivity" name="files" />
+    <!-- 文件管理 / File Explorer -->
+    <item class="com.gionee.filemanager.FileExplorerTabActivity" name="files" />
+    <!-- Build: LeEco / Le 1s -->
+    <!-- File Manager / File Manager -->
+    <item class="com.amaze.filemanager.activities.MainActivity" name="files" />
+
+
+
+
+    <item class="cn.nubia.fmradio.FMRadio" name="fm_radio" />
+    <item class="com.android.fmradio.FmMainActivity" name="fm_radio" />
+    <item class="com.caf.fmradio.FMRadio" name="fm_radio" />
+    <item class="com.codeaurora.fmradio.FMRadio" name="fm_radio" />
+    <item class="com.evenwell.fmradio.FMRadioActivity" name="fm_radio" />
+    <item class="com.htc.fm.ap.activity.FMRadioMain" name="fm_radio" />
+    <item class="com.huawei.android.FMRadio.FmRadioActivity" name="fm_radio" />
+    <item class="com.huawei.android.FMRadio.FMRadioMainActivity" name="fm_radio" />
+    <item class="com.lge.fmradio.IntroActivity" name="fm_radio" />
+    <item class="com.broadcom.bt.app.fm.rx.fmradio" name="fm_radio" />
+    <item class="com.mediatek.FMRadio.FMRadioActivity" name="fm_radio" />
+    <item class="com.miui.fmradio.FmActivity" name="mi_fm_radio" />
+    <item class="com.quicinc.fmradio.FMRadio" name="fm_radio" />
+    <item class="com.sec.android.app.fm.MainActivity" name="fm_radio" />
+    <item class="com.sonyericsson.fmradio.ui.FmRadioActivity" name="fm_radio" />
+    <item class="com.vivo.FMRadio.FMRadio" name="fm_radio" />
+    <!-- 调频收音机 / FM radio -->
+    <item class="com.sonyericsson.fmradio.ui.FmRadioActivity" name="fm_radio" />
+    <!-- 收音机 / FM Radio -->
+    <item class="com.mediatek.fmradio.FmRadioActivity" name="fm_radio" />
+
+
+    <item class="cn.nubia.gallery3d.app.Gallery" name="gallery" />
+    <item class="com.android.gallery3d.app.Gallery" name="gallery" />
+    <item class="com.android.gallery3d.app.GalleryActivity" name="gallery" />
+    <item class="com.huawei.gallery.app.GalleryMain" name="gallery" />
+    <item class="com.oppo.gallery3d.app.Gallery" name="gallery" />
+    <item class="com.oppo.gallery3d.app.Gallery" name="gallery" />
+
+    <item class="com.evenwell.gallery.app.Gallery" name="gallery" />
+    <item class="com.google.android.apps.photos.home.HomeActivity" name="google_photos" />
+    <item class="com.google.android.apps.photos.home.HomeActivity" name="gallery" />
+    <item class="com.htc.album.AlbumMain.ActivityMainTabHost" name="gallery" />
+    <item class="com.lenovo.gallery.app.GalleryActivity" name="gallery" />
+    <item class="com.android.gallery3d.app.GalleryActivity" name="gallery" />
+    <item class="com.meizu.media.gallery.GalleryActivity" name="gallery" />
+    <item class="com.miui.gallery.activity.HomePageActivity" name="gallery" />
+    <item class="com.oneplus.gallery.OPGalleryActivity" name="gallery" />
+    <item class="com.sec.android.gallery3d.app.GalleryOpaqueActivity" name="gallery" />
+    <item class="com.sonyericsson.album.MainActivity" name="gallery" />
+    <item class="com.android.gallery3d.vivo.GalleryTabActivity" name="gallery" />
+    <item class="com.zui.cameragallery.gallery.app.GalleryActivity" name="gallery" />
+    <item class="com.zui.gallery.app.GalleryActivity" name="gallery" />
+    <item class="jp.co.sharp.android.picturemanager.media.PictureManager" name="gallery" />
+    <item class="com.android.gallery3d.app.GalleryActivity" name="gallery" />
+    <item class="com.android.gallery3d.app.GalleryActivity" name="gallery" />
+    <!-- 图库 / Camera -->
+    <item class="com.android.camera.GalleryPicker" name="gallery" />
+    <!-- 图库 / Gallery -->
+    <item class="com.gionee.gallery.sb.app.GnGallery" name="gallery" />
+    <!-- 媒体库 / Gallery -->
+    <item class="com.android.gallery3d.app.GalleryActivity" name="gallery" />
+
+
+    <item class="com.huawei.health.MainActivity" name="health" />
+    <item class="com.huawei.healthcloud.cardui.MainActivity" name="health" />
+    <item class="com.qiku.healthguard.activity.StartupWizardActivity" name="health" />
+    <item class="com.samsung.android.app.shealth.home.HomeMainActivity" name="health" />
+    <item class="com.zui.zhealthy.SplashActivity" name="health" />
+
+    <item class="cn.nubia.music.MainActivity" name="music" />
+    <item class="com.android.bbkmusic.WidgetToTrackActivity" name="music" />
+    <item class="com.android.mediacenter.PageActivity" name="huawei_mediacenter" />
+    <item class="com.cyanogenmod.eleven.ui.activities.HomeActivity" name="music" />
+    <item class="com.fihtdc.music.ui.activities.MainActivity" name="music" />
+    <item class="com.netease.cloudmusic.activity.LoadingActivity" name="music" />
+    <item class="com.lewa.player.activity.SplashActivity" name="music" />
+    <item class="com.lge.music.MusicBrowserActivity" name="music" />
+    <item class="com.meizu.media.music.MusicActivity" name="flyme_music" />
+    <item class="com.miui.player.ui.MusicBrowserActivity" name="mi_music" />
+    <item class="com.oppo.music.MainListActivity" name="music" />
+    <item class="com.android.music.MusicPlayerTab" name="music" />
+    <item class="com.sec.android.app.music.common.activity.MusicMainActivity" name="music" />
+    <item class="com.samsung.musicplus.MusicMainActivity" name="music" />
+    <item class="com.sec.android.app.music.common.activity.MusicMainActivity" name="music" />
+    <item class="com.smartisanos.music.activities.MusicMain" name="music" />
+    <item class="com.sonyericsson.music.MusicActivity" name="sony_music" />
+    <!-- 音乐 / Music -->
+    <item class="com.android.music.MusicBrowserActivity" name="music" />
+    <!-- 音乐 / Music -->
+    <item class="com.htc.music.browserlayer.MusicBrowserTabActivity" name="music" />
+    <!-- 三星音乐 / Samsung Music -->
+    <item class="com.samsung.android.app.music.common.activity.MusicMainActivity" name="music" />
+    <!-- 音乐 / Music -->
+    <item class="com.oppo.music.UnsupportCheckActivity" name="music" />
+    <!-- Build: LeEco / Le 1s -->
+    <!-- Music / Music -->
+    <item class="com.kabouzeid.gramophone.ui.activities.MainActivity" name="music" />
+
+
+
+    <item class="cn.nubia.contacts.DialerActivity" name="phone" />
+    <item class="com.android.contacts.activities.DialtactsActivity" name="phone" />
+    <item class="com.android.contacts.activities.TwelveKeyDialer" name="phone" />
+    <item class="com.android.contacts.activities.WtDialerActivity" name="phone" />
+    <item class="com.android.contacts.DialtactsActivityAlias" name="phone" />
+    <item class="com.android.dialer.DialtactsActivity" name="phone" />
+    <item class="com.oneplus.contacts.activities.OPDialtactsActivity" name="phone" />
+    <item class="com.android.dialer.DialtactsActivity" name="phone" />
+    <item class="com.android.dialer.TwelveKeyDialer" name="phone" />
+    <item class="com.oneplus.contacts.activities.OPDialtactsActivity" name="phone" />
+    <item class="com.yulong.android.contacts.dial.DialActivity" name="phone" />
+    <item class="com.google.android.dialer.extensions.GoogleDialtactsActivity" name="phone" />
+    <item class="com.android.contacts.activities.DialtactsActivity" name="phone" />
+    <item class="com.android.dialer.DialtactsActivity" name="phone" />
+    <item class="com.sonyericsson.android.socialphonebook.DialerEntryActivity" name="sony_phone" />
+    <item class="com.android.dialer.DialtactsActivity" name="sony_phone" />
+    <item class="com.android.newcontact.vl.activity.DialpadShutcut" name="phone" />
+    <!-- Build: Lenovo / Lenovo P770 -->
+    <!-- 拨号 / Ideafriend -->
+    <item class="com.lenovo.ideafriend.alias.DialtactsActivity" name="phone" />
+    <!-- Build: Sony / G8441 -->
+    <!-- 电话 / Phone -->
+    <item class="com.android.dialer.app.DialtactsActivity" name="phone" />
+    <!-- 电话 / Phone -->
+    <item class="com.android.dialer.app.DialtactsActivity" name="phone" />
+
+
+
+    <item class="cn.nubia.security.NubiaSecurity" name="security" />
+    <item class="com.aliyun.SecurityCenter.ui.SecurityCenterActivity" name="security" />
+    <item class="com.color.safecenter.SecureSafeMainActivity" name="security" />
+    <item class="com.coloros.safecenter.FakeActivity" name="security" />
+    <item class="com.coloros.safecenter.SecureSafeMainActivity" name="security" />
+    <item class="com.huawei.systemmanager.mainscreen.MainScreenActivity" name="security" />
+    <item class="com.lenovo.security.homepage.HomePageActivity" name="security" />
+    <item class="com.letv.android.supermanager.activity.SuperManagerActivity" name="security" />
+    <item class="com.meizu.safe.SecurityMainActivity" name="flyme_security" />
+    <!-- 魅族安全中心 -->
+    <item class="com.meizu.safe.SecurityCenterActivity" name="flyme_security" />
+    <item class="com.miui.securityscan.MainActivity" name="security" />
+    <item class="com.oneplus.security.view.SecurityMainActivity" name="security" />
+    <item class="com.smartisanos.securitycenter.MainActivity" name="security" />
+    <item class="com.smartisanos.securitycenter.SecurityCenterActivity" name="security" />
+    <!-- i 管家 / i Manager -->
+    <item class="com.iqoo.secure.MainGuideActivity" name="security" />
+    <!-- 一加安全中心 / OnePlus Security Center -->
+    <item class="com.android.spare_parts.SpareParts" name="security" />
+    <!-- Build: ZTE / c880s --> <!-- 掌心管家 / Mi-Assistant -->
+    <item class="com.zte.heartyservice.main.HeartServiceActivityLauncher" name="security" />
+
+    <item class="com.lenovo.safecenter.MainTab.LeSafeMainActivity" name="lenovo_safecenter" />
+
+    <item class="com.android.settings.GnSettingsTabActivity" name="settings" />
+    <item class="com.android.settings.GridSettings" name="settings" />
+    <item class="com.android.settings.HWSettings" name="settings" />
+    <item class="com.android.settings.MainSettings" name="settings" />
+    <item class="com.android.settings.Settings" name="settings" />
+    <item class="com.oppo.settings.SettingsActivity" name="settings" />
+
+    <item class="cn.nubia.mms.tab.MmsMainActivity" name="sms_5" />
+    <item class="com.android.messaging.ui.conversationlist.ConversationListActivity" name="sms_5" />
+    <item class="com.android.mms.ui.BootActivity" name="sms_5" />
+    <item class="com.android.mms.ui.ConversationComposer" name="sms_5" />
+    <item class="com.android.mms.ui.ConversationList" name="sms_5" />
+    <item class="com.android.mms.ui.MmsTabActivity" name="sms_5" />
+    <item class="com.android.mms.ui.traditional.MessageLaunchActivity" name="sms_5" />
+    <item class="com.yulong.android.mms.ui.MmsConversationListActivity" name="sms_5" />
+    <item class="com.google.android.apps.messaging.ui.ConversationListActivity" name="sms_5" />
+    <item class="com.lenovo.ideafriend.alias.MmsActivity" name="sms_5" />
+    <item class="com.android.mms.ui.ConversationComposer" name="sms_5" />
+    <item class="com.sonyericsson.conversations.ui.ConversationListActivity" name="sony_sms" />
+    <item class="com.fancymaker.mms.ui.XuiMmsMainActivity" name="sms_5" />
+
+    <!-- 信息 / Messages -->
+    <item class="com.htc.sense.mms.ui.ConversationList" name="sms_5" />
+
+
+    <item class="cn.nubia.soundrecorder.SoundRecorderBrowserActivity" name="sound_recorder" />
+    <item class="com.android.bbksoundrecorder.SoundRecorder" name="sound_recorder" />
+    <item class="com.android.soundrecorder.MzRecorderActivity" name="sound_recorder" />
+    <item class="com.android.soundrecorder.SoundRecorder" name="sound_recorder" />
+    <item class="com.htc.soundrecorder.SoundRecorderBG" name="sound_recorder" />
+    <item class="com.letv.android.recorder.mvp.recorder.view.RecorderActivity" name="sound_recorder" />
+    <item class="com.oneplus.soundrecorder.SoundRecorder" name="sound_recorder" />
+    <item class="com.sec.android.app.voicenote.main.VNMainActivity" name="sound_recorder" />
+    <item class="com.smartisanos.recorder.activity.EmptyActivity" name="sound_recorder" />
+    <item class="com.yulong.android.soundrecorder.CP_SoundRecorder" name="sound_recorder" />
+    <item class="com.zui.recorder.SoundRecorder" name="sound_recorder" />
+    <item class="org.lineageos.recorder.RecorderActivity" name="sound_recorder_los" />
+    <!-- 录音器 / Audio Recorder -->
+    <item class="com.sonymobile.androidapp.audiorecorder.activity.MainActivity" name="sound_recorder" />
+    <!-- 录音 / Sound Recorder -->
+    <item class="oppo.multimedia.soundrecorder.RecorderActivity" name="sound_recorder" />
+
+
+    <item class="cn.nubia.weather.ui.activity.MainActivity" name="weather" />
+    <item class="com.coloros.weather.OppoMainActivity" name="weather" />
+    <item class="com.fihtdc.weather.activity.WeatherDetailActivity" name="weather" />
+    <item class="com.htc.Weather.WeatherEntry" name="weather" />
+    <item class="com.huawei.android.totemweather.WeatherHome" name="weather" />
+    <item class="com.lge.sizechangable.weather.activities.WeatherActivity_Default" name="weather" />
+    <item class="com.meizu.flyme.weather.WeatherMainActivity" name="flyme_weather" />
+    <item class="com.miui.weather2.ActivityWeatherMain" name="weather" />
+    <item class="com.smartisanos.weather.CityWeather" name="weather" />
+    <item class="com.sonymobile.xperiaweather.MainActivity" name="weather" />
+    <item class="com.vivo.weather.WeatherMain" name="weather" />
+    <item class="net.oneplus.weather.app.MainActivity" name="oneplus_weather" />
+    <item class="com.sina.tianqitong.ui.main.Splash" name="weather" />
+    <item class="com.sina.tianqitong.ui.main.MainTabActivity" name="weather" />
+
+
+
+
+    <item class="cn.nubia.neostore.ui.start.AppStartActivity" name="market" />
+    <item class="com.bbk.appstore.ui.AppStore" name="market" />
+    <item class="com.htc.android.sense.activity.HelpActivity" name="market" />
+    <item class="com.huawei.appmarket.MainActivity" name="market" />
+    <item class="com.lenovo.leos.appstore.activities.Main" name="market" />
+    <item class="com.letv.app.appstore.MainActivity" name="market" />
+
+    <item class="com.oneplus.market.activity.MainActivity" name="market_oneplus" />
+    <item class="com.oppo.market.activity.MainActivity" name="market" />
+    <item class="com.sec.android.app.samsungapps.SamsungAppsMainActivity" name="market" />
+    <item class="com.smartisanos.appstore.AppStoreActivity" name="market" />
+    <item class="com.xiaomi.market.ui.MarketTabActivity" name="market" />
+
+
+    <item class="cn.nubia.notepad.NoteListActivity" name="notes" />
+    <item class="com.android.notes.Notes" name="notes" />
+    <item class="com.blackberry.notes.ui.list.NotesListActivity" name="notes" />
+    <item class="com.blackberry.tasks.ui.list.TasksListActivity" name="notes" />
+    <item class="com.example.android.notepad.NotePadActivity" name="notes" />
+    <item class="com.example.android.notepad.NotesList" name="notes" />
+    <item class="com.fihtdc.note.NotesActivity" name="notes" />
+    <item class="com.htc.task.TaskListViewActivity" name="notes" />
+    <item class="com.letv.android.note.NoteBookListActivity" name="notes" />
+    <item class="com.letv.android.note.NoteListActivity" name="notes" />
+    <item class="com.mediatek.todos.TodosActivity" name="notes" />
+    <item class="com.meizu.flyme.notepaper.app.NotePaperActivity" name="flyme_notes" />
+    <item class="com.meizu.flyme.notepaper.NotePaperActivity" name="flyme_notes" />
+    <item class="com.miui.notes.ui.NotesListActivity" name="mi_notes" />
+    <item class="com.oneplus.note.ui.MainActivity" name="oneplus_note" />
+    <item class="com.qiku.android.coolmemo.ui.CoolMemoActivity" name="notes" />
+    <item class="com.samsung.android.app.memo.Main" name="notes" />
+    <!-- 三星笔记 / Samsung Notes -->
+    <item class="com.samsung.android.app.notes.memolist.MemoListActivity" name="samsung_notes" />
+    <item class="com.smartisanos.notes.NotesActivity" name="notes" />
+    <item class="com.sonyericsson.notes.NotesListActivity" name="notes" />
+    <item class="com.sonymobile.notes.dashboard.DashboardActivity" name="notes" />
+    <item class="com.wingtech.note.list.NotesListActivity" name="notes" />
+    <item class="com.yulong.android.coolmemo.ui.CoolMemoActivity" name="notes" />
+    <item class="com.zui.notes.MainActivity" name="notes" />
+    <!-- 锤子便签 / Smartisan Notes -->
+    <item class="com.smartisan.notes.NewNotesActivity" name="notes" />
+
+    <item class="cn.nubia.systemupdate.SystemUpdateActivity" name="sys_update" />
+    <item class="com.android.updater.MainActivity" name="sys_update" />
+    <item class="com.huawei.android.hwouc.ui.activities.MainEntranceActivity" name="sys_update" />
+    <item class="com.lenovo.ota.ui.launch.LaunchActivity" name="sys_update" />
+    <item class="com.meizu.flyme.update.SystemUpgradeListActivity" name="sys_update" />
+    <item class="com.yulong.android.ota.ui.MainActivity" name="sys_update" />
+    <item class="com.zui.ota.ui.MainActivity" name="sys_update" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 日历 / Calendar -->
+    <item class="com.android.calendar.AllInOneActivity" name="calendar" />
+    <!-- The whole 31 icons are required, or it doesn't work. -->
+    <calendar
+        component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity"
+        prefix="calendar_d" />
+    <calendar
+        component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity"
+        prefix="calendar_d" />
+    <calendar
+        component="ComponentInfo{am.sunrise.android.calendar/am.sunrise.android.calendar.ui.HomeActivity"
+        prefix="calendar_d" />
+    <calendar
+        component="ComponentInfo{com.android.calendar/com.meizu.flyme.calendar.AllInOneActivity"
+        prefix="calendar_d" />
+    <calendar
+        component="ComponentInfo{com.android.calendar/com.android.calendar.homepage.AllInOneActivity"
+        prefix="calendar_d" />
+    <calendar
+        component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity"
+        prefix="calendar_d" />
+    <calendar
+        component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity"
+        prefix="calendar_d" />
+    <calendar
+        component="ComponentInfo{com.zui.calendar/com.zui.calendar.MainActivity"
+        prefix="calendar_d" />
+
+    <!-- 锤子日历 / Smartisan Calendar -->
+    <calendar
+        component="ComponentInfo{com.smartisan.calendar/com.android.calendar.AllInOneActivity"
+        prefix="calendar_d" />
+    <item class="com.android.calendar.AllInOneActivity" name="calendar" />
+    <!-- 日历 / Calendar -->
+    <calendar
+        component="ComponentInfo{com.yulong.android.calendar/com.yulong.android.calendar.ui.MenuAnimationActivity"
+        prefix="calendar_d" />
+    <!-- 日历 / Calendar -->
+    <item class="com.yulong.android.calendar.ui.MenuAnimationActivity" name="calendar" />
+    <!-- 联想日历 / LenovoCalendar -->
+    <item class="com.lenovo.calendar.splashpic.SplashActivity" name="calendar" />
+    <!-- 日历 / Calendar -->
+    <item class="com.zui.calendar.AllInOneActivity" name="calendar" />
+
+
+    <item class="com.android.calendar.AllInOneActivity" name="calendar" />
+    <item class="com.android.calendar.AllInOneActivity" name="calendar" />
+    <item class="am.sunrise.android.calendar.ui.HomeActivity" name="calendar" />
+    <item class="com.meizu.flyme.calendar.AllInOneActivity" name="calendar" />
+    <item class="com.android.calendar.homepage.AllInOneActivity" name="calendar" />
+    <item class="com.android.calendar.AllInOneActivity" name="calendar" />
+    <item class="com.android.calendar.LaunchActivity" name="calendar" />
+    <item class="com.android.calendar.HtcCalendarProvider" name="calendar" />
+    <item class="com.android.calendar.CalendarTabActivity" name="calendar" />
+    <item class="com.android.calendar.MonthActivity" name="calendar" />
+    <item class="com.android.calendar.LaunchActivity" name="calendar" />
+    <item class="com.android.calendar.AgendaActivity" name="calendar" />
+    <item class="com.android.calendar.EventInfoActivity" name="calendar" />
+    <item class="com.android.calendar.EditEventActivity" name="calendar" />
+    <item class="com.android.calendar.timeline.EventListWithStartTime" name="calendar" />
+    <item class="com.android.calendar.ChooserActivity" name="calendar" />
+    <item class="com.android.calendar.LaunchTasksActivity" name="calendar" />
+    <item class="com.htc.calendar.CalendarActivityMain" name="calendar" />
+    <item class="com.lenovo.android.calendar.SplashActivity" name="calendar" />
+    <item class="com.sonymobile.calendar.LaunchActivity" name="calendar" />
+    <item class="cn.nubia.calendar.AllInOneActivity" name="calendar" />
+    <item class="com.bbk.calendar.MainActivity" name="calendar" />
+    <item class="com.android.calendar.AllInOneActivity" name="calendar" />
+    <item class="com.zui.calendar.MainActivity" name="calendar" />
+    <item class="com.blackberry.calendar.AllInOneActivity" name="calendar" />
+
+    <item class="com.by_syk.lib.nanoiconpack.MainActivity" name="nano_icon_pack" />
+
+    <!-- <item class="[launcher_activity_name]" name="[icon_file_name]" /> -->
+
     <item class="com.by_syk.lib.nanoiconpack.MainActivity" name="ic_launcher" />
     <!-- Pure IconPack Lite / Pure IconPack Lite -->
     <item class="com.by_syk.nanoiconpack.lite.LiteIconActivity" name="pure_lite" />
@@ -4326,9 +4913,7 @@
     <item class="com.nutomic.syncthingandroid.activities.FirstStartActivity" name="syncthing" />
 
     <!-- 主题 / Themes -->
-    <item
-        component="ComponentInfo{org.cyanogenmod.theme.chooser/org.cyanogenmod.theme.chooser.ChooserActivity"
-        name="flyme_theme" />
+    <item class="org.cyanogenmod.theme.chooser.ChooserActivity" name="flyme_theme" />
     <!-- 优步-Uber / 优步-Uber -->
     <item class="com.didi.echo.bussiness.splash.SplashActivity" name="uber" />
     <!-- Build: xiaomi / Redmi Note 4X -->
@@ -5469,18 +6054,14 @@
     <item class="com.thirtydegreesray.openhub.ui.activity.SplashActivity" name="open_hub" />
 
     <!-- Maxplus / Maxplus -->
-    <item
-        component="ComponentInfo{com.maxplus.maxplus/com.max.app.module.welcome.WelcomeActivity"
-        name="maxplus" />
+    <item class="com.max.app.module.welcome.WelcomeActivity" name="maxplus" />
     <!-- Telegreat X / Telegreat X -->
     <item class="org.thunderdog.challegram.MainActivity" name="telegram_x" />
     <!-- Opera / Opera -->
     <item class="com.opera.Opera" name="opera" />
 
     <!-- SoundHound / SoundHound -->
-    <item
-        component="ComponentInfo{com.melodis.midomiMusicIdentifier.freemium/com.soundhound.android.appcommon.activity.SplashScreenActivity"
-        name="sound_hound" />
+    <item class="com.soundhound.android.appcommon.activity.SplashScreenActivity" name="sound_hound" />
     <!-- 顺丰优选 / 顺丰优选 -->
     <item class="com.sfbest.mapp.module.guide.GuideActivity" name="sfyx" />
     <!-- 华医通 / 华医通 -->
@@ -7825,4 +8406,119 @@
 <item class="com.android.mms.ui.ConversationList" name="sms_5" />
 <!-- Manga Rock / Manga Rock -->
 <item class="com.notabasement.mangarock.android.screens_v3.bootstrap.BootstrapActivity" name="manga_rock" />
+<!-- bima+ / null -->
+<item class="md5233a66268ba0262636e2bc558b77e078.SplashActivity" name="bima_plus" />
+<!-- Shopee / Shopee -->
+<item class="com.shopee.app.ui.home.HomeActivity_" name="shopee" />
+<!-- Apps / Apps -->
+<item class="com.xiaomi.market.ui.MarketTabActivity" name="market" />
+<!-- Hago / Hago -->
+<item class="com.yy.hiyo.LaunchActivity" name="hago" />
+<!-- KMPlayer / KMPlayer -->
+<item class="com.kmplayer.activity.SplashActivity" name="kmplayer" />
+<!-- Arena of Valor / Arena of Valor -->
+<item class="com.garena.game.kgtw.SGameActivity" name="game_kgtw_csdj" />
+<!-- ソノミラ / ソノミラ -->
+<item class="com.unity3d.player.UnityPlayerActivity" name="game_neoforce" />
+<!-- BankID / BankID -->
+<item class="com.bankid.bus.activities.InitActivity" name="bank_id" />
+<!-- Banca Móvil BCP / Banca Móvil BCP -->
+<item class="com.bcp.bank.activities.StartActivity" name="bcp_bank" />
+<!-- Mi Video / Mi Video -->
+<item class="com.miui.video.global.app.LauncherActivity" name="mi_video" />
+<!-- LATAM / LATAM -->
+<item class="mobile.latam.com.latamapp.presentation.splashScreen.SplashScreenActivity" name="latam" />
+<!-- Cabify / Cabify -->
+<item class="com.cabify.rider.presentation.splash.SplashActivity" name="cabify" />
+<!-- Bembos / Bembos -->
+<item class="com.osp.projects.bembos.SplashScreenActivity" name="bembos" />
+<!-- 英语消消乐 / WordCrush -->
+<item class="com.melostudio.wordcrush.MainActivity" name="word_crush" />
+<!-- 好唱Show / 好唱Show -->
+<item class="com.michong.haochang.activity.logo.LogoActivity" name="haochang" />
+<!-- CamScanner / CamScanner -->
+<item class="com.intsig.camscanner.launcher.WelcomeDefaultActivity" name="camscanner" />
+<!-- Magisk Manager / Magisk Manager -->
+<item class="a.c" name="magisk" />
+<!-- MT管理器 / MT Manager -->
+<item class="l.ۥۙۦۛ" name="mt_plus" />
+<!-- Bitmoji / Bitmoji -->
+<item class="com.bitstrips.imoji.ui.LandingActivity" name="bitmoji" />
+<!-- Clover / Clover -->
+<item class="org.floens.chan.ui.activity.BoardActivity" name="clover" />
+<!-- MEGA / MEGA -->
+<item class="mega.privacy.android.app.lollipop.ManagerActivityLollipop" name="mega" />
+<!-- Mixin / Mixin -->
+<item class="one.mixin.android.ui.home.MainActivity" name="mixin" />
+<!-- Measure / Measure -->
+<item class="com.google.tango.measure.android.LaunchScreenActivity" name="measure" />
+<!-- SNOW / null -->
+<item class="com.linecorp.b612.android.activity.ActivityCamera" name="camera_snow" />
+
+<!-- Speedtest / Speedtest -->
+<item class="com.ookla.mobile4.screens.main.MainActivity" name="speedtest" />
+<!-- AdAway / AdAway -->
+<item class="org.adaway.ui.MainActivity" name="adaway" />
+<!-- Hotlink RED / Hotlink RED -->
+<item class="my.com.maxis.hotlink.main.MainActivity" name="hotlink_red" />
+<!-- Asisten / Google -->
+<item class="com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromLauncher" name="google_assistant" />
+<!-- Radio FM / FM Radio -->
+<item class="com.asus.fmradio.FMRadioUIv3" name="fm_radio" />
+<!-- Power Saver / Power Saver -->
+<item class="com.asus.powersaver.PowerSaverSettings" name="asus_power_save" />
+<!-- Memo cepat / Quick Memo -->
+<item class="com.asus.quickmemo.activities.edit.MemoEditActivity" name="notes" />
+<!-- Kalender / Calendar -->
+<item class="com.android.calendar.AllInOneActivity" name="calendar" />
+<!-- Pembaruan sistem / DMClient -->
+<item class="com.asus.systemupdate.SystemUpdateActivity" name="sys_update" />
+<!-- Perpesanan / Messaging -->
+<item class="com.android.mms.ui.ConversationList" name="sms_5" />
+<!-- Moovit / Moovit -->
+<item class="com.moovit.app.home.HomeActivity" name="moovit" />
+<!-- PedidosYa / PedidosYa -->
+<item class="com.pedidosya.activities.SplashActivity" name="pedidos_ya" />
+<!-- La Banca Mobile / La Banca Mobile -->
+<item class="uy.com.labanca.mobile.activities.inicio.SplashActivity" name="la_banca_mobile" />
+<!-- Vamos / Vamos -->
+<item class="com.ingsw.vamos.MainActivity" name="vamos" />
+<!-- TCC Vivo / TCC Vivo -->
+<item class="uy.com.tcc.tccvivo.MainActivity" name="tcc_vivo" />
+<!-- Tether / Tether -->
+<item class="com.tplink.tether.WelcomeActivity" name="tether" />
+<!-- McDonald's / McDonald's -->
+<item class="com.gigigo.mcdonaldsbr.modules.splash.SplashActivity" name="mcdonalds_pro" />
+<!-- DIRECTV / DIRECTV -->
+<item class="com.directv.dvrscheduler.activity.core.Setup" name="directv" />
+<!-- andromeda / andromeda -->
+<item class="projekt.andromeda.app.activity.InfoActivityLegacy" name="andromeda" />
+<!-- Grab / Grab -->
+<item class="com.grab.pax.newface.presentation.newface.NewFace" name="grab" />
+<!-- Celcom Life / Celcom Life -->
+<item class="com.celcom.mycelcom.MainActivity" name="celcom_life" />
+<!-- Quizlet / Quizlet -->
+<item class="com.quizlet.quizletandroid.ui.RootActivity" name="quizlet" />
+<!-- WOM / WOM -->
+<item class="cl.wom.transformacion.appwommobile.actividades.CargaInicialActivity" name="wom" />
+<!-- Smule / Smule -->
+<item class="com.smule.singandroid.StartupActivity_" name="smule" />
+<!-- Home / Home -->
+<item class="com.google.android.apps.chromecast.app.DiscoveryActivity" name="google_home" />
+<!-- My Italian Recipes / My Italian Recipes -->
+<item class="com.makezone.ricette.MainActivity" name="my_italian_recipes" />
+<!-- Seitenberührung / Edge Touch -->
+<item class="com.samsung.android.app.edgetouch.ui.activity.MainActivity" name="samsung_edge_touch" />
+<!-- Bixby Vision / Bixby Vision -->
+<item class="com.samsung.android.visionintelligence.app.DummyActivity" name="samsung_bixby_vision" />
+<!-- BadLock / BadLock -->
+<item class="com.satysatszb.badlock.MainActivity" name="bad_lock" />
+<!-- TV Programm / TV Programm -->
+<item class="de.couchfunk.android.common.ui.activities.AppStartActivity_" name="tv_programm" />
+<!-- MT_Manager -->
+	<item class="l.ۥۚۧ۫" name="mt_manager"/>
+<!-- 玲珑密保锁 / 玲珑密保锁 -->
+<item class="com.kingsoft.android.cat.ui.activity.SplashScreenActivity" name="llmbs_2" />
+<!-- POSB / POSB -->
+<item class="com.dbs.sg.posbmbanking.MBSG" name="posb" />
 </appmap>
