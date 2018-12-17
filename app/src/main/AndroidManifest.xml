@@ -19,7 +19,7 @@
           package="me.morirain.dev.iconpack.pure">
 
     <!-- Permission required for donations -->
-    <uses-permission android:name="com.android.vending.BILLING" />
+    <!-- <uses-permission android:name="com.android.vending.BILLING" /> -->
 
     <application
         android:name=".MyApplication"
