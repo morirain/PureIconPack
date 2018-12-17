@@ -34,7 +34,7 @@ class MainActivity : BottomNavigationBlueprintActivity() {
     override var donationsEnabled = false
 
     override fun amazonInstallsEnabled(): Boolean = true
-    override fun checkLPF(): Boolean = true
+    override fun checkLPF(): Boolean = false
     override fun checkStores(): Boolean = true
 
     /**
