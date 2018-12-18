@@ -8503,6 +8503,78 @@
     <item component="ComponentInfo{com.netease.uu/com.netease.uu.activity.MainActivity}" drawable="netease_uu" />
     <item component="ComponentInfo{com.One.WoodenLetter/com.One.WoodenLetter.LetterActivity}" drawable="one_woodenletter" />
 
+	<!-- 皮皮虾 / 皮皮虾 -->
+<item component="ComponentInfo{com.sup.android.superb/com.sup.android.superb.SplashActivity}" drawable="pipixia" />
+<!-- POCO Launcher / POCO Launcher -->
+<item component="ComponentInfo{com.mi.android.globallauncher/com.miui.home.launcher.SplashActivity}" drawable="poco_launcher" />
+	<!-- Amazon Assistant / Amazon Assistant -->
+<item component="ComponentInfo{com.amazon.aa/com.amazon.aa.LodestarLauncherActivity}" drawable="amazon_assistant" />
+<!-- Lieferando / Lieferando -->
+<item component="ComponentInfo{com.yopeso.lieferando/com.takeaway.android.activity.Splash}" drawable="lieferando" />
+<!-- My T‑Mobile / My T‑Mobile -->
+<item component="ComponentInfo{nl.oberon.tmobile.my/nl.oberon.tmobile.my.activity.LoginActivity}" drawable="t_mobile" />
+<!-- mytaxi / null -->
+<item component="ComponentInfo{taxi.android.client/taxi.android.client.feature.startup.ui.StartupActivity}" drawable="mytaxi" />
+<!-- Yelp / Yelp -->
+<item component="ComponentInfo{com.yelp.android/com.yelp.android.nearby.ui.ActivityNearby}" drawable="yelp" />
+    <!-- 亚马逊购物 / Amazon Shopping -->
+    <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon" />
+	<!-- YouTube / YouTube -->
+<item component="ComponentInfo{com.lara.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube_2" />
+<!-- MyJio / MyJio -->
+<item component="ComponentInfo{com.jio.myjio/com.jio.myjio.activities.StartAllAppView}" drawable="my_jio" />
+<!-- Axis Mobile / null -->
+<item component="ComponentInfo{com.axis.mobile/com.axis.mobile.MainActivity}" drawable="axis_mobile" />
+
+	<!-- Stellio -->
+	<item component="ComponentInfo{io.stellio.player/io.stellio.player.MainActivity}" drawable="stellio" />
+
+	<!-- XBrowser -->
+	<item component="ComponentInfo{com.x.browser.play/com.mmbox.xbrowser.BrowserActivity}" drawable="xbrowser" />
+
+<!-- YouTube Vanced / YouTube Vanced -->
+<item component="ComponentInfo{com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="you_tube_vanced" />
+<!-- BAND / BAND -->
+<item component="ComponentInfo{com.nhn.android.band/com.nhn.android.band.SplashActivity}" drawable="band" />
+<!-- 飞卢小说 / 飞卢小说 -->
+<item component="ComponentInfo{com.faloo.BookReader4Android/com.faloo.app.activity.LogoPageActivity}" drawable="faloo" />
+<!-- Magisk Manager / Magisk Manager -->
+<item component="ComponentInfo{com.topjohnwu.magisk/a.c}" drawable="magisk" />
+<!-- Neutron / Neutron -->
+<item component="ComponentInfo{com.neutroncode.mp/com.neutroncode.mp.NeutronMPCore}" drawable="neutron" />
+<!-- niconico / niconico -->
+<item component="ComponentInfo{jp.nicovideo.android/jp.nicovideo.android.StartupActivity}" drawable="niconico" />
+<!-- CCleaner / CCleaner -->
+<item component="ComponentInfo{com.piriform.ccleaner/com.avast.android.cleaner.activity.StartActivity}" drawable="ccleaner" />
+<!-- QQ输入法 / QQ输入法 -->
+<item component="ComponentInfo{com.tencent.qqpinyin/com.tencent.qqpinyin.activity.guide.SplashActivity}" drawable="qq_input" />
+<!-- Assistant / Google -->
+<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromLauncher}" drawable="google_assistant" />
+<!-- 索尼精选Hi-Res音乐 / 索尼精选Hi-Res音乐 -->
+<item component="ComponentInfo{com.hiresmusic/com.hires.app.GuideActivity}" drawable="sony_hiresmusic" />
+<!-- 步道乐跑 / 步道乐跑 -->
+<item component="ComponentInfo{com.lptiyu.tanke/com.lptiyu.tanke.activities.splash.SplashActivity}" drawable="bdlp" />
+<!-- 鹅漫U品 / 鹅漫U品 -->
+<item component="ComponentInfo{com.tencent.qqumall/com.tencent.qqumall.IconAlias}" drawable="qq_umall" />
+<!-- 驾本易 / 驾本易 -->
+<item component="ComponentInfo{com.jbyxy.app.student/com.jbyxy.app.student.ui.activity.home.LaunchActivity}" drawable="jiaby" />
+<!-- 万达电影 / 万达电影 -->
+<item component="ComponentInfo{com.wandafilm.app/com.wandafilm.app.activity.MainActivity}" drawable="wanda_film" />
+<!-- 滴滴出行 / DiDi -->
+<item component="ComponentInfo{com.sdu.didi.psnger/com.didi.sdk.app.launch.DidiLoadDexActivity}" drawable="didi" />
+
+<!-- 斗鱼直播 / 斗鱼直播 -->
+<item component="ComponentInfo{air.tv.douyu.android/tv.douyu.view.activity.launcher.DYLauncherActivity}" drawable="douyu" />
+<!-- 黑加 / 黑加 -->
+<item component="ComponentInfo{com.ryeex.groot/com.ryeex.groot.main.SplashActivity}" drawable="hey_p" />
+<!-- 多拉打印 / 多拉打印 -->
+<item component="ComponentInfo{com.duola.yunprint/com.duola.yunprint.ui.splash.SplashActivity}" drawable="duola_print" />
+<!-- 考研毙考题 / 考研毙考题 -->
+<item component="ComponentInfo{com.jeagine.ky/com.jeagine.cloudinstitute.ui.activity.SplashActivity}" drawable="kybkt" />
+
+
+
+    
 
 
 

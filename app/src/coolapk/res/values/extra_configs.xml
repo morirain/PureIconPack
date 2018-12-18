@@ -34,7 +34,7 @@
         <item>支付宝捐赠：请用浏览器打开</item>
         <item>微信捐赠：请用浏览器打开 并保存二维码到本地</item>
         <item>Paypal捐赠：请用浏览器打开</item>
-        <item>支付宝红包：点击领取</item>
+        <item>支付宝红包：请用浏览器打开，或直接打开支付宝搜索红包码: 2393664</item>
     </string-array>
     <string-array name="home_list_icons">
         <item>alipay</item>
@@ -46,6 +46,6 @@
         <item>https://qr.alipay.com/tsx07189jjhytekwm25ija5</item>
         <item>https://raw.githubusercontent.com/morirain/PureIconPack/Blueprint/donation/donation_wechat.jpg</item>
         <item>https://paypal.me/moriraindev</item>
-        <item>https://qr.alipay.com/c1x05714qiofa4k0tmkjc00</item>
+        <item>https://raw.githubusercontent.com/morirain/PureIconPack/Blueprint/donation/donation_alipay_re.jpg</item>
     </string-array>
 </resources>

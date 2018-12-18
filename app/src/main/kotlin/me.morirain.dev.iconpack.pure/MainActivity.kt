@@ -35,7 +35,7 @@ class MainActivity : BottomNavigationBlueprintActivity() {
 
     override fun amazonInstallsEnabled(): Boolean = true
     override fun checkLPF(): Boolean = false
-    override fun checkStores(): Boolean = true
+    override fun checkStores(): Boolean = false
 
     /**
      * This is your app's license key. Get yours on Google Play Dev Console.
@@ -51,6 +51,7 @@ class MainActivity : BottomNavigationBlueprintActivity() {
      */
     override fun getLicenseChecker(): PiracyChecker? {
         destroyChecker() // Important
+        return null;
         return if ((!GOOGLE_VERSION) or BuildConfig.DEBUG) null
         else super.getLicenseChecker()
     }
