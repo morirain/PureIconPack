@@ -15,7 +15,6 @@
   ~ limitations under the License.
   -->
 <resources>
-    <version title="v7.0" />
-    <item text="Based on Blueprint" />
-    <item text="Support Poco launcher" />
+    <version title="v7.2" />
+    <item text="Updated 48 icons, added 48 new icons, totaling 2648." />
 </resources>

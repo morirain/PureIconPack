@@ -28,10 +28,10 @@
     </string-array>
 
     <string-array name="credits_buttons">
-        <item>Coolapk|Github</item>
+        <item>Coolapk|Github|Weibo</item>
     </string-array>
 
     <string-array name="credits_links">
-        <item>https://www.coolapk.com/u/533268|https://github.com/morirain</item>
+        <item>https://www.coolapk.com/u/533268|https://github.com/morirain|https://weibo.com/morirain</item>
     </string-array>
 </resources>
