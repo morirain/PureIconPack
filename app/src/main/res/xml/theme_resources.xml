@@ -18152,4 +18152,434 @@
 	<AppIcon
 		name="com.infonow.bofa/com.infonow.bofa.Launcher"
 		image="bofa"/>
+
+
+
+	<!-- 百度企业网盘 -->
+	<AppIcon
+		name="com.baidu.cloudenterprise/com.baidu.cloudenterprise.WelcomeActivity"
+		image="baidu_netdisk"/>
+
+	<!-- 浏览器 -->
+	<AppIcon
+		name="com.zui.browser/com.lenovo.browser.BrowserActivity"
+		image="browser"/>
+	<!-- zlive -->
+	<AppIcon
+		name="com.linroid.zlive/com.linroid.zlive.screen.host.HostActivityThird"
+		image="zlive"/>
+
+	<!-- 作文纸条 -->
+	<AppIcon
+		name="zwzt.fangqiu.edu.com.zwzt/zwzt.fangqiu.edu.com.zwzt.module.splash.SplashActivity"
+		image="zuowenzt"/>
+	<!-- YouTube -->
+	<AppIcon
+		name="com.paraphron.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+		image="youtube"/>
+	<!-- 芒果TV -->
+	<AppIcon
+		name="com.hunantv.imgo.activity/com.hunantv.imgo.activity.SplashActivity"
+		image="mangguo_tv"/>
+	<!-- 世纪佳缘 -->
+	<AppIcon
+		name="com.jiayuan/com.jiayuan.modules.MainActivity"
+		image="jiayuan"/>
+	<!-- Daygram -->
+	<AppIcon
+		name="net.saltycrackers.daygram/net.saltycrackers.daygram.MainActivity"
+		image="daygram"/>
+
+	<!-- 天猫精灵 -->
+	<AppIcon
+		name="com.alibaba.ailabs.tg/com.alibaba.ailabs.tg.splash.WelcomeActivity"
+		image="ali_tmalljl"/>
+	<!-- 且慢 -->
+	<AppIcon
+		name="cn.yingmi.qieman.hermione/cn.yingmi.qieman.hermione.MainActivity"
+		image="qieman"/>
+	<!-- 极客时间 -->
+	<AppIcon
+		name="org.geekbang.geekTime/org.geekbang.geekTime.project.start.LaunchActivity"
+		image="geekbang"/>
+	<!-- 招商银行 -->
+	<AppIcon
+		name="cmb.pb/cmb.pb.mainframe.PBEntryActivity"
+		image="cmb"/>
+	<!-- TV_2_Play -->
+	<AppIcon
+		name="dk.tv2.tv2play/dk.tv2.tv2play.ui.view.main.MainActivity"
+		image="tv_2_play"/>
+	<!-- GulogGratis -->
+	<AppIcon
+		name="dk.guloggratis/dk.guloggratis.ui.activities.MainActivity"
+		image="guloggratis"/>
+	<!-- 易车 -->
+	<AppIcon
+		name="com.yiche.autoeasy/com.yiche.autoeasy.StartActivity"
+		image="yc"/>
+	<!-- 下厨房 -->
+	<AppIcon
+		name="com.xiachufang/com.xiachufang.startpage.ui.StartPageActivity"
+		image="xiachufang"/>
+
+	<!-- Faceu激萌 -->
+	<AppIcon
+		name="com.lemon.faceu/com.lemon.faceu.business.login.LoadingPageActivity"
+		image="faceu"/>
+	<!-- YouTube_Go -->
+	<AppIcon
+		name="com.google.android.apps.youtube.mango/com.google.android.apps.youtube.lite.frontend.activities.SplashActivity"
+		image="youtube_go"/>
+	<!-- PP视频 -->
+	<AppIcon
+		name="com.android.androidphone/com.pplive.androidphone.ui.FirstActivity"
+		image="pplive"/>
+
+	<!-- 哈啰出行 -->
+	<AppIcon
+		name="com.jingyao.easybike/com.hellobike.atlas.business.splash.SplashActivity"
+		image="easybike"/>
+	<!-- 富宝袋 -->
+	<AppIcon
+		name="com.fsk.fzf.fkd/com.fsk.fzf.fkd.adc.starter.SplashActivity"
+		image="fbd"/>
+	<!-- LEO -->
+	<AppIcon
+		name="org.leo.android.dict/org.leo.android.dict.LeoDict"
+		image="leo"/>
+	<!-- Digital_Wellbeing -->
+	<AppIcon
+		name="com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.settings.LauncherActivity"
+		image="google_digital_wellbeing"/>
+	<!-- TT语音 -->
+	<AppIcon
+		name="com.yiyou.ga/com.yiyou.ga.client.BlankActivity"
+		image="tt_voice"/>
+	<!-- 机锋 -->
+	<AppIcon
+		name="cn.net.gfan.portal/cn.net.gfan.portal.module.login.activity.SplashActivity"
+		image="gfan"/>
+
+	<!-- 美团打车 -->
+	<AppIcon
+		name="com.meituan.qcs.c.android/com.meituan.qcs.c.android.ui.splash.SplashActivity"
+		image="meituan_dache"/>
+	<!-- 游研社 -->
+	<AppIcon
+		name="com.yystv.www/com.yystv.www.MainActivity"
+		image="yystv"/>
+	<!-- 个人所得税 -->
+	<AppIcon
+		name="cn.gov.tax.its/cn.gov.tax.its.MainActivity"
+		image="gov_tax_its"/>
+	<!-- 人人贷财富 -->
+	<AppIcon
+		name="com.renrendai.finance/com.renrendai.finance.alias"
+		image="renrendai"/>
+
+	<!-- Airbnb -->
+	<AppIcon
+		name="com.airbnb.android/com.airbnb.android.flavor.full.activities.HomeActivity"
+		image="airbnb"/>
+
+	<!-- AliExpress -->
+	<AppIcon
+		name="com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.home.ui.MainActivity"
+		image="ali_express"/>
+
+	<!-- ABC_iview -->
+	<AppIcon
+		name="au.net.abc.iview/au.net.abc.iview.ui.splash.LaunchActivity"
+		image="abc_iview"/>
+	<!-- ARuler -->
+	<AppIcon
+		name="com.grymala.aruler/com.grymala.aruler.monetization.ConsentActivity"
+		image="aruler"/>
+
+	<!-- LOFTアプリ -->
+	<AppIcon
+		name="jp.co.loft.fanapp/jp.co.loft.app.SplashActivity_"
+		image="loft"/>
+	<!-- TuyaSmart -->
+	<AppIcon
+		name="com.tuya.smart/com.tuyasmart.sample.TuyaSplashActivity"
+		image="tuyasmart"/>
+	<!-- Smart_Control -->
+	<AppIcon
+		name="com.awox.smart.control/com.awox.smart.control.SplashScreenActivity"
+		image="smart_control"/>
+	<!-- SSRR -->
+	<AppIcon
+		name="com.github.shadowsocksr.yogurt/com.github.shadowsocks.Shadowsocks"
+		image="shadowsocks_sr"/>
+	<!-- Wetterwarner -->
+	<AppIcon
+		name="com.stephan.dwd/com.stephan.dwd.dwd_main"
+		image="wetterwarner"/>
+	<!-- LG_Health -->
+	<AppIcon
+		name="com.lge.lifetracker/com.lge.lifetracker.ui.MainActivity"
+		image="lg_health"/>
+	<!-- Bmap -->
+	<AppIcon
+		name="me.gfuil.bmap/me.gfuil.bmap.activity.StartActivity"
+		image="bmap"/>
+	<!-- Mi_AT_T -->
+	<AppIcon
+		name="com.att.miatt/com.att.miatt.AttApp"
+		image="mi_at_t"/>
+
+	<!-- Brawl_Stars -->
+	<AppIcon
+		name="com.supercell.brawlstars/com.supercell.brawlstars.GameApp"
+		image="game_brawl_stars"/>
+	<!-- Calendar -->
+	<AppIcon
+		name="com.samsung.android.calendar/com.samsung.android.app.calendar.activity.MainActivity"
+		image="calendar"/>
+
+	<!-- Contacts -->
+	<AppIcon
+		name="com.samsung.android.contacts/com.samsung.android.contacts.contactslist.PeopleActivity"
+		image="contacts"/>
+
+	<!-- Gallery -->
+	<AppIcon
+		name="com.sec.android.gallery3d/com.samsung.android.gallery.app.activity.GalleryActivity"
+		image="gallery"/>
+
+	<!-- Phone -->
+	<AppIcon
+		name="com.samsung.android.dialer/com.samsung.android.dialer.DialtactsActivity"
+		image="phone"/>
+
+	<!-- My_Files -->
+	<AppIcon
+		name="com.sec.android.app.myfiles/com.sec.android.app.myfiles.external.ui.MainActivity"
+		image="files"/>
+	<!-- 一个木函 -->
+	<AppIcon
+		name="com.One.WoodenLetter/com.One.WoodenLetter.LauncherIconV1"
+		image="one_woodenletter"/>
+	<!-- 百度阅读Pro -->
+	<AppIcon
+		name="com.baidu.yuedupro/com.baidu.yuedupro.splash.presentation.view.activity.SplashActivity"
+		image="baidu_yd"/>
+	<!-- Fluid_NG -->
+	<AppIcon
+		name="com.fb.fluid/com.fb.fluid.ActivityMain"
+		image="fluid_ng"/>
+	<!-- ADM_Pro -->
+	<AppIcon
+		name="com.dv.adm.pay/com.dv.get.Main"
+		image="adm"/>
+	<!-- Capitec_Bank -->
+	<AppIcon
+		name="capitecbank.remote.prd/capitecbank.remote.prd.ui.activity.MainActivity"
+		image="capitec_bank"/>
+	<!-- Music -->
+	<AppIcon
+		name="com.miui.player/com.miui.player.component.MusicBrowserActivity"
+		image="music"/>
+	<!-- 8天 -->
+	<AppIcon
+		name="com.ndol.sale.starter/com.ndol.sale.starter.patch.ui.FirstActivity"
+		image="a_8d"/>
+	<!-- Memoria -->
+	<AppIcon
+		name="com.memoria.photos.gallery/com.memoria.photos.gallery.activities.MainActivity"
+		image="memoria"/>
+	<!-- EX_Kernel_Manager -->
+	<AppIcon
+		name="flar2.exkernelmanager/a.a"
+		image="ex_kn"/>
+	<!-- Tasker -->
+	<AppIcon
+		name="net.dinglisch.android.taskerm/com.joaomgcd.taskerm.util.ActivitySecondaryApp"
+		image="tasker"/>
+	<!-- Geometric_Weather -->
+	<AppIcon
+		name="wangdaye.com.geometricweather/wangdaye.com.geometricweather.ui.activity.main.MainActivity"
+		image="geometric_jihe_weather"/>
+	<!-- 多点 -->
+	<AppIcon
+		name="com.wm.dmall/com.wm.dmall.NORMAL"
+		image="duodian"/>
+
+	<!-- 美团骑手 -->
+	<AppIcon
+		name="com.sankuai.meituan.dispatch.homebrew/com.meituan.banma.splash.ui.MainSplashActivity"
+		image="meituan"/>
+	<!-- Pyszne -->
+	<AppIcon
+		name="com.yourdelivery.pyszne/com.takeaway.android.activity.Splash"
+		image="pyszne"/>
+	<!-- mBank -->
+	<AppIcon
+		name="pl.mbank/pl.mbank.core.activity.StartActivity"
+		image="m_bank"/>
+	<!-- Quantum_Physics -->
+	<AppIcon
+		name="com.civitas.quantumphysics/com.civitas.quantumphysics.UnityPlayerActivity"
+		image="quantum_physics"/>
+	<!-- MUTA音乐 -->
+	<AppIcon
+		name="com.muta.yanxi/com.muta.yanxi.view.activity.SplashActivity"
+		image="muta_m"/>
+	<!-- 观察者 -->
+	<AppIcon
+		name="cn.guancha.app/cn.guancha.app.ui.activity.WelcomeActivity"
+		image="guancha"/>
+	<!-- Kaspi_kz -->
+	<AppIcon
+		name="kz.kaspi.mobile/kz.kaspi.mobile.modules.main.MainWebPageActivity"
+		image="kaspi_kz"/>
+	<!-- 红手指 -->
+	<AppIcon
+		name="com.redfinger.app/com.redfinger.app.activity.SplashActivity"
+		image="redfinger"/>
+	<!-- 9GAG -->
+	<AppIcon
+		name="com.ninegag.android.app/com.ninegag.android.app.ui.SplashScreenActivity"
+		image="a_9gag"/>
+	<!-- 动卡空间 -->
+	<AppIcon
+		name="com.citiccard.mobilebank/com.citiccard.mobilebankapp.WelcomeActivity"
+		image="zxyh"/>
+	<!-- 应用商店 -->
+	<AppIcon
+		name="com.hmdglobal.appstore/com.siui.android.appstore.MainActivity"
+		image="market"/>
+	<!-- Mobike -->
+	<AppIcon
+		name="com.mobike.mobikeapp/com.mobike.mobikeapp.splash.SplashActivity"
+		image="mobike"/>
+
+	<!-- 鹏淘 -->
+	<AppIcon
+		name="com.uniriho.szt/com.uniriho.szt.ui.activity.commom.LauncherActivity"
+		image="uniriho"/>
+
+	<!-- 火山小视频 -->
+	<AppIcon
+		name="com.ss.android.ugc.live/com.ss.android.ugc.live.main.MainActivity"
+		image="huoshan"/>
+	<!-- Soundcore -->
+	<AppIcon
+		name="com.oceanwing.soundcore/com.oceanwing.soundcore.activity.WelcomeActivity"
+		image="soundcore"/>
+	<!-- Merriam_Webster_Dictionary -->
+	<AppIcon
+		name="com.merriamwebster/com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity"
+		image="merriam_webster_dictionary"/>
+
+	<!-- OPPO_Store -->
+	<AppIcon
+		name="com.oppo.store/com.oppo.store.InitActivity"
+		image="market"/>
+	<!-- 菜鸟裹裹 -->
+	<AppIcon
+		name="com.cainiao.wireless/com.cainiao.wireless.homepage.view.activity.WelcomeActivity"
+		image="cainiao"/>
+	<!-- Bus_Bahn -->
+	<AppIcon
+		name="de.hafas.android.vbb/de.hafas.main.HafasApp"
+		image="bus_bahn"/>
+	<!-- CineStar -->
+	<AppIcon
+		name="de.cinestar.app/de.cinestar.presentation.cinemaprogram.CinemaProgramActivity"
+		image="cinestar"/>
+	<!-- Calendar -->
+	<AppIcon
+		name="com.qiku.android.calendar/com.qiku.android.calendar.ui.MenuAnimationActivity"
+		image="calendar"/>
+
+	<!-- Clock -->
+	<AppIcon
+		name="com.qiku.android.xtime/qiku.xtime.ui.main.XTimeActivity"
+		image="clock"/>
+	<!-- Dialer_and_contacts -->
+	<AppIcon
+		name="com.qiku.android.contacts/com.qiku.android.contacts.dial.DialActivity"
+		image="contacts"/>
+	<!-- 斗鱼极速版 -->
+	<AppIcon
+		name="com.douyu.rush/com.douyu.rush.splash.launcher.DYLauncherActivity"
+		image="douyu_tv"/>
+	<!-- VRR_App -->
+	<AppIcon
+		name="com.mdv.VRRCompanion/md57a605ea41189e209c4feb16db5b50453.StartupActivity"
+		image="vrr_app"/>
+	<!-- 拼多多 -->
+	<AppIcon
+		name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.ui.activity.SplashActivity"
+		image="pdd"/>
+	<!-- 蛋壳公寓 -->
+	<AppIcon
+		name="com.dankegongyu.customer/com.dankegongyu.customer.business.splash.SplashActivity"
+		image="dankegongyu"/>
+	<!-- 网易BUFF -->
+	<AppIcon
+		name="com.netease.buff/com.netease.buff.entry.SplashActivity"
+		image="netease_buff"/>
+	<!-- 长沙地铁 -->
+	<AppIcon
+		name="com.chinasofti.shanghaihuateng.metroapp/com.chinasofti.shanghaihuateng.metroapp.main.MainActivity"
+		image="csdt"/>
+	<!-- 湘行一卡通 -->
+	<AppIcon
+		name="com.txmpay.csewallet/com.txmpay.csewallet.ui.splash.SplashActivity"
+		image="xhykt"/>
+	<!-- ESET_Mobile_Security -->
+	<AppIcon
+		name="com.eset.ems2.gp/com.eset.ems.gui.MainActivity"
+		image="eset_mobile_security"/>
+	<!-- FX -->
+	<AppIcon
+		name="nextapp.fx/nextapp.fx.ui.textedit.TextEditorActivity"
+		image="fx_explorer"/>
+	<!-- Our_Talent -->
+	<AppIcon
+		name="co.ourtalent.ourtalentapp/co.ourtalent.app.MainActivity"
+		image="our_talent"/>
+	<!-- 抓饭直播 -->
+	<AppIcon
+		name="com.entgroup/com.entgroup.activity.ZYTVWelcomeActivity"
+		image="zhuafan"/>
+	<!-- Lantern -->
+	<AppIcon
+		name="org.getlantern.lantern/org.lantern.app.activity.Launcher"
+		image="lantern"/>
+	<!-- Global_Cash -->
+	<AppIcon
+		name="epaylinks.globalcash.wallet/epaylinks.global.payment.ui.SplashActivity"
+		image="global_cash"/>
+	<!-- BCA_mobile -->
+	<AppIcon
+		name="com.bca/com.bca.mobile.MainActivity"
+		image="bca_mobile"/>
+	<!-- Airbnb -->
+	<AppIcon
+		name="com.airbnb.android/com.airbnb.android.flavor.full.activities.HomeActivity"
+		image="airbnb"/>
+	<!-- Jenius -->
+	<AppIcon
+		name="com.btpn.dc/com.jenius2.MainActivity"
+		image="jenius"/>
+
+	<!-- NCalc -->
+	<AppIcon
+		name="com.duy.calculator.free/com.duy.ncalc.calculator.BasicCalculatorActivity"
+		image="ncalc"/>
+	<!-- Nordea_Mobile -->
+	<AppIcon
+		name="se.nordea.mobilebank/com.nordea.mobilebank.start.SplashscreenActivity"
+		image="nordea_mobile"/>
+	<!-- 狗仔直播 -->
+	<AppIcon
+		name="com.gou.zai.live/com.gou.zai.live.feature.SplashActivity"
+		image="gzzb"/>
+
+
 </Theme>

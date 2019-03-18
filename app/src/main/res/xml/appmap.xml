@@ -8858,4 +8858,232 @@
     <item class="md56704cbc5ae5a10e5323900cc7434cbda.SplashActivity" name="amc_theatres"/>
     <!-- BofA -->
     <item class="com.infonow.bofa.Launcher" name="bofa"/>
+
+
+
+    <!-- 百度企业网盘 -->
+    <item class="com.baidu.cloudenterprise.WelcomeActivity" name="baidu_netdisk"/>
+
+    <!-- 浏览器 -->
+    <item class="com.lenovo.browser.BrowserActivity" name="browser"/>
+    <!-- zlive -->
+    <item class="com.linroid.zlive.screen.host.HostActivityThird" name="zlive"/>
+
+    <!-- 作文纸条 -->
+    <item class="zwzt.fangqiu.edu.com.zwzt.module.splash.SplashActivity" name="zuowenzt"/>
+    <!-- YouTube -->
+    <item class="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" name="youtube"/>
+    <!-- 芒果TV -->
+    <item class="com.hunantv.imgo.activity.SplashActivity" name="mangguo_tv"/>
+    <!-- 世纪佳缘 -->
+    <item class="com.jiayuan.modules.MainActivity" name="jiayuan"/>
+    <!-- Daygram -->
+    <item class="net.saltycrackers.daygram.MainActivity" name="daygram"/>
+
+    <!-- 天猫精灵 -->
+    <item class="com.alibaba.ailabs.tg.splash.WelcomeActivity" name="ali_tmalljl"/>
+    <!-- 且慢 -->
+    <item class="cn.yingmi.qieman.hermione.MainActivity" name="qieman"/>
+    <!-- 极客时间 -->
+    <item class="org.geekbang.geekTime.project.start.LaunchActivity" name="geekbang"/>
+    <!-- 招商银行 -->
+    <item class="cmb.pb.mainframe.PBEntryActivity" name="cmb"/>
+    <!-- TV_2_Play -->
+    <item class="dk.tv2.tv2play.ui.view.main.MainActivity" name="tv_2_play"/>
+    <!-- GulogGratis -->
+    <item class="dk.guloggratis.ui.activities.MainActivity" name="guloggratis"/>
+    <!-- 易车 -->
+    <item class="com.yiche.autoeasy.StartActivity" name="yc"/>
+    <!-- 下厨房 -->
+    <item class="com.xiachufang.startpage.ui.StartPageActivity" name="xiachufang"/>
+
+    <!-- Faceu激萌 -->
+    <item class="com.lemon.faceu.business.login.LoadingPageActivity" name="faceu"/>
+    <!-- YouTube_Go -->
+    <item class="com.google.android.apps.youtube.lite.frontend.activities.SplashActivity" name="youtube_go"/>
+    <!-- PP视频 -->
+    <item class="com.pplive.androidphone.ui.FirstActivity" name="pplive"/>
+
+    <!-- 哈啰出行 -->
+    <item class="com.hellobike.atlas.business.splash.SplashActivity" name="easybike"/>
+    <!-- 富宝袋 -->
+    <item class="com.fsk.fzf.fkd.adc.starter.SplashActivity" name="fbd"/>
+    <!-- LEO -->
+    <item class="org.leo.android.dict.LeoDict" name="leo"/>
+    <!-- Digital_Wellbeing -->
+    <item class="com.google.android.apps.wellbeing.settings.LauncherActivity" name="google_digital_wellbeing"/>
+    <!-- TT语音 -->
+    <item class="com.yiyou.ga.client.BlankActivity" name="tt_voice"/>
+    <!-- 机锋 -->
+    <item class="cn.net.gfan.portal.module.login.activity.SplashActivity" name="gfan"/>
+
+    <!-- 美团打车 -->
+    <item class="com.meituan.qcs.c.android.ui.splash.SplashActivity" name="meituan_dache"/>
+    <!-- 游研社 -->
+    <item class="com.yystv.www.MainActivity" name="yystv"/>
+    <!-- 个人所得税 -->
+    <item class="cn.gov.tax.its.MainActivity" name="gov_tax_its"/>
+    <!-- 人人贷财富 -->
+    <item class="com.renrendai.finance.alias" name="renrendai"/>
+
+    <!-- Airbnb -->
+    <item class="com.airbnb.android.flavor.full.activities.HomeActivity" name="airbnb"/>
+
+    <!-- AliExpress -->
+    <item class="com.alibaba.aliexpresshd.home.ui.MainActivity" name="ali_express"/>
+
+    <!-- ABC_iview -->
+    <item class="au.net.abc.iview.ui.splash.LaunchActivity" name="abc_iview"/>
+    <!-- ARuler -->
+    <item class="com.grymala.aruler.monetization.ConsentActivity" name="aruler"/>
+
+    <!-- LOFTアプリ -->
+    <item class="jp.co.loft.app.SplashActivity_" name="loft"/>
+    <!-- TuyaSmart -->
+    <item class="com.tuyasmart.sample.TuyaSplashActivity" name="tuyasmart"/>
+    <!-- Smart_Control -->
+    <item class="com.awox.smart.control.SplashScreenActivity" name="smart_control"/>
+    <!-- SSRR -->
+    <item class="com.github.shadowsocks.Shadowsocks" name="shadowsocks_sr"/>
+    <!-- Wetterwarner -->
+    <item class="com.stephan.dwd.dwd_main" name="wetterwarner"/>
+    <!-- LG_Health -->
+    <item class="com.lge.lifetracker.ui.MainActivity" name="lg_health"/>
+    <!-- Bmap -->
+    <item class="me.gfuil.bmap.activity.StartActivity" name="bmap"/>
+    <!-- Mi_AT_T -->
+    <item class="com.att.miatt.AttApp" name="mi_at_t"/>
+
+    <!-- Brawl_Stars -->
+    <item class="com.supercell.brawlstars.GameApp" name="game_brawl_stars"/>
+    <!-- Calendar -->
+    <item class="com.samsung.android.app.calendar.activity.MainActivity" name="calendar"/>
+
+    <!-- Contacts -->
+    <item class="com.samsung.android.contacts.contactslist.PeopleActivity" name="contacts"/>
+
+    <!-- Gallery -->
+    <item class="com.samsung.android.gallery.app.activity.GalleryActivity" name="gallery"/>
+
+    <!-- Phone -->
+    <item class="com.samsung.android.dialer.DialtactsActivity" name="phone"/>
+
+    <!-- My_Files -->
+    <item class="com.sec.android.app.myfiles.external.ui.MainActivity" name="files"/>
+    <!-- 一个木函 -->
+    <item class="com.One.WoodenLetter.LauncherIconV1" name="one_woodenletter"/>
+    <!-- 百度阅读Pro -->
+    <item class="com.baidu.yuedupro.splash.presentation.view.activity.SplashActivity" name="baidu_yd"/>
+    <!-- Fluid_NG -->
+    <item class="com.fb.fluid.ActivityMain" name="fluid_ng"/>
+    <!-- ADM_Pro -->
+    <item class="com.dv.get.Main" name="adm"/>
+    <!-- Capitec_Bank -->
+    <item class="capitecbank.remote.prd.ui.activity.MainActivity" name="capitec_bank"/>
+    <!-- Music -->
+    <item class="com.miui.player.component.MusicBrowserActivity" name="music"/>
+    <!-- 8天 -->
+    <item class="com.ndol.sale.starter.patch.ui.FirstActivity" name="a_8d"/>
+    <!-- Memoria -->
+    <item class="com.memoria.photos.gallery.activities.MainActivity" name="memoria"/>
+    <!-- EX_Kernel_Manager -->
+    <item class="a.a" name="ex_kn"/>
+    <!-- Tasker -->
+    <item class="com.joaomgcd.taskerm.util.ActivitySecondaryApp" name="tasker"/>
+    <!-- Geometric_Weather -->
+    <item class="wangdaye.com.geometricweather.ui.activity.main.MainActivity" name="geometric_jihe_weather"/>
+    <!-- 多点 -->
+    <item class="com.wm.dmall.NORMAL" name="duodian"/>
+
+    <!-- 美团骑手 -->
+    <item class="com.meituan.banma.splash.ui.MainSplashActivity" name="meituan"/>
+    <!-- Pyszne -->
+    <item class="com.takeaway.android.activity.Splash" name="pyszne"/>
+    <!-- mBank -->
+    <item class="pl.mbank.core.activity.StartActivity" name="m_bank"/>
+    <!-- Quantum_Physics -->
+    <item class="com.civitas.quantumphysics.UnityPlayerActivity" name="quantum_physics"/>
+    <!-- MUTA音乐 -->
+    <item class="com.muta.yanxi.view.activity.SplashActivity" name="muta_m"/>
+    <!-- 观察者 -->
+    <item class="cn.guancha.app.ui.activity.WelcomeActivity" name="guancha"/>
+    <!-- Kaspi_kz -->
+    <item class="kz.kaspi.mobile.modules.main.MainWebPageActivity" name="kaspi_kz"/>
+    <!-- 红手指 -->
+    <item class="com.redfinger.app.activity.SplashActivity" name="redfinger"/>
+    <!-- 9GAG -->
+    <item class="com.ninegag.android.app.ui.SplashScreenActivity" name="a_9gag"/>
+    <!-- 动卡空间 -->
+    <item class="com.citiccard.mobilebankapp.WelcomeActivity" name="zxyh"/>
+    <!-- 应用商店 -->
+    <item class="com.siui.android.appstore.MainActivity" name="market"/>
+    <!-- Mobike -->
+    <item class="com.mobike.mobikeapp.splash.SplashActivity" name="mobike"/>
+
+    <!-- 鹏淘 -->
+    <item class="com.uniriho.szt.ui.activity.commom.LauncherActivity" name="uniriho"/>
+
+    <!-- 火山小视频 -->
+    <item class="com.ss.android.ugc.live.main.MainActivity" name="huoshan"/>
+    <!-- Soundcore -->
+    <item class="com.oceanwing.soundcore.activity.WelcomeActivity" name="soundcore"/>
+    <!-- Merriam_Webster_Dictionary -->
+    <item class="com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity" name="merriam_webster_dictionary"/>
+
+    <!-- OPPO_Store -->
+    <item class="com.oppo.store.InitActivity" name="market"/>
+    <!-- 菜鸟裹裹 -->
+    <item class="com.cainiao.wireless.homepage.view.activity.WelcomeActivity" name="cainiao"/>
+    <!-- Bus_Bahn -->
+    <item class="de.hafas.main.HafasApp" name="bus_bahn"/>
+    <!-- CineStar -->
+    <item class="de.cinestar.presentation.cinemaprogram.CinemaProgramActivity" name="cinestar"/>
+    <!-- Calendar -->
+    <item class="com.qiku.android.calendar.ui.MenuAnimationActivity" name="calendar"/>
+
+    <!-- Clock -->
+    <item class="qiku.xtime.ui.main.XTimeActivity" name="clock"/>
+    <!-- Dialer_and_contacts -->
+    <item class="com.qiku.android.contacts.dial.DialActivity" name="contacts"/>
+    <!-- 斗鱼极速版 -->
+    <item class="com.douyu.rush.splash.launcher.DYLauncherActivity" name="douyu_tv"/>
+    <!-- VRR_App -->
+    <item class="md57a605ea41189e209c4feb16db5b50453.StartupActivity" name="vrr_app"/>
+    <!-- 拼多多 -->
+    <item class="com.xunmeng.pinduoduo.ui.activity.SplashActivity" name="pdd"/>
+    <!-- 蛋壳公寓 -->
+    <item class="com.dankegongyu.customer.business.splash.SplashActivity" name="dankegongyu"/>
+    <!-- 网易BUFF -->
+    <item class="com.netease.buff.entry.SplashActivity" name="netease_buff"/>
+    <!-- 长沙地铁 -->
+    <item class="com.chinasofti.shanghaihuateng.metroapp.main.MainActivity" name="csdt"/>
+    <!-- 湘行一卡通 -->
+    <item class="com.txmpay.csewallet.ui.splash.SplashActivity" name="xhykt"/>
+    <!-- ESET_Mobile_Security -->
+    <item class="com.eset.ems.gui.MainActivity" name="eset_mobile_security"/>
+    <!-- FX -->
+    <item class="nextapp.fx.ui.textedit.TextEditorActivity" name="fx_explorer"/>
+    <!-- Our_Talent -->
+    <item class="co.ourtalent.app.MainActivity" name="our_talent"/>
+    <!-- 抓饭直播 -->
+    <item class="com.entgroup.activity.ZYTVWelcomeActivity" name="zhuafan"/>
+    <!-- Lantern -->
+    <item class="org.lantern.app.activity.Launcher" name="lantern"/>
+    <!-- Global_Cash -->
+    <item class="epaylinks.global.payment.ui.SplashActivity" name="global_cash"/>
+    <!-- BCA_mobile -->
+    <item class="com.bca.mobile.MainActivity" name="bca_mobile"/>
+    <!-- Airbnb -->
+    <item class="com.airbnb.android.flavor.full.activities.HomeActivity" name="airbnb"/>
+    <!-- Jenius -->
+    <item class="com.jenius2.MainActivity" name="jenius"/>
+
+    <!-- NCalc -->
+    <item class="com.duy.ncalc.calculator.BasicCalculatorActivity" name="ncalc"/>
+    <!-- Nordea_Mobile -->
+    <item class="com.nordea.mobilebank.start.SplashscreenActivity" name="nordea_mobile"/>
+    <!-- 狗仔直播 -->
+    <item class="com.gou.zai.live.feature.SplashActivity" name="gzzb"/>
+
+
 </appmap>

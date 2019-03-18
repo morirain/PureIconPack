@@ -305,7 +305,7 @@
 <item drawable="game_yiciyuantongxun" />
 <item drawable="game_trust" />
 <item drawable="game_dont_tap_the_white_tile" />
-
+    <item drawable="game_brawl_stars" />
 
 
 
@@ -3030,4 +3030,63 @@
     <item drawable="wannianlihl" />
     <item drawable="well_played" />
     <item drawable="xmeye" />
+    <item drawable="abc_iview" />
+    <item drawable="aruler" />
+    <item drawable="a_8d" />
+    <item drawable="a_9gag" />
+    <item drawable="bca_mobile" />
+    <item drawable="bus_bahn" />
+    <item drawable="capitec_bank" />
+    <item drawable="cinestar" />
+    <item drawable="csdt" />
+    <item drawable="dankegongyu" />
+    <item drawable="daygram" />
+    <item drawable="easybike" />
+    <item drawable="eset_mobile_security" />
+    <item drawable="fbd" />
+    <item drawable="fluid_ng" />
+    <item drawable="game_brawl_stars" />
+    <item drawable="geekbang" />
+    <item drawable="gfan" />
+    <item drawable="global_cash" />
+    <item drawable="google_digital_wellbeing" />
+    <item drawable="gov_tax_its" />
+    <item drawable="guancha" />
+    <item drawable="guloggratis" />
+    <item drawable="iapp" />
+    <item drawable="jiayuan" />
+    <item drawable="kaspi_kz" />
+    <item drawable="leo" />
+    <item drawable="lg_health" />
+    <item drawable="loft" />
+    <item drawable="meituan_dache" />
+    <item drawable="memoria" />
+    <item drawable="mi_at_t" />
+    <item drawable="muta_m" />
+    <item drawable="m_bank" />
+    <item drawable="ncalc" />
+    <item drawable="netease_buff" />
+    <item drawable="nordea_mobile" />
+    <item drawable="our_talent" />
+    <item drawable="pyszne" />
+    <item drawable="qieman" />
+    <item drawable="quantum_physics" />
+    <item drawable="redfinger" />
+    <item drawable="renrendai" />
+    <item drawable="smart_control" />
+    <item drawable="soundcore" />
+    <item drawable="tt_voice" />
+    <item drawable="tuyasmart" />
+    <item drawable="tv_2_play" />
+    <item drawable="uniriho" />
+    <item drawable="vrr_app" />
+    <item drawable="wetterwarner" />
+    <item drawable="xhykt" />
+    <item drawable="youtube_go" />
+    <item drawable="yystv" />
+    <item drawable="zhitu-des" />
+    <item drawable="zhuafan" />
+    <item drawable="zlive" />
+    <item drawable="zuowenzt" />
+
 </resources>
