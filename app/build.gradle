@@ -63,11 +63,12 @@ apply plugin: 'kotlin-android'
          applicationId "me.morirain.dev.iconpack.pure"
          minSdkVersion versions.minSdk
          targetSdkVersion versions.targetSdk
-         versionCode 1903190340
-         versionName '7.317 Spring Equinox'
+         versionCode 1906100345
+         versionName '7.4 Dragon Boat Festival'
          vectorDrawables.useSupportLibrary = true
          proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
          consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+         ndk.abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
          flavorDimensions "pure"
          productFlavors {
              google {

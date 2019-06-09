@@ -307,6 +307,7 @@
 <item drawable="game_dont_tap_the_white_tile" />
     <item drawable="game_brawl_stars" />
 
+    <item drawable="game_arknights" />
 
 
 
@@ -3088,5 +3089,41 @@
     <item drawable="zhuafan" />
     <item drawable="zlive" />
     <item drawable="zuowenzt" />
+    <item drawable="allegro" />
+    <item drawable="bangbrowser" />
+    <item drawable="bankin" />
+    <item drawable="barclays" />
+    <item drawable="bet365" />
+    <item drawable="bixby_routines" />
+    <item drawable="cmww" />
+    <item drawable="elevensports" />
+    <item drawable="feiliao" />
+    <item drawable="flipkart" />
+    <item drawable="flow" />
+    <item drawable="game_arknights" />
+    <item drawable="hbo_go" />
+    <item drawable="hktvmall" />
+    <item drawable="hype" />
+    <item drawable="jd_jr" />
+    <item drawable="jiotv" />
+    <item drawable="jxydt" />
+    <item drawable="keepsafe" />
+    <item drawable="kijiji" />
+    <item drawable="lmybk" />
+    <item drawable="millennium" />
+    <item drawable="myumobile" />
+    <item drawable="nike_adapt" />
+    <item drawable="oneplus_switch" />
+    <item drawable="pc_optimum" />
+    <item drawable="ppsspp_gold" />
+    <item drawable="revolut" />
+    <item drawable="samsung_flow" />
+    <item drawable="samsung_xr_mobile" />
+    <item drawable="sobertool" />
+    <item drawable="tianxuewang" />
+    <item drawable="total_commander" />
+    <item drawable="uala" />
+    <item drawable="wf_games" />
+    <item drawable="xiaoxiao" />
 
 </resources>
