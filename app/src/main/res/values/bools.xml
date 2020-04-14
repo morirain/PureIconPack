@@ -33,7 +33,7 @@
 
     <!-- GO LAUNCHER -->
     <bool name="enableIconPack">true</bool>
-    <bool name="enableDockPack">false</bool>
+    <bool name="enableDockPack">true</bool>
 
     <!-- THEME MANAGER -->
     <bool name="manager_action">true</bool>

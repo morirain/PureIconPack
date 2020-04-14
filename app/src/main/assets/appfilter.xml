@@ -2223,7 +2223,7 @@
     <item component="ComponentInfo{net.dinglisch.android.taskerm/net.dinglisch.android.taskerm.Tasker}" drawable="tasker" />
 
     <!-- 有道翻译官 / Youdao Translate -->
-    <item component="ComponentInfo{com.youdao.translator/com.youdao.translator.activity.LaunchActivity}" drawable="youdao_translate" />
+    <item component="ComponentInfo{com.youdao.translator/com.youdao.translator.activity.LaunchActivity}" drawable="youdao_translator" />
     <!-- 1号店 / 1号店 -->
     <item component="ComponentInfo{com.thestore.main/com.thestore.main.LoadingActivity}" drawable="thestore_1haodian" />
 
