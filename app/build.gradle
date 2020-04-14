@@ -66,8 +66,8 @@ apply plugin: 'kotlin-android'
          applicationId "me.morirain.dev.iconpack.pure"
          minSdkVersion versions.minSdk
          targetSdkVersion versions.targetSdk
-         versionCode 1906100347
-         versionName '7.4 Dragon Boat Festival'
+         versionCode 1920041500
+         versionName '7.7 ❤Heal The World'
          vectorDrawables.useSupportLibrary = true
          proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
          consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
