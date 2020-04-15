@@ -1926,7 +1926,8 @@
     <item component="ComponentInfo{com.ss.android.article.lite/com.ss.android.article.lite.activity.SplashActivity}" drawable="toutiao" />
     <!-- 今日头条 / 今日头条 -->
     <item component="ComponentInfo{com.ss.android.article.news/com.ss.android.article.news.activity.SplashBadgeActivity}" drawable="toutiao" />
-
+<!-- 今日头条 / 今日头条 -->
+    <item component="ComponentInfo{com.ss.android.article.news/com.ss.android.article.news.activity.MainActivity}" drawable="toutiao" />
     <!-- 全民直播 / 全民直播 -->
     <item component="ComponentInfo{com.maimiao.live.tv/com.maimiao.live.tv.ui.activity.SplashActivity}" drawable="quanmin_tv" />
     <!-- 龙珠直播 / 龙珠直播 -->
@@ -3886,7 +3887,7 @@
     <!-- 作家助手 / 作家助手 -->
     <item component="ComponentInfo{com.yuewen.authorapp/com.app.activity.StartActivity}" drawable="qidian_zjzs" />
     <!-- AEXPapers / AEXPapers -->
-    <item component="ComponentInfo{org.aospextended.aexpapers/org.aospextended.aexpapers.activities.SplashActivity}" drawable="aex_papervvvvv" />
+    <item component="ComponentInfo{org.aospextended.aexpapers/org.aospextended.aexpapers.activities.SplashActivity}" drawable="aex_paper" />
     <!-- 骁龙音效 / Equalizer -->
     <item component="ComponentInfo{com.android.musicfx/com.android.musicfx.ActivityMusic}" drawable="xlyx" />
     <!-- 一本日记 / 一本日记 -->
@@ -4453,8 +4454,6 @@
     <item component="ComponentInfo{com.fantablade.icey/com.fantablade.icey.FBUnityActivity}" drawable="game_icey" />
     <!-- 新华社 / 新华社 -->
     <item component="ComponentInfo{net.xinhuamm.mainclient/net.xinhuamm.mainclient.activity.sysconfig.FirstActivity}" drawable="xhs" />
-    <!-- Inbox / Inbox -->
-    <item component="ComponentInfo{com.google.android.apps.inbox/}" drawable="inbox" />
 
     <!-- 暴雪战网 / Battle.net -->
     <item component="ComponentInfo{com.blizzard.messenger/com.blizzard.messenger.ui.SplashActivity}" drawable="authenticator" />
@@ -7274,7 +7273,7 @@
     <!-- 月圆之夜 / Night of Full Moon -->
     <item component="ComponentInfo{com.ztgame.yyzy/com.giant.sdk.unity.GiantSDKActivity}" drawable="game_yyzy" />
     <!-- BusyBox / BusyBox -->
-    <item component="ComponentInfo{com.jrummy.busybox.installer/com.jrummy.busybox.installer.activities.MainActivity}" drawable="2" />
+    <item component="ComponentInfo{com.jrummy.busybox.installer/com.jrummy.busybox.installer.activities.MainActivity}" drawable="busybox" />
     <!-- Gmarket Global / Gmarket Global -->
     <item component="ComponentInfo{com.ebay.global.gmarket/com.ebay.global.gmarket.view.launcher.LauncherActivity}" drawable="gmarket_global" />
     <!-- Ruler / Ruler -->
@@ -10520,11 +10519,11 @@
 		<!-- 南瓜影视 -->
 	<item
 		component="ComponentInfo{com.pumpkinteam.pumpkinplayer/com.waxgourd.wg.module.splash.SplashActivity}"
-		drawable="南瓜影视"/>
+		drawable="pumpkinplayer"/>
 		<!-- 有钱花 -->
 	<item
 		component="ComponentInfo{com.duxiaoman.umoney/com.duxiaoman.umoney.home.SplashActivity}"
-		drawable="有钱花"/>
+		drawable="umoney"/>
 		<!-- CliCli -->
 	<item
 		component="ComponentInfo{com.cy.clicli_dark/com.cy.clicli_dark.MainActivity}"
@@ -10859,8 +10858,6 @@
 <item component="ComponentInfo{com.android.thememanager/com.android.thememanager.business.startup.view.StartupActivity}" drawable="mi_theme" />
 <!-- 会计云课堂 / 会计云课堂 -->
 <item component="ComponentInfo{com.dongao.kaoqian.phone/com.dongao.kaoqian.phone.WelcomeActivity}" drawable="kjykt" />
-<!-- 向日葵視頻 / 向日葵視頻 -->
-<item component="ComponentInfo{com.okfunc.sunflower/com.okfunc.uilib.ui.SplashActivity}" drawable="" />
 		<!-- 天意 / null -->
 <item component="ComponentInfo{com.nerosong.godknows/com.nerosong.godknows.MainActivity}" drawable="godknows" />
 <!-- 奶牛快传 / CowTransfer -->

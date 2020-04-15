@@ -67,7 +67,7 @@ apply plugin: 'kotlin-android'
          minSdkVersion versions.minSdk
          targetSdkVersion versions.targetSdk
          versionCode 1920041500
-         versionName '7.7 ❤Heal The World'
+         versionName '7.7 Heal The World'
          vectorDrawables.useSupportLibrary = true
          proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
          consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
