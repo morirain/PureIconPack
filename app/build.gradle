@@ -66,11 +66,12 @@ apply plugin: 'kotlin-android'
          applicationId "me.morirain.dev.iconpack.pure"
          minSdkVersion versions.minSdk
          targetSdkVersion versions.targetSdk
-         versionCode 1920041500
+         versionCode 1920041601
          versionName '7.7 Heal The World'
          vectorDrawables.useSupportLibrary = true
          proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
          consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+         multiDexEnabled true
          ndk.abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
          flavorDimensions "pure"
          productFlavors {
@@ -97,6 +98,7 @@ apply plugin: 'kotlin-android'
              proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
              consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
              signingConfig signingConfigs.morirain
+             multiDexKeepProguard file('proguard-rules.pro')
          }
          debug {
              signingConfig signingConfigs.morirain
@@ -117,11 +119,20 @@ apply plugin: 'kotlin-android'
          pickFirst 'META-INF/library_debug.kotlin_module'
          pickFirst 'META-INF/library_release.kotlin_module'
      }
+
+     compileOptions {
+         sourceCompatibility JavaVersion.VERSION_1_8
+         targetCompatibility JavaVersion.VERSION_1_8
+     }
+
+     kotlinOptions {
+         jvmTarget = '1.8'
+     }
  }
 
 dependencies {
     // Blueprint
-    implementation('com.jahirfiquitiva:Blueprint:1.4.5@aar') {
+    implementation('com.jahirfiquitiva:Blueprint:1.5.2@aar') {
         transitive = true
     }
     // TODO: Remove comment marks to enable

@@ -18,7 +18,6 @@ package me.morirain.dev.iconpack.pure
 import com.github.javiersantos.piracychecker.PiracyChecker
 import jahirfiquitiva.libs.blueprint.models.NavigationItem
 import jahirfiquitiva.libs.blueprint.ui.activities.BottomNavigationBlueprintActivity
-import me.morirain.dev.iconpack.pure.BuildConfig.GOOGLE_VERSION
 
 
 /**
@@ -52,8 +51,6 @@ class MainActivity : BottomNavigationBlueprintActivity() {
     override fun getLicenseChecker(): PiracyChecker? {
         destroyChecker() // Important
         return null;
-        return if ((!GOOGLE_VERSION) or BuildConfig.DEBUG) null
-        else super.getLicenseChecker()
     }
 
     /**
@@ -78,5 +75,4 @@ class MainActivity : BottomNavigationBlueprintActivity() {
      * If set to BuildConfig.DEBUG, the app will print the warnings only while debugging the app
      * (This is the safest option, so the apk you publish in PlayStore doesn't print them)
      */
-    override fun debug(): Boolean = BuildConfig.DEBUG
 }

@@ -28,24 +28,24 @@
         <item>Alipay</item>
         <item>WeChat</item>
         <item>Paypal</item>
-        <item>Red Envelope</item>
+        <item>ColdDew</item>
     </string-array>
     <string-array name="home_list_descriptions">
         <item>支付宝捐赠：请用浏览器打开</item>
         <item>微信捐赠：请用浏览器打开 并保存二维码到本地</item>
         <item>Paypal捐赠：请用浏览器打开</item>
-        <item>支付宝红包：请用浏览器打开，或直接打开支付宝搜索红包码: 2393664</item>
+        <item>公众号 寒露Soft：微信搜索寒露Soft关注 偶尔更新我的见闻</item>
     </string-array>
     <string-array name="home_list_icons">
         <item>alipay</item>
         <item>wechat_2</item>
         <item>pay_pal</item>
-        <item>red_envelope</item>
+        <item>cold_dew</item>
     </string-array>
     <string-array name="home_list_links">
         <item>https://qr.alipay.com/tsx07189jjhytekwm25ija5</item>
         <item>https://raw.githubusercontent.com/morirain/PureIconPack/Blueprint/donation/donation_wechat.jpg</item>
         <item>https://paypal.me/moriraindev</item>
-        <item>https://raw.githubusercontent.com/morirain/PureIconPack/Blueprint/donation/donation_alipay_re.jpg</item>
+        <item></item>
     </string-array>
 </resources>
