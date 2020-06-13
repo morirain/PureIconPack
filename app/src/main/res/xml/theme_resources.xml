@@ -9781,9 +9781,15 @@
 
 <AppIcon image="daji" name="com.ilulutv.dajibar/com.ilulutv.dajibar.welcome.WelcomeActivity" />
 
-		
-		
 
+
+    <!-- By Y2Nk4 -->
+    <AppIcon image="asus_router" name="com.asus.aihome/com.asus.aihome.MainActivity" />
+    <AppIcon image="chase" name="com.chase.sig.android/com.chase.sig.android.activity.SplashActivity" />
+    <AppIcon image="csair" name="com.csair.mbp/com.csair.mbp.launcher.WelcomeActivity" />
+    <AppIcon image="transit" name="com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivity" />
+    <AppIcon image="marketwatch" name="com.marketwatch/com.marketwatch.ui.MainActivity" />
+    <AppIcon image="mcdonalds_pro" name="com.mcdonalds.app/com.mcdonalds.mcdcoreapp.common.activity.SplashActivity" />
 
 
 

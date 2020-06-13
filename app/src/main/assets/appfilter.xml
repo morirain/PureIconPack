@@ -10925,5 +10925,18 @@
         drawable="sms_5" />
 
 
+    <!-- By Y2Nk4 -->
+    <!-- ASUS路由器 -->
+    <item component="ComponentInfo{com.asus.aihome/com.asus.aihome.MainActivity}" drawable="asus_router" />
+    <!-- Chase -->
+    <item component="ComponentInfo{com.chase.sig.android/com.chase.sig.android.activity.SplashActivity}" drawable="chase" />
+    <!-- 南方航空 -->
+    <item component="ComponentInfo{com.csair.mbp/com.csair.mbp.launcher.WelcomeActivity}" drawable="csair" />
+    <!-- transit -->
+    <item component="ComponentInfo{com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivity}" drawable="transit" />
+    <!-- marketwatch -->
+    <item component="ComponentInfo{com.marketwatch/com.marketwatch.ui.MainActivity}" drawable="marketwatch" />
+    <!-- mcdonalds us -->
+    <item component="ComponentInfo{com.mcdonalds.app/com.mcdonalds.mcdcoreapp.common.activity.SplashActivity}" drawable="mcdonalds_pro" />
 
 </resources>

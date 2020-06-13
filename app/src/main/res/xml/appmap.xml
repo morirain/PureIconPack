@@ -9774,11 +9774,17 @@
 
 <item class="com.ilulutv.dajibar.welcome.WelcomeActivity" name="daji" />
 
-		
-		
 
 
 
+
+<!-- By Y2Nk4 -->
+<item class="com.asus.aihome.MainActivity" name="asus_aihome" />
+<item class="com.chase.sig.android.activity.SplashActivity" name="chase" />
+<item class="com.csair.mbp.launcher.WelcomeActivity" name="csair" />
+<item class="com.thetransitapp.droid.shared.activity.SplashActivity" name="transit" />
+<item class="com.marketwatch.ui.MainActivity" name="marketwatch" />
+<item class="com.mcdonalds.mcdcoreapp.common.activity.SplashActivity" name="mcdonalds_pro" />
 
 
 
@@ -9788,4 +9794,4 @@
 
 
 
-    </appmap>
+</appmap>

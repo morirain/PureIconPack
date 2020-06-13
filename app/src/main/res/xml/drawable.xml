@@ -163,6 +163,10 @@
 <item drawable="google_gmail_2" />
 <item drawable="samsung_browser_beta" />
 <item drawable="samsung_browser" />
+<item drawable="asus_router" />
+<item drawable="csair" />
+<item drawable="transit" />
+<item drawable="marketwatch" />
 
 <category title="Game" />
 <item drawable="game_zzj2" />
