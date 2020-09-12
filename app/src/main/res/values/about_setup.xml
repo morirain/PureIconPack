@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation,MissingTranslation">
+    <string-array name="credits_photos" formatted="false" tools:ignore="TypographyDashes">
+        <item>https://avatars1.githubusercontent.com/u/10196181</item>
+    </string-array>
+
+    <string-array name="credits_titles">
+        <item>morirain</item>
+    </string-array>
+
+    <string-array name="credits_descriptions">
+        <item>Designer</item>
+    </string-array>
+
+    <string-array name="credits_buttons">
+        <item>Coolapk|Github|Weibo</item>
+    </string-array>
+
+    <string-array name="credits_links">
+        <item>https://www.coolapk.com/u/533268|https://github.com/morirain|https://weibo.com/morirain</item>
+    </string-array>
+</resources>
