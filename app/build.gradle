@@ -61,15 +61,6 @@ android {
         }
 
         multiDexEnabled true
-        flavorDimensions "pure"
-        productFlavors {
-            google {
-                buildConfigField "boolean", "GOOGLE_VERSION", "true"
-            }
-            coolapk {
-                buildConfigField "boolean", "GOOGLE_VERSION", "false"
-            }
-        }
 
     }
 

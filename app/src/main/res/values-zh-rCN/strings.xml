@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="useful_links">捐赠</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="help">帮助</string>
+    <string name="home">主页</string>
+    <string name="icons">图标</string>
+    <string name="overview">概要</string>
+    <string name="changelog">更新日志</string>
+    <string name="about">关于</string>
+    <string name="settings">设置</string>
+    <string name="share">分享</string>
+    <string name="share_text">免费下载Pure图标包: https://www.coolapk.com/apk/me.morirain.dev.iconpack.pure</string>
+    <string name="wallpapers">壁纸</string>
+    <string name="apply">应用</string>
+    <string name="apply_to">应用</string>
+    <string name="request">申请</string>
+    <string name="request_icon">申请图标</string>
+    <string name="useful_links">其他</string>
+    <string name="more_apps">支持我</string>
 </resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress CheckTagEmptyBody -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingDefaultResource, ExtraTranslation">
+
+    <!-- These arrays are for the list of apps or links in main section. -->
+    <string-array name="home_list_titles">
+        <item>前往 Google Play</item>
+        <item>Alipay</item>
+        <item>WeChat</item>
+        <item>Paypal</item>
+        <item>ColdDew</item>
+    </string-array>
+    <string-array name="home_list_descriptions">
+        <item>如果想支持我的工作，可以前往Google Play商店购买该图标，并给予好评，非常感谢。</item>
+        <item>支付宝捐赠：请用浏览器打开</item>
+        <item>微信捐赠：请用浏览器打开 并保存二维码到本地</item>
+        <item>Paypal捐赠：请用浏览器打开</item>
+        <item>公众号 寒露Soft：微信搜索寒露Soft关注 偶尔更新我的见闻</item>
+    </string-array>
+    <string-array name="home_list_icons">
+        <item>google_play</item>
+        <item>alipay</item>
+        <item>wechat_2</item>
+        <item>pay_pal</item>
+        <item>cold_dew</item>
+    </string-array>
+    <string-array name="home_list_links">
+        <item>https://play.google.com/store/apps/details?id=me.morirain.dev.iconpack.pure</item>
+        <item>https://qr.alipay.com/tsx07189jjhytekwm25ija5</item>
+        <item>https://raw.githubusercontent.com/morirain/PureIconPack/Blueprint/donation/donation_wechat.jpg</item>
+        <item>https://paypal.me/moriraindev</item>
+        <item>.</item>
+    </string-array>
+</resources>
