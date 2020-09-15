@@ -1467,7 +1467,7 @@
     <AppIcon image="game_framed" name="com.noodlecake.framed/com.dbgj.stasdk.activity.StaWelcomeActivity" />
 
     
-    <AppIcon image="game_kingdomrushorigins" name="com.ironhidegames.android.kingdomrush/com.apportable.activity.VerdeActivity" />
+    <AppIcon image="game_kingdomrush" name="com.ironhidegames.android.kingdomrush/com.apportable.activity.VerdeActivity" />
     
     <AppIcon image="game_kingdomrushorigins" name="com.ironhidegames.android.kingdomrushorigins/com.apportable.activity.VerdeActivity" />
 
@@ -9985,6 +9985,158 @@
 	<AppIcon image="phone" name="com.android.dialer/com.android.dialer.main.impl.MainActivity" />
 		
 	<AppIcon image="huawei_zepp" name="com.huami.watch.hmwatchmanager/com.xiaomi.hm.health.activity.StartUpActivity" />
+		
+	<AppIcon image="game_lol" name="com.riotgames.mobile.leagueconnect/com.riotgames.mobile.leagueconnect.ui.MainActivity" />
+		
+	<AppIcon image="robinhood" name="com.robinhood.android/com.robinhood.android.activity.WelcomeActivity" />
+		
+	<AppIcon image="smart_life" name="com.tuya.smartlife/com.smart.TuyaSplashActivity" />
+		
+	<AppIcon image="jh" name="me.tangke.gamecores/me.tangke.gamecores.MainActivity" />
+
+	
+	<AppIcon image="soushushenqi" name="com.flyersoft.seekbooks/com.flyersoft.WB.SplashActivity" />
+		
+	<AppIcon image="bocmbci" name="com.bocmacau.com/com.bocmacau.com.android.activity.guide.FlashActivity" />
+		
+	<AppIcon image="macaupass" name="com.macaupass.rechargeEasy/com.macaupass.mvp.common.v.ActivityPermissionUtil" />
+		
+	<AppIcon image="cem_e_services" name="com.cemmacau.eportal/com.cemmacau.eportal.CEMServicesApp" />
+		
+	<AppIcon image="lastpass_authenticator" name="com.lastpass.authenticator/com.lastpass.authenticator.activities.SplashActivity" />
+		
+	<AppIcon image="tunnelbear" name="com.tunnelbear.android/com.tunnelbear.android.main.SplashActivity" />
+		
+	<AppIcon image="ubisoft_club" name="com.ubisoft.uplay/com.ubisoft.uplay.SplashActivity" />
+		
+	<AppIcon image="ablo" name="live.ablo/live.ablo.main.MainActivity" />
+		
+	<AppIcon image="hakuna" name="com.movefastcompany.bora/com.movefastcompany.bora.ui.MainActivity" />
+
+	
+	<AppIcon image="uplive" name="com.asiainno.uplive/com.asiainno.uplive.init.splash.SplashActivity" />
+		
+	<AppIcon image="browser" name="com.huawei.browser/com.huawei.browser.Main2" />
+		
+	<AppIcon image="game_call_of_duty" name="com.garena.game.codm/com.tencent.tmgp.cod.PermissionGrantActivity" />
+		
+	<AppIcon image="mztapp" name="net.evecom.android.mztapp/net.evecom.android.mztapp.activity.Splash1Activity" />
+		
+	<AppIcon image="kmplayer" name="com.kmplayer/com.kmplayer.MainActivity" />
+		
+	<AppIcon image="viper_hifi" name="com.kugou.viper/com.kugou.android.app.splash.SplashActivity" />
+		
+	<AppIcon image="qihoo_cloudisk" name="com.qihoo.cloudisk/com.qihoo.cloudisk.base.SplashActivity" />
+		
+	<AppIcon image="wpzs" name="com.xgimi.zhushou.google/com.xgimi.zhushou.alan.ui.SplashActivityGooglePlay" />
+		
+	<AppIcon image="himalaya_ting" name="com.ximalaya.ting.himalaya/com.ximalaya.ting.himalaya.activity.login.MainSplashActivity" />
+		
+	<AppIcon image="sms_5" name="com.asus.cnmessage/com.android.mms.ui.ConversationList" />
+
+	
+	<AppIcon image="calendar" name="com.asus.smartcalendar/com.asus.smartcalendar.HomeActivity" />
+
+	
+	<AppIcon image="music" name="com.asus.cnmusic/com.asus.cnmusic.ui.activity.MainActivity" />
+		
+		
+	<AppIcon image="signal" name="org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivity" />
+		
+	<AppIcon image="protonmail" name="ch.protonmail.android/ch.protonmail.android.activities.SplashActivity" />
+		
+	<AppIcon image="contacts" name="com.oneplus.contacts/com.oneplus.contacts.activities.OPPeopleActivity" />
+
+	
+	<AppIcon image="market" name="com.heytap.market/com.heytap.market.activity.MainActivity" />
+
+
+	
+	<AppIcon image="sms_5" name="com.oneplus.mms/com.android.mms.ui.ConversationList" />
+
+	
+	<AppIcon image="oneplus_diagnostic" name="com.oneplus.healthcheck/com.oneplus.healthcheck.MainActivity" />
+		
+	<AppIcon image="taptap" name="com.taptap.global/com.play.taptap.ui.SplashAct" />
+		
+	<AppIcon image="seal" name="com.bytedance.seal/com.bytedance.wga.activity.SplashActivity" />
+		
+	<AppIcon image="tieba" name="com.baidu.tbflutterlite/com.baidu.tbflutterlite.MainActivity" />
+		
+	<AppIcon image="game_tetris" name="com.n3twork.tetris/com.n3twork.NWUnityPlayerActivity" />
+		
+	<AppIcon image="hbo_go" name="hk.hbo.hbogo/com.onwardsmg.hbo.activity.SplashActivity" />
+		
+	<AppIcon image="amoledbackgrounds" name="com.droidheat.amoledbackgrounds/com.droidheat.amoledbackgrounds.MainActivity" />
+		
+	<AppIcon image="app_sales" name="net.tsapps.appsales/net.tsapps.appsales.ui.main.MainActivity" />
+		
+		
+    
+    <AppIcon image="asus_router" name="com.asus.aihome/com.asus.aihome.MainActivity" />
+    
+    <AppIcon image="chase" name="com.chase.sig.android/com.chase.sig.android.activity.SplashActivity" />
+    
+    <AppIcon image="csair" name="com.csair.mbp/com.csair.mbp.launcher.WelcomeActivity" />
+    
+    <AppIcon image="transit" name="com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivity" />
+    
+    <AppIcon image="marketwatch" name="com.marketwatch/com.marketwatch.ui.MainActivity" />
+    
+    <AppIcon image="mcdonalds_pro" name="com.mcdonalds.app/com.mcdonalds.mcdcoreapp.common.activity.SplashActivity" />
+		
+	<AppIcon image="gogokid" name="com.ss.android.ex.parent/com.ss.android.ex.parent.host.SplashActivity" />
+		
+	<AppIcon image="xposed" name="org.meowcat.edxposed.manager/org.meowcat.edxposed.manager.WelcomeActivityMlgmXyysd" />
+
+	
+	<AppIcon image="power_amp" name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.standard_adaptive" />
+
+	
+	<AppIcon image="maimemo" name="com.maimemo.android.momo/tencent.frame.f" />
+		
+	<AppIcon image="autochilango" name="com.autochilango/com.autochilango.opening.SplashActivity" />
+		
+	<AppIcon image="game_fifa" name="com.tencent.fifa4m/com.ea.game.fmp.FMPActivity" />
+		
+	<AppIcon image="game_fifa" name="com.ea.gp.fifamobile/com.ea.gp.fifamobile.FifaMainActivity" />
+		
+	<AppIcon image="adobe_photoshop_sketch" name="com.adobe.creativeapps.sketch/com.adobe.creativeapps.sketch.activity.SplashScreenActivity" />
+		
+	<AppIcon image="babbel" name="com.babbel.mobile.android.en/com.babbel.mobile.android.core.presentation.mainactivity.screens.MainActivity" />
+		
+		
+	<AppIcon image="bandlab" name="com.bandlab.bandlab/com.bandlab.bandlab.core.activity.navigation.NavigationActivity" />
+		
+	<AppIcon image="calm" name="com.calm.android/com.calm.android.ui.misc.SplashActivity" />
+
+	<AppIcon image="eon_player" name="qijaz221.github.io.musicplayer/qijaz221.github.io.musicplayer.startup.SplashActivity" />
+		
+	<AppIcon image="hellotalk" name="com.hellotalk/com.hellotalk.lib.temp.htx.modules.sign.ui.LaunchActivity" />
+		
+	<AppIcon image="igniter" name="io.github.trojan_gfw.igniter/io.github.trojan_gfw.igniter.MainActivity" />
+		
+	<AppIcon image="meditopia" name="app.meditasyon/app.meditasyon.ui.splash.SplashActivity" />
+		
+	<AppIcon image="music_maker_jam" name="com.magix.android.mmjam/com.magix.android.mmj.start.StartActivity" />
+		
+	<AppIcon image="retro_music" name="code.name.monkey.retromusic/code.name.monkey.retromusic.activities.MainActivity" />
+		
+	<AppIcon image="voicetube" name="org.redidea.voicetube/org.redidea.mvvm.view.LandingActivitynormal" />
+		
+	<AppIcon image="zen" name="br.com.movenext.zen/br.com.movenext.zen.Activities.MainActivity" />
+		
+	<AppIcon image="capcut" name="com.lemon.lvoverseas/com.vega.launcher.precondition.PreInstallConfirmActivity" />
+		
+	<AppIcon image="capcut" name="com.lemon.lv/com.vega.launcher.precondition.PreInstallConfirmActivity" />
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

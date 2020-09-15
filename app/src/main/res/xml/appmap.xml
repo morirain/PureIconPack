@@ -1460,7 +1460,7 @@
     <item class="com.dbgj.stasdk.activity.StaWelcomeActivity" name="game_framed" />
 
     
-    <item class="com.apportable.activity.VerdeActivity" name="game_kingdomrushorigins" />
+    <item class="com.apportable.activity.VerdeActivity" name="game_kingdomrush" />
     
     <item class="com.apportable.activity.VerdeActivity" name="game_kingdomrushorigins" />
 
@@ -9978,6 +9978,158 @@
 	<item class="com.android.dialer.main.impl.MainActivity" name="phone" />
 		
 	<item class="com.xiaomi.hm.health.activity.StartUpActivity" name="huawei_zepp" />
+		
+	<item class="com.riotgames.mobile.leagueconnect.ui.MainActivity" name="game_lol" />
+		
+	<item class="com.robinhood.android.activity.WelcomeActivity" name="robinhood" />
+		
+	<item class="com.smart.TuyaSplashActivity" name="smart_life" />
+		
+	<item class="me.tangke.gamecores.MainActivity" name="jh" />
+
+	
+	<item class="com.flyersoft.WB.SplashActivity" name="soushushenqi" />
+		
+	<item class="com.bocmacau.com.android.activity.guide.FlashActivity" name="bocmbci" />
+		
+	<item class="com.macaupass.mvp.common.v.ActivityPermissionUtil" name="macaupass" />
+		
+	<item class="com.cemmacau.eportal.CEMServicesApp" name="cem_e_services" />
+		
+	<item class="com.lastpass.authenticator.activities.SplashActivity" name="lastpass_authenticator" />
+		
+	<item class="com.tunnelbear.android.main.SplashActivity" name="tunnelbear" />
+		
+	<item class="com.ubisoft.uplay.SplashActivity" name="ubisoft_club" />
+		
+	<item class="live.ablo.main.MainActivity" name="ablo" />
+		
+	<item class="com.movefastcompany.bora.ui.MainActivity" name="hakuna" />
+
+	
+	<item class="com.asiainno.uplive.init.splash.SplashActivity" name="uplive" />
+		
+	<item class="com.huawei.browser.Main2" name="browser" />
+		
+	<item class="com.tencent.tmgp.cod.PermissionGrantActivity" name="game_call_of_duty" />
+		
+	<item class="net.evecom.android.mztapp.activity.Splash1Activity" name="mztapp" />
+		
+	<item class="com.kmplayer.MainActivity" name="kmplayer" />
+		
+	<item class="com.kugou.android.app.splash.SplashActivity" name="viper_hifi" />
+		
+	<item class="com.qihoo.cloudisk.base.SplashActivity" name="qihoo_cloudisk" />
+		
+	<item class="com.xgimi.zhushou.alan.ui.SplashActivityGooglePlay" name="wpzs" />
+		
+	<item class="com.ximalaya.ting.himalaya.activity.login.MainSplashActivity" name="himalaya_ting" />
+		
+	<item class="com.android.mms.ui.ConversationList" name="sms_5" />
+
+	
+	<item class="com.asus.smartcalendar.HomeActivity" name="calendar" />
+
+	
+	<item class="com.asus.cnmusic.ui.activity.MainActivity" name="music" />
+		
+		
+	<item class="org.thoughtcrime.securesms.RoutingActivity" name="signal" />
+		
+	<item class="ch.protonmail.android.activities.SplashActivity" name="protonmail" />
+		
+	<item class="com.oneplus.contacts.activities.OPPeopleActivity" name="contacts" />
+
+	
+	<item class="com.heytap.market.activity.MainActivity" name="market" />
+
+
+	
+	<item class="com.android.mms.ui.ConversationList" name="sms_5" />
+
+	
+	<item class="com.oneplus.healthcheck.MainActivity" name="oneplus_diagnostic" />
+		
+	<item class="com.play.taptap.ui.SplashAct" name="taptap" />
+		
+	<item class="com.bytedance.wga.activity.SplashActivity" name="seal" />
+		
+	<item class="com.baidu.tbflutterlite.MainActivity" name="tieba" />
+		
+	<item class="com.n3twork.NWUnityPlayerActivity" name="game_tetris" />
+		
+	<item class="com.onwardsmg.hbo.activity.SplashActivity" name="hbo_go" />
+		
+	<item class="com.droidheat.amoledbackgrounds.MainActivity" name="amoledbackgrounds" />
+		
+	<item class="net.tsapps.appsales.ui.main.MainActivity" name="app_sales" />
+		
+		
+    
+    <item class="com.asus.aihome.MainActivity" name="asus_router" />
+    
+    <item class="com.chase.sig.android.activity.SplashActivity" name="chase" />
+    
+    <item class="com.csair.mbp.launcher.WelcomeActivity" name="csair" />
+    
+    <item class="com.thetransitapp.droid.shared.activity.SplashActivity" name="transit" />
+    
+    <item class="com.marketwatch.ui.MainActivity" name="marketwatch" />
+    
+    <item class="com.mcdonalds.mcdcoreapp.common.activity.SplashActivity" name="mcdonalds_pro" />
+		
+	<item class="com.ss.android.ex.parent.host.SplashActivity" name="gogokid" />
+		
+	<item class="org.meowcat.edxposed.manager.WelcomeActivityMlgmXyysd" name="xposed" />
+
+	
+	<item class="com.maxmpz.audioplayer.standard_adaptive" name="power_amp" />
+
+	
+	<item class="tencent.frame.f" name="maimemo" />
+		
+	<item class="com.autochilango.opening.SplashActivity" name="autochilango" />
+		
+	<item class="com.ea.game.fmp.FMPActivity" name="game_fifa" />
+		
+	<item class="com.ea.gp.fifamobile.FifaMainActivity" name="game_fifa" />
+		
+	<item class="com.adobe.creativeapps.sketch.activity.SplashScreenActivity" name="adobe_photoshop_sketch" />
+		
+	<item class="com.babbel.mobile.android.core.presentation.mainactivity.screens.MainActivity" name="babbel" />
+		
+		
+	<item class="com.bandlab.bandlab.core.activity.navigation.NavigationActivity" name="bandlab" />
+		
+	<item class="com.calm.android.ui.misc.SplashActivity" name="calm" />
+
+	<item class="qijaz221.github.io.musicplayer.startup.SplashActivity" name="eon_player" />
+		
+	<item class="com.hellotalk.lib.temp.htx.modules.sign.ui.LaunchActivity" name="hellotalk" />
+		
+	<item class="io.github.trojan_gfw.igniter.MainActivity" name="igniter" />
+		
+	<item class="app.meditasyon.ui.splash.SplashActivity" name="meditopia" />
+		
+	<item class="com.magix.android.mmj.start.StartActivity" name="music_maker_jam" />
+		
+	<item class="code.name.monkey.retromusic.activities.MainActivity" name="retro_music" />
+		
+	<item class="org.redidea.mvvm.view.LandingActivitynormal" name="voicetube" />
+		
+	<item class="br.com.movenext.zen.Activities.MainActivity" name="zen" />
+		
+	<item class="com.vega.launcher.precondition.PreInstallConfirmActivity" name="capcut" />
+		
+	<item class="com.vega.launcher.precondition.PreInstallConfirmActivity" name="capcut" />
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
