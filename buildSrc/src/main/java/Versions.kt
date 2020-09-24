@@ -2,7 +2,7 @@
 
 object Versions {
     // Plugins
-    const val gradle = "4.0.0"
+    const val gradle = "4.0.1"
     const val kotlin = "1.3.72"
     const val jitpack = "2.1"
 

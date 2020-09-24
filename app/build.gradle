@@ -23,7 +23,7 @@ android {
         morirain {
             keyAlias 'morirain'
             keyPassword 'morirain'
-            storeFile file('C:/Users/morir/morirainkey.jks')
+            storeFile file('C:/Users/morirain/OneDrive/key/morirainkey.jks')
             storePassword 'morirain'
         }
     }
