@@ -1844,9 +1844,9 @@
     
     <AppIcon image="game_coc_2" name="com.supercell.clashofclans.wdj/com.supercell.clashofclans.GameAppKunlun" />
     
-    <AppIcon image="game_coc_2_2" name="com.supercell.clashofclans.huawei/com.supercell.clashofclans.GameAppKunlun" />
+    <AppIcon image="game_coc_2" name="com.supercell.clashofclans.huawei/com.supercell.clashofclans.GameAppKunlun" />
     
-    <AppIcon image="game_coc_2_2" name="com.supercell.clashofclans.kunlun/com.supercell.clashofclans.GameAppKunlun" />
+    <AppIcon image="game_coc_2" name="com.supercell.clashofclans.kunlun/com.supercell.clashofclans.GameAppKunlun" />
 
 
     
@@ -2228,7 +2228,7 @@
     <AppIcon image="umetrip" name="com.umetrip.android.msky.app/com.umetrip.android.msky.app.module.startup.SplashActivity" />
 
     
-    <AppIcon image="qq_tgp" name="com.tencent.tgp/com.tencent.tgp.login.LaunchActivity" />
+    <AppIcon image="qq_wegame" name="com.tencent.tgp/com.tencent.tgp.login.LaunchActivity" />
     
     <AppIcon image="lenovo_anyshare" name="com.lenovo.anyshare/com.lenovo.anyshare.ApMainActivity" />
     
@@ -2696,7 +2696,7 @@
     <AppIcon image="mi_o2o" name="com.xiaomi.o2o/com.xiaomi.o2o.activity.O2OTabActivity" />
 
     
-    <AppIcon image="mi_qianbao" name="com.mipay.wallet/com.mipay.wallet.ui.MipayEntryActivity" />
+    <AppIcon image="wallet" name="com.mipay.wallet/com.mipay.wallet.ui.MipayEntryActivity" />
     
     <AppIcon image="appops" name="rikka.appops/rikka.appops.SplashActivity" />
     
@@ -3096,7 +3096,7 @@
     
     <AppIcon image="flyme_pedometer" name="com.meizu.net.pedometer/com.meizu.net.pedometer.ui.PedometerMainActivitys" />
     
-    <AppIcon image="flyme_wallet" name="com.meizu.flyme.wallet/com.meizu.flyme.wallet.activity.WalletTabActivity" />
+    <AppIcon image="wallet" name="com.meizu.flyme.wallet/com.meizu.flyme.wallet.activity.WalletTabActivity" />
     
     <AppIcon image="flyme_life" name="com.meizu.media.life/com.meizu.media.life.home.HomeActivity" />
     
@@ -3405,10 +3405,10 @@
     <AppIcon image="com_huawei_tips_info" name="com.huawei.tips.info/com.huawei.tips.info.MainActivity111" />
     
     
-    <AppIcon image="com_huawei_wallet" name="com.huawei.wallet/com.huawei.wallet.view.MainActivity" />
+    <AppIcon image="wallet" name="com.huawei.wallet/com.huawei.wallet.view.MainActivity" />
     
     
-    <AppIcon image="com_android_hwmirror_mirror" name="com.android.hwmirror/com.android.hwmirror.Mirror" />
+    <AppIcon image="huawei_mirror" name="com.android.hwmirror/com.android.hwmirror.Mirror" />
     
     <AppIcon image="com_huawei_hiskytone" name="com.huawei.hiskytone/com.huawei.skytone.account.welcome.SplashActivity" />
     
@@ -7597,7 +7597,7 @@
     
     <AppIcon image="dushedy" name="com.dushe.movie/com.dushe.movie.ui.login.SplashActivity" />
     
-    <AppIcon image="net_ease_music" name="com.iap.cloudplus/com.iapp.app.logoActivity" />
+    <AppIcon image="&#8216;" name="com.iap.cloudplus/com.iapp.app.logoActivity" />
 
     
     <AppIcon image="woaiwang" name="com.qzone520.qqmusic/com.qzone520.qqmusic.welcome" />
@@ -9491,7 +9491,7 @@
 	<AppIcon image="sound_recorder" name="com.android.bbksoundrecorder/com.android.activity.SoundRecorder" />
 
 	
-	<AppIcon image="flyme_wallet" name="com.vivo.wallet/com.vivo.wallet.StartPageActivity" />
+	<AppIcon image="wallet" name="com.vivo.wallet/com.vivo.wallet.StartPageActivity" />
 			
 	<AppIcon image="huobi_pro" name="com.huobi/com.huobi.activity.StartFlashActivity" />
 
@@ -9935,7 +9935,7 @@
 		
 	<AppIcon image="kmplayer" name="com.kmplayer/com.kmplayer.MainActivity" />
 		
-	<AppIcon image="game_sky" name="com.tgc.sky.android/com.tgc.sky.TGCBootActivity" />
+	<AppIcon image="game_sky_2" name="com.tgc.sky.android/com.tgc.sky.TGCBootActivity" />
 		
 	<AppIcon image="samsung_bixby_voice" name="com.samsung.android.bixby.agent/com.samsung.android.bixby.assistanthome.AssistantHomeLauncherActivity" />
 		
@@ -10130,17 +10130,534 @@
 		
 	<AppIcon image="capcut" name="com.lemon.lv/com.vega.launcher.precondition.PreInstallConfirmActivity" />
 		
+    <AppIcon image="cmb" name="cmb.pb/cmb.pb.app.mainframe.container.PBMainActivity" />
 		
 		
+    <AppIcon image="baidu_netdisk" name="com.baidu.netdisk/com.baidu.netdisk.ui.DefaultMainActivity" />
+
+    
+    <AppIcon image="baidu_netdisk" name="com.baidu.netdisk.xiaomi.appunion/com.baidu.netdisk.ui.Navigate" />
 		
+    <AppIcon image="tmri_12123" name="com.tmri.app.main/com.tmri.app.ui.activity.main.TmriNewActivity" />
+
+    
+    <AppIcon image="smzdm" name="com.smzdm.client.android/com.smzdm.client.android.app.WelComeActivity" />
+
+    
+    <AppIcon image="game_sky_2" name="com.netease.sky/com.tgc.sky.TGCBootActivity" />
 		
+    <AppIcon image="dianping" name="com.dianping.v1/com.dianping.v1.NovaMainActivity" />
 		
+    <AppIcon image="game_brawl_stars" name="com.tencent.tmgp.supercell.brawlstars/com.supercell.titan.tencent.GameAppTencent" />
 		
+    <AppIcon image="game_sky_2" name="com.tgc.sky.android.test.gold/com.tgc.sky.TGCBootActivity" />
 		
+    <AppIcon image="microsoft_skype" name="com.skype.raider/com.skype4life.MainActivity" />
+
+    
+    <AppIcon image="microsoft_skype" name="com.microsoft.office.lync15/com.microsoft.office.sfb.common.ui.splash.EntryPoint" />
+		 
+    <AppIcon image="alook" name="alook.browser/alook.browser.LauncherActivity" />
 		
+    <AppIcon image="appops" name="rikka.appops/rikka.appops.home.HomeActivity" />
 		
+    <AppIcon image="zlive" name="com.linroid.zlive/com.linroid.zlive.screen.host.HostActivity" />
 		
+    <AppIcon image="qq_gamehelper" name="com.tencent.gamehelper.smoba/com.tencent.gamehelper.ui.main.SplashActivity" />
 		
+    <AppIcon image="light_start" name="com.wpengapp.lightstart/com.wpengapp.support.activity.LauncherActivity" />
+		
+    <AppIcon image="music_tag" name="com.xjcheng.musictageditor/com.xjcheng.musictageditor.MainActivity" />
+		
+    <AppIcon image="biubiu" name="com.njh.biubiu/com.njh.ping.launcher.LauncherActivity" />
+		
+    <AppIcon image="legado" name="io.legado.app.release/io.legado.app.ui.welcome.WelcomeActivity" />
+		 
+    <AppIcon image="fimo" name="com.fimo.camera/com.fimo.camera.app.StartActivity" />
+		
+    <AppIcon image="wallet" name="com.finshell.wallet/com.nearme.wallet.SplashActivity" />
+    
+    <AppIcon image="vtools" name="com.omarea.vtools/com.omarea.vtools.activities.ActivityMain" />
+		
+    <AppIcon image="wsw_cospa" name="com.wsw.cospa/com.wsw.cospa.SplashActivity" />
+		
+    <AppIcon image="game_priconne" name="com.bilibili.priconne/com.bilibili.princonne.permission.PermissionActivity" />
+		
+    <AppIcon image="oppo_breeno_voice" name="com.heytap.speechassist/com.heytap.speechassist.launcher.SpeechAssistMainActivity" />
+		
+    <AppIcon image="browser" name="com.heytap.browser/com.android.browser.BrowserActivity" />
+		
+    <AppIcon image="flash_download" name="com.flash.download/com.example.dwd.myapplication.activity.SplashActivity" />
+		
+    <AppIcon image="aplayer" name="remix.myplayer/remix.myplayer.ui.activity.MainActivity" />
+        
+    <AppIcon image="msyh" name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.activity.SplashActivity" />
+
+    
+    <AppIcon image="qiche" name="com.cubic.autohome/com.cubic.autohome.MainActivity" />
+
+    <AppIcon image="adidas" name="cn.adidas.app/com.adidas.app.intro.IntroActivity" />
+
+
+    <AppIcon image="avnight" name="com.avnight/com.avnight.Activity.LandingActivity.LandingActivityKt" />
+ 
+    <AppIcon image="qq_gamehelper" name="com.tencent.gamehelper.smoba/com.tencent.gamehelper.ui.main.UserAgreementActivity" />
+
+    
+    <AppIcon image="baidu_netdisk" name="com.baidu.netdisk/com.baidu.netdisk.ui.SvipLauncherActivity" />
+
+
+    
+    <AppIcon image="zhihudaily" name="com.zhihu.daily.android/com.zhihu.daily.android.epic.activity.PrivacyActivity" />
+
+    
+    <AppIcon image="net_ease_music" name="com.netease.cloudmusic.lite/com.netease.cloudmusic.activity.LoadingActivity" />
+        
+    <AppIcon image="yzf" name="com.chinatelecom.bestpayclient/com.chinatelecom.bestpayclient.ui.MainActivity" />
+
+    <AppIcon image="ifly_input" name="com.iflytek.inputmethod.googleplay/com.iflytek.inputmethod.LauncherActivity" />
+
+    
+    <AppIcon image="tieba" name="com.huanchengfly.tieba.post/com.huanchengfly.tieba.post.activities.MainActivity" />
+
+    
+    <AppIcon image="tieba" name="com.huanchengfly.tieba.post/com.huanchengfly.tieba.post.MainActivity" />
+
+    <AppIcon image="bankcomm" name="com.bankcomm.Bankcomm/com.bankcomm.main.activity.ConfigActivity" />
+
+    <AppIcon image="game_sky_2" name="com.netease.sky.bilibili/com.tgc.sky.TGCBootActivity" />
+
+    
+    <AppIcon image="game_sky_2" name="com.netease.sky.huawei/com.tgc.sky.TGCBootActivity" />
+		
+    <AppIcon image="pumpkinplayer" name="com.pumpkinteam.pumpkinplayer/com.video.test.module.homepage.HomepageActivity" />
+
+    <AppIcon image="jike" name="com.ruguoapp.jike/com.ruguoapp.jike.bu.launch.ui.SplashActivity" />
+
+    
+    <AppIcon image="mi_voice" name="com.xiaomi.xiaoailite/com.xiaomi.xiaoailite.presenter.main.MainTabActivity" />
+
+    <AppIcon image="mi_yidong" name="com.xiaomi.mimobile/com.xiaomi.mimobile.activity.StartActivity" />
+
+    
+    <AppIcon image="game_girls_front_line_shaonvqianxian" name="com.digitalsky.girlsfrontline.cn.bili/com.sunborn.girlsfrontline.SplashActivity" />
+
+    
+    <AppIcon image="game_girls_front_line_shaonvqianxian" name="com.sunborn.girlsfrontline.cn/com.sunborn.girlsfrontline.GameActivity" />
+
+
+    <AppIcon image="mb" name="com.mubu.app/com.mubu.app.splash.MubuSplashActivity" />
+
+    
+    <AppIcon image="yingyonghui" name="com.yingyonghui.market/com.yingyonghui.market.ui.MainActivity" />
+
+    
+    <AppIcon image="du" name="com.shizhuang.duapp/com.shizhuang.duapp.modules.home.ui.SplashActivity" />
+
+<AppIcon image="kuaishou" name="com.kuaishou.nebula/com.yxcorp.gifshow.HomeActivity" />
+
+
+<AppIcon image="kuaimao" name="com.xxx.svideo/com.xxx.svideo.base.SplashActivity" />
+
+
+<AppIcon image="kuaikan" name="com.kuaikan.comic/com.kuaikan.main.LaunchActivity" />
+
+<AppIcon image="mmm" name="com.manmanbuy.bijia/com.manmanbuy.bijia.MainActivity" />
+
+
+<AppIcon image="dcd" name="com.ss.android.auto/com.ss.android.auto.policy.AutoPrivacyActivity" />
+
+<AppIcon image="qt_qtl" name="com.tencent.qt.qtl/com.tencent.zone.main.LauncherActivity" />
+
+
+<AppIcon image="zsgt" name="com.crgt.ilife/com.crgt.ilife.plugin.sessionmanager.fg.main.NewSplashActivity" />
+
+
+<AppIcon image="juejin" name="com.daimajia.gold/im.juejin.android.ui.SplashActivity" />
+
+
+<AppIcon image="soutu" name="com.example.administrator.searchpicturetool/com.example.administrator.searchpicturetool.launch.SplashEmptyActivity" />
+
+
+<AppIcon image="soutu" name="com.example.administrator.searchpicturetool/com.wander.android.searchpicturetool.launch.SplashEmptyActivity" />
+
+
+<AppIcon image="huluxia" name="com.huati/com.huluxia.ui.splash.FloorSplashActivity" />
+
+<AppIcon image="kingsoft_ciba" name="com.kingsoft/com.kingsoft.NewStartActivity" />
+
+<AppIcon image="music" name="com.meizu.media.music/com.banqu.music.WelcomeActivity" />
+
+<AppIcon image="maimemo" name="com.maimemo.android.momo/com.maimemo.android.momo.ui.SplashActivity" />
+ 
+ <AppIcon image="retouch" name="com.advasoft.touchretouch/com.advasoft.touchretouch4.LicenseActivity" />
+
+<AppIcon image="email" name="com.huawei.email/com.android.email.activity.Welcome" />
+
+<AppIcon image="sim_toolkit" name="com.android.stk/com.android.stk.StkLauncherActivityI" />
+
+
+<AppIcon image="sim_toolkit" name="com.android.stk/com.android.stk.OppoStkLauncherActivity1" />
+
+<AppIcon image="authenticator" name="com.blizzard.messenger/com.blizzard.messenger.ui.splash.SplashActivity" />
+
+<AppIcon image="see" name="com.caij.see/com.caij.see.ui.activity.home.MainContainActivity" />
+
+
+<AppIcon image="game_dungeon_shooter" name="com.ChillyRoom.DungeonShooter/com.image.abo.pingxx.MainActivity" />
+
+<AppIcon image="dkkj" name="com.citiccard.mobilebank/com.citiccard.mobilebankapp.LaunchActivity" />
+ 
+ <AppIcon image="files" name="com.coloros.filemanager/com.coloros.filemanager.filerefactor.ui.main.MainActivity" />
+
+<AppIcon image="notes" name="com.nearme.note/com.nearme.note.view.AllNoteActivity" />
+
+
+<AppIcon image="notes" name="com.coloros.note/com.nearme.note.view.AllNoteActivity" />
+
+<AppIcon image="dianping" name="com.dianping.v1/com.dianping.main.guide.LaunchActivity" />
+ 
+ <AppIcon image="game_rr3_2" name="com.ea.games.r3_na/com.firemint.realracing.UnpackAssetsActivity" />
+
+
+<AppIcon image="flyme_short_video" name="com.flyme.videoclips/com.flyme.videoclips.activity.HomeWeexActivity" />
+ 
+ <AppIcon image="music" name="com.oppo.music/com.nearme.music.splash.SplashActivity" />
+
+
+<AppIcon image="music" name="com.heytap.music/com.nearme.music.splash.SplashActivity" />
+ 
+ <AppIcon image="theme" name="com.heytap.themestore/com.nearme.themespace.activities.ThemeActivity" />
+
+<AppIcon image="happycast" name="com.hpplay.happycast/com.hpplay.advertisement.SplashActivity" />
+
+<AppIcon image="calculator" name="com.huawei.calculator/com.huawei.calculator.Calculator" />
+
+
+<AppIcon image="calculator" name="com.coloros.calculator/com.android.calculator2.Calculator" />
+
+
+<AppIcon image="calendar" name="com.huawei.calendar/com.android.calendar.AllInOneActivity" />
+
+
+<AppIcon image="calendar" name="com.coloros.calendar/com.android.calendar.AllInOneActivity" />
+
+<AppIcon image="game_coc_2" name="com.tencent.tmgp.supercell.clashofclans/com.supercell.titan.tencent.GameAppTencent" />
+
+
+<AppIcon image="game_coc_2" name="com.supercell.clashofclans.huawei/com.supercell.titan.kunlun.GameAppKunlun" />
+
+<AppIcon image="game_cr" name="com.tencent.tmgp.supercell.clashroyale/com.supercell.titan.tencent.GameAppTencent" />
+
+<AppIcon image="clock" name="com.huawei.deskclock/com.android.deskclock.AlarmsMainActivity" />
+
+<AppIcon image="compass" name="com.coloros.compass2/com.coloros.compass.flat.FlatCompass" />
+
+
+<AppIcon image="contacts" name="com.huawei.contacts/com.android.contacts.activities.PeopleActivity" />
+ 
+ <AppIcon image="game_bh3_2" name="com.miHoYo.bh3oversea/com.miHoYo.overridenativeactivity.OverrideNativeActivity" />
+
+
+<AppIcon image="game_bh3_2" name="com.miHoYo.bh3global/com.miHoYo.overridenativeactivity.OverrideNativeActivity" />
+
+<AppIcon image="game_genshin" name="com.miHoYo.Yuanshen/com.miHoYo.GetMobileInfo.MainActivity" />
+
+
+<AppIcon image="game_genshin" name="com.miHoYo.ys.bilibili/com.miHoYo.GetMobileInfo.MainActivity" />
+
+
+<AppIcon image="game_genshin" name="com.miHoYo.GenshinImpact/com.miHoYo.GetMobileInfo.MainActivity" />
+
+<AppIcon image="phone" name="com.oneplus.dialer/com.android.dialer.oneplus.activity.OPDialtactsActivity" />
+
+ 
+ <AppIcon image="game_lol" name="com.riotgames.league.wildrift/com.tencent.lolm.lgame" />
+
+<AppIcon image="wang_vpn" name="com.sticktoit/com.sticktoit.activity.MainActivity" />
+
+<AppIcon image="wang_vpn" name="com.trustyourself/com.trustyourself.activity.MainActivity" />
+
+
+<AppIcon image="weather" name="com.coloros.weather2/com.coloros.weather.OppoMainActivity" />
+    
+    <AppIcon image="video" name="com.heytap.yoli/com.heytap.yoli.icon_org" />
+
+    
+    <AppIcon image="video" name="com.coloros.yoli/com.heytap.yoli.icon_org" />
+
+    
+    <AppIcon image="wallet" name="com.coloros.wallet/com.nearme.wallet.SplashActivity" />
+
+<AppIcon image="douyin" name="com.ss.android.ugc.aweme.lite/com.ss.android.ugc.aweme.splash.SplashActivity" />
+
+<AppIcon image="game_yyzy" name="com.ztgame.yyzy/com.ztgame.yyzy.adapternotchwithchannel.AdapterNotch" />
+
+<AppIcon image="xvideos" name="com.wg.xvideos.app/com.xvideos.common.activities.DefaultActivity" />
+
+
+<AppIcon image="wifilocating" name="com.snda.lantern.wifilocating/com.lantern.launcher.ui.MainActivity" />
+
+
+<AppIcon image="wifilocating" name="qyma.wifikey/com.lantern.launcher.ui.MainActivity" />
+
+
+<AppIcon image="wifilocating" name="com.snda.wifilocating/com.lantern.launcher.ui.MainActivityN9p" />
+
+<AppIcon image="kirikiroid2" name="org.tvp.kirikiri2_free_10309/org.tvp.kirikiri2_free_10309.Kirikiroid2" />
+
+<AppIcon image="game_arcaea" name="moe.low.arc/low.moe.AppActivity" />
+
+<AppIcon image="game_priconne" name="tw.sonet.princessconnect/jp.co.cygames.activity.OverrideUnityActivity" />
+
+<AppIcon image="lawnchair" name="ch.deletescape.lawnchair.plah/ch.deletescape.lawnchair.settings.ui.SettingsLauncherActivity" />
+
+    <AppIcon image="shaft" name="ceui.lisa.pixiv/ceui.lisa.activities.MainActivity" />
+
+    <AppIcon image="bijian" name="com.bilibili.studio/com.bilibili.studio.module.home.ui.SplashActivity" />
+
+    <AppIcon image="nomo" name="com.blink.academy.nomo/com.blink.academy.nomo.ui.activity.splash.NomoSplashActivity" />
+
+<AppIcon image="m4399" name="com.m4399.gamecenter/com.m4399.gamecenter.controllers.splash.SplashActivity" />
+
+    <AppIcon image="huawei_ai_life" name="com.huawei.smarthome/com.huawei.smarthome.login.LauncherActivity" />
+
+    <AppIcon image="huawei_ai_skin" name="com.huawei.hwfairy/com.huawei.hwfairy.view.activity.LaunchActivity" />
+
+    <AppIcon image="huawei_ai_voice" name="com.huawei.vassistant/com.huawei.vassistant.ui.main.VAssistantActivity" />
+
+    <AppIcon image="huawei_ar_measure" name="com.huawei.ar.measure/com.huawei.ar.measure.LauncherActivity" />
+
+    <AppIcon image="samsung_ar_zone" name="com.samsung.android.arzone/com.samsung.android.arzone.ARZoneLauncher" />
+
+    <AppIcon image="samsung_bixby_vision" name="com.samsung.android.visionintelligence/com.samsung.android.visionintelligence.main.DummyActivity" />
+
+    <AppIcon image="oppo_breeno_shortcuts" name="com.coloros.shortcuts/com.coloros.shortcuts.ui.MainActivity" />
+
+    <AppIcon image="oppo_breeno_shortcuts" name="com.coloros.shortcuts/com.coloros.shortcuts.modules.main.MainActivity" />
+
+    <AppIcon image="oppo_breeno_voice" name="com.coloros.speechassist/com.heytap.speechassist.launcher.SpeechAssistMainActivity" />
+
+    
+    <AppIcon image="oppo_breeno_voice" name="com.heytap.speechassist/com.heytap.speechassist.SpeechAssistMainActivity" />
+
+    <AppIcon image="oppo_clone_phone" name="com.coloros.backuprestore/com.coloros.phoneclone.PhoneCloneMainActivity" />
+    
+    <AppIcon image="microsoft_account" name="com.microsoft.appmanager/com.microsoft.appmanager.StartUpCoreActivity" />
+
+    <AppIcon image="meizu_dsgame" name="com.meizu.flyme.dsgame/com.meizu.flyme.dsgame.MainActivity" />
+
+    <AppIcon image="samsung_edgelighting" name="com.samsung.android.edgelightingeffectunit/com.samsung.android.edgelightingeffectunit.activity.EdgeLightingUnitActivity" />
+
+    <AppIcon image="eight_for_kwgt" name="com.kustom.eightpack/org.kustom.api.dashboard.DashboardActivity" />
+
+    <AppIcon image="vivo_exercise" name="com.vivo.health/com.vivo.health.main.activity.GuideActivity" />
+
+    <AppIcon image="meizu_family_guard" name="com.meizu.sceneinfo/com.meizu.familyguard.alias.compat.FamilyGuardActivityLauncher" />
+
+    <AppIcon image="iqoo_feedback" name="com.bbk.iqoo.feedback/com.bbk.iqoo.feedback.activities.UserFeedBackActivity" />
+
+    <AppIcon image="oppo_feedback" name="com.coloros.logkit/com.coloros.logkit.activity.MainAliasActivity" />
+
+    <AppIcon image="huawei_findmyphone" name="com.huawei.android.findmyphone/com.huawei.android.findmyphone.ui.findphone.FindMyPhoneActivity" />
+
+    <AppIcon image="google_devices" name="com.google.android.apps.adm/com.google.android.apps.adm.activities.MainActivity" />
+
+    <AppIcon image="find_my_devices" name="com.coloros.findphone.client/com.coloros.findphone.client.LoginActivity" />
+
+    <AppIcon image="samsung_galaxy_labs" name="com.android.samsung.utilityapp/com.android.samsung.utilityapp.app.presentation.welcomepage.WelcomeActivity" />
+
+    <AppIcon image="huawei_gallery" name="com.huawei.photos/com.huawei.gallery.app.GalleryMain" />
+
+
+    <AppIcon image="samsung_game" name="com.samsung.android.game.gamehome/com.samsung.android.game.gamehome.activity.StartActivityCN" />
+
+    <AppIcon image="oppo_game_space" name="com.coloros.gamespaceui/com.coloros.gamespaceui.activity.StartActivity" />
+
+    <AppIcon image="oppo_game_space_game_box" name="com.coloros.gamespace/com.coloros.gamespace.activity.GameBoxActivity" />
+
+    <AppIcon image="samsung_good_lock" name="com.samsung.android.goodlock/com.samsung.android.goodlock.presentation.view.PluginListActivity" />
+
+    <AppIcon image="smartisan_handshaker" name="com.smartisanos.smartfolder.aoa/com.smartisanos.smartfolder.aoa.MainActivity" />
+
+    <AppIcon image="heytap_health" name="com.heytap.health/com.heytap.health.launch.LaunchActivity" />
+
+    <AppIcon image="cloud_service" name="com.heytap.cloud/com.heytap.cloud.activity.CloudSettingsActivity" />
+
+    <AppIcon image="huawei_hisuite" name="com.huawei.hisuite/com.huawei.hisuite.activity.MainActivity" />
+
+    <AppIcon image="huawei_honor_choice" name="cn.honor.qinxuan/cn.honor.qinxuan.splash.SplashActivity" />
+ 
+    <AppIcon image="huawei_cloud" name="com.huawei.android.ds/com.huawei.android.hicloud.hisync.activity.NewHiSyncSettingActivity" />
+
+    <AppIcon image="huawei_cloud_computer" name="com.huawei.cloud/com.huawei.ahdp.wi.WIActivity" />
+
+    <AppIcon image="huawei_cloud_computer" name="com.huawei.cloud/com.huawei.cloud.wi.WIActivity" />
+
+    <AppIcon image="huawei_fans" name="com.huawei.fans/com.huawei.fans.SplashActivity" />
+
+    <AppIcon image="huawei_educenter" name="com.huawei.educenter/com.huawei.educenter.MainActivity" />
+
+    <AppIcon image="fm_radio" name="com.huawei.android.FMRadio/com.huawei.FMRadio.page.PageActivity" />
+
+    <AppIcon image="huobi_pro" name="pro.huobi/com.huobi.activity.StartFlashActivity" />
+
+    <AppIcon image="ikea" name="com.ingka.ikea.app.cn.prod/com.ingka.ikea.app.SplashActivity" />
+    
+    <AppIcon image="sony_imaging_edge_mobile" name="com.sony.playmemories.mobile/com.sony.playmemories.mobile.splash.SplashActivity" />
+
+    <AppIcon image="vivo_jovi_home" name="com.vivo.vhome/com.vivo.vhome.ui.VHomeActivity" />
+
+    <AppIcon image="legado" name="io.legado.app.release/io.legado.app.ui.welcome.Launcher4" />
+
+    
+    <AppIcon image="legado" name="io.legado.app.release/io.legado.app.ui.welcome.Launcher5" />
+
+    <AppIcon image="lock" name="com.android.bbk.lockscreen3/com.android.bbk.lockscreen3.LockScreenActivity" />
+
+    <AppIcon image="lofter" name="com.lofter.android/com.lofter.android.global.splash.HomeActivity" />
+   
+    <AppIcon image="email" name="com.android.email/com.kingsoft.email.activity.setup.GuideActivity" />
+
+    <AppIcon image="huawei_meetime" name="com.huawei.meetime/com.huawei.hicontacts.MeetimeActivity" />
+
+    <AppIcon image="wallet" name="com.meizu.mznfcpay/com.meizu.mznfcpay.homepage.HomeActivity" />
+
+    <AppIcon image="huawei_member_center" name="com.huawei.mycenter/com.huawei.mycenter.module.main.view.MainActivity" />
+
+    <AppIcon image="metro" name="com.wimetro.iafc/com.alipay.mobile.quinox.LauncherActivity" />
+
+    <AppIcon image="huawei_mirror" name="com.huawei.mirror/com.huawei.mirror.Mirror" />
+
+    <AppIcon image="music" name="com.huawei.music/com.android.mediacenter.PageActivity" />
+
+    <AppIcon image="netease_news" name="com.netease.newsreader.activity/com.netease.nr.biz.ad.newAd.AdActivity" />
+ 
+    <AppIcon image="nike" name="com.nike.omega/com.nike.mynike.ui.SplashScreenActivity" />
+
+    <AppIcon image="oppo_one_tap_lock_screen" name="com.coloros.onekeylockscreen/com.coloros.onekeylockscreen.OppoLockScreen" />
+
+    <AppIcon image="oppo_relax" name="com.coloros.relax/com.coloros.relax.ui.MainActivity" />
+
+    <AppIcon image="oppo_oroaming" name="com.redteamobile.roaming/com.redteamobile.roaming.MainActivity" />
+
+    <AppIcon image="huawei_phone_clone" name="com.hicloud.android.clone/com.huawei.android.clone.activity.sender.ChooseReceiveSendActivity" />
+
+    <AppIcon image="security" name="com.coloros.phonemanager/com.coloros.phonemanager.FakeActivity" />
+
+    <AppIcon image="vivo_photography" name="com.vivo.symmetry/com.vivo.symmetry.SplashActivity" />
+
+    <AppIcon image="pix_ezviewer" name="com.perol.asdpl.play.pixivez/com.perol.asdpl.pixivez.triangle" />
+
+    <AppIcon image="pix_ezviewer" name="com.perol.pixez/com.perol.pixez.MainActivity" />
+
+    <AppIcon image="pu" name="com.xyhui/com.lee.start.PrivacyTipActivity" />
+
+    <AppIcon image="qmd" name="com.qmd.junzi.qmd/com.qmd.junzi.activity.MainActivity" />
+
+    <AppIcon image="huawei_reader" name="com.huawei.hwread.al/com.huawei.reader.launch.impl.splash.SplashScreenActivity" />
+
+    <AppIcon image="sound_recorder" name="com.android.bbksoundrecorder/com.android.activity.ReclistActivity" />
+
+    
+    <AppIcon image="sound_recorder" name="com.coloros.soundrecorder/oppo.multimedia.soundrecorder.filebrowser.BrowseFile" />
+
+    
+    <AppIcon image="sound_recorder" name="com.google.android.apps.recorder/com.google.android.apps.recorder.ui.recordings.LauncherActivity" />
+
+    
+    <AppIcon image="sound_recorder" name="com.huawei.soundrecorder/com.android.soundrecorder.RecordListActivity" />
+
+    <AppIcon image="oppo_remote_guard" name="com.coloros.familyguard/com.coloros.familyguard.FakeActivity" />
+
+    <AppIcon image="samsung_members" name="com.samsung.android.voc/com.samsung.android.voc.app.LauncherActivity" />
+
+    <AppIcon image="oppo_screen_recording" name="com.coloros.screenrecorder/com.coloros.screenrecorder.MainActivity" />
+
+    <AppIcon image="huawei_scrollshot" name="com.huawei.HwMultiScreenShot/com.android.systemui.flashlight.FlashlightActivity" />
+
+    <AppIcon image="vivo_simple_view" name="com.vivo.simplelauncher/com.vivo.simplelauncher.SimpleLauncher" />
+
+    <AppIcon image="heytap_smart_home" name="com.heytap.smarthome/com.heytap.smarthome.LaunchActivity" />
+
+    <AppIcon image="oppo_smart_scan" name="com.coloros.ocrscanner/com.coloros.ocrscanner.camera.CameraActivity" />
+
+    <AppIcon image="oppo_soloop" name="com.coloros.videoeditor/com.coloros.videoeditor.SplashActivity" />
+
+    <AppIcon image="cx" name="io.moreless.tide/io.moreless.tide2.activity.SplashActivity" />
+
+    <AppIcon image="oppo_tips" name="com.coloros.operationtips/com.coloros.operationtips.activities.WelcomeActivity" />
+
+    <AppIcon image="samsung_tips" name="com.samsung.android.app.tips/com.samsung.android.app.tips.TipsMainActivity" />
+
+    <AppIcon image="mi_wear" name="com.xiaomi.wearable/com.xiaomi.wearable.start.privacy.PrivacyActivity" />
+
+    <AppIcon image="xk_video_wallpaer" name="yyc.xk/yyc.xk.fristview" />
+
+    <AppIcon image="hiveconsumer" name="com.fcbox.hiveconsumer/kt.com.fcbox.hiveconsumer.app.business.entrance.EntranceDelegateActivity" />
+
+    <AppIcon image="lmybk" name="com.mosoink.teach/com.mosoink.teach.MainActivity" />
+
+    <AppIcon image="jd_jx" name="com.jd.pingou/com.jd.pingou.MainActivity" />
+
+    <AppIcon image="uniqlo" name="com.yek.android.uniqlo/com.yek.android.uniqlo.activity.WelcomeActivity" />
+
+    <AppIcon image="fxjc" name="com.cs_credit_bank/com.alipay.mobile.quinox.LauncherActivity" />
+
+    <AppIcon image="easybike" name="com.jingyao.easybike/com.hellobike.atlas.business.portal.PortalActivity" />
+
+    <AppIcon image="yylls" name="com.liulishuo.engzo/com.liulishuo.lingodarwin.app.LauncherActivity" />
+
+    <AppIcon image="game_mc" name="com.netease.mc.huawei/com.mojang.minecraftpe.MainActivity" />
+
+    <AppIcon image="sfsy" name="com.sf.activity/com.sf.activity.MainActivity" />
+
+    <AppIcon image="flyme_mcare" name="com.meizu.mcare/com.meizu.mcare.ui.MainActivity" />
+
+    <AppIcon image="miaomiaozhe" name="com.henzanapp.miaomiaozhe/com.henzanapp.miaomiaozhe.activity.MainWelcomeActivity" />
+
+    <AppIcon image="hykb" name="com.xmcy.hykb/com.xmcy.hykb.app.ui.splash.SplashActivity" />
+
+    <AppIcon image="secretinput" name="com.kongzue.secretinput/com.kongzue.secretinput.activity.FirstActivity" />
+
+    <AppIcon image="niu_cloud" name="com.niu.cloud/com.niu.cloud.launch.WelcomeActivity" />
+
+    <AppIcon image="ensan" name="com.appbyme.app284211/com.mobcent.discuz.activity.SplashActivity" />
+
+    <AppIcon image="zhaoliangji" name="com.huodao.hdphone/com.huodao.hdphone.mvp.view.home.NewSplashActivity" />
+
+    <AppIcon image="qq_wegame" name="com.tencent.tgp/com.tencent.wegame.splash.SplashActivity" />
+
+    <AppIcon image="zscf" name="com.tencent.qt.sns/com.tencent.gamehelper.ui.main.WelcomeActivity" />
+
+    <AppIcon image="gjzs" name="Han.GJZS/com.projectkr.shell.SplashActivity" />
+
+    <AppIcon image="bixin" name="com.yitantech.gaigai/com.bx.splash.SplashActivity" />
+
+    <AppIcon image="qingzhuo" name="com.farplace.qingzhuo/com.farplace.qingzhuo.views.MainActivity" />
+
+    <AppIcon image="pipixia" name="com.sup.android.superb/com.sup.android.base.MainActivity" />
+
+    <AppIcon image="mihoyo_bbs" name="com.mihoyo.hyperion/com.mihoyo.hyperion.ui.SplashActivity" />
+
+    <AppIcon image="vivo_translator" name="com.vivo.translator/com.vivo.translator.view.activity.MainActivity" />
+
+    <AppIcon image="qq_xriver" name="com.tencent.xriver/com.tencent.xriver.ui.splash.SplashActivity" />
+
+    <AppIcon image="autoskip" name="me.angeldevil.autoskip/me.angeldevil.autoskip.Launcher" />
+ 
+    <AppIcon image="jiezikongjian" name="com.aigz.cloudgame/com.aigz.ui.base.BBSAppStart" />
+
+    <AppIcon image="yingshi" name="com.videogo/com.videogo.LauncherActivity" />
+
+    <AppIcon image="qingyan" name="com.gorgeous.lite/com.light.beauty.login.LoadingPageActivity" />
+
+    <AppIcon image="oppo_reader" name="com.heytap.reader/com.chaozh.iReader.ui.activity.WelcomeActivity" />
+
+    <AppIcon image="huawei_reader" name="com.huawei.hwread.al/com.dzbook.activity.SplashActivity" />
+
+
+
 
 
 
