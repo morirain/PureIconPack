@@ -23,10 +23,10 @@ import kotlin.reflect.jvm.javaField
 class MainActivity : BottomNavigationBlueprintActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        if (BuildConfig.DEBUG) {
+        if (true) {
             val request = lazy {
                 Retrofit.Builder()
-                    .baseUrl("https://morirain-3gv3co56b4babf1b-1256096275.ap-shanghai.app.tcloudbase.com/IconReceive/")
+                    .baseUrl("https://morirain-3gv3co56b4babf1b-1256096275.ap-shanghai.app.tcloudbase.com/pure-icon/")
                     .addConverterFactory(ScalarsConverterFactory.create())
                     .addConverterFactory(GsonConverterFactory.create(GsonBuilder().create()))
                     .build().create(ArcticService::class.java)

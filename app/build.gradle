@@ -67,8 +67,8 @@ android {
 
      buildTypes {
          release {
-             resValue 'integer', 'max_apps_to_request', '30'
-             resValue 'integer', 'time_limit_in_minutes', '30'
+             resValue 'string', 'max_apps_to_request', '30'
+             resValue 'string', 'time_limit_in_minutes', '30'
              debuggable false
              zipAlignEnabled true
              minifyEnabled true

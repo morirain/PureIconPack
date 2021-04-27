@@ -34,7 +34,7 @@
     <bool name="includes_adaptive_icons">false</bool>
 
     <!-- Icon Pack designer/owner e-mail -->
-    <string name="email">pure-iconpack@outlook.com</string>
+    <string name="email">morirain.dev@outlook.com</string>
 
     <!-- Mail subjects for simple e-mail and requests e-mail -->
     <string name="email_subject">PureIconPack</string>
