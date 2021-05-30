@@ -39,9 +39,9 @@ android {
 
     defaultConfig {
         manifestPlaceholders = [
-                onesignal_app_id               : OneSignal.appId,
-                onesignal_google_project_number: OneSignal.googleProjectNumber
-        ]
+                onesignal_app_id                 : OneSignal.appId
+
+                , onesignal_google_project_number: OneSignal.googleProjectNumber]
         applicationId MyApp.appId
         minSdkVersion Versions.minSdk
         targetSdkVersion Versions.targetSdk

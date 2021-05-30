@@ -449,7 +449,7 @@
 
 
     
-    <item class="com.android.calendar.AllInOneActivity" name="calendar" />
+    <item class="com.android.calendar.AllInOneActivity" name="google_calendar" />
     
     <item class="com.android.calendar.AllInOneActivity" name="calendar" />
     
@@ -460,14 +460,14 @@
     <item class="com.zui.calendar.AllInOneActivity" name="calendar" />
 
 
-    <item class="com.android.calendar.AllInOneActivity" name="calendar" />
+    <item class="com.android.calendar.AllInOneActivity" name="google_calendar" />
     <item class="com.android.calendar.AllInOneActivity" name="calendar" />
     <item class="am.sunrise.android.calendar.ui.HomeActivity" name="calendar" />
     <item class="com.meizu.flyme.calendar.AllInOneActivity" name="calendar" />
     <item class="com.android.calendar.homepage.AllInOneActivity" name="calendar" />
     <item class="com.android.calendar.AllInOneActivity" name="calendar" />
-    <item class="com.android.calendar.LaunchActivity" name="calendar" />
-    <item class="com.android.calendar.HtcCalendarProvider" name="calendar" />
+    <item class="com.android.calendar.LaunchActivity" name="google_calendar" />
+    <item class="com.android.calendar.HtcCalendarProvider" name="google_calendar" />
     <item class="com.android.calendar.CalendarTabActivity" name="calendar" />
     <item class="com.android.calendar.MonthActivity" name="calendar" />
     <item class="com.android.calendar.LaunchActivity" name="calendar" />
@@ -7486,7 +7486,7 @@
     
     <item class="so.ofo.abroad.ui.splash.SplashActivity" name="ofo" />
     
-    <item class="com.supercell.clashofclans.GameAppKunlun" name="game_coc_2_2" />
+    <item class="com.supercell.clashofclans.GameAppKunlun" name="game_coc_2" />
     
     <item class="com.tencent.karaoke.module.splash.ui.SplashBaseActivity" name="qq_quanminkg" />
     
@@ -11637,7 +11637,166 @@
 
 
 
-
+    <item class="com.urbandroid.sleep.alarmclock.AlarmClock" name="urbandroid_sleep" />
+    <item class="com.google.android.apps.youtube.creator.main.MainActivity" name="google_youtube_studio" />
+    <item class="com.mercadopago.wallet.AccountSummaryActivity" name="mercado_pago" />
+    <item class="com.simplemobiletools.gallery.pro.activities.SplashActivity.Grey_black" name="simple_gallery" />
+    <item class="com.realme.link.home.SplashActivity" name="realme_link" />
+    <item class="com.baidu.netdisk.ui.SvipLauncherActivity" name="baidu_netdisk" />
+    <item class="com.samsung.knox.securefolder.presentation.switcher.view.SecureFolderShortcutActivity" name="samsung_secure_folder" />
+    <item class="com.samsung.android.forest.launcher.LauncherActivity" name="samsung_digital_wellbeing" />
+    <item class="com.samruston.buzzkill.ui.MainActivity" name="buzzkill" />
+    <item class="net.oneplus.goodies.AdvancedSettings" name="oneplus_launcher" />
+    <item class="com.sonyliv.ui.splash.SplashActivity" name="sonyliv" />
+    <item class="com.google.firebase.MessagingUnityPlayerActivity" name="game_mario_kart" />
+    <item class="com.alphainventor.filemanager.activity.MainActivity" name="cx_file" />
+    <item class="com.autoclicker.clicker.ads.SplashActivity" name="auto_clicker" />
+    <item class="com.ironhidegames.android.kr.act_downloader.KRDownloaderActivity" name="game_kingdomrush" />
+    <item class="com.imgur.mobile.Launcher" name="imgur" />
+    <item class="cn.yujian.browser.ui.activities.HomeActivity" name="yujian" />
+    <item class="com.dts.freefireth.FFMainActivity" name="game_free_fire" />
+    <item class="homeworkout.homeworkouts.noequipment.SplashActivity" name="home_workout" />
+    <item class="com.tokopedia.tkpd.ConsumerSplashScreen" name="tokopedia" />
+    <item class="com.apple.vienna.v3.presentation.welcome.WelcomeActivity" name="beats" />
+    <item class="com.inshot.filetransfer.SplashActivity" name="inshare" />
+    <item class="nic.goi.aarogyasetu.views.SplashActivity" name="aarogya_setu" />
+    <item class="com.google.vr.apps.ornament.measure.MeasureMainActivity" name="measure" />
+    <item class="com.xiaomi.jr.app.MiFinanceActivity" name="mi_daikuan" />
+    <item class="com.huawei.myhuawei.ui.HwSplashActivity" name="com_huawei_phoneservice" />
+    <item class="com.samsung.android.app.simplesharing.linksharing.history.Launcher" name="samsung_link_sharing" />
+    <item class="com.baidu.netdisk.ui.MainActivity" name="baidu_netdisk" />
+    <item class="tw.com.gamer.android.activity.guide.GuideActivity" name="bhmt" />
+    <item class="servify.android.consumer.splash.SplashActivity" name="oneplus_care" />
+    <item class="com.ryzmedia.tatasky.splash.SplashActivity" name="tata_sky" />
+    <item class="com.poweramp.v3.aurora.SkinInfoActivity" name="poweramp_aurora" />
+    <item class="com.github.shadowsocks.Shadowsocks" name="shadowsocks_sr" />
+    <item class="com.maxmpz.audioplayer.huawei.standard_adaptive" name="power_amp" />
+    <item class="com.samsung.android.appbooster.app.presentation.home.HomeActivity" name="samsung_booster" />
+    <item class="com.heytap.headset.activity.StartupActivity" name="oppo_heymelody" />
+    <item class="com.digitalextremes.warframenexus.WarframeActivity" name="warframe" />
+    <item class="com.samsung.android.pentastic.settings.SettingsActivity" name="samsung_pentastic" />
+    <item class="com.huawei.smarthome.login.LauncherActivity" name="huawei_ai_life" />
+    <item class="com.samsung.sree.ui.MainActivity" name="samsung_global_goals" />
+    <item class="com.movie.bms.splashscreen.SplashScreenActivity" name="bookmyshow" />
+    <item class="live.tech.storm.Splash" name="thop_tv" />
+    <item class="com.whereismytrain.view.activities.MainPagerActivity" name="where_is_my_train" />
+    <item class="com.cris.ima.utsonmobile.mainmenuitems.SplashActivity" name="uts" />
+    <item class="com.cv.docscanner.Splash.SplashActivity" name="doc_scanner" />
+    <item class="com.bilibili.deadcells.mobile.SplashActivity" name="game_deadcells" />
+    <item class="rk.android.app.shortcutmaker.CommonMethods.SplashScreenActivity" name="shortcut_maker" />
+    <item class="com.oppo.music.adutils.SplashActivity" name="music" />
+    <item class="com.oppo.video.SplashActivity" name="video" />
+    <item class="com.heytap.quickgame.module.others.launcher.LauncherActivity" name="oppo_heyfun" />
+    <item class="com.realme.ui.SplashActivity" name="realme_link" />
+    <item class="com.baidu.netdisk.ui.DefaultMainActivity" name="baidu_netdisk" />
+    <item class="com.oneplus.mall.view.SplashActivity" name="oneplus_store" />
+    <item class="com.oppo.cdo.ui.external.desktop.DeskHotAppActivity" name="market" />
+    <item class="com.google.audio.hearing.visualization.accessibility.scribe.LauncherActivity" name="google_live_transcribe" />
+    <item class="com.anydesk.anydeskandroid.gui.activity.MainActivity" name="anydesk" />
+    <item class="com.bungieinc.bungiemobile.LoaderActivity" name="destiny_2" />
+    <item class="com.nosmk.burgerking.SplashActivity" name="burger_king" />
+    <item class="com.samruston.converter.ui.MainActivity" name="unit_lab" />
+    <item class="com.citi.transfer.ui.splash.SplashActivity" name="transfer" />
+    <item class="spdfnote.control.ui.filemanager.MainHomeActivity" name="samsung_write_on" />
+    <item class="com.simplemobiletools.filemanager.pro.activities.SplashActivity.Grey_black" name="simple_file_manager" />
+    <item class="com.sybogames.chili.multidex.ChiliMultidexSupportActivity" name="game_subwaysurf" />
+    <item class="com.android.stk.StkLauncherActivityII" name="sim_toolkit" />
+    <item class="com.huawei.android.tips.launch.ui.SplashActivity" name="huawei_tips" />
+    <item class="com.samsung.android.app.routines.ui.main.RoutineLaunchActivityDummy" name="samsung_routines" />
+    <item class="com.samsung.android.app.goodcatch.main.activity.MainActivity" name="samsung_nice_catch" />
+    <item class="com.realme.store.start.view.StartActivity" name="realme_store" />
+    <item class="com.xiaomi.glgm.home.ui.SplashActivity" name="mi_game" />
+    <item class="com.baidu.passport.securitycenter.activity.SplashActivity" name="baidu_securitycenter" />
+    <item class="com.heytap.onekeylockscreen.OneKeyLockScreen" name="oppo_one_tap_lock_screen" />
+    <item class="com.samsung.vau.vodafoneshortcut.MainActivity" name="samsung_vodafone" />
+    <item class="com.samsung.android.galaxy.MainActivity" name="samsung_galaxy_shop" />
+    <item class="com.ilongyuan.cytus2.remaster.MainActivity" name="game_cytus_ii" />
+    <item class="com.baidu.netdisk.ui.Navigate" name="baidu_netdisk" />
+    <item class="com.csam.icici.bank.imobile.IMOBILE" name="imobile_pay" />
+    <item class="com.supercell.titan.kunlun.mi.GameAppKunlunXiaomi" name="game_coc_2" />
+    <item class="com.lazada.activities.EnterActivity" name="lazada" />
+    <item class="com.samsung.android.aremoji.camera.ShortcutActivity" name="samsung_ar_emoji" />
+    <item class="com.samsung.android.spay.ui.SpayMainActivity" name="samsung_pay_mini" />
+    <item class="com.samsung.memorysaver.zipunzipapps.ui.activities.ZipLauncherActivity" name="samsung_storage_booster" />
+    <item class="com.heytap.ugcvideo.activity.SplashActivity" name="baozan" />
+    <item class="com.realme.link.home.SplashActivity" name="realme_link" />
+    <item class="com.piyush.music.activities.main.MainActivity" name="oto_music" />
+    <item class="com.samsung.ecomm.MainActivity" name="samsung_shop" />
+    <item class="com.huawei.honorclub.android.forum.activity.SplashActivity" name="huawei_fans" />
+    <item class="com.ironhidegames.android.kr.act_downloader.KRDownloaderActivity" name="game_kingdomrushorigins" />
+    <item class="com.samsung.android.video.list.activity.VideoList" name="video" />
+    <item class="com.king.candycrushsaga.CandyCrushSagaActivity" name="game_candy_crush" />
+    <item class="com.xiaomi.mitime.activity.MakeCallActivity" name="mi_call" />
+    <item class="com.ztgame.yyzy.adapternotchwithchannel.AdapterNotch" name="game_yyzy" />
+    <item class="com.simplemobiletools.gallery.pro.activities.SplashActivity.Light_green" name="simple_gallery" />
+    <item class="com.xiaomi.mifi.SplashActivity" name="mi_wifi" />
+    <item class="in.upstox.pro.views.login.LoginRootActivity" name="upstox_pro" />
+    <item class="com.oppo.store.MainActivity" name="market" />
+    <item class="com.sembozdemir.zoomy.home.HomeActivity" name="zoomy" />
+    <item class="projekt.samsung.theme.compiler.activity.MainActivity" name="synergy" />
+    <item class="com.bitstrips.imoji.ui.activities.LandingActivity" name="bitmoji" />
+    <item class="net.oneplus.launcher.advanced.AdvancedSettingsActivity" name="oneplus_launcher" />
+    <item class="com.samsung.ecomm.global.in.SampleActivity" name="samsung_shop" />
+    <item class="com.realmepay.payments.ui.splash.RealmeSplashScreen" name="realme_paysa" />
+    <item class="com.icbc.activity.init.NewLoadingActivity" name="icbc" />
+    <item class="com.ximalaya.ting.android.host.activity.MainActivity" name="ximalaya" />
+    <item class="com.coloros.musiclink.ui.MainActivity" name="oppo_music_party" />
+    <item class="com.simplemobiletools.gallery.activities.SplashActivity.Teal" name="simple_gallery" />
+    <item class="com.xiaomi.mipicks.MiPicksAlias" name="market" />
+    <item class="com.finshell.fin.splash.SplashActivity" name="finshell_pay" />
+    <item class="com.meizu.flyme.gamecenter.activity.DefaultActivity" name="flyme7_game" />
+    <item class="com.xiaomi.youpin.tuishou.activity.SplashActivity" name="mi_youpin_youyu" />
+    <item class="com.samsung.android.appbooster.app.presentation.home.HomeActivity" name="samsung_booster" />
+    <item class="com.heytap.cloud.home.ui.CloudLauncherActivity" name="cloud_service" />
+    <item class="com.samsung.oep.ui.EntryActivity" name="samsung_oh" />
+    <item class="com.heytap.health.launch.LaunchActivity" name="oneplus_health" />
+    <item class="com.huawei.android.remotecontrol.ui.PFMainActivity" name="huawei_findmyphone" />
+    <item class="com.bilibili.permission.PermissionActivity" name="game_priconne" />
+    <item class="com.deishelon.lab.huaweithememanager.ui.activities.ThemesActivity" name="themes_manager" />
+    <item class="com.simpl.android.MainActivity" name="simpl" />
+    <item class="com.huawei.browser.Main2" name="browser" />
+    <item class="com.simplemobiletools.gallery.pro.activities.SplashActivity.Deep_orange" name="simple_gallery" />
+    <item class="com.vanced.manager.ui.SplashScreenActivity" name="vanced_manager" />
+    <item class="com.oppo.cdo.ui.external.desktop.DeskHotAppActivity" name="market" />
+    <item class="com.xiaomi.voiceassistant.MainActivity" name="mi_voice" />
+    <item class="com.huawei.sos.Settings$EmergencySettingsActivity" name="huawei_sos" />
+    <item class="com.android.camera.CameraLauncher" name="camera_2" />
+    <item class="com.supercell.titan.kunlun.GameAppKunlun" name="game_coc_2" />
+    <item class="com.coloros.aftersalesservice.activity.SplashActivity" name="oppo_service" />
+    <item class="com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity" name="samsung_gear" />
+    <item class="com.android.stk.OppoStkSelection" name="sim_toolkit" />
+    <item class="com.samsung.android.scan3d.main.Scan3DActivity" name="samsung_scan3d" />
+    <item class="com.samsung.android.livestickers.camera.ShortcutActivity" name="samsung_deco_pic" />
+    <item class="com.samsung.android.app.spage.main.LauncherActivity" name="samsung_free" />
+    <item class="com.samsung.android.tvplus.MainActivity" name="samsung_tv" />
+    <item class="com.samsung.android.aremoji.home.ShortcutActivity" name="samsung_ar_emoji" />
+    <item class="com.samsung.android.app.sprotect.dashboard.DashBoard" name="samsung_s_secure" />
+    <item class="com.coloros.gamespaceui.activity.GameBoxCoverActivity" name="oppo_game_space" />
+    <item class="com.opera.max.ui.v2.MainActivity" name="samsung_max" />
+    <item class="com.samsung.android.app.dtv.sbtvd.ui.MtvUiPlayer" name="samsung_mobile_tv" />
+    <item class="com.samsung.android.brdigitalaccount.ui.spayminiwelcome.SPayMiniWelcomeActivity" name="samsung_pay_mini" />
+    <item class="com.coloros.deeptesting.activity.MainActivity" name="oppo_deep_testing" />
+    <item class="com.transsion.wifiplaytogether.activity.WelcomeActivity" name="yoparty" />
+    <item class="com.transsion.filemanagerx.MainFilemanagerActivity" name="files" />
+    <item class="com.afmobi.palmplay.StartActivity" name="palm_store" />
+    <item class="com.transsion.audioshare.MainActivity" name="audio_share" />
+    <item class="com.transsion.tecnospot.newactivity.StartPageActivity" name="tecno_spot" />
+    <item class="com.android.camera.CameraLauncher" name="camera_2" />
+    <item class="com.transsion.calculator.Calculator" name="calculator" />
+    <item class="com.transsion.fmradio.FmMainActivity" name="fm_radio" />
+    <item class="com.transsion.deskclock.DeskClock" name="clock" />
+    <item class="com.transsion.notebook.NotesList" name="notes" />
+    <item class="com.transsion.soundrecorder.SoundRecorder" name="sound_recorder" />
+    <item class="com.cyin.himgr.ads.SplashActivity" name="security" />
+    <item class="com.samsung.android.messaging.ui.ConversationList" name="sms_5" />
+    <item class="com.oppo.filemanager.Main" name="files" />
+    <item class="com.oppo.weather.OppoMainActivity" name="weather" />
+    <item class="com.oppo.video.VideoListActivity" name="video" />
+    <item class="com.oppo.gallery3d.app.Gallery" name="gallery" />
+    <item class="com.samsung.android.ruler.main.rulerPreviewActivity" name="samsung_quick_measure" />
+    <item class="com.baidu.baijia.activity.SplashActivity" name="baidu_baijia" />
+    <item class="com.simplemobiletools.filemanager.pro.activities.SplashActivity.Red" name="simple_file_manager" />
+    <item class="com.coloros.providers.downloads.ui.DownloadListActivity" name="downloads" />
 
 
 

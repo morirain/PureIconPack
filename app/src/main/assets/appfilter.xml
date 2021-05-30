@@ -452,11 +452,11 @@
 
 
     <!-- 日历 / Calendar -->
-    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="google_calendar" />
     <!-- The whole 31 icons are required, or it doesn't work. -->
     <calendar
         component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}"
-        prefix="calendar_d" />
+        prefix="google_calendar" />
     <calendar
         component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}"
         prefix="calendar_d" />
@@ -492,14 +492,14 @@
     <item component="ComponentInfo{com.zui.calendar/com.zui.calendar.AllInOneActivity}" drawable="calendar" />
 
 
-    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="google_calendar" />
     <item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" />
     <item component="ComponentInfo{am.sunrise.android.calendar/am.sunrise.android.calendar.ui.HomeActivity}" drawable="calendar" />
     <item component="ComponentInfo{com.android.calendar/com.meizu.flyme.calendar.AllInOneActivity}" drawable="calendar" />
     <item component="ComponentInfo{com.android.calendar/com.android.calendar.homepage.AllInOneActivity}" drawable="calendar" />
     <item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" />
-    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" drawable="calendar" />
-    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.HtcCalendarProvider}" drawable="calendar" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" drawable="google_calendar" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.HtcCalendarProvider}" drawable="google_calendar" />
     <item component="ComponentInfo{com.android.calendar/com.android.calendar.CalendarTabActivity}" drawable="calendar" />
     <item component="ComponentInfo{com.android.calendar/com.android.calendar.MonthActivity}" drawable="calendar" />
     <item component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivity}" drawable="calendar" />
@@ -7531,7 +7531,7 @@
     <!-- ofo / ofo -->
     <item component="ComponentInfo{so.ofo.abroad/so.ofo.abroad.ui.splash.SplashActivity}" drawable="ofo" />
     <!-- Clash of Clans / Clash of Clans -->
-    <item component="ComponentInfo{com.supercell.clashofclans.kunluo/com.supercell.clashofclans.GameAppKunlun}" drawable="game_coc_2_2" />
+    <item component="ComponentInfo{com.supercell.clashofclans.kunluo/com.supercell.clashofclans.GameAppKunlun}" drawable="game_coc_2" />
     <!-- WeSing / WeSing -->
     <item component="ComponentInfo{com.tencent.wesing/com.tencent.karaoke.module.splash.ui.SplashBaseActivity}" drawable="qq_quanminkg" />
     <!-- Project Fi / Project Fi -->
@@ -11686,7 +11686,166 @@
 
 
 
-
+    <item component="ComponentInfo{com.urbandroid.sleep/com.urbandroid.sleep.alarmclock.AlarmClock}" drawable="urbandroid_sleep" />
+    <item component="ComponentInfo{com.google.android.apps.youtube.creator/com.google.android.apps.youtube.creator.main.MainActivity}" drawable="google_youtube_studio" />
+    <item component="ComponentInfo{com.mercadopago.wallet/com.mercadopago.wallet.AccountSummaryActivity}" drawable="mercado_pago" />
+    <item component="ComponentInfo{com.simplemobiletools.gallery.pro/com.simplemobiletools.gallery.pro.activities.SplashActivity.Grey_black}" drawable="simple_gallery" />
+    <item component="ComponentInfo{com.realme.link/com.realme.link.home.SplashActivity}" drawable="realme_link" />
+    <item component="ComponentInfo{com.baidu.netdisk.samsung/com.baidu.netdisk.ui.SvipLauncherActivity}" drawable="baidu_netdisk" />
+    <item component="ComponentInfo{com.samsung.knox.securefolder/com.samsung.knox.securefolder.presentation.switcher.view.SecureFolderShortcutActivity}" drawable="samsung_secure_folder" />
+    <item component="ComponentInfo{com.samsung.android.forest/com.samsung.android.forest.launcher.LauncherActivity}" drawable="samsung_digital_wellbeing" />
+    <item component="ComponentInfo{com.samruston.buzzkill/com.samruston.buzzkill.ui.MainActivity}" drawable="buzzkill" />
+    <item component="ComponentInfo{net.oneplus.launcher/net.oneplus.goodies.AdvancedSettings}" drawable="oneplus_launcher" />
+    <item component="ComponentInfo{com.sonyliv/com.sonyliv.ui.splash.SplashActivity}" drawable="sonyliv" />
+    <item component="ComponentInfo{com.nintendo.zaka/com.google.firebase.MessagingUnityPlayerActivity}" drawable="game_mario_kart" />
+    <item component="ComponentInfo{com.cxinventor.file.explorer/com.alphainventor.filemanager.activity.MainActivity}" drawable="cx_file" />
+    <item component="ComponentInfo{com.autoclicker.simple.automatic.tap/com.autoclicker.clicker.ads.SplashActivity}" drawable="auto_clicker" />
+    <item component="ComponentInfo{com.ironhidegames.android.kingdomrush/com.ironhidegames.android.kr.act_downloader.KRDownloaderActivity}" drawable="game_kingdomrush" />
+    <item component="ComponentInfo{com.imgur.mobile/com.imgur.mobile.Launcher}" drawable="imgur" />
+    <item component="ComponentInfo{com.yujian.ResideMenuDemo/cn.yujian.browser.ui.activities.HomeActivity}" drawable="yujian" />
+    <item component="ComponentInfo{com.dts.freefireth/com.dts.freefireth.FFMainActivity}" drawable="game_free_fire" />
+    <item component="ComponentInfo{homeworkout.homeworkouts.noequipment/homeworkout.homeworkouts.noequipment.SplashActivity}" drawable="home_workout" />
+    <item component="ComponentInfo{com.tokopedia.tkpd/com.tokopedia.tkpd.ConsumerSplashScreen}" drawable="tokopedia" />
+    <item component="ComponentInfo{com.apple.bnd/com.apple.vienna.v3.presentation.welcome.WelcomeActivity}" drawable="beats" />
+    <item component="ComponentInfo{sharefiles.sharemusic.shareapps.filetransfer/com.inshot.filetransfer.SplashActivity}" drawable="inshare" />
+    <item component="ComponentInfo{nic.goi.aarogyasetu/nic.goi.aarogyasetu.views.SplashActivity}" drawable="aarogya_setu" />
+    <item component="ComponentInfo{com.google.tango.measure/com.google.vr.apps.ornament.measure.MeasureMainActivity}" drawable="measure" />
+    <item component="ComponentInfo{com.xiaomi.loan/com.xiaomi.jr.app.MiFinanceActivity}" drawable="mi_daikuan" />
+    <item component="ComponentInfo{com.huawei.phoneservice/com.huawei.myhuawei.ui.HwSplashActivity}" drawable="com_huawei_phoneservice" />
+    <item component="ComponentInfo{com.samsung.android.app.simplesharing/com.samsung.android.app.simplesharing.linksharing.history.Launcher}" drawable="samsung_link_sharing" />
+    <item component="ComponentInfo{com.baidu.netdisk/com.baidu.netdisk.ui.MainActivity}" drawable="baidu_netdisk" />
+    <item component="ComponentInfo{tw.com.gamer.android.activecenter/tw.com.gamer.android.activity.guide.GuideActivity}" drawable="bhmt" />
+    <item component="ComponentInfo{oneplus.consumer.android/servify.android.consumer.splash.SplashActivity}" drawable="oneplus_care" />
+    <item component="ComponentInfo{com.ryzmedia.tatasky/com.ryzmedia.tatasky.splash.SplashActivity}" drawable="tata_sky" />
+    <item component="ComponentInfo{com.poweramp.v3.aurora/com.poweramp.v3.aurora.SkinInfoActivity}" drawable="poweramp_aurora" />
+    <item component="ComponentInfo{com.xxf098.ssrray/com.github.shadowsocks.Shadowsocks}" drawable="shadowsocks_sr" />
+    <item component="ComponentInfo{com.maxmpz.audioplayer.huawei/com.maxmpz.audioplayer.huawei.standard_adaptive}" drawable="power_amp" />
+    <item component="ComponentInfo{com.samsung.android.appbooster/com.samsung.android.appbooster.app.presentation.home.HomeActivity}" drawable="samsung_booster" />
+    <item component="ComponentInfo{com.heytap.headset/com.heytap.headset.activity.StartupActivity}" drawable="oppo_heymelody" />
+    <item component="ComponentInfo{com.digitalextremes.warframenexus/com.digitalextremes.warframenexus.WarframeActivity}" drawable="warframe" />
+    <item component="ComponentInfo{com.samsung.android.pentastic/com.samsung.android.pentastic.settings.SettingsActivity}" drawable="samsung_pentastic" />
+    <item component="ComponentInfo{com.huaweioverseas.smarthome/com.huawei.smarthome.login.LauncherActivity}" drawable="huawei_ai_life" />
+    <item component="ComponentInfo{com.samsung.sree/com.samsung.sree.ui.MainActivity}" drawable="samsung_global_goals" />
+    <item component="ComponentInfo{com.bt.bms/com.movie.bms.splashscreen.SplashScreenActivity}" drawable="bookmyshow" />
+    <item component="ComponentInfo{live.tech.storm/live.tech.storm.Splash}" drawable="thop_tv" />
+    <item component="ComponentInfo{com.whereismytrain.android/com.whereismytrain.view.activities.MainPagerActivity}" drawable="where_is_my_train" />
+    <item component="ComponentInfo{com.cris.utsmobile/com.cris.ima.utsonmobile.mainmenuitems.SplashActivity}" drawable="uts" />
+    <item component="ComponentInfo{com.cv.docscanner/com.cv.docscanner.Splash.SplashActivity}" drawable="doc_scanner" />
+    <item component="ComponentInfo{com.bilibili.deadcells.mobile.nearme.gamecenter/com.bilibili.deadcells.mobile.SplashActivity}" drawable="game_deadcells" />
+    <item component="ComponentInfo{rk.android.app.shortcutmaker/rk.android.app.shortcutmaker.CommonMethods.SplashScreenActivity}" drawable="shortcut_maker" />
+    <item component="ComponentInfo{com.oppo.music/com.oppo.music.adutils.SplashActivity}" drawable="music" />
+    <item component="ComponentInfo{com.coloros.video/com.oppo.video.SplashActivity}" drawable="video" />
+    <item component="ComponentInfo{com.heytap.quickgame/com.heytap.quickgame.module.others.launcher.LauncherActivity}" drawable="oppo_heyfun" />
+    <item component="ComponentInfo{com.realme.link/com.realme.ui.SplashActivity}" drawable="realme_link" />
+    <item component="ComponentInfo{com.baidu.netdisk.samsung/com.baidu.netdisk.ui.DefaultMainActivity}" drawable="baidu_netdisk" />
+    <item component="ComponentInfo{com.oneplus.mall/com.oneplus.mall.view.SplashActivity}" drawable="oneplus_store" />
+    <item component="ComponentInfo{com.heytap.market/com.oppo.cdo.ui.external.desktop.DeskHotAppActivity}" drawable="market" />
+    <item component="ComponentInfo{com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.LauncherActivity}" drawable="google_live_transcribe" />
+    <item component="ComponentInfo{com.anydesk.anydeskandroid/com.anydesk.anydeskandroid.gui.activity.MainActivity}" drawable="anydesk" />
+    <item component="ComponentInfo{com.bungieinc.bungiemobile/com.bungieinc.bungiemobile.LoaderActivity}" drawable="destiny_2" />
+    <item component="ComponentInfo{com.nosmk.burgerking/com.nosmk.burgerking.SplashActivity}" drawable="burger_king" />
+    <item component="ComponentInfo{com.samruston.converter/com.samruston.converter.ui.MainActivity}" drawable="unit_lab" />
+    <item component="ComponentInfo{com.citi.transfer/com.citi.transfer.ui.splash.SplashActivity}" drawable="transfer" />
+    <item component="ComponentInfo{com.samsung.android.spdfnote/spdfnote.control.ui.filemanager.MainHomeActivity}" drawable="samsung_write_on" />
+    <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Grey_black}" drawable="simple_file_manager" />
+    <item component="ComponentInfo{com.kiloo.subwaysurf/com.sybogames.chili.multidex.ChiliMultidexSupportActivity}" drawable="game_subwaysurf" />
+    <item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherActivityII}" drawable="sim_toolkit" />
+    <item component="ComponentInfo{com.huawei.android.tips/com.huawei.android.tips.launch.ui.SplashActivity}" drawable="huawei_tips" />
+    <item component="ComponentInfo{com.samsung.android.app.routines/com.samsung.android.app.routines.ui.main.RoutineLaunchActivityDummy}" drawable="samsung_routines" />
+    <item component="ComponentInfo{com.samsung.android.app.goodcatch/com.samsung.android.app.goodcatch.main.activity.MainActivity}" drawable="samsung_nice_catch" />
+    <item component="ComponentInfo{com.realmestore.app/com.realme.store.start.view.StartActivity}" drawable="realme_store" />
+    <item component="ComponentInfo{com.xiaomi.glgm/com.xiaomi.glgm.home.ui.SplashActivity}" drawable="mi_game" />
+    <item component="ComponentInfo{com.baidu.passport.securitycenter/com.baidu.passport.securitycenter.activity.SplashActivity}" drawable="baidu_securitycenter" />
+    <item component="ComponentInfo{com.coloros.onekeylockscreen/com.heytap.onekeylockscreen.OneKeyLockScreen}" drawable="oppo_one_tap_lock_screen" />
+    <item component="ComponentInfo{com.samsung.vau.vodafoneshortcut/com.samsung.vau.vodafoneshortcut.MainActivity}" drawable="samsung_vodafone" />
+    <item component="ComponentInfo{com.samsung.android.galaxy/com.samsung.android.galaxy.MainActivity}" drawable="samsung_galaxy_shop" />
+    <item component="ComponentInfo{com.ilongyuan.cytus2.bilibili/com.ilongyuan.cytus2.remaster.MainActivity}" drawable="game_cytus_ii" />
+    <item component="ComponentInfo{com.biadu.netdisk/com.baidu.netdisk.ui.Navigate}" drawable="baidu_netdisk" />
+    <item component="ComponentInfo{com.csam.icici.bank.imobile/com.csam.icici.bank.imobile.IMOBILE}" drawable="imobile_pay" />
+    <item component="ComponentInfo{com.supercell.clashofclans.mi/com.supercell.titan.kunlun.mi.GameAppKunlunXiaomi}" drawable="game_coc_2" />
+    <item component="ComponentInfo{com.lazada.android/com.lazada.activities.EnterActivity}" drawable="lazada" />
+    <item component="ComponentInfo{com.samsung.android.aremoji/com.samsung.android.aremoji.camera.ShortcutActivity}" drawable="samsung_ar_emoji" />
+    <item component="ComponentInfo{com.samsung.android.spaymini/com.samsung.android.spay.ui.SpayMainActivity}" drawable="samsung_pay_mini" />
+    <item component="ComponentInfo{com.samsung.memorysaver/com.samsung.memorysaver.zipunzipapps.ui.activities.ZipLauncherActivity}" drawable="samsung_storage_booster" />
+    <item component="ComponentInfo{com.heytap.ugcvideo.praise/com.heytap.ugcvideo.activity.SplashActivity}" drawable="baozan" />
+    <item component="ComponentInfo{com.realme.linkcn/com.realme.link.home.SplashActivity}" drawable="realme_link" />
+    <item component="ComponentInfo{com.piyush.music/com.piyush.music.activities.main.MainActivity}" drawable="oto_music" />
+    <item component="ComponentInfo{com.samsung.ecomm.global.in/com.samsung.ecomm.MainActivity}" drawable="samsung_shop" />
+    <item component="ComponentInfo{com.huawei.honorclub.android/com.huawei.honorclub.android.forum.activity.SplashActivity}" drawable="huawei_fans" />
+    <item component="ComponentInfo{com.ironhidegames.android.kingdomrushorigins/com.ironhidegames.android.kr.act_downloader.KRDownloaderActivity}" drawable="game_kingdomrushorigins" />
+    <item component="ComponentInfo{com.samsung.android.video/com.samsung.android.video.list.activity.VideoList}" drawable="video" />
+    <item component="ComponentInfo{com.king.candycrushsaga/com.king.candycrushsaga.CandyCrushSagaActivity}" drawable="game_candy_crush" />
+    <item component="ComponentInfo{com.xiaomi.mitime/com.xiaomi.mitime.activity.MakeCallActivity}" drawable="mi_call" />
+    <item component="ComponentInfo{com.ztgame.yyzy.bilibili/com.ztgame.yyzy.adapternotchwithchannel.AdapterNotch}" drawable="game_yyzy" />
+    <item component="ComponentInfo{com.simplemobiletools.gallery.pro/com.simplemobiletools.gallery.pro.activities.SplashActivity.Light_green}" drawable="simple_gallery" />
+    <item component="ComponentInfo{com.xiaomi.mifi/com.xiaomi.mifi.SplashActivity}" drawable="mi_wifi" />
+    <item component="ComponentInfo{in.upstox.pro/in.upstox.pro.views.login.LoginRootActivity}" drawable="upstox_pro" />
+    <item component="ComponentInfo{com.oppo.store/com.oppo.store.MainActivity}" drawable="market" />
+    <item component="ComponentInfo{com.sembozdemir.zoomy/com.sembozdemir.zoomy.home.HomeActivity}" drawable="zoomy" />
+    <item component="ComponentInfo{projekt.samsung.theme.compiler/projekt.samsung.theme.compiler.activity.MainActivity}" drawable="synergy" />
+    <item component="ComponentInfo{com.bitstrips.imoji/com.bitstrips.imoji.ui.activities.LandingActivity}" drawable="bitmoji" />
+    <item component="ComponentInfo{net.oneplus.launcher/net.oneplus.launcher.advanced.AdvancedSettingsActivity}" drawable="oneplus_launcher" />
+    <item component="ComponentInfo{com.samsung.ecomm.global.in/com.samsung.ecomm.global.in.SampleActivity}" drawable="samsung_shop" />
+    <item component="ComponentInfo{com.realmepay.payments/com.realmepay.payments.ui.splash.RealmeSplashScreen}" drawable="realme_paysa" />
+    <item component="ComponentInfo{com.icbc/com.icbc.activity.init.NewLoadingActivity}" drawable="icbc" />
+    <item component="ComponentInfo{com.ximalaya.ting.android/com.ximalaya.ting.android.host.activity.MainActivity}" drawable="ximalaya" />
+    <item component="ComponentInfo{com.coloros.musiclink/com.coloros.musiclink.ui.MainActivity}" drawable="oppo_music_party" />
+    <item component="ComponentInfo{com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.SplashActivity.Teal}" drawable="simple_gallery" />
+    <item component="ComponentInfo{com.xiaomi.mipicks/com.xiaomi.mipicks.MiPicksAlias}" drawable="market" />
+    <item component="ComponentInfo{com.finshell.fin/com.finshell.fin.splash.SplashActivity}" drawable="finshell_pay" />
+    <item component="ComponentInfo{com.meizu.flyme.gamecenter/com.meizu.flyme.gamecenter.activity.DefaultActivity}" drawable="flyme7_game" />
+    <item component="ComponentInfo{com.xiaomi.youpin.tuishou/com.xiaomi.youpin.tuishou.activity.SplashActivity}" drawable="mi_youpin_youyu" />
+    <item component="ComponentInfo{com.samsung.android.appbooster.ey/com.samsung.android.appbooster.app.presentation.home.HomeActivity}" drawable="samsung_booster" />
+    <item component="ComponentInfo{com.heytap.cloud/com.heytap.cloud.home.ui.CloudLauncherActivity}" drawable="cloud_service" />
+    <item component="ComponentInfo{com.samsung.oh/com.samsung.oep.ui.EntryActivity}" drawable="samsung_oh" />
+    <item component="ComponentInfo{com.oneplus.health.international/com.heytap.health.launch.LaunchActivity}" drawable="oneplus_health" />
+    <item component="ComponentInfo{com.huawei.android.remotecontrol/com.huawei.android.remotecontrol.ui.PFMainActivity}" drawable="huawei_findmyphone" />
+    <item component="ComponentInfo{com.bilibili.priconne/com.bilibili.permission.PermissionActivity}" drawable="game_priconne" />
+    <item component="ComponentInfo{com.deishelon.lab.huaweithememanager/com.deishelon.lab.huaweithememanager.ui.activities.ThemesActivity}" drawable="themes_manager" />
+    <item component="ComponentInfo{com.simpl.android/com.simpl.android.MainActivity}" drawable="simpl" />
+    <item component="ComponentInfo{com.android.browser/com.huawei.browser.Main2}" drawable="browser" />
+    <item component="ComponentInfo{com.simplemobiletools.gallery.pro/com.simplemobiletools.gallery.pro.activities.SplashActivity.Deep_orange}" drawable="simple_gallery" />
+    <item component="ComponentInfo{com.vanced.manager/com.vanced.manager.ui.SplashScreenActivity}" drawable="vanced_manager" />
+    <item component="ComponentInfo{com.oppo.market/com.oppo.cdo.ui.external.desktop.DeskHotAppActivity}" drawable="market" />
+    <item component="ComponentInfo{com.miui.voiceassist/com.xiaomi.voiceassistant.MainActivity}" drawable="mi_voice" />
+    <item component="ComponentInfo{com.huawei.sos/com.huawei.sos.Settings$EmergencySettingsActivity}" drawable="huawei_sos" />
+    <item component="ComponentInfo{com.samsung.android.scan3d/com.android.camera.CameraLauncher}" drawable="camera_2" />
+    <item component="ComponentInfo{com.supercell.clashofclans.qihoo/com.supercell.titan.kunlun.GameAppKunlun}" drawable="game_coc_2" />
+    <item component="ComponentInfo{com.coloros.aftersalesservice/com.coloros.aftersalesservice.activity.SplashActivity}" drawable="oppo_service" />
+    <item component="ComponentInfo{com.samsung.android.app.watchmanager2/com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity}" drawable="samsung_gear" />
+    <item component="ComponentInfo{com.android.stk/com.android.stk.OppoStkSelection}" drawable="sim_toolkit" />
+    <item component="ComponentInfo{com.samsung.android.scan3d/com.samsung.android.scan3d.main.Scan3DActivity}" drawable="samsung_scan3d" />
+    <item component="ComponentInfo{com.samsung.android.livestickers/com.samsung.android.livestickers.camera.ShortcutActivity}" drawable="samsung_deco_pic" />
+    <item component="ComponentInfo{com.samsung.android.app.spage/com.samsung.android.app.spage.main.LauncherActivity}" drawable="samsung_free" />
+    <item component="ComponentInfo{com.samsung.android.tvplus/com.samsung.android.tvplus.MainActivity}" drawable="samsung_tv" />
+    <item component="ComponentInfo{com.samsung.android.aremoji/com.samsung.android.aremoji.home.ShortcutActivity}" drawable="samsung_ar_emoji" />
+    <item component="ComponentInfo{com.samsung.android.app.sprotect/com.samsung.android.app.sprotect.dashboard.DashBoard}" drawable="samsung_s_secure" />
+    <item component="ComponentInfo{com.coloros.gamespaceui/com.coloros.gamespaceui.activity.GameBoxCoverActivity}" drawable="oppo_game_space" />
+    <item component="ComponentInfo{com.samsung.max.go/com.opera.max.ui.v2.MainActivity}" drawable="samsung_max" />
+    <item component="ComponentInfo{com.samsung.android.app.dtv.sbtvd/com.samsung.android.app.dtv.sbtvd.ui.MtvUiPlayer}" drawable="samsung_mobile_tv" />
+    <item component="ComponentInfo{com.samsung.android.brdigitalaccount/com.samsung.android.brdigitalaccount.ui.spayminiwelcome.SPayMiniWelcomeActivity}" drawable="samsung_pay_mini" />
+    <item component="ComponentInfo{com.coloros.deeptesting/com.coloros.deeptesting.activity.MainActivity}" drawable="oppo_deep_testing" />
+    <item component="ComponentInfo{com.transsion.wifiplaytogether/com.transsion.wifiplaytogether.activity.WelcomeActivity}" drawable="yoparty" />
+    <item component="ComponentInfo{com.transsion.filemanagerx/com.transsion.filemanagerx.MainFilemanagerActivity}" drawable="files" />
+    <item component="ComponentInfo{com.transsnet.store/com.afmobi.palmplay.StartActivity}" drawable="palm_store" />
+    <item component="ComponentInfo{com.transsion.audioshare/com.transsion.audioshare.MainActivity}" drawable="audio_share" />
+    <item component="ComponentInfo{com.transsion.tecnospot/com.transsion.tecnospot.newactivity.StartPageActivity}" drawable="tecno_spot" />
+    <item component="ComponentInfo{com.transsion.camera/com.android.camera.CameraLauncher}" drawable="camera_2" />
+    <item component="ComponentInfo{com.transsion.calculator/com.transsion.calculator.Calculator}" drawable="calculator" />
+    <item component="ComponentInfo{com.transsion.fmradio/com.transsion.fmradio.FmMainActivity}" drawable="fm_radio" />
+    <item component="ComponentInfo{com.transsion.deskclock/com.transsion.deskclock.DeskClock}" drawable="clock" />
+    <item component="ComponentInfo{com.transsion.notebook/com.transsion.notebook.NotesList}" drawable="notes" />
+    <item component="ComponentInfo{com.transsion.soundrecorder/com.transsion.soundrecorder.SoundRecorder}" drawable="sound_recorder" />
+    <item component="ComponentInfo{com.transsion.phonemaster/com.cyin.himgr.ads.SplashActivity}" drawable="security" />
+    <item component="ComponentInfo{com.samsung.android.messaging/com.samsung.android.messaging.ui.ConversationList}" drawable="sms_5" />
+    <item component="ComponentInfo{com.oppo.filemanager/com.oppo.filemanager.Main}" drawable="files" />
+    <item component="ComponentInfo{com.oppo.weather/com.oppo.weather.OppoMainActivity}" drawable="weather" />
+    <item component="ComponentInfo{com.oppo.video/com.oppo.video.VideoListActivity}" drawable="video" />
+    <item component="ComponentInfo{com.oppo.gallery3d/com.oppo.gallery3d.app.Gallery}" drawable="gallery" />
+    <item component="ComponentInfo{com.samsung.android.ruler/com.samsung.android.ruler.main.rulerPreviewActivity}" drawable="samsung_quick_measure" />
+    <item component="ComponentInfo{com.baidu.baijia/com.baidu.baijia.activity.SplashActivity}" drawable="baidu_baijia" />
+    <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Red}" drawable="simple_file_manager" />
+    <item component="ComponentInfo{com.coloros.providers.downloads.ui/com.coloros.providers.downloads.ui.DownloadListActivity}" drawable="downloads" />
 
 
 

@@ -1,12 +1,12 @@
 <Theme version="1">
     <Label value="PureIconPack" />
-<Wallpaper image="wallpaper_01" />
-<LockScreenWallpaper image="wallpaper_02" />
-<ThemePreview image="preview1" />
-<ThemePreviewWork image="preview1" />
-<ThemePreviewMenu image="preview1" />
-<DockMenuAppIcon selector="drawer" />
-<AppIcon image="browser" name="cn.nubia.browser/com.android.browser.BrowserLauncher" />
+    <Wallpaper image="wallpaper_01" />
+    <LockScreenWallpaper image="wallpaper_02" />
+    <ThemePreview image="preview1" />
+    <ThemePreviewWork image="preview1" />
+    <ThemePreviewMenu image="preview1" />
+    <DockMenuAppIcon selector="drawer" />
+    <AppIcon image="browser" name="cn.nubia.browser/com.android.browser.BrowserLauncher" />
     <AppIcon image="browser" name="com.android.browser/com.android.browser.BrowserActivity" />
     <AppIcon image="browser" name="com.android.browser/com.android.browser.GNBrowserActivity" />
     <AppIcon image="browser" name="com.android.browser/com.android.browser.MainActivity" />
@@ -456,7 +456,7 @@
 
 
     
-    <AppIcon image="calendar" name="com.google.android.calendar/com.android.calendar.AllInOneActivity" />
+    <AppIcon image="google_calendar" name="com.google.android.calendar/com.android.calendar.AllInOneActivity" />
     
     <AppIcon image="calendar" name="com.smartisan.calendar/com.android.calendar.AllInOneActivity" />
     
@@ -467,14 +467,14 @@
     <AppIcon image="calendar" name="com.zui.calendar/com.zui.calendar.AllInOneActivity" />
 
 
-    <AppIcon image="calendar" name="com.google.android.calendar/com.android.calendar.AllInOneActivity" />
+    <AppIcon image="google_calendar" name="com.google.android.calendar/com.android.calendar.AllInOneActivity" />
     <AppIcon image="calendar" name="com.android.calendar/com.android.calendar.AllInOneActivity" />
     <AppIcon image="calendar" name="am.sunrise.android.calendar/am.sunrise.android.calendar.ui.HomeActivity" />
     <AppIcon image="calendar" name="com.android.calendar/com.meizu.flyme.calendar.AllInOneActivity" />
     <AppIcon image="calendar" name="com.android.calendar/com.android.calendar.homepage.AllInOneActivity" />
     <AppIcon image="calendar" name="com.oneplus.calendar/com.android.calendar.AllInOneActivity" />
-    <AppIcon image="calendar" name="com.google.android.calendar/com.android.calendar.LaunchActivity" />
-    <AppIcon image="calendar" name="com.google.android.calendar/com.android.calendar.HtcCalendarProvider" />
+    <AppIcon image="google_calendar" name="com.google.android.calendar/com.android.calendar.LaunchActivity" />
+    <AppIcon image="google_calendar" name="com.google.android.calendar/com.android.calendar.HtcCalendarProvider" />
     <AppIcon image="calendar" name="com.android.calendar/com.android.calendar.CalendarTabActivity" />
     <AppIcon image="calendar" name="com.android.calendar/com.android.calendar.MonthActivity" />
     <AppIcon image="calendar" name="com.android.calendar/com.android.calendar.LaunchActivity" />
@@ -7493,7 +7493,7 @@
     
     <AppIcon image="ofo" name="so.ofo.abroad/so.ofo.abroad.ui.splash.SplashActivity" />
     
-    <AppIcon image="game_coc_2_2" name="com.supercell.clashofclans.kunluo/com.supercell.clashofclans.GameAppKunlun" />
+    <AppIcon image="game_coc_2" name="com.supercell.clashofclans.kunluo/com.supercell.clashofclans.GameAppKunlun" />
     
     <AppIcon image="qq_quanminkg" name="com.tencent.wesing/com.tencent.karaoke.module.splash.ui.SplashBaseActivity" />
     
@@ -11644,7 +11644,166 @@
 
 
 
-
+    <AppIcon image="urbandroid_sleep" name="com.urbandroid.sleep/com.urbandroid.sleep.alarmclock.AlarmClock" />
+    <AppIcon image="google_youtube_studio" name="com.google.android.apps.youtube.creator/com.google.android.apps.youtube.creator.main.MainActivity" />
+    <AppIcon image="mercado_pago" name="com.mercadopago.wallet/com.mercadopago.wallet.AccountSummaryActivity" />
+    <AppIcon image="simple_gallery" name="com.simplemobiletools.gallery.pro/com.simplemobiletools.gallery.pro.activities.SplashActivity.Grey_black" />
+    <AppIcon image="realme_link" name="com.realme.link/com.realme.link.home.SplashActivity" />
+    <AppIcon image="baidu_netdisk" name="com.baidu.netdisk.samsung/com.baidu.netdisk.ui.SvipLauncherActivity" />
+    <AppIcon image="samsung_secure_folder" name="com.samsung.knox.securefolder/com.samsung.knox.securefolder.presentation.switcher.view.SecureFolderShortcutActivity" />
+    <AppIcon image="samsung_digital_wellbeing" name="com.samsung.android.forest/com.samsung.android.forest.launcher.LauncherActivity" />
+    <AppIcon image="buzzkill" name="com.samruston.buzzkill/com.samruston.buzzkill.ui.MainActivity" />
+    <AppIcon image="oneplus_launcher" name="net.oneplus.launcher/net.oneplus.goodies.AdvancedSettings" />
+    <AppIcon image="sonyliv" name="com.sonyliv/com.sonyliv.ui.splash.SplashActivity" />
+    <AppIcon image="game_mario_kart" name="com.nintendo.zaka/com.google.firebase.MessagingUnityPlayerActivity" />
+    <AppIcon image="cx_file" name="com.cxinventor.file.explorer/com.alphainventor.filemanager.activity.MainActivity" />
+    <AppIcon image="auto_clicker" name="com.autoclicker.simple.automatic.tap/com.autoclicker.clicker.ads.SplashActivity" />
+    <AppIcon image="game_kingdomrush" name="com.ironhidegames.android.kingdomrush/com.ironhidegames.android.kr.act_downloader.KRDownloaderActivity" />
+    <AppIcon image="imgur" name="com.imgur.mobile/com.imgur.mobile.Launcher" />
+    <AppIcon image="yujian" name="com.yujian.ResideMenuDemo/cn.yujian.browser.ui.activities.HomeActivity" />
+    <AppIcon image="game_free_fire" name="com.dts.freefireth/com.dts.freefireth.FFMainActivity" />
+    <AppIcon image="home_workout" name="homeworkout.homeworkouts.noequipment/homeworkout.homeworkouts.noequipment.SplashActivity" />
+    <AppIcon image="tokopedia" name="com.tokopedia.tkpd/com.tokopedia.tkpd.ConsumerSplashScreen" />
+    <AppIcon image="beats" name="com.apple.bnd/com.apple.vienna.v3.presentation.welcome.WelcomeActivity" />
+    <AppIcon image="inshare" name="sharefiles.sharemusic.shareapps.filetransfer/com.inshot.filetransfer.SplashActivity" />
+    <AppIcon image="aarogya_setu" name="nic.goi.aarogyasetu/nic.goi.aarogyasetu.views.SplashActivity" />
+    <AppIcon image="measure" name="com.google.tango.measure/com.google.vr.apps.ornament.measure.MeasureMainActivity" />
+    <AppIcon image="mi_daikuan" name="com.xiaomi.loan/com.xiaomi.jr.app.MiFinanceActivity" />
+    <AppIcon image="com_huawei_phoneservice" name="com.huawei.phoneservice/com.huawei.myhuawei.ui.HwSplashActivity" />
+    <AppIcon image="samsung_link_sharing" name="com.samsung.android.app.simplesharing/com.samsung.android.app.simplesharing.linksharing.history.Launcher" />
+    <AppIcon image="baidu_netdisk" name="com.baidu.netdisk/com.baidu.netdisk.ui.MainActivity" />
+    <AppIcon image="bhmt" name="tw.com.gamer.android.activecenter/tw.com.gamer.android.activity.guide.GuideActivity" />
+    <AppIcon image="oneplus_care" name="oneplus.consumer.android/servify.android.consumer.splash.SplashActivity" />
+    <AppIcon image="tata_sky" name="com.ryzmedia.tatasky/com.ryzmedia.tatasky.splash.SplashActivity" />
+    <AppIcon image="poweramp_aurora" name="com.poweramp.v3.aurora/com.poweramp.v3.aurora.SkinInfoActivity" />
+    <AppIcon image="shadowsocks_sr" name="com.xxf098.ssrray/com.github.shadowsocks.Shadowsocks" />
+    <AppIcon image="power_amp" name="com.maxmpz.audioplayer.huawei/com.maxmpz.audioplayer.huawei.standard_adaptive" />
+    <AppIcon image="samsung_booster" name="com.samsung.android.appbooster/com.samsung.android.appbooster.app.presentation.home.HomeActivity" />
+    <AppIcon image="oppo_heymelody" name="com.heytap.headset/com.heytap.headset.activity.StartupActivity" />
+    <AppIcon image="warframe" name="com.digitalextremes.warframenexus/com.digitalextremes.warframenexus.WarframeActivity" />
+    <AppIcon image="samsung_pentastic" name="com.samsung.android.pentastic/com.samsung.android.pentastic.settings.SettingsActivity" />
+    <AppIcon image="huawei_ai_life" name="com.huaweioverseas.smarthome/com.huawei.smarthome.login.LauncherActivity" />
+    <AppIcon image="samsung_global_goals" name="com.samsung.sree/com.samsung.sree.ui.MainActivity" />
+    <AppIcon image="bookmyshow" name="com.bt.bms/com.movie.bms.splashscreen.SplashScreenActivity" />
+    <AppIcon image="thop_tv" name="live.tech.storm/live.tech.storm.Splash" />
+    <AppIcon image="where_is_my_train" name="com.whereismytrain.android/com.whereismytrain.view.activities.MainPagerActivity" />
+    <AppIcon image="uts" name="com.cris.utsmobile/com.cris.ima.utsonmobile.mainmenuitems.SplashActivity" />
+    <AppIcon image="doc_scanner" name="com.cv.docscanner/com.cv.docscanner.Splash.SplashActivity" />
+    <AppIcon image="game_deadcells" name="com.bilibili.deadcells.mobile.nearme.gamecenter/com.bilibili.deadcells.mobile.SplashActivity" />
+    <AppIcon image="shortcut_maker" name="rk.android.app.shortcutmaker/rk.android.app.shortcutmaker.CommonMethods.SplashScreenActivity" />
+    <AppIcon image="music" name="com.oppo.music/com.oppo.music.adutils.SplashActivity" />
+    <AppIcon image="video" name="com.coloros.video/com.oppo.video.SplashActivity" />
+    <AppIcon image="oppo_heyfun" name="com.heytap.quickgame/com.heytap.quickgame.module.others.launcher.LauncherActivity" />
+    <AppIcon image="realme_link" name="com.realme.link/com.realme.ui.SplashActivity" />
+    <AppIcon image="baidu_netdisk" name="com.baidu.netdisk.samsung/com.baidu.netdisk.ui.DefaultMainActivity" />
+    <AppIcon image="oneplus_store" name="com.oneplus.mall/com.oneplus.mall.view.SplashActivity" />
+    <AppIcon image="market" name="com.heytap.market/com.oppo.cdo.ui.external.desktop.DeskHotAppActivity" />
+    <AppIcon image="google_live_transcribe" name="com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.LauncherActivity" />
+    <AppIcon image="anydesk" name="com.anydesk.anydeskandroid/com.anydesk.anydeskandroid.gui.activity.MainActivity" />
+    <AppIcon image="destiny_2" name="com.bungieinc.bungiemobile/com.bungieinc.bungiemobile.LoaderActivity" />
+    <AppIcon image="burger_king" name="com.nosmk.burgerking/com.nosmk.burgerking.SplashActivity" />
+    <AppIcon image="unit_lab" name="com.samruston.converter/com.samruston.converter.ui.MainActivity" />
+    <AppIcon image="transfer" name="com.citi.transfer/com.citi.transfer.ui.splash.SplashActivity" />
+    <AppIcon image="samsung_write_on" name="com.samsung.android.spdfnote/spdfnote.control.ui.filemanager.MainHomeActivity" />
+    <AppIcon image="simple_file_manager" name="com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Grey_black" />
+    <AppIcon image="game_subwaysurf" name="com.kiloo.subwaysurf/com.sybogames.chili.multidex.ChiliMultidexSupportActivity" />
+    <AppIcon image="sim_toolkit" name="com.android.stk/com.android.stk.StkLauncherActivityII" />
+    <AppIcon image="huawei_tips" name="com.huawei.android.tips/com.huawei.android.tips.launch.ui.SplashActivity" />
+    <AppIcon image="samsung_routines" name="com.samsung.android.app.routines/com.samsung.android.app.routines.ui.main.RoutineLaunchActivityDummy" />
+    <AppIcon image="samsung_nice_catch" name="com.samsung.android.app.goodcatch/com.samsung.android.app.goodcatch.main.activity.MainActivity" />
+    <AppIcon image="realme_store" name="com.realmestore.app/com.realme.store.start.view.StartActivity" />
+    <AppIcon image="mi_game" name="com.xiaomi.glgm/com.xiaomi.glgm.home.ui.SplashActivity" />
+    <AppIcon image="baidu_securitycenter" name="com.baidu.passport.securitycenter/com.baidu.passport.securitycenter.activity.SplashActivity" />
+    <AppIcon image="oppo_one_tap_lock_screen" name="com.coloros.onekeylockscreen/com.heytap.onekeylockscreen.OneKeyLockScreen" />
+    <AppIcon image="samsung_vodafone" name="com.samsung.vau.vodafoneshortcut/com.samsung.vau.vodafoneshortcut.MainActivity" />
+    <AppIcon image="samsung_galaxy_shop" name="com.samsung.android.galaxy/com.samsung.android.galaxy.MainActivity" />
+    <AppIcon image="game_cytus_ii" name="com.ilongyuan.cytus2.bilibili/com.ilongyuan.cytus2.remaster.MainActivity" />
+    <AppIcon image="baidu_netdisk" name="com.biadu.netdisk/com.baidu.netdisk.ui.Navigate" />
+    <AppIcon image="imobile_pay" name="com.csam.icici.bank.imobile/com.csam.icici.bank.imobile.IMOBILE" />
+    <AppIcon image="game_coc_2" name="com.supercell.clashofclans.mi/com.supercell.titan.kunlun.mi.GameAppKunlunXiaomi" />
+    <AppIcon image="lazada" name="com.lazada.android/com.lazada.activities.EnterActivity" />
+    <AppIcon image="samsung_ar_emoji" name="com.samsung.android.aremoji/com.samsung.android.aremoji.camera.ShortcutActivity" />
+    <AppIcon image="samsung_pay_mini" name="com.samsung.android.spaymini/com.samsung.android.spay.ui.SpayMainActivity" />
+    <AppIcon image="samsung_storage_booster" name="com.samsung.memorysaver/com.samsung.memorysaver.zipunzipapps.ui.activities.ZipLauncherActivity" />
+    <AppIcon image="baozan" name="com.heytap.ugcvideo.praise/com.heytap.ugcvideo.activity.SplashActivity" />
+    <AppIcon image="realme_link" name="com.realme.linkcn/com.realme.link.home.SplashActivity" />
+    <AppIcon image="oto_music" name="com.piyush.music/com.piyush.music.activities.main.MainActivity" />
+    <AppIcon image="samsung_shop" name="com.samsung.ecomm.global.in/com.samsung.ecomm.MainActivity" />
+    <AppIcon image="huawei_fans" name="com.huawei.honorclub.android/com.huawei.honorclub.android.forum.activity.SplashActivity" />
+    <AppIcon image="game_kingdomrushorigins" name="com.ironhidegames.android.kingdomrushorigins/com.ironhidegames.android.kr.act_downloader.KRDownloaderActivity" />
+    <AppIcon image="video" name="com.samsung.android.video/com.samsung.android.video.list.activity.VideoList" />
+    <AppIcon image="game_candy_crush" name="com.king.candycrushsaga/com.king.candycrushsaga.CandyCrushSagaActivity" />
+    <AppIcon image="mi_call" name="com.xiaomi.mitime/com.xiaomi.mitime.activity.MakeCallActivity" />
+    <AppIcon image="game_yyzy" name="com.ztgame.yyzy.bilibili/com.ztgame.yyzy.adapternotchwithchannel.AdapterNotch" />
+    <AppIcon image="simple_gallery" name="com.simplemobiletools.gallery.pro/com.simplemobiletools.gallery.pro.activities.SplashActivity.Light_green" />
+    <AppIcon image="mi_wifi" name="com.xiaomi.mifi/com.xiaomi.mifi.SplashActivity" />
+    <AppIcon image="upstox_pro" name="in.upstox.pro/in.upstox.pro.views.login.LoginRootActivity" />
+    <AppIcon image="market" name="com.oppo.store/com.oppo.store.MainActivity" />
+    <AppIcon image="zoomy" name="com.sembozdemir.zoomy/com.sembozdemir.zoomy.home.HomeActivity" />
+    <AppIcon image="synergy" name="projekt.samsung.theme.compiler/projekt.samsung.theme.compiler.activity.MainActivity" />
+    <AppIcon image="bitmoji" name="com.bitstrips.imoji/com.bitstrips.imoji.ui.activities.LandingActivity" />
+    <AppIcon image="oneplus_launcher" name="net.oneplus.launcher/net.oneplus.launcher.advanced.AdvancedSettingsActivity" />
+    <AppIcon image="samsung_shop" name="com.samsung.ecomm.global.in/com.samsung.ecomm.global.in.SampleActivity" />
+    <AppIcon image="realme_paysa" name="com.realmepay.payments/com.realmepay.payments.ui.splash.RealmeSplashScreen" />
+    <AppIcon image="icbc" name="com.icbc/com.icbc.activity.init.NewLoadingActivity" />
+    <AppIcon image="ximalaya" name="com.ximalaya.ting.android/com.ximalaya.ting.android.host.activity.MainActivity" />
+    <AppIcon image="oppo_music_party" name="com.coloros.musiclink/com.coloros.musiclink.ui.MainActivity" />
+    <AppIcon image="simple_gallery" name="com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.SplashActivity.Teal" />
+    <AppIcon image="market" name="com.xiaomi.mipicks/com.xiaomi.mipicks.MiPicksAlias" />
+    <AppIcon image="finshell_pay" name="com.finshell.fin/com.finshell.fin.splash.SplashActivity" />
+    <AppIcon image="flyme7_game" name="com.meizu.flyme.gamecenter/com.meizu.flyme.gamecenter.activity.DefaultActivity" />
+    <AppIcon image="mi_youpin_youyu" name="com.xiaomi.youpin.tuishou/com.xiaomi.youpin.tuishou.activity.SplashActivity" />
+    <AppIcon image="samsung_booster" name="com.samsung.android.appbooster.ey/com.samsung.android.appbooster.app.presentation.home.HomeActivity" />
+    <AppIcon image="cloud_service" name="com.heytap.cloud/com.heytap.cloud.home.ui.CloudLauncherActivity" />
+    <AppIcon image="samsung_oh" name="com.samsung.oh/com.samsung.oep.ui.EntryActivity" />
+    <AppIcon image="oneplus_health" name="com.oneplus.health.international/com.heytap.health.launch.LaunchActivity" />
+    <AppIcon image="huawei_findmyphone" name="com.huawei.android.remotecontrol/com.huawei.android.remotecontrol.ui.PFMainActivity" />
+    <AppIcon image="game_priconne" name="com.bilibili.priconne/com.bilibili.permission.PermissionActivity" />
+    <AppIcon image="themes_manager" name="com.deishelon.lab.huaweithememanager/com.deishelon.lab.huaweithememanager.ui.activities.ThemesActivity" />
+    <AppIcon image="simpl" name="com.simpl.android/com.simpl.android.MainActivity" />
+    <AppIcon image="browser" name="com.android.browser/com.huawei.browser.Main2" />
+    <AppIcon image="simple_gallery" name="com.simplemobiletools.gallery.pro/com.simplemobiletools.gallery.pro.activities.SplashActivity.Deep_orange" />
+    <AppIcon image="vanced_manager" name="com.vanced.manager/com.vanced.manager.ui.SplashScreenActivity" />
+    <AppIcon image="market" name="com.oppo.market/com.oppo.cdo.ui.external.desktop.DeskHotAppActivity" />
+    <AppIcon image="mi_voice" name="com.miui.voiceassist/com.xiaomi.voiceassistant.MainActivity" />
+    <AppIcon image="huawei_sos" name="com.huawei.sos/com.huawei.sos.Settings$EmergencySettingsActivity" />
+    <AppIcon image="camera_2" name="com.samsung.android.scan3d/com.android.camera.CameraLauncher" />
+    <AppIcon image="game_coc_2" name="com.supercell.clashofclans.qihoo/com.supercell.titan.kunlun.GameAppKunlun" />
+    <AppIcon image="oppo_service" name="com.coloros.aftersalesservice/com.coloros.aftersalesservice.activity.SplashActivity" />
+    <AppIcon image="samsung_gear" name="com.samsung.android.app.watchmanager2/com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity" />
+    <AppIcon image="sim_toolkit" name="com.android.stk/com.android.stk.OppoStkSelection" />
+    <AppIcon image="samsung_scan3d" name="com.samsung.android.scan3d/com.samsung.android.scan3d.main.Scan3DActivity" />
+    <AppIcon image="samsung_deco_pic" name="com.samsung.android.livestickers/com.samsung.android.livestickers.camera.ShortcutActivity" />
+    <AppIcon image="samsung_free" name="com.samsung.android.app.spage/com.samsung.android.app.spage.main.LauncherActivity" />
+    <AppIcon image="samsung_tv" name="com.samsung.android.tvplus/com.samsung.android.tvplus.MainActivity" />
+    <AppIcon image="samsung_ar_emoji" name="com.samsung.android.aremoji/com.samsung.android.aremoji.home.ShortcutActivity" />
+    <AppIcon image="samsung_s_secure" name="com.samsung.android.app.sprotect/com.samsung.android.app.sprotect.dashboard.DashBoard" />
+    <AppIcon image="oppo_game_space" name="com.coloros.gamespaceui/com.coloros.gamespaceui.activity.GameBoxCoverActivity" />
+    <AppIcon image="samsung_max" name="com.samsung.max.go/com.opera.max.ui.v2.MainActivity" />
+    <AppIcon image="samsung_mobile_tv" name="com.samsung.android.app.dtv.sbtvd/com.samsung.android.app.dtv.sbtvd.ui.MtvUiPlayer" />
+    <AppIcon image="samsung_pay_mini" name="com.samsung.android.brdigitalaccount/com.samsung.android.brdigitalaccount.ui.spayminiwelcome.SPayMiniWelcomeActivity" />
+    <AppIcon image="oppo_deep_testing" name="com.coloros.deeptesting/com.coloros.deeptesting.activity.MainActivity" />
+    <AppIcon image="yoparty" name="com.transsion.wifiplaytogether/com.transsion.wifiplaytogether.activity.WelcomeActivity" />
+    <AppIcon image="files" name="com.transsion.filemanagerx/com.transsion.filemanagerx.MainFilemanagerActivity" />
+    <AppIcon image="palm_store" name="com.transsnet.store/com.afmobi.palmplay.StartActivity" />
+    <AppIcon image="audio_share" name="com.transsion.audioshare/com.transsion.audioshare.MainActivity" />
+    <AppIcon image="tecno_spot" name="com.transsion.tecnospot/com.transsion.tecnospot.newactivity.StartPageActivity" />
+    <AppIcon image="camera_2" name="com.transsion.camera/com.android.camera.CameraLauncher" />
+    <AppIcon image="calculator" name="com.transsion.calculator/com.transsion.calculator.Calculator" />
+    <AppIcon image="fm_radio" name="com.transsion.fmradio/com.transsion.fmradio.FmMainActivity" />
+    <AppIcon image="clock" name="com.transsion.deskclock/com.transsion.deskclock.DeskClock" />
+    <AppIcon image="notes" name="com.transsion.notebook/com.transsion.notebook.NotesList" />
+    <AppIcon image="sound_recorder" name="com.transsion.soundrecorder/com.transsion.soundrecorder.SoundRecorder" />
+    <AppIcon image="security" name="com.transsion.phonemaster/com.cyin.himgr.ads.SplashActivity" />
+    <AppIcon image="sms_5" name="com.samsung.android.messaging/com.samsung.android.messaging.ui.ConversationList" />
+    <AppIcon image="files" name="com.oppo.filemanager/com.oppo.filemanager.Main" />
+    <AppIcon image="weather" name="com.oppo.weather/com.oppo.weather.OppoMainActivity" />
+    <AppIcon image="video" name="com.oppo.video/com.oppo.video.VideoListActivity" />
+    <AppIcon image="gallery" name="com.oppo.gallery3d/com.oppo.gallery3d.app.Gallery" />
+    <AppIcon image="samsung_quick_measure" name="com.samsung.android.ruler/com.samsung.android.ruler.main.rulerPreviewActivity" />
+    <AppIcon image="baidu_baijia" name="com.baidu.baijia/com.baidu.baijia.activity.SplashActivity" />
+    <AppIcon image="simple_file_manager" name="com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Red" />
+    <AppIcon image="downloads" name="com.coloros.providers.downloads.ui/com.coloros.providers.downloads.ui.DownloadListActivity" />
 
 
 
