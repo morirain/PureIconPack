@@ -5,9 +5,8 @@ Blueprint
 
 ![API](https://img.shields.io/badge/API-21%2B-34bf49.svg)
 [![GitHub Release](https://img.shields.io/github/v/release/jahirfiquitiva/Blueprint?label=Blueprint&sort=semver)](https://github.com/jahirfiquitiva/Blueprint/releases/latest)
-[![Build Status](https://travis-ci.com/jahirfiquitiva/Blueprint.svg?branch=master)](https://travis-ci.com/jahirfiquitiva/Blueprint)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/55f3f196492a4ea88f13da0f219b9125)](https://www.codacy.com/app/jahirfiquitiva/Blueprint?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jahirfiquitiva/Blueprint&amp;utm_campaign=Badge_Grade)
-[![Crowdin](https://badges.crowdin.net/blueprint/localized.svg)](https://crowdin.com/project/blueprint)
+[![Build Status](https://github.com/jahirfiquitiva/Blueprint/actions/workflows/build.yml/badge.svg?branch=sample)](https://github.com/jahirfiquitiva/Blueprint/actions/workflows/build.yml)
+[![Crowdin](https://badges.crowdin.net/blueprint/localized.svg)](https://crowdin.com/project/blueprint/invite)
 
 Free, feature-rich, easily customizable Android dashboard for icon packs
 
@@ -66,7 +65,7 @@ Free, feature-rich, easily customizable Android dashboard for icon packs
 - Support for adaptive icon packs (Additional improvements coming soon!)
 - In-app icon request tool
 - Premium Icon Requests (Coming soon!)
-- Support for [Arctic Manager](https://arcticmanager.com/)
+- Support for [Pacific Manager](https://pacificmanager.app/)
 - Apply section with 20 supported launchers. (Other launchers might not support direct apply)
 - Help section, to answer the questions your users have.
 - Support for Zooper templates, Kustom Wallpapers, Widgets, Lockscreens and Komponents.
@@ -88,6 +87,16 @@ Free, feature-rich, easily customizable Android dashboard for icon packs
 
 ## Changelog
 :radio_button: You can find it in the [Releases page](https://github.com/jahirfiquitiva/Blueprint/releases)
+
+---
+
+<a target="_blank" href="https://pacificmanager.app">
+<img src="https://pacificmanager.app/content/promo-banner-smaller.png" width="400"/>
+</a>
+
+<a href="https://pacificmanager.app" target="_blank">Pacific Manager</a> takes care of all your icon requests. Quit using the old traditional method of receiving emails from your users, making you sort through hundreds of potentially duplicate requests a day. </i>
+
+<b>Use the code `blueprint` at checkout to get 2 weeks of Pacific Manager for free.</b>
 
 ---
 
