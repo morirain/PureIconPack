@@ -1982,7 +1982,7 @@
     <AppIcon image="qihoo_safe" name="com.qihoo360.mobilesafe/com.qihoo360.mobilesafe.ui.index.AppEnterActivity" />
 
     
-    <AppIcon image="kfc" name="com.yek.android.kfc.activitys/com.yum.brandkfc.SplashAct" />
+    <AppIcon image="kfc_2" name="com.yek.android.kfc.activitys/com.yum.brandkfc.SplashAct" />
     
     <AppIcon image="baici" name="com.jiongji.andriod.card/com.baicizhan.main.activity.LoadingPageActivity" />
     
@@ -9344,7 +9344,7 @@
     
     <AppIcon image="ruten" name="com.ruten.android.rutengoods.rutenbid/com.ruten.android.rutengoods.rutenbid.MainActivity" />
     
-    <AppIcon image="kfc" name="com.telexpress.kfctaiwanapps/com.telexpress.kfctaiwanapps.MainActivity" />
+    <AppIcon image="kfc_2" name="com.telexpress.kfctaiwanapps/com.telexpress.kfctaiwanapps.MainActivity" />
     
     <AppIcon image="gsmarena" name="com.gsmarena.android/com.gsmarena.android.activity.SplashActivity" />
     
@@ -11621,7 +11621,7 @@
     <AppIcon image="youdao_u_dictionary" name="com.youdao.hindict/com.youdao.hindict.activity.SplashActivity" />
     <AppIcon image="dbs_india" name="com.dbs.in.digitalbank/com.dbs.in.digitalbank.ui.splash.SplashActivity" />
     <AppIcon image="walpy" name="com.feresr.walpy/com.feresr.walpy.welcome.WelcomeActivity" />
-    <AppIcon image="kfc" name="com.yum.kfc/crc64ded25ac84fd66723.MainActivity" />
+    <AppIcon image="kfc_2" name="com.yum.kfc/crc64ded25ac84fd66723.MainActivity" />
     <AppIcon image="aimp" name="com.aimp.player/com.aimp.player.views.Main.MainActivity" />
     <AppIcon image="yimu" name="com.wangc.bill/com.wangc.bill.activity.MainActivity" />
     <AppIcon image="mxbc" name="com.mxbc.mxsa/com.mxbc.mxsa.modules.splash.SplashActivity" />
@@ -11640,7 +11640,7 @@
     <AppIcon image="ximalaya" name="com.ximalaya.ting.android/com.ximalaya.ting.android.host.activity.MainActivity" />
     <AppIcon image="google_music" name="com.google.android.music/com.google.android.music.tombstone.LauncherActivity" />
     <AppIcon image="youdao_note" name="com.youdao.note/com.youdao.note.splash.SplashActivity" />
-    <AppIcon image="kfc" name="com.kfchk.app.crm/com.kfchk.app.crm.activity.SplashActivity" />
+    <AppIcon image="kfc_2" name="com.kfchk.app.crm/com.kfchk.app.crm.activity.SplashActivity" />
 
     <AppIcon image="okpassword_days" name="cn.okpassword.days/cn.okpassword.days.activity.SplashActivity">
     </AppIcon>
@@ -12135,7 +12135,323 @@
     <AppIcon image="simple_file_manager" name="com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Red" />
     <AppIcon image="downloads" name="com.coloros.providers.downloads.ui/com.coloros.providers.downloads.ui.DownloadListActivity" />
 
-
+    <AppIcon image="kuwo_music" name="cn.kuwo.player/tencent.frame.f">
+    </AppIcon>
+    <AppIcon image="migu_music" name="cmccwm.mobilemusic/cmccwm.mobilemusic.ui.SplashActivity">
+    </AppIcon>
+    <AppIcon image="chsi" name="cn.com.chsi.chsiapp/cn.com.chsi.chsiapp.GuideActivity">
+    </AppIcon>
+    <AppIcon image="weverse" name="co.benx.weverse/co.benx.weverse.ui.scene.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="bqg" name="cn.pnsxg.biquge.apps/com.biquge.ebook.app.ui.activity.WelComeActivity">
+    </AppIcon>
+    <AppIcon image="ifood" name="br.com.brainweb.ifood/br.com.brainweb.ifood.mvp.splash.view.SplashScreenActivity">
+    </AppIcon>
+    <AppIcon image="caixa" name="br.com.gabba.Caixa/br.com.gabba.Caixa.SplashActivity">
+    </AppIcon>
+    <AppIcon image="indoasis" name="com.IndianBank.IndOASIS/com.IndianBank.IndOASIS.IndOASISAppProd">
+    </AppIcon>
+    <AppIcon image="indoasis" name="com.IndianBank.IndOASIS/com.IndianBank.IndOASIS.IndOASISs">
+    </AppIcon>
+    <AppIcon image="vpnhub" name="com.appatomic.vpnhub/com.appatomic.vpnhub.mobile.Normal">
+    </AppIcon>
+    <AppIcon image="amoledpix" name="com.androholic.amoledpix/com.androholic.amoledpix.ui.activities.SplashActivity">
+    </AppIcon>
+    <AppIcon image="metro_ddh" name="com.app.shanghai.metro/com.app.shanghai.metro.SplashActivity">
+    </AppIcon>
+    <AppIcon image="fire_tv" name="com.amazon.storm.lightning.client.aosp/com.amazon.bison.SplashScreen">
+    </AppIcon>
+    <AppIcon image="alibaba" name="com.alibaba.intl.android.apps.poseidon/com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial">
+    </AppIcon>
+    <AppIcon image="bijian" name="com.bilibili.studio/com.bcut.homepage.widget.SplashActivity">
+    </AppIcon>
+    <AppIcon image="clubhouse" name="com.clubhouse.app/com.clubhouse.android.ui.ClubhouseActivity">
+    </AppIcon>
+    <AppIcon image="canva" name="com.canva.editor.samsung/com.canva.app.editor.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="shadowsocks" name="com.bige0.shadowsocksr/com.bige0.shadowsocksr.Shadowsocks">
+    </AppIcon>
+    <AppIcon image="cashkaro" name="com.cashkaro/com.zoontek.rnbootsplash.RNBootSplashActivity">
+    </AppIcon>
+    <AppIcon image="&#20840;&#29699;&#36141;&#39569;&#22763;&#29305;&#26435;" name="com.black.unique/com.black.unique.feature.home.SplashActivity">
+    </AppIcon>
+    <AppIcon image="binance" name="com.binance.dev/com.binance.launcher.activities.main.MainActivity">
+    </AppIcon>
+    <AppIcon image="kfc_2" name="com.cts.kfcthailand/crc64d7d1da6f42c816aa.MainActivity">
+    </AppIcon>
+    <AppIcon image="game_apex_legends" name="com.ea.gp.apexlegendsmobilefps/com.epicgames.ue4.GameActivity">
+    </AppIcon>
+    <AppIcon image="coinbase" name="com.coinbase.android/com.coinbase.android.MainActivity">
+    </AppIcon>
+    <AppIcon image="sound_recorder" name="com.coloros.soundrecorder/oplus.multimedia.soundrecorder.filebrowser.BrowseFile">
+    </AppIcon>
+    <AppIcon image="burger_king" name="com.emn8.mobilem8.nativeapp.bk/rbi.android.app.MainActivity">
+    </AppIcon>
+    <AppIcon image="wecatch" name="com.daydreamer.wecatch/com.daydreamer.wecatch.MainActivity">
+    </AppIcon>
+    <AppIcon image="burger_king" name="com.emn8.mobilem8.nativeapp.bknz/com.emn8.mobilem8.nativeapp.bknz.MainActivity">
+    </AppIcon>
+    <AppIcon image="dmzjsq" name="com.dmzjsq.manhua/com.dmzjsq.manhua.ui.LaunchInterceptorActivity">
+    </AppIcon>
+    <AppIcon image="oneplus_switch" name="com.coloros.backuprestore/com.oplus.phoneclone.PhoneCloneMainActivity">
+    </AppIcon>
+    <AppIcon image="bench_3dmark" name="com.futuremark.dmandroid.application/com.futuremark.flamenco.ui.splash.SplashPageActivity">
+    </AppIcon>
+    <AppIcon image="gcash" name="com.globe.gcash.android/gcash.module.splashscreen.mvp.view.SplashScreenActivity">
+    </AppIcon>
+    <AppIcon image="aijiasuclient" name="com.fvcorp.android.aijiasuclient/com.fvcorp.android.fvclient.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="express_vpn" name="com.expressvpn.vpn/com.expressvpn.vpn.ui.SplashActivity">
+    </AppIcon>
+    <AppIcon image="gcash" name="com.globe.gcash.android/com.globe.gcash.android.GCashBirthday">
+    </AppIcon>
+    <AppIcon image="gojek" name="com.gojek.app/com.gojek.home.splash.GojekSplashActivity">
+    </AppIcon>
+    <AppIcon image="game_call_of_duty" name="com.garena.game.codm/com.tencent.tmgp.cod.CODMPrivatePermissionActivity">
+    </AppIcon>
+    <AppIcon image="google_pay" name="com.google.android.apps.nbu.paisa.user/com.google.nbu.paisa.flutter.gpay.app.LauncherActivity">
+    </AppIcon>
+    <AppIcon image="josh" name="com.eterno.shortvideos/com.eterno.shortvideos.views.splash.activities.SplashActivity">
+    </AppIcon>
+    <AppIcon image="gcash" name="com.globe.gcash.android/com.globe.gcash.android.GCashChristmas">
+    </AppIcon>
+    <AppIcon image="market_9apps" name="com.gamefun.apk2u/com.mobile.indiapp.activity.WelcomePageActivity">
+    </AppIcon>
+    <AppIcon image="clash_for_android" name="com.github.ClashRforAndroid/com.github.kr328.clash.MainActivity">
+    </AppIcon>
+    <AppIcon image="hikerview" name="com.example.hikerview/com.example.hikerview.ui.home.MainActivity">
+    </AppIcon>
+    <AppIcon image="gcash" name="com.globe.gcash.android/com.globe.gcash.android.Default">
+    </AppIcon>
+    <AppIcon image="h_m" name="com.hm.goe/com.hm.goe.app.home.HomeActivity">
+    </AppIcon>
+    <AppIcon image="google_remote_desktop" name="com.google.chromeremotedesktop/org.chromium.chromoting.Chromoting">
+    </AppIcon>
+    <AppIcon image="httpcanary" name="com.guoshi.httpcanary/com.guoshi.httpcanary.ui.SplashActivity">
+    </AppIcon>
+    <AppIcon image="haier_zhijia" name="com.haier.uhome.uplus/com.haier.uhome.uplus.cms.presentation.welcome.presentation.WelcomeActivity">
+    </AppIcon>
+    <AppIcon image="zhejiang_zheliban" name="com.hanweb.android.zhejiang.activity/com.alibaba.gov.home.activity.LoadingActivity">
+    </AppIcon>
+    <AppIcon image="httpcanary" name="com.guoshi.httpcanary.premium/com.guoshi.httpcanary.ui.SplashActivity">
+    </AppIcon>
+    <AppIcon image="huawei_mirror" name="com.huawei.mirror/com.huawei.mirror.main.MainActivity">
+    </AppIcon>
+    <AppIcon image="ixigo_trains" name="com.ixigo.train.ixitrain/com.ixigo.train.ixitrain.SplashScreenActivity">
+    </AppIcon>
+    <AppIcon image="kfc_2" name="com.kfchk.app.and2021/com.ld.zy.kfc.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="appchecker" name="com.kroegerama.appchecker/com.kroegerama.appchecker.ui.AcMain">
+    </AppIcon>
+    <AppIcon image="sticker_maker" name="com.marsvard.stickermakerforwhatsapp/com.marsvard.stickermakerforwhatsapp.main.MainActivity">
+    </AppIcon>
+    <AppIcon image="microsoft_rdc" name="com.microsoft.rdc.androie/com.microsoft.rdc.ui.activities.HomeActivity">
+    </AppIcon>
+    <AppIcon image="microsoft_edge_2" name="com.microsoft.emmx.dev/com.microsoft.ruby.Main">
+    </AppIcon>
+    <AppIcon image="mcdonalds_pro" name="com.mcdo.mcdonalds/com.gigigo.mcdonaldsbr.ui.activities.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="game_mr_gun" name="com.ketchapp.mrgun/org.cocos2dx.cpp.AppActivity">
+    </AppIcon>
+    <AppIcon image="jd_cloud_smartrouter" name="com.jdcloud.mt.smartrouter/com.jdcloud.mt.smartrouter.splash.WelcomeActivity">
+    </AppIcon>
+    <AppIcon image="kfc" name="com.kfc_polska/com.kfc_polska.ui.activities.OnboardActivity">
+    </AppIcon>
+    <AppIcon image="game_harrypotter" name="com.netease.harrypotter.tw/com.netease.harrypotter.tw.Launcher">
+    </AppIcon>
+    <AppIcon image="game_harrypotter" name="com.netease.harrypotter/com.netease.ntunisdk.external.protocol.ProtocolLauncher" />
+    <AppIcon image="game_harrypotter" name="com.netease.harrypotter.mi/com.netease.ntunisdk.external.protocol.ProtocolLauncher" />
+    <AppIcon image="game_harrypotter" name="com.netease.harrypotter.nearme.gamecenter/com.netease.ntunisdk.external.protocol.ProtocolLauncher" />
+    <AppIcon image="game_harrypotter" name="com.netease.harrypotter.huawei/com.netease.ntunisdk.external.protocol.ProtocolLauncher" />
+    <AppIcon image="game_harrypotter" name="com.tencent.tmgp.harrypotter/com.netease.ntunisdk.external.protocol.ProtocolLauncher" />
+    <AppIcon image="olx_india" name="com.olx.southasia/com.olxgroup.panamera.app.users.onboarding.activities.SplashActivity">
+    </AppIcon>
+    <AppIcon image="game_8_ball_pool" name="com.miniclip.eightballpool/com.miniclip.eightballpool.EightBallPoolActivity">
+    </AppIcon>
+    <AppIcon image="vanced_microg" name="com.mgoogle.android.gms/org.microg.gms.ui.SettingsActivityLauncher">
+    </AppIcon>
+    <AppIcon image="microsoft_xbox" name="com.microsoft.xboxone.smartglass.beta/com.microsoft.xbox.MainActivity">
+    </AppIcon>
+    <AppIcon image="microsoft_bing" name="com.microsoft.bing/com.microsoft.sapphire.app.activities.SplashActivity">
+    </AppIcon>
+    <AppIcon image="microsoft_edge_2" name="com.microsoft.emmx.canary/com.microsoft.ruby.Main">
+    </AppIcon>
+    <AppIcon image="mcdonalds_pro" name="com.mcdonalds.mobileapp/mcdonalds.core.SplashActivity.Red">
+    </AppIcon>
+    <AppIcon image="groww" name="com.nextbillion.groww/com.nextbillion.groww.genesys.loginsignup.activities.LoginActivity">
+    </AppIcon>
+    <AppIcon image="mcdonalds_pro" name="com.mcdonalds.mobileapp/mcdonalds.core.SplashActivity">
+    </AppIcon>
+    <AppIcon image="microsoft_company_portal" name="com.microsoft.windowsintune.companyportal/com.microsoft.windowsintune.companyportal.views.SplashActivity">
+    </AppIcon>
+    <AppIcon image="mcdonalds_pro" name="com.mcdonalds.mobileapp/mcdonalds.core.SplashActivity.Green">
+    </AppIcon>
+    <AppIcon image="microsoft_edge_2" name="com.microsoft.emmx/com.google.android.apps.chrome.Main">
+    </AppIcon>
+    <AppIcon image="mcdonalds_pro" name="com.mcdonalds.au.gma/com.mcdonalds.mcdcoreapp.common.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="market_9apps" name="com.mobile.indiapp/com.mobile.indiapp.activity.WelcomePageActivity">
+    </AppIcon>
+    <AppIcon image="termius" name="com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SplashScreenActivity">
+    </AppIcon>
+    <AppIcon image="samsung_expert_raw" name="com.samsung.android.app.galaxyraw/com.samsung.android.app.galaxyraw.GalaxyRaw">
+    </AppIcon>
+    <AppIcon image="mcdonalds_pro" name="com.mcdonalds.app.uk/com.mcdonalds.mcdcoreapp.common.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="taiwan_bank" name="com.mbank.bot.p/com.mitake.android.taiwan.ui.SplashActivity">
+    </AppIcon>
+    <AppIcon image="mparivahan" name="com.nic.mparivahan/com.nic.mparivahan.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="microsoft_edge_2" name="com.microsoft.emmx.canary/com.google.android.apps.chrome.Main">
+    </AppIcon>
+    <AppIcon image="india_drug" name="com.medengage.drugindex/com.medengage.drugindex.ui.activity.NewSplashActivity">
+    </AppIcon>
+    <AppIcon image="pingan_carowner" name="com.pingan.carowner/com.pingan.carowner.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="microsoft_bing" name="com.microsoft.bing/com.microsoft.sapphire.app.main.SplashActivity">
+    </AppIcon>
+    <AppIcon image="microsoft_edge_2" name="com.microsoft.emmx.dev/com.google.android.apps.chrome.Main">
+    </AppIcon>
+    <AppIcon image="mcdonalds_pro" name="com.mcdonalds.superapp/com.mcdonalds.mcdcoreapp.common.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="game_cr" name="com.supercell.clashroyale.nearme.gamecenter/com.supercell.titan.kunlun.GameAppKunlun">
+    </AppIcon>
+    <AppIcon image="moo_music" name="com.tencent.blackkey/com.tencent.blackkey.frontend.usecase.main.MainActivity">
+    </AppIcon>
+    <AppIcon image="shadowsocks" name="com.scala.ssr/com.github.shadowsocks.MainActivity">
+    </AppIcon>
+    <AppIcon image="samsung_pay" name="com.samsung.android.rajaampat/com.srin.rajaampat.view.activity.SplashScreenActivity">
+    </AppIcon>
+    <AppIcon image="shopee" name="com.shopee.my/com.shopee.app.ui.home.HomeActivity_">
+    </AppIcon>
+    <AppIcon image="permissiondog" name="com.web1n.permissiondog/com.web1n.appops2.activity.AppOpsListActivity">
+    </AppIcon>
+    <AppIcon image="windscribe" name="com.windscribe.vpn/com.windscribe.vpn.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="game_sky_2" name="com.netease.sky/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="xfjsq" name="com.network.xf100/com.network.xf100.ui.SplashActivity">
+    </AppIcon>
+    <AppIcon image="olx_india" name="com.olx.southasia/com.olxgroup.panamera.app.users.onboarding.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="game_lol" name="com.riotgames.league.wildriftvn/com.tencent.lolm.lgame">
+    </AppIcon>
+    <AppIcon image="shopback" name="com.shopback.app/com.shopback.app.core.ui.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="samsung_deco_pic" name="com.samsung.android.livestickers/com.samsung.android.livestickers.camera.Camera">
+    </AppIcon>
+    <AppIcon image="samsung_private_share" name="com.samsung.android.privateshare/com.samsung.android.privacy.view.MainActivity.launcher">
+    </AppIcon>
+    <AppIcon image="game_cr" name="com.supercell.clashroyale.baidu/com.supercell.titan.kunlun.GameAppKunlun">
+    </AppIcon>
+    <AppIcon image="qq_video" name="com.tencent.qqlivei18n/com.tencent.qqliveinternational.base.MainActivity">
+    </AppIcon>
+    <AppIcon image="game_coc" name="com.supercell.clashofclans.ewan/com.supercell.titan.kunlun.GameAppKunlun">
+    </AppIcon>
+    <AppIcon image="samsung_kids" name="com.sec.android.app.kidshome/com.sec.android.app.kidshome.start.ui.LaunchActivity">
+    </AppIcon>
+    <AppIcon image="samsung_keys_cafe" name="com.samsung.android.keyscafe/com.samsung.android.keyscafe.main.ui.KeysCafeSplashActivity">
+    </AppIcon>
+    <AppIcon image="qq_video" name="com.tencent.qqlivei18n.us/com.tencent.qqliveinternational.base.MainActivity">
+    </AppIcon>
+    <AppIcon image="samsung_wonderland" name="com.samsung.android.wonderland.wallpaper/com.samsung.android.wonderland.wallpaper.settings.StartupActivity">
+    </AppIcon>
+    <AppIcon image="game_coc_2" name="com.supercell.clashofclans.bilibili/com.supercell.titan.kunlun.GameAppKunlun">
+    </AppIcon>
+    <AppIcon image="mcdonalds_pro" name="de.mcdonalds.mcdonaldsinfoapp/com.mcdonalds.mcdcoreapp.common.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="game_lol" name="com.riotgames.smg.league.wildrift/com.tencent.lolm.lgame">
+    </AppIcon>
+    <AppIcon image="camera" name="com.samsung.android.ruler/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="wanmei_esports" name="com.pwrd.steam.esports/com.pwrd.steam.esports.ui.activity.launcher.LauncherActivity">
+    </AppIcon>
+    <AppIcon image="qmd" name="com.qmd.jzen/com.qmd.jzen.ui.activity.MainActivity">
+    </AppIcon>
+    <AppIcon image="vivo_com" name="com.vivo.website/com.vivo.website.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="vivo_interaction_cube" name="com.vivo.upslide/com.vivo.interaction.minscreen.activity.InteractionActivity">
+    </AppIcon>
+    <AppIcon image="account_benzi" name="com.wei.account/com.wei.accountbox.activity.MainActivity">
+    </AppIcon>
+    <AppIcon image="market" name="com.vivo.appstore/com.vivo.appstore.activity.LaunchActivity">
+    </AppIcon>
+    <AppIcon image="indianoil_one" name="cx.indianoil.in/cx.indianoil.in.lpg.view.login.WelcomeActivity">
+    </AppIcon>
+    <AppIcon image="douyin" name="com.ss.android.ugc.trill.go/com.ss.android.ugc.aweme.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="douyin" name="com.zhiliaoapp.musically.go/com.ss.android.ugc.aweme.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="game_cr" name="com.supercell.clashroyale.vivo/com.supercell.titan.kunlun.GameAppKunlun">
+    </AppIcon>
+    <AppIcon image="taobao" name="com.taobao.htao.android/com.taobao.tao.welcome.Welcome">
+    </AppIcon>
+    <AppIcon image="wifilocating" name="com.wifi.link.wfys/com.linksure.browser.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="tubi_tv" name="com.tubitv/com.tubitv.activities.MainActivity">
+    </AppIcon>
+    <AppIcon image="game_coc_2" name="com.supercell.clashofclans.lenovo/com.supercell.titan.kunlun.GameAppKunlun">
+    </AppIcon>
+    <AppIcon image="t3go" name="com.t3go.passenger/com.t3go.passenger.SpringActivity">
+    </AppIcon>
+    <AppIcon image="game_coc" name="com.supercell.clashofclans.baidu/com.supercell.titan.kunlun.GameAppKunlun">
+    </AppIcon>
+    <AppIcon image="qq_video" name="com.tencent.qqlive/com.tencent.qqlive.ona.activity.HomeActivity">
+    </AppIcon>
+    <AppIcon image="qq_wecom" name="com.tencent.wework/com.tencent.wework.launch.LaunchSplashGovActivity">
+    </AppIcon>
+    <AppIcon image="infinity" name="ml.docilealligator.infinityforreddit/ml.docilealligator.infinityforreddit.activities.MainActivity">
+    </AppIcon>
+    <AppIcon image="hsbc" name="hk.com.hsbc.hsbchkmobilebanking/com.hsbc.mobilebanking.prelogon.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="yipiao_12306" name="com.yipiao/com.zt.main.entrance.MainActivity">
+    </AppIcon>
+    <AppIcon image="bolt" name="ee.mtakso.client/ee.mtakso.client.activity.SplashHomeActivity">
+    </AppIcon>
+    <AppIcon image="x_currency" name="com.tratao.xcurrency/com.tratao.home_page.feature.HomePageActivity">
+    </AppIcon>
+    <AppIcon image="zerotier_one" name="com.zerotier.one/com.zerotier.one.ui.NetworkListActivity">
+    </AppIcon>
+    <AppIcon image="readera" name="org.readera/com.readera.MainActivity">
+    </AppIcon>
+    <AppIcon image="sagernet" name="io.nekohasekai.sagernet/io.nekohasekai.sagernet.ui.MainActivity">
+    </AppIcon>
+    <AppIcon image="shadowsocks_rb" name="io.github.shadowsocksrb/com.github.shadowsocks.MainActivity">
+    </AppIcon>
+    <AppIcon image="irctc_rail_connect" name="cris.org.in.prs.ima/cris.org.in.ima.activities.IRCTCConnectActivity">
+    </AppIcon>
+    <AppIcon image="bahamut_dhf" name="tw.com.gamer.android.animad/tw.com.gamer.android.animad.AnimadActivity">
+    </AppIcon>
+    <AppIcon image="phone_probe" name="com.x1y9.probe/com.x1y9.app.MainActivity">
+    </AppIcon>
+    <AppIcon image="vvb2060_momo" name="io.github.vvb2060.mahoshojo/io.github.vvb2060.mahoshojo.home.HomeActivity">
+    </AppIcon>
+    <AppIcon image="mygesture" name="me.hisn.mygesture/me.hisn.mygesture.EA">
+    </AppIcon>
+    <AppIcon image="bilibili_2" name="tv.danmaku.bilibilihd/tv.danmaku.bili.ui.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="clipt" name="studio.onelab.clipboard/studio.onelab.clipboard.ui.main.MainActivity">
+    </AppIcon>
+    <AppIcon image="telugu_bible_plus" name="in.bibleindia.telugubibleplus/in.bibleindia.bibleapp.MainActivity">
+    </AppIcon>
+    <AppIcon image="np_manager" name="player.normal.np/player.normal.np.activity.GuideActivity">
+    </AppIcon>
+    <AppIcon image="kfc_2" name="ru.kfc.kfc_delivery/com.kfc.ui.activities.NativeModuleActivity">
+    </AppIcon>
+    <AppIcon image="mcdonalds_pro" name="jp.co.mcdonalds.android/mcdonalds.basic.McdonaldsJapanHomeActivity">
+    </AppIcon>
+    <AppIcon image="mcdonalds_pro" name="tw.com.mcddaily/com.mtel.app.module.SplashActivity">
+    </AppIcon>
+    <AppIcon image="myanimelist" name="net.myanimelist.app/net.myanimelist.presentation.activity.HomeActivity">
+    </AppIcon>
+    <AppIcon image="miss_lee" name="cn.litiaotiao.app/com.litiaotiao.app.LauncherActivity">
+    </AppIcon>
+    <AppIcon image="nba" name="com.tencent.nbagametime/com.tencent.nbagametime.component.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="game_apex_legends" name="com.levelinfinite.apexlegendsmobile/com.epicgames.ue4.GameActivity">
+    </AppIcon>
+    <AppIcon image="game_apex_legends" name="com.tw.fivexgames.apexlegendsmobile/com.epicgames.ue4.GameActivity">
+    </AppIcon>
 
 
 

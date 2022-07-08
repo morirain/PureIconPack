@@ -64,5 +64,5 @@
         Currently, only Pacific Manager is supported: https://pacificmanager.app.
     -->
     <string name="request_manager_backend_api_key" translatable="false">099502d9-de1e-44fb-ad6e-c5e2dc3bc1a1</string>
-    <string name="request_manager_base_url" translatable="false">https://pacificmanager.app/</string>
+    <string name="request_manager_base_url" translatable="false">https://morirain-3gv3co56b4babf1b-1256096275.ap-shanghai.app.tcloudbase.com/pure-icon/</string>
 </resources>

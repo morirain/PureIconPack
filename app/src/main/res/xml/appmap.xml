@@ -1975,7 +1975,7 @@
     <item class="com.qihoo360.mobilesafe.ui.index.AppEnterActivity" name="qihoo_safe" />
 
     
-    <item class="com.yum.brandkfc.SplashAct" name="kfc" />
+    <item class="com.yum.brandkfc.SplashAct" name="kfc_2" />
     
     <item class="com.baicizhan.main.activity.LoadingPageActivity" name="baici" />
     
@@ -9337,7 +9337,7 @@
     
     <item class="com.ruten.android.rutengoods.rutenbid.MainActivity" name="ruten" />
     
-    <item class="com.telexpress.kfctaiwanapps.MainActivity" name="kfc" />
+    <item class="com.telexpress.kfctaiwanapps.MainActivity" name="kfc_2" />
     
     <item class="com.gsmarena.android.activity.SplashActivity" name="gsmarena" />
     
@@ -11614,7 +11614,7 @@
     <item class="com.youdao.hindict.activity.SplashActivity" name="youdao_u_dictionary" />
     <item class="com.dbs.in.digitalbank.ui.splash.SplashActivity" name="dbs_india" />
     <item class="com.feresr.walpy.welcome.WelcomeActivity" name="walpy" />
-    <item class="crc64ded25ac84fd66723.MainActivity" name="kfc" />
+    <item class="crc64ded25ac84fd66723.MainActivity" name="kfc_2" />
     <item class="com.aimp.player.views.Main.MainActivity" name="aimp" />
     <item class="com.wangc.bill.activity.MainActivity" name="yimu" />
     <item class="com.mxbc.mxsa.modules.splash.SplashActivity" name="mxbc" />
@@ -11633,7 +11633,7 @@
     <item class="com.ximalaya.ting.android.host.activity.MainActivity" name="ximalaya" />
     <item class="com.google.android.music.tombstone.LauncherActivity" name="google_music" />
     <item class="com.youdao.note.splash.SplashActivity" name="youdao_note" />
-    <item class="com.kfchk.app.crm.activity.SplashActivity" name="kfc" />
+    <item class="com.kfchk.app.crm.activity.SplashActivity" name="kfc_2" />
 
     <item class="cn.okpassword.days.activity.SplashActivity" name="okpassword_days">
     </item>
@@ -12128,7 +12128,323 @@
     <item class="com.simplemobiletools.filemanager.pro.activities.SplashActivity.Red" name="simple_file_manager" />
     <item class="com.coloros.providers.downloads.ui.DownloadListActivity" name="downloads" />
 
-
+    <item class="tencent.frame.f" name="kuwo_music">
+    </item>
+    <item class="cmccwm.mobilemusic.ui.SplashActivity" name="migu_music">
+    </item>
+    <item class="cn.com.chsi.chsiapp.GuideActivity" name="chsi">
+    </item>
+    <item class="co.benx.weverse.ui.scene.splash.SplashActivity" name="weverse">
+    </item>
+    <item class="com.biquge.ebook.app.ui.activity.WelComeActivity" name="bqg">
+    </item>
+    <item class="br.com.brainweb.ifood.mvp.splash.view.SplashScreenActivity" name="ifood">
+    </item>
+    <item class="br.com.gabba.Caixa.SplashActivity" name="caixa">
+    </item>
+    <item class="com.IndianBank.IndOASIS.IndOASISAppProd" name="indoasis">
+    </item>
+    <item class="com.IndianBank.IndOASIS.IndOASISs" name="indoasis">
+    </item>
+    <item class="com.appatomic.vpnhub.mobile.Normal" name="vpnhub">
+    </item>
+    <item class="com.androholic.amoledpix.ui.activities.SplashActivity" name="amoledpix">
+    </item>
+    <item class="com.app.shanghai.metro.SplashActivity" name="metro_ddh">
+    </item>
+    <item class="com.amazon.bison.SplashScreen" name="fire_tv">
+    </item>
+    <item class="com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial" name="alibaba">
+    </item>
+    <item class="com.bcut.homepage.widget.SplashActivity" name="bijian">
+    </item>
+    <item class="com.clubhouse.android.ui.ClubhouseActivity" name="clubhouse">
+    </item>
+    <item class="com.canva.app.editor.splash.SplashActivity" name="canva">
+    </item>
+    <item class="com.bige0.shadowsocksr.Shadowsocks" name="shadowsocks">
+    </item>
+    <item class="com.zoontek.rnbootsplash.RNBootSplashActivity" name="cashkaro">
+    </item>
+    <item class="com.black.unique.feature.home.SplashActivity" name="&#20840;&#29699;&#36141;&#39569;&#22763;&#29305;&#26435;">
+    </item>
+    <item class="com.binance.launcher.activities.main.MainActivity" name="binance">
+    </item>
+    <item class="crc64d7d1da6f42c816aa.MainActivity" name="kfc_2">
+    </item>
+    <item class="com.epicgames.ue4.GameActivity" name="game_apex_legends">
+    </item>
+    <item class="com.coinbase.android.MainActivity" name="coinbase">
+    </item>
+    <item class="oplus.multimedia.soundrecorder.filebrowser.BrowseFile" name="sound_recorder">
+    </item>
+    <item class="rbi.android.app.MainActivity" name="burger_king">
+    </item>
+    <item class="com.daydreamer.wecatch.MainActivity" name="wecatch">
+    </item>
+    <item class="com.emn8.mobilem8.nativeapp.bknz.MainActivity" name="burger_king">
+    </item>
+    <item class="com.dmzjsq.manhua.ui.LaunchInterceptorActivity" name="dmzjsq">
+    </item>
+    <item class="com.oplus.phoneclone.PhoneCloneMainActivity" name="oneplus_switch">
+    </item>
+    <item class="com.futuremark.flamenco.ui.splash.SplashPageActivity" name="bench_3dmark">
+    </item>
+    <item class="gcash.module.splashscreen.mvp.view.SplashScreenActivity" name="gcash">
+    </item>
+    <item class="com.fvcorp.android.fvclient.activity.SplashActivity" name="aijiasuclient">
+    </item>
+    <item class="com.expressvpn.vpn.ui.SplashActivity" name="express_vpn">
+    </item>
+    <item class="com.globe.gcash.android.GCashBirthday" name="gcash">
+    </item>
+    <item class="com.gojek.home.splash.GojekSplashActivity" name="gojek">
+    </item>
+    <item class="com.tencent.tmgp.cod.CODMPrivatePermissionActivity" name="game_call_of_duty">
+    </item>
+    <item class="com.google.nbu.paisa.flutter.gpay.app.LauncherActivity" name="google_pay">
+    </item>
+    <item class="com.eterno.shortvideos.views.splash.activities.SplashActivity" name="josh">
+    </item>
+    <item class="com.globe.gcash.android.GCashChristmas" name="gcash">
+    </item>
+    <item class="com.mobile.indiapp.activity.WelcomePageActivity" name="market_9apps">
+    </item>
+    <item class="com.github.kr328.clash.MainActivity" name="clash_for_android">
+    </item>
+    <item class="com.example.hikerview.ui.home.MainActivity" name="hikerview">
+    </item>
+    <item class="com.globe.gcash.android.Default" name="gcash">
+    </item>
+    <item class="com.hm.goe.app.home.HomeActivity" name="h_m">
+    </item>
+    <item class="org.chromium.chromoting.Chromoting" name="google_remote_desktop">
+    </item>
+    <item class="com.guoshi.httpcanary.ui.SplashActivity" name="httpcanary">
+    </item>
+    <item class="com.haier.uhome.uplus.cms.presentation.welcome.presentation.WelcomeActivity" name="haier_zhijia">
+    </item>
+    <item class="com.alibaba.gov.home.activity.LoadingActivity" name="zhejiang_zheliban">
+    </item>
+    <item class="com.guoshi.httpcanary.ui.SplashActivity" name="httpcanary">
+    </item>
+    <item class="com.huawei.mirror.main.MainActivity" name="huawei_mirror">
+    </item>
+    <item class="com.ixigo.train.ixitrain.SplashScreenActivity" name="ixigo_trains">
+    </item>
+    <item class="com.ld.zy.kfc.activity.SplashActivity" name="kfc_2">
+    </item>
+    <item class="com.kroegerama.appchecker.ui.AcMain" name="appchecker">
+    </item>
+    <item class="com.marsvard.stickermakerforwhatsapp.main.MainActivity" name="sticker_maker">
+    </item>
+    <item class="com.microsoft.rdc.ui.activities.HomeActivity" name="microsoft_rdc">
+    </item>
+    <item class="com.microsoft.ruby.Main" name="microsoft_edge_2">
+    </item>
+    <item class="com.gigigo.mcdonaldsbr.ui.activities.splash.SplashActivity" name="mcdonalds_pro">
+    </item>
+    <item class="org.cocos2dx.cpp.AppActivity" name="game_mr_gun">
+    </item>
+    <item class="com.jdcloud.mt.smartrouter.splash.WelcomeActivity" name="jd_cloud_smartrouter">
+    </item>
+    <item class="com.kfc_polska.ui.activities.OnboardActivity" name="kfc">
+    </item>
+    <item class="com.netease.harrypotter.tw.Launcher" name="game_harrypotter">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_harrypotter" />
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_harrypotter" />
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_harrypotter" />
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_harrypotter" />
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_harrypotter" />
+    <item class="com.olxgroup.panamera.app.users.onboarding.activities.SplashActivity" name="olx_india">
+    </item>
+    <item class="com.miniclip.eightballpool.EightBallPoolActivity" name="game_8_ball_pool">
+    </item>
+    <item class="org.microg.gms.ui.SettingsActivityLauncher" name="vanced_microg">
+    </item>
+    <item class="com.microsoft.xbox.MainActivity" name="microsoft_xbox">
+    </item>
+    <item class="com.microsoft.sapphire.app.activities.SplashActivity" name="microsoft_bing">
+    </item>
+    <item class="com.microsoft.ruby.Main" name="microsoft_edge_2">
+    </item>
+    <item class="mcdonalds.core.SplashActivity.Red" name="mcdonalds_pro">
+    </item>
+    <item class="com.nextbillion.groww.genesys.loginsignup.activities.LoginActivity" name="groww">
+    </item>
+    <item class="mcdonalds.core.SplashActivity" name="mcdonalds_pro">
+    </item>
+    <item class="com.microsoft.windowsintune.companyportal.views.SplashActivity" name="microsoft_company_portal">
+    </item>
+    <item class="mcdonalds.core.SplashActivity.Green" name="mcdonalds_pro">
+    </item>
+    <item class="com.google.android.apps.chrome.Main" name="microsoft_edge_2">
+    </item>
+    <item class="com.mcdonalds.mcdcoreapp.common.activity.SplashActivity" name="mcdonalds_pro">
+    </item>
+    <item class="com.mobile.indiapp.activity.WelcomePageActivity" name="market_9apps">
+    </item>
+    <item class="com.server.auditor.ssh.client.navigation.SplashScreenActivity" name="termius">
+    </item>
+    <item class="com.samsung.android.app.galaxyraw.GalaxyRaw" name="samsung_expert_raw">
+    </item>
+    <item class="com.mcdonalds.mcdcoreapp.common.activity.SplashActivity" name="mcdonalds_pro">
+    </item>
+    <item class="com.mitake.android.taiwan.ui.SplashActivity" name="taiwan_bank">
+    </item>
+    <item class="com.nic.mparivahan.activity.SplashActivity" name="mparivahan">
+    </item>
+    <item class="com.google.android.apps.chrome.Main" name="microsoft_edge_2">
+    </item>
+    <item class="com.medengage.drugindex.ui.activity.NewSplashActivity" name="india_drug">
+    </item>
+    <item class="com.pingan.carowner.activity.SplashActivity" name="pingan_carowner">
+    </item>
+    <item class="com.microsoft.sapphire.app.main.SplashActivity" name="microsoft_bing">
+    </item>
+    <item class="com.google.android.apps.chrome.Main" name="microsoft_edge_2">
+    </item>
+    <item class="com.mcdonalds.mcdcoreapp.common.activity.SplashActivity" name="mcdonalds_pro">
+    </item>
+    <item class="com.supercell.titan.kunlun.GameAppKunlun" name="game_cr">
+    </item>
+    <item class="com.tencent.blackkey.frontend.usecase.main.MainActivity" name="moo_music">
+    </item>
+    <item class="com.github.shadowsocks.MainActivity" name="shadowsocks">
+    </item>
+    <item class="com.srin.rajaampat.view.activity.SplashScreenActivity" name="samsung_pay">
+    </item>
+    <item class="com.shopee.app.ui.home.HomeActivity_" name="shopee">
+    </item>
+    <item class="com.web1n.appops2.activity.AppOpsListActivity" name="permissiondog">
+    </item>
+    <item class="com.windscribe.vpn.splash.SplashActivity" name="windscribe">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_sky_2">
+    </item>
+    <item class="com.network.xf100.ui.SplashActivity" name="xfjsq">
+    </item>
+    <item class="com.olxgroup.panamera.app.users.onboarding.splash.SplashActivity" name="olx_india">
+    </item>
+    <item class="com.tencent.lolm.lgame" name="game_lol">
+    </item>
+    <item class="com.shopback.app.core.ui.splash.SplashActivity" name="shopback">
+    </item>
+    <item class="com.samsung.android.livestickers.camera.Camera" name="samsung_deco_pic">
+    </item>
+    <item class="com.samsung.android.privacy.view.MainActivity.launcher" name="samsung_private_share">
+    </item>
+    <item class="com.supercell.titan.kunlun.GameAppKunlun" name="game_cr">
+    </item>
+    <item class="com.tencent.qqliveinternational.base.MainActivity" name="qq_video">
+    </item>
+    <item class="com.supercell.titan.kunlun.GameAppKunlun" name="game_coc">
+    </item>
+    <item class="com.sec.android.app.kidshome.start.ui.LaunchActivity" name="samsung_kids">
+    </item>
+    <item class="com.samsung.android.keyscafe.main.ui.KeysCafeSplashActivity" name="samsung_keys_cafe">
+    </item>
+    <item class="com.tencent.qqliveinternational.base.MainActivity" name="qq_video">
+    </item>
+    <item class="com.samsung.android.wonderland.wallpaper.settings.StartupActivity" name="samsung_wonderland">
+    </item>
+    <item class="com.supercell.titan.kunlun.GameAppKunlun" name="game_coc_2">
+    </item>
+    <item class="com.mcdonalds.mcdcoreapp.common.activity.SplashActivity" name="mcdonalds_pro">
+    </item>
+    <item class="com.tencent.lolm.lgame" name="game_lol">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.pwrd.steam.esports.ui.activity.launcher.LauncherActivity" name="wanmei_esports">
+    </item>
+    <item class="com.qmd.jzen.ui.activity.MainActivity" name="qmd">
+    </item>
+    <item class="com.vivo.website.activity.SplashActivity" name="vivo_com">
+    </item>
+    <item class="com.vivo.interaction.minscreen.activity.InteractionActivity" name="vivo_interaction_cube">
+    </item>
+    <item class="com.wei.accountbox.activity.MainActivity" name="account_benzi">
+    </item>
+    <item class="com.vivo.appstore.activity.LaunchActivity" name="market">
+    </item>
+    <item class="cx.indianoil.in.lpg.view.login.WelcomeActivity" name="indianoil_one">
+    </item>
+    <item class="com.ss.android.ugc.aweme.splash.SplashActivity" name="douyin">
+    </item>
+    <item class="com.ss.android.ugc.aweme.splash.SplashActivity" name="douyin">
+    </item>
+    <item class="com.supercell.titan.kunlun.GameAppKunlun" name="game_cr">
+    </item>
+    <item class="com.taobao.tao.welcome.Welcome" name="taobao">
+    </item>
+    <item class="com.linksure.browser.activity.SplashActivity" name="wifilocating">
+    </item>
+    <item class="com.tubitv.activities.MainActivity" name="tubi_tv">
+    </item>
+    <item class="com.supercell.titan.kunlun.GameAppKunlun" name="game_coc_2">
+    </item>
+    <item class="com.t3go.passenger.SpringActivity" name="t3go">
+    </item>
+    <item class="com.supercell.titan.kunlun.GameAppKunlun" name="game_coc">
+    </item>
+    <item class="com.tencent.qqlive.ona.activity.HomeActivity" name="qq_video">
+    </item>
+    <item class="com.tencent.wework.launch.LaunchSplashGovActivity" name="qq_wecom">
+    </item>
+    <item class="ml.docilealligator.infinityforreddit.activities.MainActivity" name="infinity">
+    </item>
+    <item class="com.hsbc.mobilebanking.prelogon.splash.SplashActivity" name="hsbc">
+    </item>
+    <item class="com.zt.main.entrance.MainActivity" name="yipiao_12306">
+    </item>
+    <item class="ee.mtakso.client.activity.SplashHomeActivity" name="bolt">
+    </item>
+    <item class="com.tratao.home_page.feature.HomePageActivity" name="x_currency">
+    </item>
+    <item class="com.zerotier.one.ui.NetworkListActivity" name="zerotier_one">
+    </item>
+    <item class="com.readera.MainActivity" name="readera">
+    </item>
+    <item class="io.nekohasekai.sagernet.ui.MainActivity" name="sagernet">
+    </item>
+    <item class="com.github.shadowsocks.MainActivity" name="shadowsocks_rb">
+    </item>
+    <item class="cris.org.in.ima.activities.IRCTCConnectActivity" name="irctc_rail_connect">
+    </item>
+    <item class="tw.com.gamer.android.animad.AnimadActivity" name="bahamut_dhf">
+    </item>
+    <item class="com.x1y9.app.MainActivity" name="phone_probe">
+    </item>
+    <item class="io.github.vvb2060.mahoshojo.home.HomeActivity" name="vvb2060_momo">
+    </item>
+    <item class="me.hisn.mygesture.EA" name="mygesture">
+    </item>
+    <item class="tv.danmaku.bili.ui.splash.SplashActivity" name="bilibili_2">
+    </item>
+    <item class="studio.onelab.clipboard.ui.main.MainActivity" name="clipt">
+    </item>
+    <item class="in.bibleindia.bibleapp.MainActivity" name="telugu_bible_plus">
+    </item>
+    <item class="player.normal.np.activity.GuideActivity" name="np_manager">
+    </item>
+    <item class="com.kfc.ui.activities.NativeModuleActivity" name="kfc_2">
+    </item>
+    <item class="mcdonalds.basic.McdonaldsJapanHomeActivity" name="mcdonalds_pro">
+    </item>
+    <item class="com.mtel.app.module.SplashActivity" name="mcdonalds_pro">
+    </item>
+    <item class="net.myanimelist.presentation.activity.HomeActivity" name="myanimelist">
+    </item>
+    <item class="com.litiaotiao.app.LauncherActivity" name="miss_lee">
+    </item>
+    <item class="com.tencent.nbagametime.component.splash.SplashActivity" name="nba">
+    </item>
+    <item class="com.epicgames.ue4.GameActivity" name="game_apex_legends">
+    </item>
+    <item class="com.epicgames.ue4.GameActivity" name="game_apex_legends">
+    </item>
 
 
 

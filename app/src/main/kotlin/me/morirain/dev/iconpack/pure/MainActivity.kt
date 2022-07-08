@@ -1,19 +1,10 @@
 package me.morirain.dev.iconpack.pure
 
 import android.os.Build
-import android.os.Bundle
-import android.util.Log
 import com.github.javiersantos.piracychecker.PiracyChecker
-import com.google.gson.GsonBuilder
-import dev.jahir.blueprint.data.requests.ArcticService
-import dev.jahir.blueprint.data.requests.SendIconRequest
 import dev.jahir.blueprint.ui.activities.BottomNavigationBlueprintActivity
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.converter.scalars.ScalarsConverterFactory
+import me.morirain.dev.iconpack.pure.extensions.CustomRequestFragment
 import java.util.*
-import kotlin.math.log
-import kotlin.reflect.jvm.javaField
 
 /**
  * You can choose between:
@@ -21,25 +12,6 @@ import kotlin.reflect.jvm.javaField
  * - BottomNavigationBlueprintActivity
  */
 class MainActivity : BottomNavigationBlueprintActivity() {
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        if (true) {
-            val request = lazy {
-                Retrofit.Builder()
-                    .baseUrl("https://morirain-3gv3co56b4babf1b-1256096275.ap-shanghai.app.tcloudbase.com/pure-icon/")
-                    .addConverterFactory(ScalarsConverterFactory.create())
-                    .addConverterFactory(GsonConverterFactory.create(GsonBuilder().create()))
-                    .build().create(ArcticService::class.java)
-            }
-            val c = SendIconRequest::class.java.getDeclaredField("INSTANCE").get(null)
-            c.javaClass.getDeclaredField("service\$delegate").let { field ->
-                field.isAccessible = true
-                field.set(SendIconRequest, request)
-                return@let field.get(SendIconRequest)
-            }
-        }
-        super.onCreate(savedInstanceState)
-    }
 
     /**
      * These things here have the default values. You can delete the ones you don't want to change
@@ -56,7 +28,7 @@ class MainActivity : BottomNavigationBlueprintActivity() {
      * This is your app's license key. Get yours on Google Play Dev Console.
      * Default one isn't valid and could cause issues in your app.
      */
-    override fun getLicKey(): String? =
+    override fun getLicKey(): String =
         "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAourVcAxhBy+MOy+zDZM01ntfDrJ5A3cHZqoEcJiwz2jRrmfByDBRPjKUCkJoEACknJU2WxyPFesI9ncLucL+nrcWoNZwK/132ltpOngE4Muqi9z4GVmFLqcj8I7ABCg08eyHf3pTrbOX8l+w1EynoLGZ1oPIRHc3mQq04bGyQL43C5R1/Holq4A1tYScvy/5E2HFf9bGFOc9YOVSdgmOJ27gfXptDGtfaznJLUqK91vCsx4TO8fvlLXwZtlT8w50hyK0XO04NyFEae+Z9qxuL4Zvp5FVkyfuB1uPggWvBtoiUxjtYNVfj8TxUu7k7zHqkR7Q9EHys7p/GqjQCr9FVwIDAQAB"
 
     /**
@@ -82,4 +54,7 @@ class MainActivity : BottomNavigationBlueprintActivity() {
 
     override fun defaultTheme(): Int = R.style.MyApp_Default
     override fun amoledTheme(): Int = R.style.MyApp_Default_Amoled
+
+    override fun defaultMaterialYouTheme(): Int = R.style.MyApp_Default_MaterialYou
+    override fun amoledMaterialYouTheme(): Int = R.style.MyApp_Default_Amoled_MaterialYou
 }
