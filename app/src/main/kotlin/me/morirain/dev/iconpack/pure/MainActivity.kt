@@ -3,7 +3,6 @@ package me.morirain.dev.iconpack.pure
 import android.os.Build
 import com.github.javiersantos.piracychecker.PiracyChecker
 import dev.jahir.blueprint.ui.activities.BottomNavigationBlueprintActivity
-import me.morirain.dev.iconpack.pure.extensions.CustomRequestFragment
 import java.util.*
 
 /**
