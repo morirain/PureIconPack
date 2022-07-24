@@ -5,7 +5,7 @@ Blueprint
 
 ![API](https://img.shields.io/badge/API-21%2B-34bf49.svg)
 [![GitHub Release](https://img.shields.io/github/v/release/jahirfiquitiva/Blueprint?label=Blueprint&sort=semver)](https://github.com/jahirfiquitiva/Blueprint/releases/latest)
-[![Build Status](https://github.com/jahirfiquitiva/Blueprint/actions/workflows/build.yml/badge.svg?branch=sample)](https://github.com/jahirfiquitiva/Blueprint/actions/workflows/build.yml)
+[![Build Status](https://github.com/jahirfiquitiva/Blueprint/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/jahirfiquitiva/Blueprint/actions/workflows/build.yml)
 [![Crowdin](https://badges.crowdin.net/blueprint/localized.svg)](https://crowdin.com/project/blueprint/invite)
 
 Free, feature-rich, easily customizable Android dashboard for icon packs
@@ -62,7 +62,7 @@ Free, feature-rich, easily customizable Android dashboard for icon packs
 - License Checker.
 - Donations.
 - OneSignal notifications ready.
-- Support for adaptive icon packs (Additional improvements coming soon!)
+- Support for adaptive icon packs
 - In-app icon request tool
 - Premium Icon Requests (Coming soon!)
 - Support for [Pacific Manager](https://pacificmanager.app/)
@@ -127,8 +127,6 @@ where `{latest version}` corresponds to published version in   [![GitHub Release
 
 ## Still need help :question:
 Just join our Discord Server and make a post. We'll help you as soon as possible. [![Join chat on Discord](https://badgen.net/badge/discord/join%20chat/7289DA?icon=discord)](https://discord.gg/78h7xgj)
-
-### Check out [some cool apps](https://jahir.dev/blog/post-of-fame) built using this dashboard
 
 ---
 

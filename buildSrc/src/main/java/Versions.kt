@@ -16,4 +16,9 @@ object Versions {
 
     // Blueprint
     const val blueprint = "2.2.8"
+    // Kuper
+    const val kuper = "2.3.8"
+
+    // Adaptive Icons
+    const val adaptiveIcons = "1.0.0"
 }

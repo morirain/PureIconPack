@@ -73,8 +73,8 @@ android {
              it.buildConfigField("String", "ONESIGNAL_APP_ID", "\"$OneSignal.appId\"")
          }
          release {
-             resValue 'string', 'max_apps_to_request', '30'
-             resValue 'string', 'time_limit_in_minutes', '30'
+             resValue 'string', 'max_apps_to_request', '60'
+             resValue 'string', 'time_limit_in_minutes', '60'
              debuggable false
              zipAlignEnabled true
              minifyEnabled true
@@ -114,9 +114,11 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-reflect:1.4.30"
-    implementation(Libs.blueprint) {
-        transitive = true
-    }
+//    implementation(Libs.blueprint) {
+//        transitive = true
+//    }
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':library')
     // TODO: Remove comment marks to enable
     // implementation Libs.oneSignal
 }

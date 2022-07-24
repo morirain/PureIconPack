@@ -12455,7 +12455,525 @@
 
 
 
-
+    <AppIcon image="hsa" name="cn.hsa.app/cn.hsa.app.login.ui.SplashActivity">
+    </AppIcon>
+    <AppIcon image="zenly" name="app.zenly.locator.dragon/app.zenly.locator.MainActivity">
+    </AppIcon>
+    <AppIcon image="zenly" name="app.zenly.locator/app.zenly.locator.MainActivity">
+    </AppIcon>
+    <AppIcon image="zymk" name="cn.zymk.comic/tencent.frame.f">
+    </AppIcon>
+    <AppIcon image="xgi" name="co.clinux.googleinstaller/co.clinux.x_google_installer.MainActivity">
+    </AppIcon>
+    <AppIcon image="bbc_weather" name="bbc.mobile.weather/bbc.mobile.weather.ui.main.MainActivity">
+    </AppIcon>
+    <AppIcon image="mbrowser" name="cn.nr19.mbrowser/cn.mbrowser.activity.BrowserActivity">
+    </AppIcon>
+    <AppIcon image="inter" name="br.com.intermedium/br.com.intermedium.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="qianji" name="cn.dreamn.qianji_auto/cn.dreamn.qianji_auto.ui.activity.MainActivity">
+    </AppIcon>
+    <AppIcon image="bookan" name="cn.com.bookan/com.magook.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="javrocket" name="cn.slh.javdb/cn.soloho.javbuslibrary.ui.MainActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.GoogleCamera.XiaomiMiDeviceSDM845/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="sim_toolkit_2" name="com.android.stk/com.android.stk.mtk.StkLauncherActivityII">
+    </AppIcon>
+    <AppIcon image="camera" name="com.GoogleCamera.Burial11/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="camera" name="com.android.MGC.not.stable/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="contacts" name="com.android.contacts/com.android.dialer.app.DialtactsActivity">
+    </AppIcon>
+    <AppIcon image="huawei_mirror" name="com.android.hwmirror/com.huawei.mirror.main.MainActivity">
+    </AppIcon>
+    <AppIcon image="yi_home" name="com.ants360.yicamera/com.ants360.yicamera.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="act_fibernet" name="com.act.mobile.apps/com.act.mobile.apps.SplashActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.android.MGC_8_4_300/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="camera" name="com.GoogleCamera.Burial16/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="accu_weather" name="com.accuweather.android/com.accuweather.android.activities.SplashActivity">
+    </AppIcon>
+    <AppIcon image="adobe_ps_camera" name="com.adobe.lens.android/com.adobe.photocam.ui.viewfinder.LauncherActivity">
+    </AppIcon>
+    <AppIcon image="asus_armoury_crate" name="com.asus.rog.roggamingcenter3/com.asus.rog.roggamingcenter3.MainActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.android.MGC_8_4_400/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="asus_link_to_myasus" name="com.asus.syncv2/com.asus.linktomyasus.MainActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.GoogleCamera.Burial/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="contacts" name="com.android.contacts/com.android.contacts.activities.PeopleActivityV2">
+    </AppIcon>
+    <AppIcon image="ali_dingding" name="com.alibaba.dingtalk.global/com.alibaba.android.rimet.biz.LaunchHomeActivity">
+    </AppIcon>
+    <AppIcon image="ajk" name="com.anjuke.android.app/com.anjuke.android.app.mainmodule.WelcomeActivity">
+    </AppIcon>
+    <AppIcon image="phone" name="com.android.dialer/com.android.dialer.app.calllog.CallLogActivity">
+    </AppIcon>
+    <AppIcon image="yi_home" name="com.ants360.yicamera.international/com.ants360.yicamera.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="calculator" name="com.android.calculator2/com.huawei.calculator.Calculator">
+    </AppIcon>
+    <AppIcon image="camera" name="com.android.mgc/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="camera" name="com.asus.snapcam/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="asus_myasus" name="com.asus.ia.asusapp/com.asus.ia.asusapp.Phone.Init.DefaultLauncher">
+    </AppIcon>
+    <AppIcon image="camera" name="com.GoogleCamera.Buriam/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="phone" name="com.asus.dialer/com.android.contacts.activities.DialtactsActivity">
+    </AppIcon>
+    <AppIcon image="game_sgs" name="com.bf.sgs.hdexp.huawei/pub.db.policylib.LaunchActivity">
+    </AppIcon>
+    <AppIcon image="in_shot" name="com.camerasideas.instashot/tencent.frame.f">
+    </AppIcon>
+    <AppIcon image="see" name="com.caij.see.google/com.caij.see.ui.activity.home.MainContainActivity">
+    </AppIcon>
+    <AppIcon image="huangyou_camera" name="com.by.butter.camera/com.by.butter.camera.splash.LauncherActivitySlightlyDrunk">
+    </AppIcon>
+    <AppIcon image="camera" name="com.bq.camera/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="vivo_cloud" name="com.bbk.cloud/com.bbk.cloud.ui.BBKCloudHomeScreen">
+    </AppIcon>
+    <AppIcon image="camera" name="com.bq.camerabq/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="bijian" name="com.bilibili.studio/com.bilibili.studio.SplashAliasActivity">
+    </AppIcon>
+    <AppIcon image="in_shot" name="com.camerasideas.instashot/com.camerasideas.instashot.MainActivity">
+    </AppIcon>
+    <AppIcon image="by_u" name="com.byu.id/com.byu.id.MainActivity">
+    </AppIcon>
+    <AppIcon image="bittorrent" name="com.bittorrent.client/com.bittorrent.app.Main">
+    </AppIcon>
+    <AppIcon image="cgb" name="com.cgbchina.xpt/com.alipay.mobile.quinox.LauncherAlias">
+    </AppIcon>
+    <AppIcon image="gif_master" name="com.didikee.gifparser/com.gif.SplashActivity">
+    </AppIcon>
+    <AppIcon image="antifraud" name="com.demo.antizha/com.demo.antizha.WelcomeActivity">
+    </AppIcon>
+    <AppIcon image="deepl" name="com.deepl.mobiletranslator/com.deepl.mobiletranslator.MainActivity">
+    </AppIcon>
+    <AppIcon image="text_now" name="com.enflick.android.TextNow/authorization.ui.AuthorizationActivity">
+    </AppIcon>
+    <AppIcon image="payzapp" name="com.enstage.wibmo.hdfc/com.enstage.wibmo.main.MainActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.GoogleCamera.Cameight/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="fedmobile" name="com.fedmobile/in.co.federalbank.federalbank.SplashScreenActivity">
+    </AppIcon>
+    <AppIcon image="google_cloud_console" name="com.google.android.apps.cloudconsole/com.google.android.apps.cloudconsole.common.MainContainerActivity">
+    </AppIcon>
+    <AppIcon image="flipkart_seller_hub" name="com.flipkart.seller/com.flipkart.seller.activities.SplashActivity">
+    </AppIcon>
+    <AppIcon image="google_play_games" name="com.google.android.play.games/com.google.android.apps.play.games.features.gamefolder.appdrawer.GameFolderAppDrawerActivity">
+    </AppIcon>
+    <AppIcon image="google_ads" name="com.google.android.apps.adwords/com.google.android.apps.adwords.InitialLoadingActivity">
+    </AppIcon>
+    <AppIcon image="google_sound_amplifier" name="com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.ui.SoundAmplifierSettingActivity">
+    </AppIcon>
+    <AppIcon image="fujifilm_camera_remote" name="com.fujifilm_dsc.app.remoteshooter/com.fujifilm_dsc.app.remoteshooter.InitializeActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.GoogleCameraFmg/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="google_my_business" name="com.google.android.apps.vega/com.google.android.apps.vega.VegaMainActivity">
+    </AppIcon>
+    <AppIcon image="fzyxt" name="com.fdg.flashplay.farsee/com.game.motionelf.activity.ActivityStart">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.GoogleCameragcb/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="google_family_link" name="com.google.android.apps.kids.familylink/com.google.android.apps.kids.familylink.home.HomeActivityV2">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.CameraRedmi5Plus/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="google_yt_kids" name="com.google.android.apps.youtube.kids/com.google.android.apps.youtube.kids.browse.SplashScreenActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.GoogleCamera3/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="google_android_tv_remote" name="com.google.android.tv.remote/com.google.android.tv.remote.RemoteActivity">
+    </AppIcon>
+    <AppIcon image="flipkart_shopsy" name="com.flipkart.shopsy/com.flipkart.shopsy.SplashActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.LECameraPlus/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="google_map" name="com.google.android.apps.mapslite/com.google.maps.lite.twa.MapsLiteTwaLauncherActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.GoogleCamerax/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="google_gms" name="com.google.android.gms/org.microg.gms.ui.SettingsActivity">
+    </AppIcon>
+    <AppIcon image="google_family_link" name="com.google.android.apps.kids.familylink/com.google.android.apps.kids.familylink.home.HomeActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.GoogleCamMGC/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.GoogleCameraNext/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="google_pixel_buds" name="com.google.android.apps.wearables.maestro.companion/com.google.android.apps.wearables.maestro.companion.ui.ShortCutActivity">
+    </AppIcon>
+    <AppIcon image="facebook_business_suite" name="com.facebook.pages.app/com.facebook.pages.app.auth.PagesManagerLoginActivity">
+    </AppIcon>
+    <AppIcon image="google_task_mate" name="com.google.android.apps.nbu.tinytask/com.google.android.apps.nbu.tinytask.MainActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.MTCL83/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.ymgc83252/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="google_analytics" name="com.google.android.apps.giant/com.google.android.apps.giant.flutter.HostActivity">
+    </AppIcon>
+    <AppIcon image="huawei_mirror" name="com.huawei.mirror/com.huawei.mirror.protocol.ProtocolConfirmActivity">
+    </AppIcon>
+    <AppIcon image="browser" name="com.hicloud.browser/com.huawei.browser.Main2">
+    </AppIcon>
+    <AppIcon image="camscanner" name="com.intsig.camscanner.huawei/com.intsig.camscanner.launcher.WelcomeDefaultActivity">
+    </AppIcon>
+    <AppIcon image="hobi" name="com.hobi.android/com.hobi.android.MainActivity">
+    </AppIcon>
+    <AppIcon image="huawei_welink" name="com.huawei.welink/huawei.w3.ui.welcome.W3SplashScreenActivity">
+    </AppIcon>
+    <AppIcon image="iqoo_com" name="com.iqoo.website/com.vivo.website.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="huawei_my_honor" name="com.hihonor.phoneservice/com.huawei.phoneservice.LaunchActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.ymgc8418/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="huawei_ai_voice" name="com.huawei.hiassistantoversea/com.huawei.hiassistantoversea.platform.ui.mainui.activity.floatmic.FloatWindowActivity">
+    </AppIcon>
+    <AppIcon image="huawei_meetime" name="com.huawei.meetime/com.huawei.meetime.MainMenuActivity">
+    </AppIcon>
+    <AppIcon image="fanbook" name="com.idreamsky.buff/com.idreamsky.buff.MainActivity">
+    </AppIcon>
+    <AppIcon image="weather" name="com.hihonor.android.totemweather/com.huawei.android.totemweather.WeatherHome">
+    </AppIcon>
+    <AppIcon image="google_socratic" name="com.google.socratic/com.google.android.apps.education.bloom.app.home.HomeActivity">
+    </AppIcon>
+    <AppIcon image="weather" name="com.hy.weather.mz/com.hy.weather.mz.modules.home.WeatherMainActivity">
+    </AppIcon>
+    <AppIcon image="compass" name="com.hihonor.compass/com.huawei.compass.MainActivity">
+    </AppIcon>
+    <AppIcon image="huawei_mirror" name="com.hihonor.mirror/com.huawei.mirror.Mirror">
+    </AppIcon>
+    <AppIcon image="fm_radio" name="com.huawei.android.FMRadio/com.huawei.android.FMRadio.FmMainActivity">
+    </AppIcon>
+    <AppIcon image="huawei_welinknow" name="com.huawei.welinknow/com.huawei.welinklite.MainActivity">
+    </AppIcon>
+    <AppIcon image="gallery" name="com.hihonor.photos/com.huawei.gallery.app.GalleryMain">
+    </AppIcon>
+    <AppIcon image="honeybee" name="com.honeybee.app/tencent.frame.f">
+    </AppIcon>
+    <AppIcon image="ai_voice" name="com.huawei.vassistant/com.huawei.vassistant.platform.ui.HonorLauncherActivity">
+    </AppIcon>
+    <AppIcon image="google_stadia" name="com.google.stadia.android/com.google.chrome.cloudcast.client.mobile.android.MobileActivity">
+    </AppIcon>
+    <AppIcon image="hxyh" name="com.hxb.mobile.client/com.alipay.mobile.quinox.LauncherActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.googleCamera.Wichaya8/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="calculator" name="com.hihonor.calculator/com.huawei.calculator.Calculator">
+    </AppIcon>
+    <AppIcon image="huawei_petal_search" name="com.huawei.hwsearch/com.huawei.hwsearch.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="huawei_ai_voice" name="com.huawei.vassistant/com.huawei.vassistant.platform.ui.HuaweiLauncherActivity">
+    </AppIcon>
+    <AppIcon image="huawei_petal_maps" name="com.huawei.maps.app/com.huawei.maps.app.petalmaps.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="listen_1" name="com.listen1.app/com.listen1.app.MainActivity">
+    </AppIcon>
+    <AppIcon image="kaspersky" name="com.kms.free/com.kms.free.PermissionsActivityLauncher">
+    </AppIcon>
+    <AppIcon image="game_mc" name="com.mojang.minecraftpe/com.normal_archive.app.sdk.WelcomeActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.motorola.camera3/com.motorola.camera.Camera">
+    </AppIcon>
+    <AppIcon image="medium_reader" name="com.medium.reader/com.medium.android.donkey.start.SplashActivity">
+    </AppIcon>
+    <AppIcon image="weather" name="com.meizu.flyme.weather/com.hy.weather.mz.modules.home.WeatherMainActivity">
+    </AppIcon>
+    <AppIcon image="moodle" name="com.moodle.moodlemobile/com.moodle.moodlemobile.MainActivity">
+    </AppIcon>
+    <AppIcon image="flyme_todolist" name="com.meizu.todolist/com.meizu.todolist.ui.TodoListActivity">
+    </AppIcon>
+    <AppIcon image="kmxs" name="com.kmxs.reader/tencent.frame.f">
+    </AppIcon>
+    <AppIcon image="power_amp" name="com.maxmpz.audioplayer.huawei/com.maxmpz.audioplayer.huawei.zap_plain_adaptive">
+    </AppIcon>
+    <AppIcon image="lg_thinq" name="com.lgeha.nuts/com.lgeha.nuts.MainActivity">
+    </AppIcon>
+    <AppIcon image="manual_cam" name="com.lensesdev.manual.camera.pro/com.antafunny.burstcamera.MainActivity">
+    </AppIcon>
+    <AppIcon image="superuser" name="com.koushikdutta.superuser/com.koushikdutta.superuser.MainActivity">
+    </AppIcon>
+    <AppIcon image="jetaudio" name="com.jetappfactory.jetaudioplus/com.jetappfactory.jetaudio.MusicBrowserActivity">
+    </AppIcon>
+    <AppIcon image="game_di5renge" name="com.netease.idv.googleplay/com.netease.dwrg.Launcher">
+    </AppIcon>
+    <AppIcon image="netease_gl" name="com.netease.gl/com.netease.gl.ui.activity.welcome.WelcomeInitActivity">
+    </AppIcon>
+    <AppIcon image="game_sky_2" name="com.netease.sky.aligames/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="netease_yanxuan" name="com.netease.yanxuan/com.netease.yanxuan.SplashActivityPro">
+    </AppIcon>
+    <AppIcon image="game_mc" name="com.netease.mc.huawei/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="nextcloud" name="com.nextcloud.client/com.owncloud.android.ui.activity.FileDisplayActivity">
+    </AppIcon>
+    <AppIcon image="game_onmyoji_2" name="com.netease.onmyoji.mi/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="game_sky_2" name="com.netease.sky.vivo/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="oneplus_store" name="com.oneplus.store/com.oneplus.store.view.SplashActivity">
+    </AppIcon>
+    <AppIcon image="oneplus_zen_mode" name="com.oneplus.brickmode/com.oneplus.brickmode.activity.MainControlActivity">
+    </AppIcon>
+    <AppIcon image="oppo_quick_game" name="com.oplus.play/com.nearme.play.module.main.LauncherActivity">
+    </AppIcon>
+    <AppIcon image="power_amp" name="com.maxmpz.audioplayer.huawei/com.maxmpz.audioplayer.huawei.classic">
+    </AppIcon>
+    <AppIcon image="poco_store" name="com.mi.global.pocostore/com.mi.global.shopcomponents.activity.LaunchActivity">
+    </AppIcon>
+    <AppIcon image="black_player" name="com.musicplayer.blackplayerfree/com.kodarkooperativet.blackplayerfree.activities.ViewPagerActivity">
+    </AppIcon>
+    <AppIcon image="roblox" name="com.roblox.client/com.roblox.client.startup.ActivitySplash">
+    </AppIcon>
+    <AppIcon image="game_angry_birds2" name="com.rovio.baba/com.unity3d.player.UnityPlayerActivity">
+    </AppIcon>
+    <AppIcon image="game_shadowfightarena" name="com.nekki.shadowfightarena/com.nekki.unityplugins.NekkiNativeActivity">
+    </AppIcon>
+    <AppIcon image="net_ease_music" name="com.netease.cloudmusic/com.netease.cloudmusic.home.MainActivity">
+    </AppIcon>
+    <AppIcon image="game_pubg" name="com.rekoo.pubgm/com.epicgames.ue4.SplashActivity">
+    </AppIcon>
+    <AppIcon image="netease_mail" name="com.netease.mail/com.netease.mobimail.activity.TabActivity">
+    </AppIcon>
+    <AppIcon image="game_sky_2" name="com.netease.sky.mi/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="storyart" name="com.ryzenrise.storyart/com.lightcone.artstory.acitivity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="mxplayer" name="com.mxtech.videoplayer.qy/com.mxtech.videoplayer.ad.ActivityWelcomeMX">
+    </AppIcon>
+    <AppIcon image="power_amp" name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.white_play_adaptive">
+    </AppIcon>
+    <AppIcon image="motorola_audio_effects" name="com.motorola.dolby.dolbyui/com.motorola.dolby.dolbyui.ui.welcome.WelcomeActivity">
+    </AppIcon>
+    <AppIcon image="game_mc" name="com.netease.mc.vivo/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="oneplus_bbs" name="com.oneplus.bbs/com.oneplus.bbs.ui.activity.TutorialActivity">
+    </AppIcon>
+    <AppIcon image="power_amp" name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.round">
+    </AppIcon>
+    <AppIcon image="mihoyo_hoyolab" name="com.mihoyo.hoyolab/com.mihoyo.hoyolab.splash.HoYoSplashActivity">
+    </AppIcon>
+    <AppIcon image="game_worldbox" name="com.mkarpenko.worldbox/com.unity3d.player.UnityPlayerActivity">
+    </AppIcon>
+    <AppIcon image="oppo_quick_game" name="com.nearme.play/com.nearme.play.module.main.LauncherActivity">
+    </AppIcon>
+    <AppIcon image="mi_health" name="com.mi.health/com.xiaomi.fitness.login.SplashActivity">
+    </AppIcon>
+    <AppIcon image="netease_cloudgame" name="com.netease.android.cloudgame/com.netease.android.cloudgame.activity.MainActivity">
+    </AppIcon>
+    <AppIcon image="steampy" name="com.steampy.app/com.steampy.app.activity.common.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="game_pubg" name="com.tencent.iglite/com.epicgames.ue4.SplashActivity">
+    </AppIcon>
+    <AppIcon image="qq_sync" name="com.tencent.qqpim/com.tencent.qqpim.ui.NewYearAliasActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.tcl.camera/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="netease_mail" name="com.netease.mail/com.netease.mobimail.SplashActivity">
+    </AppIcon>
+    <AppIcon image="game_alto" name="com.noodlecake.altosadventure/com.unity3d.player.UnityPlayerActivity">
+    </AppIcon>
+    <AppIcon image="game_mc" name="com.netease.mc.mi/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="game_sky_2" name="com.netease.sky.m4399/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="gallery" name="com.oneplus.gallery/com.oneplus.gallery.app.MainActivity">
+    </AppIcon>
+    <AppIcon image="oneplus_note" name="com.oneplus.note/com.nearme.note.main.MainActivity">
+    </AppIcon>
+    <AppIcon image="game_pubg" name="com.pubg.krmobile/com.epicgames.ue4.SplashActivity">
+    </AppIcon>
+    <AppIcon image="browser" name="com.qihoo.sonybrowser/com.android.browser.SplashActivity">
+    </AppIcon>
+    <AppIcon image="openrice" name="com.openrice.android/com.openrice.android.ui.activity.splashscreen.SplashScreenActivity">
+    </AppIcon>
+    <AppIcon image="camera_360" name="com.pinguo.camera360lite/us.pinguo.icecream.camera.CameraActivity">
+    </AppIcon>
+    <AppIcon image="umetrip" name="com.umetrip.android.msky.huawei/com.umetrip.android.msky.app.module.startup.SplashActivity">
+    </AppIcon>
+    <AppIcon image="fast_speed_test" name="com.netflix.Speedtest/com.netflix.Speedtest.MainActivity">
+    </AppIcon>
+    <AppIcon image="game_mc" name="com.netease.mc.m4399/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="game_mc" name="com.netease.x19/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="game_sky_2" name="com.netease.sky.huawei/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="game_onmyoji_2" name="com.netease.onmyoji/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="game_di5renge" name="com.netease.dwrg/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="oneplus_switch" name="com.oneplus.backuprestore/com.oneplus.backuprestore.activity.BootActivity">
+    </AppIcon>
+    <AppIcon image="files" name="com.oneplus.filemanager/com.oplus.filemanager.main.ui.MainActivity">
+    </AppIcon>
+    <AppIcon image="netease_gl" name="com.netease.gl/com.netease.gl.ui.activity.welcome.WelcomeActivity">
+    </AppIcon>
+    <AppIcon image="game_sky_2" name="com.netease.sky.nearme.gamecenter/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="netease_mail" name="com.netease.mobimail/com.netease.mail.biz.main.SplashActivity">
+    </AppIcon>
+    <AppIcon image="netease_yanxuan" name="com.netease.yanxuan/com.netease.yanxuan.SplashActivityDefault">
+    </AppIcon>
+    <AppIcon image="game_mc" name="com.netease.mc.bili/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="gjzwfw" name="com.service.android.gov.cn/com.hanweb.android.product.base.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="easyconnect" name="com.sangfor.vpn.client.phone/com.sangfor.vpn.client.phone.WelcomeActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.oppo.camera/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="qq_quanminkg" name="com.tencent.kg.android.lite/com.tencent.kg.hippy.framework.modules.launch.ui.LaunchActivity">
+    </AppIcon>
+    <AppIcon image="qq_sync" name="com.tencent.qqpim/com.tencent.qqpim.ui.ContactBackupAliasActivity">
+    </AppIcon>
+    <AppIcon image="qq_tv" name="com.tencent.tv.qie/com.tencent.tv.qie.main.activity.MainActivity">
+    </AppIcon>
+    <AppIcon image="game_monument2" name="com.tencent.tmgp.jnbg2/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity">
+    </AppIcon>
+    <AppIcon image="mi_yidong" name="com.xiaomi.mimobile/com.xiaomi.mimobile.activity.RouterActivity">
+    </AppIcon>
+    <AppIcon image="mi_drawshop" name="com.xiaomin.drawshop/com.xiaomin.drawshop.menu.main.activity.MainActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.shamim.cam/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="up_si" name="com.sivale.android/com.sivale.android.MainActivity">
+    </AppIcon>
+    <AppIcon image="pure_tuber" name="free.tube.premium.advanced.tuber/com.biomes.vanced.main.MainActivity">
+    </AppIcon>
+    <AppIcon image="the_weather_channel" name="com.weather.Weather/com.weather.Weather.app.SplashScreenActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.simplemobiletools.camera/com.simplemobiletools.camera.activities.SplashActivity.Cyan">
+    </AppIcon>
+    <AppIcon image="fingerprint_pay" name="com.surcumference.fingerprintpay/com.yyxx.wechatfp.Main">
+    </AppIcon>
+    <AppIcon image="tamjai_yunnan_mixian" name="com.tamjai.android/com.tamjai.android.MainActivity">
+    </AppIcon>
+    <AppIcon image="stremio" name="com.stremio.one/com.stremio.MainActivity">
+    </AppIcon>
+    <AppIcon image="market" name="com.xiaomi.market/com.xiaomi.market.ui.MainTabActivity">
+    </AppIcon>
+    <AppIcon image="idm" name="idm.internet.download.manager.plus/acr.browser.lightning.activity.MainActivityLauncher">
+    </AppIcon>
+    <AppIcon image="unacademy" name="com.unacademyapp/com.unacademy.consumption.unacademyapp.SplashActivity">
+    </AppIcon>
+    <AppIcon image="theme" name="com.teammt.gmanrainy.themestore/com.teammt.gmanrainy.emuithemestore.activity.mainactivity.MainActivity">
+    </AppIcon>
+    <AppIcon image="umang" name="in.gov.umang.negd.g2c/in.gov.umang.negd.g2c.ui.base.splash_screen.SplashActivity">
+    </AppIcon>
+    <AppIcon image="db_navigator" name="de.hafas.android.db/de.bahn.dbtickets.ui.DBNavLauncherActivity">
+    </AppIcon>
+    <AppIcon image="steam_chat" name="com.valvesoftware.android.steam.friendsui/com.valvesoftware.android.steam.friendsui.MainActivity">
+    </AppIcon>
+    <AppIcon image="game_monument2" name="com.tencent.tmgp.jnbg2/com.tencent.tmgp.jnbg2.LeapMainActivity">
+    </AppIcon>
+    <AppIcon image="game_pubg" name="com.tencent.iglitece/com.epicgames.ue4.SplashActivity">
+    </AppIcon>
+    <AppIcon image="qq_xriver" name="com.tencent.xriver/com.tencent.mocmna.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="linkaja" name="com.telkom.mwallet/com.telkom.mwallet.feature.splash.ActivitySupportSplash">
+    </AppIcon>
+    <AppIcon image="game_nuannuan" name="com.tencent.tmgp.qjnn/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity">
+    </AppIcon>
+    <AppIcon image="thanox" name="github.tornaco.android.thanos.pro/github.tornaco.android.thanos.dev.MainActivity">
+    </AppIcon>
+    <AppIcon image="camera_timestamp" name="com.xhey.xcamera/com.xhey.xcamera.ui.camera.SplashActivity">
+    </AppIcon>
+    <AppIcon image="whoscall" name="gogolook.callgogolook2/gogolook.callgogolook2.main.LauncherActivity">
+    </AppIcon>
+    <AppIcon image="mi_ai" name="com.xiaomi.xiaoailite/com.xiaomi.bluetooth.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="game_monument2" name="com.ustwo.monumentvalley2/com.unity3d.player.UnityPlayerActivity">
+    </AppIcon>
+    <AppIcon image="coursera" name="org.coursera.android/org.coursera.android.MainActivity">
+    </AppIcon>
+    <AppIcon image="tplink_kasa" name="com.tplink.kasa_android/com.tplink.hellotp.activity.SplashScreenActivity">
+    </AppIcon>
+    <AppIcon image="rave" name="com.wemesh.android/com.wemesh.android.Activities.DeepLinkingActivity">
+    </AppIcon>
+    <AppIcon image="game_terraria" name="com.xd.terraria/com.unity3d.player.UnityPlayerActivity">
+    </AppIcon>
+    <AppIcon image="pu" name="com.xyhui/com.xyhui.start.PrivacyTipActivity">
+    </AppIcon>
+    <AppIcon image="zenius" name="net.zenius.mobile/net.zenius.onboarding.views.SplashActivity">
+    </AppIcon>
+    <AppIcon image="mi_mimoji" name="com.xiaomi.mimoji/com.xiaomi.mimoji.MainActivity">
+    </AppIcon>
+    <AppIcon image="gjzs_online" name="gjzs.online/com.projectkr.shell.SplashActivity">
+    </AppIcon>
+    <AppIcon image="duoduo_video" name="com.zhongduomei.rrmj.society/com.rrtv.rrtvtrunk.main.presentation.EmptyActivity">
+    </AppIcon>
+    <AppIcon image="game_yyzy" name="com.yyzy.huawei/com.ztgame.yyzy.adapternotchwithchannel.AdapterNotch">
+    </AppIcon>
+    <AppIcon image="leavehomesafe" name="hk.gov.ogcio.leavehomesafe/hk.gov.ogcio.leavehomesafe.SplashActivity">
+    </AppIcon>
+    <AppIcon image="fedbook" name="in.co.federalbank.mpassbook/in.co.federalbank.mpassbook.MainActivity">
+    </AppIcon>
+    <AppIcon image="yuu" name="com.yuurewards.app/com.dfg.anfield.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="dji_go_4" name="dji.go.v5/com.dji.component.application.activity.DJIPureLaunchActivity">
+    </AppIcon>
+    <AppIcon image="whats_app" name="com.yowhatsapp/com.yowhatsapp.0">
+    </AppIcon>
+    <AppIcon image="naukri_com" name="naukriApp.appModules.login/com.naukri.splash.SplashActivity">
+    </AppIcon>
+    <AppIcon image="polish" name="photo.editor.photoeditor.photoeditorpro/com.camerasideas.collagemaker.activity.DummyActivity">
+    </AppIcon>
+    <AppIcon image="arubaotp" name="it.aruba.pec.mobile.otp/it.aruba.pec.mobile.otp.splashscreen.SplashActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="org.codeaurora.qcamera3/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="naukri_com" name="naukriApp.appModules.login/com.naukri.dashboard.view.NaukriSplashScreen">
+    </AppIcon>
+    <AppIcon image="oneplus_launcher" name="net.oneplus.launcher/net.oneplus.launcher.advanced.activities.AdvancedSettingsActivity">
+    </AppIcon>
+    <AppIcon image="reddit_relay" name="reddit.news/reddit.news.RedditNavigation">
+    </AppIcon>
+    <AppIcon image="reddit_relay" name="free.reddit.news/reddit.news.RedditNavigation" />
+    <AppIcon image="openweather" name="uk.co.openweather/uk.co.openweather.SplashActivity">
+    </AppIcon>
+    <AppIcon image="digilocker" name="com.digilocker.android/in.gov.digilocker.views.mainactivity.SplashScreenActivity">
+    </AppIcon>
+    <AppIcon image="phone" name="com.android.dialer/com.android.dialer.app.PeopleActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.google.android.GoogleCameraGood/com.android.camera.CameraLauncher">
+    </AppIcon>
+    <AppIcon image="netease_cloudgame" name="com.netease.android.cloudgame/com.netease.android.cloudgame.activity.SplashActivity">
+    </AppIcon>
+    <AppIcon image="yi_home" name="com.ants360.yicamera/com.ants360.yicamera.activity.SplashYiHomeActivity">
+    </AppIcon>
+    <AppIcon image="mi_community" name="com.mi.global.bbs/com.mi.global.bbslib.headlines.ui.SplashActivity">
+    </AppIcon>
+    <AppIcon image="game_mc" name="com.tencent.tmgp.wdsj666/com.netease.ntunisdk.external.protocol.ProtocolLauncher">
+    </AppIcon>
+    <AppIcon image="game_pubg" name="com.tencent.igce/com.epicgames.ue4.SplashActivity">
+    </AppIcon>
+    <AppIcon image="camera" name="com.hihonor.camera/com.hihonor.camera">
+    </AppIcon>
+    <AppIcon image="mi_wear" name="com.xiaomi.wearable/com.xiaomi.fitness.login.SplashActivity">
+    </AppIcon>
+    <AppIcon image="telegram" name="org.telegram.messenger/org.telegram.messenger.DefaultIcon">
+    </AppIcon>
+    <AppIcon image="mi_yidong" name="com.xiaomi.mimobile/com.xiaomi.mimobile.activity.ActivateGuideActivity">
+    </AppIcon>
+    <AppIcon image="oneplus_store" name="com.oneplus.store/com.oneplus.mall.view.SplashActivity">
+    </AppIcon>
 
 
 

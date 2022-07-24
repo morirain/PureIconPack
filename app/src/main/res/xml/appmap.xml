@@ -12448,7 +12448,525 @@
 
 
 
-
+    <item class="cn.hsa.app.login.ui.SplashActivity" name="hsa">
+    </item>
+    <item class="app.zenly.locator.MainActivity" name="zenly">
+    </item>
+    <item class="app.zenly.locator.MainActivity" name="zenly">
+    </item>
+    <item class="tencent.frame.f" name="zymk">
+    </item>
+    <item class="co.clinux.x_google_installer.MainActivity" name="xgi">
+    </item>
+    <item class="bbc.mobile.weather.ui.main.MainActivity" name="bbc_weather">
+    </item>
+    <item class="cn.mbrowser.activity.BrowserActivity" name="mbrowser">
+    </item>
+    <item class="br.com.intermedium.splash.SplashActivity" name="inter">
+    </item>
+    <item class="cn.dreamn.qianji_auto.ui.activity.MainActivity" name="qianji">
+    </item>
+    <item class="com.magook.activity.SplashActivity" name="bookan">
+    </item>
+    <item class="cn.soloho.javbuslibrary.ui.MainActivity" name="javrocket">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.android.stk.mtk.StkLauncherActivityII" name="sim_toolkit_2">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.android.dialer.app.DialtactsActivity" name="contacts">
+    </item>
+    <item class="com.huawei.mirror.main.MainActivity" name="huawei_mirror">
+    </item>
+    <item class="com.ants360.yicamera.activity.SplashActivity" name="yi_home">
+    </item>
+    <item class="com.act.mobile.apps.SplashActivity" name="act_fibernet">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.accuweather.android.activities.SplashActivity" name="accu_weather">
+    </item>
+    <item class="com.adobe.photocam.ui.viewfinder.LauncherActivity" name="adobe_ps_camera">
+    </item>
+    <item class="com.asus.rog.roggamingcenter3.MainActivity" name="asus_armoury_crate">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.asus.linktomyasus.MainActivity" name="asus_link_to_myasus">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.android.contacts.activities.PeopleActivityV2" name="contacts">
+    </item>
+    <item class="com.alibaba.android.rimet.biz.LaunchHomeActivity" name="ali_dingding">
+    </item>
+    <item class="com.anjuke.android.app.mainmodule.WelcomeActivity" name="ajk">
+    </item>
+    <item class="com.android.dialer.app.calllog.CallLogActivity" name="phone">
+    </item>
+    <item class="com.ants360.yicamera.activity.SplashActivity" name="yi_home">
+    </item>
+    <item class="com.huawei.calculator.Calculator" name="calculator">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.asus.ia.asusapp.Phone.Init.DefaultLauncher" name="asus_myasus">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.android.contacts.activities.DialtactsActivity" name="phone">
+    </item>
+    <item class="pub.db.policylib.LaunchActivity" name="game_sgs">
+    </item>
+    <item class="tencent.frame.f" name="in_shot">
+    </item>
+    <item class="com.caij.see.ui.activity.home.MainContainActivity" name="see">
+    </item>
+    <item class="com.by.butter.camera.splash.LauncherActivitySlightlyDrunk" name="huangyou_camera">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.bbk.cloud.ui.BBKCloudHomeScreen" name="vivo_cloud">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.bilibili.studio.SplashAliasActivity" name="bijian">
+    </item>
+    <item class="com.camerasideas.instashot.MainActivity" name="in_shot">
+    </item>
+    <item class="com.byu.id.MainActivity" name="by_u">
+    </item>
+    <item class="com.bittorrent.app.Main" name="bittorrent">
+    </item>
+    <item class="com.alipay.mobile.quinox.LauncherAlias" name="cgb">
+    </item>
+    <item class="com.gif.SplashActivity" name="gif_master">
+    </item>
+    <item class="com.demo.antizha.WelcomeActivity" name="antifraud">
+    </item>
+    <item class="com.deepl.mobiletranslator.MainActivity" name="deepl">
+    </item>
+    <item class="authorization.ui.AuthorizationActivity" name="text_now">
+    </item>
+    <item class="com.enstage.wibmo.main.MainActivity" name="payzapp">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="in.co.federalbank.federalbank.SplashScreenActivity" name="fedmobile">
+    </item>
+    <item class="com.google.android.apps.cloudconsole.common.MainContainerActivity" name="google_cloud_console">
+    </item>
+    <item class="com.flipkart.seller.activities.SplashActivity" name="flipkart_seller_hub">
+    </item>
+    <item class="com.google.android.apps.play.games.features.gamefolder.appdrawer.GameFolderAppDrawerActivity" name="google_play_games">
+    </item>
+    <item class="com.google.android.apps.adwords.InitialLoadingActivity" name="google_ads">
+    </item>
+    <item class="com.google.android.accessibility.soundamplifier.ui.SoundAmplifierSettingActivity" name="google_sound_amplifier">
+    </item>
+    <item class="com.fujifilm_dsc.app.remoteshooter.InitializeActivity" name="fujifilm_camera_remote">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.google.android.apps.vega.VegaMainActivity" name="google_my_business">
+    </item>
+    <item class="com.game.motionelf.activity.ActivityStart" name="fzyxt">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.google.android.apps.kids.familylink.home.HomeActivityV2" name="google_family_link">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.google.android.apps.youtube.kids.browse.SplashScreenActivity" name="google_yt_kids">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.google.android.tv.remote.RemoteActivity" name="google_android_tv_remote">
+    </item>
+    <item class="com.flipkart.shopsy.SplashActivity" name="flipkart_shopsy">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.google.maps.lite.twa.MapsLiteTwaLauncherActivity" name="google_map">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="org.microg.gms.ui.SettingsActivity" name="google_gms">
+    </item>
+    <item class="com.google.android.apps.kids.familylink.home.HomeActivity" name="google_family_link">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.google.android.apps.wearables.maestro.companion.ui.ShortCutActivity" name="google_pixel_buds">
+    </item>
+    <item class="com.facebook.pages.app.auth.PagesManagerLoginActivity" name="facebook_business_suite">
+    </item>
+    <item class="com.google.android.apps.nbu.tinytask.MainActivity" name="google_task_mate">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.google.android.apps.giant.flutter.HostActivity" name="google_analytics">
+    </item>
+    <item class="com.huawei.mirror.protocol.ProtocolConfirmActivity" name="huawei_mirror">
+    </item>
+    <item class="com.huawei.browser.Main2" name="browser">
+    </item>
+    <item class="com.intsig.camscanner.launcher.WelcomeDefaultActivity" name="camscanner">
+    </item>
+    <item class="com.hobi.android.MainActivity" name="hobi">
+    </item>
+    <item class="huawei.w3.ui.welcome.W3SplashScreenActivity" name="huawei_welink">
+    </item>
+    <item class="com.vivo.website.activity.SplashActivity" name="iqoo_com">
+    </item>
+    <item class="com.huawei.phoneservice.LaunchActivity" name="huawei_my_honor">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.huawei.hiassistantoversea.platform.ui.mainui.activity.floatmic.FloatWindowActivity" name="huawei_ai_voice">
+    </item>
+    <item class="com.huawei.meetime.MainMenuActivity" name="huawei_meetime">
+    </item>
+    <item class="com.idreamsky.buff.MainActivity" name="fanbook">
+    </item>
+    <item class="com.huawei.android.totemweather.WeatherHome" name="weather">
+    </item>
+    <item class="com.google.android.apps.education.bloom.app.home.HomeActivity" name="google_socratic">
+    </item>
+    <item class="com.hy.weather.mz.modules.home.WeatherMainActivity" name="weather">
+    </item>
+    <item class="com.huawei.compass.MainActivity" name="compass">
+    </item>
+    <item class="com.huawei.mirror.Mirror" name="huawei_mirror">
+    </item>
+    <item class="com.huawei.android.FMRadio.FmMainActivity" name="fm_radio">
+    </item>
+    <item class="com.huawei.welinklite.MainActivity" name="huawei_welinknow">
+    </item>
+    <item class="com.huawei.gallery.app.GalleryMain" name="gallery">
+    </item>
+    <item class="tencent.frame.f" name="honeybee">
+    </item>
+    <item class="com.huawei.vassistant.platform.ui.HonorLauncherActivity" name="ai_voice">
+    </item>
+    <item class="com.google.chrome.cloudcast.client.mobile.android.MobileActivity" name="google_stadia">
+    </item>
+    <item class="com.alipay.mobile.quinox.LauncherActivity" name="hxyh">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.huawei.calculator.Calculator" name="calculator">
+    </item>
+    <item class="com.huawei.hwsearch.splash.SplashActivity" name="huawei_petal_search">
+    </item>
+    <item class="com.huawei.vassistant.platform.ui.HuaweiLauncherActivity" name="huawei_ai_voice">
+    </item>
+    <item class="com.huawei.maps.app.petalmaps.splash.SplashActivity" name="huawei_petal_maps">
+    </item>
+    <item class="com.listen1.app.MainActivity" name="listen_1">
+    </item>
+    <item class="com.kms.free.PermissionsActivityLauncher" name="kaspersky">
+    </item>
+    <item class="com.normal_archive.app.sdk.WelcomeActivity" name="game_mc">
+    </item>
+    <item class="com.motorola.camera.Camera" name="camera">
+    </item>
+    <item class="com.medium.android.donkey.start.SplashActivity" name="medium_reader">
+    </item>
+    <item class="com.hy.weather.mz.modules.home.WeatherMainActivity" name="weather">
+    </item>
+    <item class="com.moodle.moodlemobile.MainActivity" name="moodle">
+    </item>
+    <item class="com.meizu.todolist.ui.TodoListActivity" name="flyme_todolist">
+    </item>
+    <item class="tencent.frame.f" name="kmxs">
+    </item>
+    <item class="com.maxmpz.audioplayer.huawei.zap_plain_adaptive" name="power_amp">
+    </item>
+    <item class="com.lgeha.nuts.MainActivity" name="lg_thinq">
+    </item>
+    <item class="com.antafunny.burstcamera.MainActivity" name="manual_cam">
+    </item>
+    <item class="com.koushikdutta.superuser.MainActivity" name="superuser">
+    </item>
+    <item class="com.jetappfactory.jetaudio.MusicBrowserActivity" name="jetaudio">
+    </item>
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge">
+    </item>
+    <item class="com.netease.gl.ui.activity.welcome.WelcomeInitActivity" name="netease_gl">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_sky_2">
+    </item>
+    <item class="com.netease.yanxuan.SplashActivityPro" name="netease_yanxuan">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_mc">
+    </item>
+    <item class="com.owncloud.android.ui.activity.FileDisplayActivity" name="nextcloud">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_onmyoji_2">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_sky_2">
+    </item>
+    <item class="com.oneplus.store.view.SplashActivity" name="oneplus_store">
+    </item>
+    <item class="com.oneplus.brickmode.activity.MainControlActivity" name="oneplus_zen_mode">
+    </item>
+    <item class="com.nearme.play.module.main.LauncherActivity" name="oppo_quick_game">
+    </item>
+    <item class="com.maxmpz.audioplayer.huawei.classic" name="power_amp">
+    </item>
+    <item class="com.mi.global.shopcomponents.activity.LaunchActivity" name="poco_store">
+    </item>
+    <item class="com.kodarkooperativet.blackplayerfree.activities.ViewPagerActivity" name="black_player">
+    </item>
+    <item class="com.roblox.client.startup.ActivitySplash" name="roblox">
+    </item>
+    <item class="com.unity3d.player.UnityPlayerActivity" name="game_angry_birds2">
+    </item>
+    <item class="com.nekki.unityplugins.NekkiNativeActivity" name="game_shadowfightarena">
+    </item>
+    <item class="com.netease.cloudmusic.home.MainActivity" name="net_ease_music">
+    </item>
+    <item class="com.epicgames.ue4.SplashActivity" name="game_pubg">
+    </item>
+    <item class="com.netease.mobimail.activity.TabActivity" name="netease_mail">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_sky_2">
+    </item>
+    <item class="com.lightcone.artstory.acitivity.SplashActivity" name="storyart">
+    </item>
+    <item class="com.mxtech.videoplayer.ad.ActivityWelcomeMX" name="mxplayer">
+    </item>
+    <item class="com.maxmpz.audioplayer.white_play_adaptive" name="power_amp">
+    </item>
+    <item class="com.motorola.dolby.dolbyui.ui.welcome.WelcomeActivity" name="motorola_audio_effects">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_mc">
+    </item>
+    <item class="com.oneplus.bbs.ui.activity.TutorialActivity" name="oneplus_bbs">
+    </item>
+    <item class="com.maxmpz.audioplayer.round" name="power_amp">
+    </item>
+    <item class="com.mihoyo.hoyolab.splash.HoYoSplashActivity" name="mihoyo_hoyolab">
+    </item>
+    <item class="com.unity3d.player.UnityPlayerActivity" name="game_worldbox">
+    </item>
+    <item class="com.nearme.play.module.main.LauncherActivity" name="oppo_quick_game">
+    </item>
+    <item class="com.xiaomi.fitness.login.SplashActivity" name="mi_health">
+    </item>
+    <item class="com.netease.android.cloudgame.activity.MainActivity" name="netease_cloudgame">
+    </item>
+    <item class="com.steampy.app.activity.common.splash.SplashActivity" name="steampy">
+    </item>
+    <item class="com.epicgames.ue4.SplashActivity" name="game_pubg">
+    </item>
+    <item class="com.tencent.qqpim.ui.NewYearAliasActivity" name="qq_sync">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.netease.mobimail.SplashActivity" name="netease_mail">
+    </item>
+    <item class="com.unity3d.player.UnityPlayerActivity" name="game_alto">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_mc">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_sky_2">
+    </item>
+    <item class="com.oneplus.gallery.app.MainActivity" name="gallery">
+    </item>
+    <item class="com.nearme.note.main.MainActivity" name="oneplus_note">
+    </item>
+    <item class="com.epicgames.ue4.SplashActivity" name="game_pubg">
+    </item>
+    <item class="com.android.browser.SplashActivity" name="browser">
+    </item>
+    <item class="com.openrice.android.ui.activity.splashscreen.SplashScreenActivity" name="openrice">
+    </item>
+    <item class="us.pinguo.icecream.camera.CameraActivity" name="camera_360">
+    </item>
+    <item class="com.umetrip.android.msky.app.module.startup.SplashActivity" name="umetrip">
+    </item>
+    <item class="com.netflix.Speedtest.MainActivity" name="fast_speed_test">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_mc">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_mc">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_sky_2">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_onmyoji_2">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_di5renge">
+    </item>
+    <item class="com.oneplus.backuprestore.activity.BootActivity" name="oneplus_switch">
+    </item>
+    <item class="com.oplus.filemanager.main.ui.MainActivity" name="files">
+    </item>
+    <item class="com.netease.gl.ui.activity.welcome.WelcomeActivity" name="netease_gl">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_sky_2">
+    </item>
+    <item class="com.netease.mail.biz.main.SplashActivity" name="netease_mail">
+    </item>
+    <item class="com.netease.yanxuan.SplashActivityDefault" name="netease_yanxuan">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_mc">
+    </item>
+    <item class="com.hanweb.android.product.base.splash.SplashActivity" name="gjzwfw">
+    </item>
+    <item class="com.sangfor.vpn.client.phone.WelcomeActivity" name="easyconnect">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.tencent.kg.hippy.framework.modules.launch.ui.LaunchActivity" name="qq_quanminkg">
+    </item>
+    <item class="com.tencent.qqpim.ui.ContactBackupAliasActivity" name="qq_sync">
+    </item>
+    <item class="com.tencent.tv.qie.main.activity.MainActivity" name="qq_tv">
+    </item>
+    <item class="com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity" name="game_monument2">
+    </item>
+    <item class="com.xiaomi.mimobile.activity.RouterActivity" name="mi_yidong">
+    </item>
+    <item class="com.xiaomin.drawshop.menu.main.activity.MainActivity" name="mi_drawshop">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.sivale.android.MainActivity" name="up_si">
+    </item>
+    <item class="com.biomes.vanced.main.MainActivity" name="pure_tuber">
+    </item>
+    <item class="com.weather.Weather.app.SplashScreenActivity" name="the_weather_channel">
+    </item>
+    <item class="com.simplemobiletools.camera.activities.SplashActivity.Cyan" name="camera">
+    </item>
+    <item class="com.yyxx.wechatfp.Main" name="fingerprint_pay">
+    </item>
+    <item class="com.tamjai.android.MainActivity" name="tamjai_yunnan_mixian">
+    </item>
+    <item class="com.stremio.MainActivity" name="stremio">
+    </item>
+    <item class="com.xiaomi.market.ui.MainTabActivity" name="market">
+    </item>
+    <item class="acr.browser.lightning.activity.MainActivityLauncher" name="idm">
+    </item>
+    <item class="com.unacademy.consumption.unacademyapp.SplashActivity" name="unacademy">
+    </item>
+    <item class="com.teammt.gmanrainy.emuithemestore.activity.mainactivity.MainActivity" name="theme">
+    </item>
+    <item class="in.gov.umang.negd.g2c.ui.base.splash_screen.SplashActivity" name="umang">
+    </item>
+    <item class="de.bahn.dbtickets.ui.DBNavLauncherActivity" name="db_navigator">
+    </item>
+    <item class="com.valvesoftware.android.steam.friendsui.MainActivity" name="steam_chat">
+    </item>
+    <item class="com.tencent.tmgp.jnbg2.LeapMainActivity" name="game_monument2">
+    </item>
+    <item class="com.epicgames.ue4.SplashActivity" name="game_pubg">
+    </item>
+    <item class="com.tencent.mocmna.activity.SplashActivity" name="qq_xriver">
+    </item>
+    <item class="com.telkom.mwallet.feature.splash.ActivitySupportSplash" name="linkaja">
+    </item>
+    <item class="com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity" name="game_nuannuan">
+    </item>
+    <item class="github.tornaco.android.thanos.dev.MainActivity" name="thanox">
+    </item>
+    <item class="com.xhey.xcamera.ui.camera.SplashActivity" name="camera_timestamp">
+    </item>
+    <item class="gogolook.callgogolook2.main.LauncherActivity" name="whoscall">
+    </item>
+    <item class="com.xiaomi.bluetooth.activity.SplashActivity" name="mi_ai">
+    </item>
+    <item class="com.unity3d.player.UnityPlayerActivity" name="game_monument2">
+    </item>
+    <item class="org.coursera.android.MainActivity" name="coursera">
+    </item>
+    <item class="com.tplink.hellotp.activity.SplashScreenActivity" name="tplink_kasa">
+    </item>
+    <item class="com.wemesh.android.Activities.DeepLinkingActivity" name="rave">
+    </item>
+    <item class="com.unity3d.player.UnityPlayerActivity" name="game_terraria">
+    </item>
+    <item class="com.xyhui.start.PrivacyTipActivity" name="pu">
+    </item>
+    <item class="net.zenius.onboarding.views.SplashActivity" name="zenius">
+    </item>
+    <item class="com.xiaomi.mimoji.MainActivity" name="mi_mimoji">
+    </item>
+    <item class="com.projectkr.shell.SplashActivity" name="gjzs_online">
+    </item>
+    <item class="com.rrtv.rrtvtrunk.main.presentation.EmptyActivity" name="duoduo_video">
+    </item>
+    <item class="com.ztgame.yyzy.adapternotchwithchannel.AdapterNotch" name="game_yyzy">
+    </item>
+    <item class="hk.gov.ogcio.leavehomesafe.SplashActivity" name="leavehomesafe">
+    </item>
+    <item class="in.co.federalbank.mpassbook.MainActivity" name="fedbook">
+    </item>
+    <item class="com.dfg.anfield.activity.SplashActivity" name="yuu">
+    </item>
+    <item class="com.dji.component.application.activity.DJIPureLaunchActivity" name="dji_go_4">
+    </item>
+    <item class="com.yowhatsapp.0" name="whats_app">
+    </item>
+    <item class="com.naukri.splash.SplashActivity" name="naukri_com">
+    </item>
+    <item class="com.camerasideas.collagemaker.activity.DummyActivity" name="polish">
+    </item>
+    <item class="it.aruba.pec.mobile.otp.splashscreen.SplashActivity" name="arubaotp">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.naukri.dashboard.view.NaukriSplashScreen" name="naukri_com">
+    </item>
+    <item class="net.oneplus.launcher.advanced.activities.AdvancedSettingsActivity" name="oneplus_launcher">
+    </item>
+    <item class="reddit.news.RedditNavigation" name="reddit_relay">
+    </item>
+    <item class="reddit.news.RedditNavigation" name="reddit_relay" />
+    <item class="uk.co.openweather.SplashActivity" name="openweather">
+    </item>
+    <item class="in.gov.digilocker.views.mainactivity.SplashScreenActivity" name="digilocker">
+    </item>
+    <item class="com.android.dialer.app.PeopleActivity" name="phone">
+    </item>
+    <item class="com.android.camera.CameraLauncher" name="camera">
+    </item>
+    <item class="com.netease.android.cloudgame.activity.SplashActivity" name="netease_cloudgame">
+    </item>
+    <item class="com.ants360.yicamera.activity.SplashYiHomeActivity" name="yi_home">
+    </item>
+    <item class="com.mi.global.bbslib.headlines.ui.SplashActivity" name="mi_community">
+    </item>
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_mc">
+    </item>
+    <item class="com.epicgames.ue4.SplashActivity" name="game_pubg">
+    </item>
+    <item class="com.hihonor.camera" name="camera">
+    </item>
+    <item class="com.xiaomi.fitness.login.SplashActivity" name="mi_wear">
+    </item>
+    <item class="org.telegram.messenger.DefaultIcon" name="telegram">
+    </item>
+    <item class="com.xiaomi.mimobile.activity.ActivateGuideActivity" name="mi_yidong">
+    </item>
+    <item class="com.oneplus.mall.view.SplashActivity" name="oneplus_store">
+    </item>
 
 
 
