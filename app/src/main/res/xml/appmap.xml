@@ -1604,7 +1604,7 @@
     
     <item class="com.netease.edu.study.activity.ActivityWelcome" name="netease_edu_study" />
     
-    <item class="com.hupu.games.activity.LaunchActivity" name="hupu_games" />
+    <item class="com.hupu.games.activity.LaunchActivity" name="hupu_games_2" />
     
     <item class="com.ksxkq.floating.ui.MainActivity" name="xuanfu_floating" />
     
@@ -2177,7 +2177,7 @@
     
     <item class="com.google.android.apps.authenticator.AuthenticatorActivity" name="google_authenticator" />
     
-    <item class="com.google.android.apps.tachyon.MainActivity" name="duo" />
+    <item class="com.google.android.apps.tachyon.MainActivity" name="google_meet" />
     
     <item class="com.google.android.apps.fireball.ui.conversationlist.ConversationListActivity" name="allo" />
     
@@ -4138,7 +4138,7 @@
     
     <item class="dev.nick.app.screencast.content.DrawerScreenCastActivity" name="pmlx" />
     
-    <item class="com.google.android.apps.tachyon.MainActivity" name="google_duo" />
+    <item class="com.google.android.apps.tachyon.MainActivity" name="google_meet" />
     
     <item class="com.google.android.apps.fireball.ui.conversationlist.ConversationListActivity" name="google_allo" />
     
@@ -9483,7 +9483,7 @@
     
     <item class="com.microsoft.bing.reactnative.lib.MainActivity" name="microsoft_math" />
     
-    <item class="com.hupu.games.launcher.StartUpActivity" name="hupu" />
+    <item class="com.hupu.games.launcher.StartUpActivity" name="hupu_games_2" />
 
     
     <item class="tv.douyu.view.activity.launcher.DYSplashLauncherActivity" name="douyu_tv" />
@@ -9873,7 +9873,7 @@
     <item class="com.Dominos.activity.SplashActivity" name="domino_s" />
 
     
-    <item class="com.google.android.apps.meetings.splash.SplashActivity" name="google_meet" />
+    <item class="com.google.android.apps.meetings.splash.SplashActivity" name="google_meet_origin" />
 
     
     <item class="net.one97.paytm.landingpage.activity.AJRMainActivity" name="paytm" />
@@ -10963,7 +10963,7 @@
     <item class="com.boohee.one.ui.SplashActivity" name="boohee" />
 
     
-    <item class="com.hupu.gp.launcher.StartUpActivity" name="hupu" />
+    <item class="com.hupu.gp.launcher.StartUpActivity" name="hupu_games_2" />
 
     
     <item class="com.duowan.kiwi.simpleactivity.SplashActivity" name="huya_tv" />
@@ -12967,14 +12967,352 @@
     </item>
     <item class="com.oneplus.mall.view.SplashActivity" name="oneplus_store">
     </item>
-
-
-
-
-
-
-
-
+    <item class="ch.protonmail.android.mailbox.presentation.ui.MailboxActivity" name="protonmail">
+    </item>
+    <item class="com.yitong.mbank.app.android.activity.SplashActivity" name="nx">
+    </item>
+    <item class="cn.kaiheila.ui.main.SplashActivity" name="kook">
+    </item>
+    <item class="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" name="revanced_extended">
+    </item>
+    <item class="cn.mrack.easyexpress2.activity.MainActivity" name="easyexpress">
+    </item>
+    <item class="com.cctv.mcctv.ui.activity.SplashActivity" name="ysyy">
+    </item>
+    <item class="cn.cty.hbzw.activity.SplashActivity" name="cn_cty_hbzw">
+    </item>
+    <item class="com.yitong.mbank.app.android.activity.SplashActivity" name="nx">
+    </item>
+    <item class="com.yitong.mbank.app.android.activity.SplashActivity" name="nx">
+    </item>
+    <item class="cn.caocaokeji.compat.load.LoadActivity" name="caocaokeji">
+    </item>
+    <item class="cn.samsclub.app.ui.SplashActivity" name="samsclub">
+    </item>
+    <item class="slack.app.ui.HomeActivity" name="slack">
+    </item>
+    <item class="com.adobe.psmobile.MainActivity" name="adobe_photoshop">
+    </item>
+    <item class="cn.wenyu.bodian.EntryActivity" name="bodian">
+    </item>
+    <item class="cn.soulapp.android.component.startup.main.MainActivity" name="soul">
+    </item>
+    <item class="com.u8.sdk.U8UnityContext" name="game_arknights">
+    </item>
+    <item class="com.adidas.intro.IntroActivity" name="adidas">
+    </item>
+    <item class="com.alicloud.databox.launcher.splash.SplashActivity" name="ali_cloud_databox">
+    </item>
+    <item class="com.autoclicker.clicker.ads.AdLoadingActivity" name="fasttap">
+    </item>
+    <item class="com.bankcomm.module.biz.home.MainActivity" name="bankcomm">
+    </item>
+    <item class="com.android.stk.OplusStkLauncherActivity2" name="sim_toolkit">
+    </item>
+    <item class="com.ambrose.overwall.WelcomeActivity" name="gofly_vpn">
+    </item>
+    <item class="com.aurora.store.view.ui.onboarding.OnboardingActivity" name="aurora_store">
+    </item>
+    <item class="jp.delightworks.Fgo.player.AndroidPlugin" name="game_fate_grand_order">
+    </item>
+    <item class="com.adobe.rush.splashscreen.controllers.SplashScreenActivity" name="adobe_rush">
+    </item>
+    <item class="com.baidu.newbridge.fast.MainFastActivity" name="aiqicha">
+    </item>
+    <item class="com.cnvcs.App" name="cnvcs_xiangqi">
+    </item>
+    <item class="com.battlebot.dday.SplashActivity" name="netflix">
+    </item>
+    <item class="com.cainiao.wireless.business.MainActivity" name="cainiao">
+    </item>
+    <item class="com.baidu.netdisk.ui.OPLauncherActivity" name="baidu_netdisk">
+    </item>
+    <item class="com.baidu.newbridge.activity.SplashActivity" name="aiqicha">
+    </item>
+    <item class="com.bwton.szfreego.business.LaunchActivity" name="suexing">
+    </item>
+    <item class="com.bendingspoons.remini.MainActivity" name="remini">
+    </item>
+    <item class="com.eaas.launcher.activities.main.MainActivity" name="binance">
+    </item>
+    <item class="com.area120.grasshopper.MainActivity" name="grasshopper">
+    </item>
+    <item class="com.sparkslab.dcardreader.screen.splash.SplashActivity" name="dcard">
+    </item>
+    <item class="com.ccb.longjiLife.MainActivity" name="ccb_longjilife">
+    </item>
+    <item class="com.busydev.audiocutter.SplashActivity" name="netflix">
+    </item>
+    <item class="com.symbolab.symbolablibrary.ui.activities.SplashActivity" name="symbolab">
+    </item>
+    <item class="com.copymanga.app.MainActivity" name="copymanga">
+    </item>
+    <item class="com.csii.mobilebank.MainActivity" name="nx">
+    </item>
+    <item class="com.deliveroo.orderapp.appicon.default" name="deliveroo">
+    </item>
+    <item class="com.alipay.mobile.quinox.LauncherActivity" name="nx">
+    </item>
+    <item class="com.discord.main.MainActivity" name="discord">
+    </item>
+    <item class="com.dreame.smartlife.ui.activity.SplashActivity" name="dreamehome">
+    </item>
+    <item class="com.oplus.alarmclock.AlarmClock" name="clock">
+    </item>
+    <item class="com.digitalgd.module.launcher.view.LauncherActivity" name="yss">
+    </item>
+    <item class="com.signallab.thunder.activity.MainActivity" name="thunder_vpn">
+    </item>
+    <item class="com.dsemu.drastic.DraSticActivity" name="drastic">
+    </item>
+    <item class="com.fox2code.mmm.MainActivity" name="fox_s_magisk_manager">
+    </item>
+    <item class="com.eusoft.ting.ui.v2.TabActivityV2" name="mryytl">
+    </item>
+    <item class="com.foodient.whisk.entry.AppActivity" name="whisk">
+    </item>
+    <item class="com.fankes.tsbattery.Home" name="tsbattery">
+    </item>
+    <item class="com.github.eprendre.tingshu.ui.SplashActivity" name="eprendre_tingshu">
+    </item>
+    <item class="com.hardcodecoder.pulsemusic.activities.main.SplashActivity" name="pulse_music">
+    </item>
+    <item class="com.hardcodecoder.pulse.activities.ui.SplashActivity" name="pulse_music">
+    </item>
+    <item class="com.grammarly.android.keyboard.welcome.GetStartedActivity" name="grammarly">
+    </item>
+    <item class="org.chromium.android_webview.devui.LauncherActivity" name="google_android_system_webview">
+    </item>
+    <item class="com.google.android.apps.dynamite.startup.StartUpActivity" name="google_chat">
+    </item>
+    <item class="com.getsurfboard.ui.activity.MainActivity" name="surfboard">
+    </item>
+    <item class="com.hupu.games.main.MainActivity" name="hupu_games_2">
+    </item>
+    <item class="com.galaxylab.android.SplashActivity" name="galaxyvpn">
+    </item>
+    <item class="com.honeybee.newapp.ui.SplashActivity" name="honeybee">
+    </item>
+    <item class="com.shizhi.shihuoapp.module.main.ui.welcome.WelcomeActivity" name="shihuo">
+    </item>
+    <item class="com.jls.lcmall.ui.MainActivity" name="lcmall">
+    </item>
+    <item class="com.yitong.mbank.app.android.activity.SplashActivity" name="nx">
+    </item>
+    <item class="com.yuncai.weather.modules.home.WeatherMainActivity" name="weather">
+    </item>
+    <item class="com.google.commerce.tapandpay.android.wallet.WalletActivity" name="google_pay">
+    </item>
+    <item class="com.google.android.apps.tachyon.MainActivitySecondLauncher" name="google_meet">
+    </item>
+    <item class="com.gbwhatsapp.0" name="whats_app">
+    </item>
+    <item class="com.heytap.smarthome.LauncherActivity" name="heytap_smart_home">
+    </item>
+    <item class="com.jikipedia.app.MainActivity" name="jikipedia">
+    </item>
+    <item class="com.hoperun.intelligenceportal_extends.LeaderLoginPreActivity" name="nanjing_information_center">
+    </item>
+    <item class="com.ibike.publicbicycle.activity.SplashPreviousActivity" name="yax">
+    </item>
+    <item class="com.google.android.libraries.streetview.main.StreetViewActivity" name="google_street">
+    </item>
+    <item class="com.haritha_kh.radioinfo.MainActivity" name="haritha_kh_radioinfo">
+    </item>
+    <item class="com.hanweb.android.product.appproject.main.SplashNewActivity" name="sufuban">
+    </item>
+    <item class="com.indiamart.m.SplashScreenActivity" name="indiamart">
+    </item>
+    <item class="com.hardcodecoder.pulse.activities.main.SplashActivity" name="pulse_music">
+    </item>
+    <item class="com.yitong.mbank.app.android.activity.SplashActivity" name="nx">
+    </item>
+    <item class="com.ilongyuan.voez.remaster.MainActivity" name="game_voez">
+    </item>
+    <item class="com.hevy.MainActivity" name="hevy">
+    </item>
+    <item class="com.jpl.jiomart.SplashScreenCompose" name="jiomart">
+    </item>
+    <item class="com.infrasofttech.indianBank.IndianBank" name="indpay">
+    </item>
+    <item class="com.jiaohua_browser.MainActivity" name="jmcomic2">
+    </item>
+    <item class="com.privacy.dialog.PrivacyActivity" name="game_voez">
+    </item>
+    <item class="com.ldygo.qhzc.ui.home.HomeActivity" name="ldygo">
+    </item>
+    <item class="com.kingpoint.gmcchh.newui.common.splash.view.GmcchhSplashActivity" name="cmcc">
+    </item>
+    <item class="com.jx885.lrjk.cg.ui.SplashActivityNew" name="lrjk">
+    </item>
+    <item class="com.motorola.gamemode.ui.desktopmode.DesktopModeLauncherActivityGame" name="motorola_game">
+    </item>
+    <item class="jp.co.cygames.umamusume_activity.UmamusumeActivity" name="game_umamusume">
+    </item>
+    <item class="com.laurencedawson.reddit_sync.ui.activities.HomeActivity.Blm" name="reddit_sync">
+    </item>
+    <item class="com.manmanbuy.bijia.StartActivity" name="mmm">
+    </item>
+    <item class="com.jio.media.ondemand.view.HomeActivity" name="jiocinema">
+    </item>
+    <item class="com.kapp.youtube.ui.MainActivity" name="ymusic">
+    </item>
+    <item class="com.jpl.jiomart.splashscreen.activities.SplashScreenActivity" name="jiomart">
+    </item>
+    <item class="com.motorola.cn.wallet.MainActivity" name="wallet">
+    </item>
+    <item class="com.indiaBulls.ui.activity.LauncherActivity" name="dhani">
+    </item>
+    <item class="com.motorola.livewallpaper3.ui.menu.WallpaperMenuActivity" name="motorola_interactive_wallpapers">
+    </item>
+    <item class="com.motorola.motoaudio.ui.welcome.WelcomeActivity" name="motorola_audio_effects">
+    </item>
+    <item class="com.motorola.cn.calendar.AllInOneActivity" name="calendar">
+    </item>
+    <item class="com.laurencedawson.reddit_sync.ui.activities.HomeActivity" name="reddit_sync">
+    </item>
+    <item class="com.indiaBulls.features.launcher.view.LauncherActivity" name="dhani">
+    </item>
+    <item class="com.lenovo.motorola.argus.camera.CameraLauncher" name="lenovo_scanner">
+    </item>
+    <item class="com.privacy.dialog.PrivacyActivity" name="game_voez">
+    </item>
+    <item class="com.laurencedawson.reddit_sync.ui.activities.HomeActivity.Default" name="reddit_sync">
+    </item>
+    <item class="com.guideplus.co.SplashActivity" name="netflix">
+    </item>
+    <item class="com.motorola.engageapp.ui.EngageActivity" name="motorola_notifications">
+    </item>
+    <item class="com.motorola.cn.compass.CompassActivity" name="compass">
+    </item>
+    <item class="com.android.messaging.ui.conversationlist.ConversationListActivity" name="sms_5">
+    </item>
+    <item class="com.lietou.mishu.activity.LPSplashActivity" name="liepin">
+    </item>
+    <item class="com.android.gallery3d.app.GalleryActivity" name="gallery">
+    </item>
+    <item class="com.motorola.camera.Camera" name="camera_2">
+    </item>
+    <item class="com.motorola.gamemode.ui.launcher.main.GameCenterActivity" name="motorola_game">
+    </item>
+    <item class="com.yitong.mbank.app.android.activity.SplashActivity" name="nx">
+    </item>
+    <item class="com.jym.mall.launch.LaunchActivity" name="jym">
+    </item>
+    <item class="com.liuzh.deviceinfo.splash.SplashActivity" name="deviceinfo">
+    </item>
+    <item class="com.motorola.cn.lrhealth.ui.HeartRateMainActivity" name="motorola_ai_health">
+    </item>
+    <item class="com.motorola.deviceguard.portal.activity.PortalActivity" name="motorola_device_shield">
+    </item>
+    <item class="com.magicalstory.cleaner.main.MainActivity" name="magicalstory">
+    </item>
+    <item class="com.motorola.mtkfmplayer.ChangeThemeActivity" name="fm_radio">
+    </item>
+    <item class="com.motorola.cn.lrhealth.SplashActivity" name="motorola_ai_health">
+    </item>
+    <item class="com.platform.usercenter.vip.UCVIPMainActivity" name="oppo_my_oppo">
+    </item>
+    <item class="com.molo.dominos.newdesign.ui.splashscreen.NDActivitySplashScreen" name="domino_s">
+    </item>
+    <item class="com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" name="nintendo_pocket_camp">
+    </item>
+    <item class="com.motorola.cn.notes.MainActivity" name="notes">
+    </item>
+    <item class="com.motorola.motoaudio.ui.LauncherActivity" name="motorola_audio_effects">
+    </item>
+    <item class="com.motorola.genie.main.start.LaunchActivity" name="motorola_device_help">
+    </item>
+    <item class="com.oyo.consumer.activity.LauncherActivity" name="oyo">
+    </item>
+    <item class="com.motorola.mobiledesktop.desktop.MainActivity" name="motorola_ready_for">
+    </item>
+    <item class="com.vega.main.MainActivity" name="capcut">
+    </item>
+    <item class="com.pavostudio.exlib.wallpaper.LiveWallpaperActivity" name="live2dviewerex">
+    </item>
+    <item class="com.motorola.cn.deskclock.DeskClock" name="clock">
+    </item>
+    <item class="com.motorola.dolby.dolbyui.ui.LauncherActivity" name="dolby">
+    </item>
+    <item class="com.lingan.seeyou.ui.activity.main.SeeyouActivity" name="meiyou">
+    </item>
+    <item class="com.nstudio.calc.casio.business.main.ytivitcArotaluclaCecneicS_bdmAFVQvAugDgcgfZbZlsbyYjrtqws" name="casio_calc_business">
+    </item>
+    <item class="com.looker.droidify.MainActivity" name="droid_ify">
+    </item>
+    <item class="com.motorola.audiorecorder.ui.main.MainActivity" name="sound_recorder">
+    </item>
+    <item class="com.qq.ac.android.splash.SplashActivity" name="tencent_dm">
+    </item>
+    <item class="com.motorola.genie.view.start.LaunchActivity" name="motorola_device_help">
+    </item>
+    <item class="com.motorola.cn.devicemigration.common.MainActivity" name="motorola_mover">
+    </item>
+    <item class="com.pavostudio.live2dviewerex.activity.UnityPlayerActivity" name="live2dviewerex">
+    </item>
+    <item class="com.pdftechnologies.pdfreaderpro.screenui.home.view.activity.ProWelcomeActivity" name="pdf_reader_pro">
+    </item>
+    <item class="com.motorola.moto.overlay.personalizelauncher.LauncherActivity" name="theme">
+    </item>
+    <item class="com.motorola.cn.recorder.SoundRecorder" name="sound_recorder">
+    </item>
+    <item class="com.motorola.stylus.manager.NoteManagerActivity" name="notes">
+    </item>
+    <item class="com.netease.g97.Launcher" name="netease_baiwenpai">
+    </item>
+    <item class="com.pikcloud.app.SplashActivity" name="pikpak">
+    </item>
+    <item class="com.motorola.engageapp.ui.MotoplaceActivity" name="motorola_notifications">
+    </item>
+    <item class="com.motorola.cn.calculator.Calculator" name="calculator">
+    </item>
+    <item class="com.nintendo.coral.ui.boot.BootActivity" name="nintendo_switch_online">
+    </item>
+    <item class="com.motorola.cn.voicetranslation.LiveCaptureActivity" name="motorola_live_caption">
+    </item>
+    <item class="com.qihoo.browser.launcher.LauncherActivity" name="qihoo_browser_js">
+    </item>
+    <item class="com.miniclip.plagueinc.SplashActivity" name="game_plague_inc">
+    </item>
+    <item class="com.ss.android.ugc.aweme.splash.SplashActivity" name="douyin">
+    </item>
+    <item class="com.motorola.cn.gallery.app.GalleryActivity" name="gallery">
+    </item>
+    <item class="com.qihoo.browser.LauncherActivity_alias" name="qihoo_browser_js">
+    </item>
+    <item class="com.qihoo.quc.msec.ui.EntryActivity" name="qihoo_zhanghaoweishi">
+    </item>
+    <item class="com.niu.cloud.launch.WelComeActivity" name="niu_cloud">
+    </item>
+    <item class="com.shanbay.biz.skeleton.splash.SplashActivity" name="shanbay_sentence">
+    </item>
+    <item class="com.motorola.motoaudio.ui.LauncherActivity" name="motorola_audio_effects">
+    </item>
+    <item class="com.noctuasoftware.stellarium_free.Stellarium" name="stellarium">
+    </item>
+    <item class="com.nvidia.tegrazone.MainActivity" name="nvidia_geforce_now">
+    </item>
+    <item class="com.tencent.wetype.plugin.hld.ui.HldSettingsUI" name="qq_wetype">
+    </item>
+    <item class="com.spdbccc.app.sp.splash.activity.SplashActivity" name="pfxyk">
+    </item>
+    <item class="com.tipsoon.android.activity.WelcomeActivity" name="tipsoon">
+    </item>
+    <item class="com.sparkslab.dcardreader.screen.splash.SplashActivity" name="dcard">
+    </item>
+    <item class="com.speedymovil.contenedor.gui.activities.AppsContainerActivity" name="telcel">
+    </item>
+    <item class="com.surcumference.fingerprint.Main" name="fingerprint_pay">
+    </item>
+    <item class="com.ruguoapp.jike.standard" name="jike">
+    </item>
+    <item class="com.unity3d.player.UnityPlayerActivity" name="game_musedash">
+    </item>
+    <item class="com.primatelabs.geekbench.HomeActivity" name="geekbench_5">
+    </item>
+    <item class="com.wallet.crypto.trustapp.ui.start.activity.RootHostActivity" name="trust_wallet">
+    </item>
 
 
 
