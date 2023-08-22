@@ -2,23 +2,22 @@
 
 object Versions {
     // Plugins
-    const val gradle = "7.1.1"
-    const val kotlin = "1.5.31"
+    const val gradle = "8.1.0"
+    const val kotlin = "1.9.0"
+    const val sonatype = "1.3.0"
+    const val ksp = "$kotlin-1.0.12"
 
     // OneSignal
-    const val oneSignalPlugin = "0.14.0"
-    const val oneSignal = "4.6.7"
+    const val oneSignal = "4.8.6"
 
     // App
     const val minSdk = 21
-    const val targetSdk = 31
-    const val buildTools = "30.0.3"
+    const val targetSdk = 33
+    const val buildTools = "33.0.2"
 
-    // Blueprint
-    const val blueprint = "2.2.8"
     // Kuper
-    const val kuper = "2.3.8"
+    const val kuper = "2.4.7"
 
     // Adaptive Icons
-    const val adaptiveIcons = "1.0.0"
+    const val adaptiveIcons = "1.0.1"
 }

@@ -1,10 +1,11 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'io.github.gradle-nexus.publish-plugin'
 
 buildscript {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://www.jitpack.io' }
+        maven { url 'https://jitpack.io' }
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
         maven { url 'https://plugins.gradle.org/m2/' }
     }
@@ -12,6 +13,8 @@ buildscript {
     dependencies {
         classpath Plugins.android
         classpath Plugins.kotlin
+        classpath Plugins.sonatype
+        classpath Plugins.ksp
     }
 }
 
@@ -19,7 +22,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://www.jitpack.io' }
+        maven { url 'https://jitpack.io' }
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
         maven { url 'https://plugins.gradle.org/m2/' }
     }

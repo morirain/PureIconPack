@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 import android.app.Application
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.content.pm.ResolveInfo
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LifecycleOwner
@@ -21,6 +20,7 @@ import dev.jahir.blueprint.extensions.blueprintFormat
 import dev.jahir.blueprint.extensions.clean
 import dev.jahir.blueprint.extensions.drawableRes
 import dev.jahir.blueprint.extensions.getLocalizedName
+import dev.jahir.blueprint.extensions.queryIntentActivitiesCompat
 import dev.jahir.frames.extensions.context.getAppName
 import dev.jahir.frames.extensions.context.integer
 import dev.jahir.frames.extensions.context.withXml
@@ -39,6 +39,8 @@ import java.util.concurrent.TimeUnit
 class RequestsViewModel(application: Application) : AndroidViewModel(application) {
 
     var requestsCallback: RequestCallback? = null
+
+    private val componentInfoPrefixLength = "ComponentInfo{".length
 
     private val themedComponentsData: MutableLiveData<ArrayList<String>> by lazyMutableLiveData()
     private val themedComponents: ArrayList<String>
@@ -65,7 +67,8 @@ class RequestsViewModel(application: Application) : AndroidViewModel(application
             val drawable = parser.getAttributeValue(null, "drawable").orEmpty()
 
             if (component.hasContent() && !component.startsWith(":")) {
-                val actualComponent = component.substring(14, component.length - 1)
+                val actualComponent =
+                    component.substring(componentInfoPrefixLength, component.length - 1)
                 if (actualComponent.hasContent() && !actualComponent.startsWith("/")
                     && !actualComponent.endsWith("/")) {
                     if (debug) {
@@ -147,12 +150,12 @@ class RequestsViewModel(application: Application) : AndroidViewModel(application
             val installedApps = ArrayList<RequestApp>()
 
             val packagesList = try {
-                context.packageManager.queryIntentActivities(
-                    Intent("android.intent.action.MAIN").addCategory("android.intent.category.LAUNCHER"),
+                context.packageManager.queryIntentActivitiesCompat(
+                    Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_LAUNCHER),
                     PackageManager.GET_RESOLVED_FILTER
                 )
             } catch (e: Exception) {
-                ArrayList<ResolveInfo>()
+                ArrayList()
             }
 
             var loaded = 0
