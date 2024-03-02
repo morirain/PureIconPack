@@ -456,7 +456,7 @@
     <!-- The whole 31 icons are required, or it doesn't work. -->
     <calendar
         component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}"
-        prefix="google_calendar" />
+        prefix="calendar_d" />
     <calendar
         component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}"
         prefix="calendar_d" />
@@ -2223,7 +2223,7 @@
     <!-- 新闻和天气 / News & Weather -->
     <item component="ComponentInfo{com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.activities.NewsActivity}" drawable="google_news_weather" />
     <!-- 信息 / Messages -->
-    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="google_message" />
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="google_message_2" />
     <!-- Cardboard / Cardboard -->
     <item component="ComponentInfo{com.google.samples.apps.cardboarddemo/com.google.vr.cardboard.paperscope.carton.Home2Dv2}" drawable="google_cardboard" />
     <!-- Cardboard 相机 / Cardboard Camera -->
@@ -2522,7 +2522,7 @@
     <!-- 少数派 / 少数派 -->
     <item component="ComponentInfo{com.sspai.client/com.sspai.client.ui.activity.SplashActivity}" drawable="pi" />
 
-    <!-- 查找设备 / ‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‎‎‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‏‏‏‏‎‏‏‎‎‏‏‎‏‎‎‏‏‎‏‎‎‎‎‎‎‎‏‎‏‏‎‎‎‎‏‎‏‎‏‎‏‏‏‎‏‏‏‏‎‎‏‏‎‎‏‏‏‎Find My Device‎‏‎‎‏‎ -->
+    <!-- 查找设备 / Find My Device -->
     <item component="ComponentInfo{com.google.android.apps.adm/com.google.android.apps.adm.MainActivity}" drawable="google_devices" />
 
     <!-- PerfMon / PerfMon -->
@@ -13363,9 +13363,190 @@
     <item component="ComponentInfo{com.wallet.crypto.trustapp/com.wallet.crypto.trustapp.ui.start.activity.RootHostActivity}" drawable="trust_wallet">
     </item>
 
+    <item component="ComponentInfo{com.qcplay.snail.android/org.cocos2dx.lua.AppActivity}" drawable="game_themarveloussnail">
+    </item>
+    <item component="ComponentInfo{com.stephaneginier.nomad/com.stephaneginier.nomad.AppActivity}" drawable="nomad">
+    </item>
+    <item component="ComponentInfo{com.starbucks.mx/com.starbucks.mx.splash.SBLauncherActivity}" drawable="starbucks">
+    </item>
+    <item component="ComponentInfo{com.pupumall.customer/com.pupumall.customer.activity.SplashActivity}" drawable="pupumall">
+    </item>
+    <item component="ComponentInfo{com.rayark.valkyrie/com.google.firebase.MessagingUnityPlayerActivity}" drawable="game_voez">
+    </item>
+    <item component="ComponentInfo{com.tooyoung.lanzou/com.androlua.Welcome}" drawable="lanyun">
+    </item>
+    <item component="ComponentInfo{com.qianyan2.ting.en/com.eusoft.ting.ui.v2.TabActivityV2}" drawable="mryytl">
+    </item>
+    <item component="ComponentInfo{com.vgjump.jump/com.vgjump.jump.ui.main.LaunchActivity}" drawable="jump">
+    </item>
+    <item component="ComponentInfo{com.shopee.br/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee">
+    </item>
+    <item component="ComponentInfo{com.ss.android.merchant/com.ss.android.merchant.SplashActivity}" drawable="doudian">
+    </item>
+    <item component="ComponentInfo{com.sspai.sspaiandroid/com.zoontek.rnbootsplash.RNBootSplashActivity}" drawable="pi">
+    </item>
+    <item component="ComponentInfo{com.wander.android.wallpaper/com.wander.android.wallpaper.splash.SplashActivity}" drawable="yuanqibizhi">
+    </item>
+    <item component="ComponentInfo{com.webank.wemoney/com.webank.wemoney.LauncherActivity}" drawable="qq_wzyh">
+    </item>
+    <item component="ComponentInfo{com.wallet.crypto.trustapp/com.wallet.crypto.trustapp.ui.start.activity.StartActivity}" drawable="trust_wallet">
+    </item>
+    <item component="ComponentInfo{com.sunborn.girlsfrontline.jp/com.sunborn.girlsfrontline.MainActivity}" drawable="game_girls_front_line_shaonvqianxian">
+    </item>
+    <item component="ComponentInfo{com.yt.sz.szbank/com.yt.sz.szbank.activity.MscPrivacyAgreeActivity}" drawable="szbank">
+    </item>
+    <item component="ComponentInfo{com.yuque.mobile.android.app/com.yuque.mobile.android.app.rn.activity.ReactNativeMainActivity}" drawable="yuque">
+    </item>
+    <item component="ComponentInfo{com.yuque.mobile.android.app/com.yuque.mobile.android.app.SplashActivity}" drawable="yuque">
+    </item>
+    <item component="ComponentInfo{com.systoon.beijingtoon/com.systoon.toon.user.login.view.WelcomeActivity}" drawable="beijingtoon">
+    </item>
+    <item component="ComponentInfo{com.ted.android/com.ted.android.MainActivity}" drawable="ted">
+    </item>
+    <item component="ComponentInfo{com.szgov.entrance/com.csztv.general.main.activity.WelcomeActivity}" drawable="szgov_entrance">
+    </item>
+    <item component="ComponentInfo{com.yaya.zone/cn.me.android.splash.activity.SplashActivity}" drawable="dingdong">
+    </item>
+    <item component="ComponentInfo{net.zedge.android/net.zedge.android.MainSupportUkraine}" drawable="zedge">
+    </item>
+    <item component="ComponentInfo{com.yt.sz.szbank/com.yt.sz.szbank.activity.MSCSplashActivity}" drawable="szbank">
+    </item>
+    <item component="ComponentInfo{com.teslamotors.tesla/com.tesla.privacy.PrivacyPolicyActivity}" drawable="tesla_motors">
+    </item>
+    <item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.MainActivity}" drawable="steam">
+    </item>
+    <item component="ComponentInfo{com.weico.international/com.weico.international.appicon_white}" drawable="weibo_2">
+    </item>
+    <item component="ComponentInfo{com.vgjump.jump/com.vgjump.jump.ui.main.MainActivity}" drawable="jump">
+    </item>
+    <item component="ComponentInfo{jp.co.celsys.clipstudiopaint.galaxystore/com.celsys.pwlegacyandroidhelpers.PWLegacyJniCustomNativeActivityAndroid}" drawable="csp">
+    </item>
+    <item component="ComponentInfo{org.autojs.autojs/org.autojs.autojs.ui.splash.SplashActivity}" drawable="autojs">
+    </item>
+    <item component="ComponentInfo{com.xiaomi.xmsf/top.trumeet.mipushframework.wizard.WelcomeActivity}" drawable="mipush_framework">
+    </item>
+    <item component="ComponentInfo{com.xjs.ehviewer/com.hippo.ehviewer.ui.splash.SplashActivity}" drawable="eh_view">
+    </item>
+    <item component="ComponentInfo{net.pgtools.auto/net.pgtools.auto.SplashActivity}" drawable="pogo_auto_catch">
+    </item>
+    <item component="ComponentInfo{com.wuba/com.wuba.home.activity.HomeActivity}" drawable="wuba">
+    </item>
+    <item component="ComponentInfo{org.videolan.vlc/org.videolan.vlc.gui.SendCrashActivity}" drawable="vlc">
+    </item>
+    <item component="ComponentInfo{com.yitong.fjnx.mbank.android/com.yitong.mbank.app.android.activity.SplashActivity}" drawable="nx">
+    </item>
+    <item component="ComponentInfo{com.yinghuadongman.app/com.maoyun.guoguo.MainActivity}" drawable="yinghuadongman">
+    </item>
+    <item component="ComponentInfo{org.epcdiy.memory/org.epcdiy.memory.MainActivity}" drawable="baiyan">
+    </item>
+    <item component="ComponentInfo{com.yueme.itv/com.muticontrolclient.itv.ui.activity.CoverActivity}" drawable="xiaoyiguanjia">
+    </item>
+    <item component="ComponentInfo{org.kustom.widget.pro/org.kustom.pro.MainActivity}" drawable="kustom_widget">
+    </item>
+    <item component="ComponentInfo{io.moreless.tide/io.moreless.tide.activity.RouterActivity}" drawable="cx">
+    </item>
+    <item component="ComponentInfo{io.github.vvb2060.magisk/com.topjohnwu.magisk.ui.MainActivity}" drawable="magisk">
+    </item>
+    <item component="ComponentInfo{com.zmzx.college.search/com.zmzx.college.search.activity.init.InitActivity}" drawable="daxuesouti">
+    </item>
+    <item component="ComponentInfo{jp.co.cygames.princessconnectredive/jp.co.cygames.activity.OverrideUnityActivity}" drawable="game_priconne">
+    </item>
+    <item component="ComponentInfo{tw.com.taishinbank.mobile/tw.com.taishinbank.mobile.MainActivity}" drawable="taishinbank">
+    </item>
+    <item component="ComponentInfo{com.zol.android/com.zol.android.ui.LaunchActivity}" drawable="zol">
+    </item>
+    <item component="ComponentInfo{io.github.qauxv/io.github.qauxv.activity.ConfigV2ActivityAlias}" drawable="qauxiliary">
+    </item>
+    <item component="ComponentInfo{org.telegram.messenger.web/org.telegram.messenger.DefaultIcon}" drawable="telegram">
+    </item>
+    <item component="ComponentInfo{org.getlantern.lantern/org.getlantern.lantern.MainActivity}" drawable="lantern">
+    </item>
+    <item component="ComponentInfo{nekox.messenger/org.telegram.messenger.DefaultIcon}" drawable="nekogram_x">
+    </item>
+    <item component="ComponentInfo{mega.privacy.android.app/mega.privacy.android.app.main.ManagerActivity}" drawable="mega">
+    </item>
+    <item component="ComponentInfo{ru.andr7e.deviceinfohw/ru.andr7e.deviceinfohw.MainActivity}" drawable="device_info hw">
+    </item>
+    <item component="ComponentInfo{org.jellyfin.mobile/org.jellyfin.mobile.MainActivity}" drawable="jellyfin">
+    </item>
+    <item component="ComponentInfo{tv.danmaku.bilibilihd/tv.danmaku.bili.MainActivityV2}" drawable="bilibili_2">
+    </item>
+    <item component="ComponentInfo{xzr.konabess/xzr.konabess.MainActivity}" drawable="konabess">
+    </item>
+    <item component="ComponentInfo{tw.nekomimi.nekogram/org.telegram.messenger.DefaultIcon}" drawable="nekogram_x">
+    </item>
+    <item component="ComponentInfo{com.ct.client/com.ct.client.activity.SplashActivity}" drawable="ct">
+    </item>
+    <item component="ComponentInfo{bin.mt.plus/bin.mt.plus.MainLightIcon}" drawable="mt_manager">
+    </item>
 
 
-    
+    <item component="ComponentInfo{bin.mt.plus/bin.mt.plus.MainLightIcon}" drawable="mt_manager">
+    </item>
+    <item component="ComponentInfo{cn.toside.music.mobile/cn.toside.music.mobile.MainActivity}" drawable="lx_music">
+    </item>
+    <item component="ComponentInfo{com.MobileTicket/com.MobileTicket.ui.activity.WelcomeGuideActivity}" drawable="mobile_ticket_12306">
+    </item>
+    <item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.biz.splash.SplashActivity}" drawable="ali_cloud_databox">
+    </item>
+    <item component="ComponentInfo{com.baidu.BaiduMap/com.baidu.baidumaps.WelcomeScreen.Alias0}" drawable="baidu_map">
+    </item>
+    <item component="ComponentInfo{com.chen.screenantitouch/com.chen.screenantitouch.activity.SplashActivity}" drawable="screenantitouch">
+    </item>
+    <item component="ComponentInfo{com.coloros.filemanager/com.oplus.filemanager.main.ui.MainActivity}" drawable="files">
+    </item>
+    <item component="ComponentInfo{com.coloros.weather2/com.oplus.weather.main.view.WeatherMainActivity}" drawable="weather">
+    </item>
+    <item component="ComponentInfo{com.ct.client/com.ct.client.activity.SplashActivity}" drawable="ct">
+    </item>
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.main.MainActivity}" drawable="google_message_2">
+    </item>
+    <item component="ComponentInfo{com.jio.myjio/com.jio.myjio.dashboard.activities.SplashActivity}" drawable="my_jio">
+    </item>
+    <item component="ComponentInfo{com.kingpoint.gmcchh/com.kingpoint.gmcchh.activity.StartActivity}" drawable="cmcc">
+    </item>
+    <item component="ComponentInfo{com.lerdong.dm78/com.lerdong.dm78.ui.splash.view.activity.SplashActivity}" drawable="dm78">
+    </item>
+    <item component="ComponentInfo{com.litiaotiao.realfriends4/com.litiaotiao.realfriends.MainActivity}" drawable="miss_lee">
+    </item>
+    <item component="ComponentInfo{com.netease.cloudmusic/com.netease.cloudmusic.activity.IconChangeDefaultAlias}" drawable="net_ease_music">
+    </item>
+    <item component="ComponentInfo{com.oplus.camera/com.oplus.camera.Camera}" drawable="camera">
+    </item>
+    <item component="ComponentInfo{com.tencent.msgame/com.tencent.msgame.GameStartActivity}" drawable="game_metal_slug">
+    </item>
+    <item component="ComponentInfo{com.tencent.tmgp.ttmj/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity}" drawable="game_ttmj">
+    </item>
+    <item component="ComponentInfo{com.tsng.hidemyapplist/com.tsng.hidemyapplist.MainActivityLauncher}" drawable="hide_my_applist">
+    </item>
+    <item component="ComponentInfo{com.uptodown/com.uptodown.activities.MainActivityScrollable}" drawable="uptodown_app_store">
+    </item>
+    <item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.MainActivity}" drawable="steam">
+    </item>
+    <item component="ComponentInfo{downloadtwittervideo.twitterdownloader.twittervideodownloader.twittersaver/downloadtwittervideo.twitterdownloader.twittervideodownloader.twittersaver.StartupActivity}" drawable="twitake">
+    </item>
+    <item component="ComponentInfo{io.github.qauxv/io.github.qauxv.activity.ConfigV2ActivityAlias}" drawable="qauxiliary">
+    </item>
+    <item component="ComponentInfo{net.pgtools.auto/net.pgtools.auto.MainActivity}" drawable="pogo_auto_catch">
+    </item>
+    <item component="ComponentInfo{org.lineageos.aperture/org.lineageos.aperture.CameraLauncher}" drawable="camera_2">
+    </item>
+    <item component="ComponentInfo{tv.danmaku.bili/tv.danmaku.bili.MainActivityV2}" drawable="bilibilibog">
+    </item>
+    <item component="ComponentInfo{com.netease.party/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_eggy_party">
+    </item>
+    <item component="ComponentInfo{com.netease.party.huawei/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_eggy_party">
+    </item>
+    <item component="ComponentInfo{com.netease.party.lenovo/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_eggy_party">
+    </item>
+    <item component="ComponentInfo{com.netease.party.mi/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_eggy_party">
+    </item>
+    <item component="ComponentInfo{com.netease.party.nearme.gamecenter/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_eggy_party">
+    </item>
+    <item component="ComponentInfo{com.netease.party.vivo/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_eggy_party">
+    </item>
+    <item component="ComponentInfo{com.tencent.tmgp.party/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_eggy_party">
+    </item>
     <!-- ================================================================= -->
 
 

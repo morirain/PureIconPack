@@ -29,10 +29,8 @@ import dev.jahir.frames.extensions.resources.hasContent
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import okhttp3.MediaType
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
-import okhttp3.OkHttpClient
 import okhttp3.RequestBody
 import okhttp3.RequestBody.Companion.asRequestBody
 import retrofit2.HttpException
@@ -400,7 +398,6 @@ object SendIconRequest {
             theCallback.onRequestError()
             requestInProgress = false
         }
-        }
     }
 
     suspend fun sendIconVotesRequest(context: Context, apps: ArrayList<RequestApp>, callback: ((result: AppVotes) -> Unit)? = null) {
@@ -419,7 +416,7 @@ object SendIconRequest {
             } catch (e: Exception) {
                 e.message
             }
-            if (succeeded && result != null) callback?.invoke(result!!)
+            if (succeeded) callback?.invoke(result!!)
         }
     }
 

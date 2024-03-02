@@ -1,4 +1,4 @@
-package dev.jahir.blueprint.app
+package me.morirain.dev.iconpack.pure
 
 /* TODO: Remove comment marks to enable
 import android.content.Context

@@ -56,8 +56,8 @@
     If the time limit is set to 0 or less, users will be able to request as many times they want,
     with the max apps limit.
     -->
-    <integer name="max_apps_to_request">@string/max_apps_to_request</integer>
-    <integer name="time_limit_in_minutes">@string/time_limit_in_minutes</integer>
+    <integer name="max_apps_to_request">@integer/max_apps_to_request</integer>
+    <integer name="time_limit_in_minutes">@integer/time_limit_in_minutes</integer>
 
     <!--
         The API key and base URL for the icon request manager.

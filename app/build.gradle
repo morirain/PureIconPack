@@ -22,7 +22,7 @@ android {
     compileSdkVersion Versions.targetSdk
     buildToolsVersion Versions.buildTools
 
-    namespace Blueprint.appId
+    namespace "me.morirain.dev.iconpack.pure"
     defaultConfig {
         buildConfigField("String", "ONESIGNAL_APP_ID", "\"$OneSignal.appId\"")
         manifestPlaceholders = [
@@ -54,8 +54,8 @@ android {
              it.buildConfigField("String", "ONESIGNAL_APP_ID", "\"$OneSignal.appId\"")
          }
          release {
-             resValue 'string', 'max_apps_to_request', '60'
-             resValue 'string', 'time_limit_in_minutes', '60'
+             resValue 'integer', 'max_apps_to_request', '30'
+             resValue 'integer', 'time_limit_in_minutes', '240'
              debuggable false
              zipAlignEnabled true
              minifyEnabled true
@@ -66,8 +66,8 @@ android {
              multiDexKeepProguard file('proguard-rules.pro')
          }
          debug {
-             resValue 'string', 'max_apps_to_request', '60'
-             resValue 'string', 'time_limit_in_minutes', '0'
+             resValue 'integer', 'max_apps_to_request', '60'
+             resValue 'integer', 'time_limit_in_minutes', '0'
              signingConfig signingConfigs.morirain
          }
      }
