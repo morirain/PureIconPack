@@ -22,14 +22,14 @@ android {
         checkReleaseBuilds true
         disable 'MissingTranslation', 'GoogleAppIndexingWarning'
     }
-    
-    namespace "me.morirain.dev.iconpack.pure"
+
+    namespace MyApp.appId
     defaultConfig {
-        buildConfigField("String", "ONESIGNAL_APP_ID", "\"$OneSignal.appId\"")
-        manifestPlaceholders = [
-                onesignal_app_id               : OneSignal.appId,
-                onesignal_google_project_number: OneSignal.googleProjectNumber
-        ]
+//        buildConfigField("String", "ONESIGNAL_APP_ID", "\"$OneSignal.appId\"")
+//        manifestPlaceholders = [
+//                onesignal_app_id               : OneSignal.appId,
+//                onesignal_google_project_number: OneSignal.googleProjectNumber
+//        ]
         applicationId MyApp.appId
         minSdkVersion Versions.minSdk
         compileSdk Versions.targetSdk
@@ -53,7 +53,7 @@ android {
 
      buildTypes {
          buildTypes.each {
-             it.buildConfigField("String", "ONESIGNAL_APP_ID", "\"$OneSignal.appId\"")
+//             it.buildConfigField("String", "ONESIGNAL_APP_ID", "\"$OneSignal.appId\"")
          }
          release {
              resValue 'integer', 'max_apps_to_request', '30'
@@ -104,7 +104,7 @@ android {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-reflect:1.9.24"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:2.1.20"
 //    implementation(Libs.blueprint) {
 //        transitive = true
 //    }

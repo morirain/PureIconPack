@@ -24,7 +24,9 @@ enum class Launcher(
     ),
     ADW("adw", "ADW Launcher", arrayOf("org.adw.launcher"), R.drawable.ic_adw),
     ADW_EX("adwex", "ADW Ex Launcher", arrayOf("org.adwfreak.launcher"), R.drawable.ic_adw_ex),
+    AIO("aio", "AIO Launcher", arrayOf("ru.execbit.aiolauncher"), R.drawable.ic_aio),
     APEX("apex", "Apex Launcher", arrayOf("com.anddoes.launcher"), R.drawable.ic_apex),
+    GIP("gip", "Global Icon Pack", arrayOf("com.richardluo.globalIconPack"), R.drawable.ic_gip),
     GO("go", "Go Launcher", arrayOf("com.gau.go.launcherex"), R.drawable.ic_go),
     GOOGLE_NOW(
         "googlenow",
@@ -82,6 +84,7 @@ enum class Launcher(
         false
     ),
     POSIDON("posidon", "Posidon Launcher", arrayOf("posidon.launcher"), R.drawable.ic_posidon),
+    PROJECTIVY("projectivy", "Projectivy Launcher", arrayOf("com.spocky.projengmenu"), R.drawable.ic_projectivy),
     SMART("smart", "Smart Launcher", arrayOf("ginlemon.flowerfree"), R.drawable.ic_smart),
     SMART_PRO(
         "smartpro",

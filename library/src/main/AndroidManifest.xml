@@ -1,6 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="dev.jahir.blueprint">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -12,25 +11,25 @@
         android:supportsRtl="true"
         tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
 
-        <activity
-            android:name="dev.jahir.frames.ui.activities.MuzeiSettingsActivity"
-            android:exported="false"
-            tools:replace="android:exported" />
+<!--        <activity-->
+<!--            android:name="dev.jahir.frames.ui.activities.MuzeiSettingsActivity"-->
+<!--            android:exported="false"-->
+<!--            tools:replace="android:exported" />-->
 
-        <activity
-            android:name="dev.jahir.kuper.ui.activities.KuperActivity"
-            android:exported="false"
-            tools:replace="android:exported" />
+<!--        <activity-->
+<!--            android:name="dev.jahir.kuper.ui.activities.KuperActivity"-->
+<!--            android:exported="false"-->
+<!--            tools:replace="android:exported" />-->
 
-        <activity
-            android:name="dev.jahir.kuper.ui.activities.KuperSettingsActivity"
-            android:exported="false"
-            tools:replace="android:exported" />
+<!--        <activity-->
+<!--            android:name="dev.jahir.kuper.ui.activities.KuperSettingsActivity"-->
+<!--            android:exported="false"-->
+<!--            tools:replace="android:exported" />-->
 
-        <activity
-            android:name=".ui.activities.BlueprintKuperActivity"
-            android:exported="false"
-            android:label="@string/templates" />
+<!--        <activity-->
+<!--            android:name=".ui.activities.BlueprintKuperActivity"-->
+<!--            android:exported="false"-->
+<!--            android:label="@string/templates" />-->
 
         <activity
             android:name=".ui.activities.IconsCategoryActivity"

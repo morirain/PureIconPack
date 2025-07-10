@@ -28,7 +28,9 @@ fun Context.executeLauncherIntent(launcher: Launcher?) {
         Launcher.ACTION -> executeActionLauncherIntent()
         Launcher.ADW -> executeAdwLauncherIntent()
         Launcher.ADW_EX -> executeAdwEXLauncherIntent()
+        Launcher.AIO -> executeAioLauncherIntent()
         Launcher.APEX -> executeApexLauncherIntent()
+        Launcher.GIP -> executeGIPIntent()
         Launcher.GO -> executeGoLauncherIntent()
         Launcher.HOLO -> executeHoloLauncherIntent()
         Launcher.HOLO_ICS -> executeHoloLauncherICSIntent()
@@ -41,6 +43,7 @@ fun Context.executeLauncherIntent(launcher: Launcher?) {
         Launcher.NOVA -> executeNovaLauncherIntent()
         Launcher.ONEPLUS -> executeOnePlusLauncherIntent()
         Launcher.POSIDON -> executePosidonLauncherIntent()
+        Launcher.PROJECTIVY -> executeProjectivyLauncherIntent()
         Launcher.SMART -> executeSmartLauncherIntent()
         Launcher.SMART_PRO -> executeSmartLauncherProIntent()
         Launcher.SOLO -> executeSoloLauncherIntent()
@@ -135,11 +138,32 @@ private fun Context.executeAdwEXLauncherIntent() {
     }
 }
 
+private fun Context.executeAioLauncherIntent() {
+    attemptApply(Launcher.AIO) {
+        Intent("ru.execbit.aiolauncher.APPLY_ICONS", null).apply {
+            putExtra("packageName", packageName)
+        }
+    }
+}
+
 private fun Context.executeApexLauncherIntent() {
     attemptApply(Launcher.APEX) {
         Intent("com.anddoes.launcher.SET_THEME").apply {
             putExtra("com.anddoes.launcher.THEME_PACKAGE_NAME", packageName)
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        }
+    }
+}
+
+private fun Context.executeGIPIntent() {
+    attemptApply(Launcher.GIP) {
+        Intent("com.richardluo.globalIconPack.APPLY_ICON_PACK").apply {
+            component = ComponentName(
+                "com.richardluo.globalIconPack",
+                "com.richardluo.globalIconPack.ui.MainActivity"
+            )
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            putExtra("packageName", packageName)
         }
     }
 }
@@ -276,6 +300,16 @@ private fun Context.executePosidonLauncherIntent() {
         Intent(Intent.ACTION_MAIN).apply {
             component = ComponentName("posidon.launcher", "posidon.launcher.external.ApplyIcons")
             putExtra("iconpack", packageName)
+        }
+    }
+}
+
+private fun Context.executeProjectivyLauncherIntent() {
+    attemptApply(Launcher.PROJECTIVY) {
+        Intent("com.spocky.projengmenu.APPLY_ICONPACK").apply {
+            `package` = "com.spocky.projengmenu"
+            putExtra("com.spocky.projengmenu.extra.ICONPACK_PACKAGENAME", packageName)
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         }
     }
 }

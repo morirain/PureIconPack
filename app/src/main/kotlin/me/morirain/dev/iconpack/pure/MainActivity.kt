@@ -38,17 +38,19 @@ class MainActivity : BottomNavigationBlueprintActivity() {
      */
     override fun getLicenseChecker(): PiracyChecker? {
         destroyChecker() // Important
-        val l: Locale = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N)
-            MyApplication.appContext.resources.configuration.locales.get(0)
-        else
-            MyApplication.appContext.resources.configuration.locale
-        if (l.country == "CN" || l.country == "TW" || l.country == "HK")
+        val l: Locale = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            resources.configuration.locales[0]
+        } else {
+            resources.configuration.locale
+        }
+
+        if (l.language == "zh")
             return null
         return if (BuildConfig.DEBUG)
             return null
         else
             return null
-        //super.getLicenseChecker()
+//            super.getLicenseChecker()
     }
 
     override fun defaultTheme(): Int = R.style.MyApp_Default

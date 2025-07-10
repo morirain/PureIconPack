@@ -7,9 +7,9 @@ object Plugins {
     // Kotlin
     const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
 
-    // Sonatype
-    const val sonatype =
-        "io.github.gradle-nexus:publish-plugin:${Versions.sonatype}"
+//    // Sonatype
+//    const val sonatype =
+//        "io.github.gradle-nexus:publish-plugin:${Versions.sonatype}"
 
     // KSP
     const val ksp =

@@ -25,6 +25,7 @@ class NotificationServiceExtension : OSRemoteNotificationReceivedHandler {
                 color = context.color(R.color.accent)
                 setSmallIcon(R.drawable.ic_notification)
             }
+        }
         notificationReceivedEvent.complete(mutableNotification)
     }
 }

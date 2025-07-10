@@ -50,5 +50,4 @@ class RequestViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
             }
         }
     }
-
 }

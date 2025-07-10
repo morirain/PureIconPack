@@ -1,6 +1,5 @@
 package me.morirain.dev.iconpack.pure
 
-import android.content.Context
 import dev.jahir.frames.ui.FramesApplication
 
 // TODO: Remove comment marks to enable
@@ -8,10 +7,9 @@ import dev.jahir.frames.ui.FramesApplication
 // import com.onesignal.OSNotificationReceivedEvent
 // import dev.jahir.frames.extensions.context.preferences
 
-class MyApplication : FramesApplication(BuildConfig.ONESIGNAL_APP_ID) {
+class MyApplication : FramesApplication() {
     override fun onCreate() {
         super.onCreate()
-        MyApplication.appContext = applicationContext
         // TODO: Remove comment marks to enable
         /*
         OneSignal.initWithContext(this);
@@ -27,10 +25,5 @@ class MyApplication : FramesApplication(BuildConfig.ONESIGNAL_APP_ID) {
         OneSignal.pauseInAppMessages(true)
         OneSignal.setLocationShared(false)
          */
-    }
-    companion object {
-
-        lateinit  var appContext: Context
-
     }
 }
