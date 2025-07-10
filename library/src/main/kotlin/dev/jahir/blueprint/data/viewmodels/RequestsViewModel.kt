@@ -196,6 +196,7 @@ class RequestsViewModel(application: Application) : AndroidViewModel(application
                     "Blueprint",
                     "Apps (Installed: ${installedApps.size}, Themed: $filtered, Missing: ${installedApps.size - filtered})"
                 )
+
             ArrayList(installedApps.distinctBy { it.packageName }.sortedBy { it.name })
         }
     }
@@ -330,5 +331,4 @@ class RequestsViewModel(application: Application) : AndroidViewModel(application
         appsToRequestData.removeObservers(owner)
         selectedAppsData.removeObservers(owner)
     }
-
 }

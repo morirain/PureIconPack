@@ -4,6 +4,7 @@ object Versions {
     // Plugins
     const val gradle = "8.3.0"
     const val kotlin = "1.9.24"
+    const val sonatype = "1.3.0"
     const val ksp = "$kotlin-1.0.20"
 
     // OneSignal
@@ -14,6 +15,9 @@ object Versions {
     const val targetSdk = 34
     const val buildTools = "34.0.0"
 
-    // Blueprint
-    const val blueprint = "2.4.1"
+    // Kuper
+    const val kuper = "2.5.1"
+
+    // Adaptive Icons
+    const val adaptiveIcons = "1.0.1"
 }

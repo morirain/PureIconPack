@@ -286,7 +286,8 @@ object SendIconRequest {
             var fileType = URLConnection.guessContentTypeFromName(zipFile.name)
             if (fileType == null || !fileType.hasContent()) fileType = "application/zip"
             val requestBody: RequestBody = zipFile.asRequestBody(fileType.toMediaTypeOrNull())
-            val fileToUpload = MultipartBody.Part.createFormData("archive", zipFile.name, requestBody)
+            val fileToUpload =
+                MultipartBody.Part.createFormData("archive", zipFile.name, requestBody)
             var succeeded = false
             val message = try {
                 getService(baseUrl).uploadRequest(apiKey, jsonContent, fileToUpload).let {

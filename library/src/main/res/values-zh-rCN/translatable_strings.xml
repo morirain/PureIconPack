@@ -56,10 +56,10 @@
     <string name="icon_shape_teardrop">泪珠</string>
     <string name="requests_upload_error">出错了。错误名称：“%1$s”。</string>
     <string name="requests_upload_error_unknown">出错了</string>
-    <string name="icon_request_consent_title">需要征得同意</string>
+    <string name="icon_request_consent_title">隐私政策 需要征得同意</string>
     <string name="icon_request_consent_accept">同意</string>
     <string name="icon_request_consent_deny">拒绝</string>
-    <string name="icon_request_consent">%1$s收集有关已安装应用和您设备详情的信息，例如屏幕尺寸和安卓版本。此数据将用于设计新图标并提供最佳体验。有关更多信息，请查看应用设置中的隐私政策。</string>
+    <string name="icon_request_consent">使用该功能需要收集有关已安装应用和您设备详情的信息，例如屏幕尺寸和安卓版本。此数据将用于设计新图标并提供最佳体验。有关更多信息，请查看应用设置中的隐私政策。</string>
     <!-- HELP SECTION -->
     <string-array name="questions">
         <item>如何使用图标包？</item>

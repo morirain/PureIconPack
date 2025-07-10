@@ -1,13 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,ExtraTranslation">
+    <string name="home">Αρχική</string>
+    <string name="icons">Εικονίδια</string>
+    <string name="request">Αίτημα</string>
+    <string name="overview">Περίληψη</string>
     <string name="more_apps">Περισσότερες εφαρμογές</string>
     <string name="useful_links">Χρήσιμοι σύνδεσμοι</string>
+    <string name="select_all">Επιλογή ολων</string>
+    <string name="help">Βοήθεια</string>
+    <string name="x_icons">%1$s Εικονίδια</string>
+    <string name="search_icons">Αναζήτηση Εικονιδίων</string>
+    <string name="search_apps">Αναζήτηση Εφαρμογών</string>
+    <string name="search_launchers">Αναζήτηση Launcher</string>
+    <string name="lni_content">“%1$s” δεν είναι εγκατεστημένο. Θέλετε να το αποκτήσετε από το Google Play;</string>
+    <string name="no_compatible_launcher_title">Μη συμβατός Launcher</string>
+    <string name="no_compatible_launcher_content">Ο “Google Now Launcher” δεν υποστηρίζει πακέτα εικονιδίων, εκτός αν χρησιμοποιείται σε συνδυασμό με το “Awesome Shortcuts.” Επιθυμείτε να το εγκαταστήσετε;</string>
+    <string name="impossible_open_themes">Αδυναμία Εκκίνησης Εφαρμογής</string>
+    <string name="themes_app_not_installed">Το \"Themes\" δεν είναι εγκατεστημένο.</string>
     <string name="coming_soon">Προσεχώς</string>
+    <string name="direct_apply_not_supported">Το %1$s δεν υποστηρίζει την άμεση εφαρμογή εικονιδίων. Παρακαλώ δοκιμάστε να εφαρμόσετε το %2$s χειροκίνητα από τις ρυθμίσεις του launcher.</string>
+    <string name="quick_apply">Εφαρμογή στην Αρχική</string>
+    <string name="request_x_icons">Αίτημα %1$s εικονιδίων</string>
+    <string name="request_icon">Αίτημα εικονιδίων</string>
+    <string name="request_none">Αίτημα εικονιδίων</string>
+    <string name="kustom_templates">Πρότυπα Kustom</string>
+    <string name="zooper_templates">Πρότυπα Zooper</string>
+    <string name="rate">Αξιολογήστε</string>
+    <string name="share">Μοιραστείτε</string>
+    <string name="share_text">Αποκτήστε %1$s στο Google Play: %2$s.</string>
+    <string name="send_email">Αποστολή Email</string>
+    <string name="send_using">Αποστολή με:</string>
+    <string name="request_in_progress">Αποστολή Αιτήματος</string>
+    <string name="request_in_progress_content">Ένα αίτημα έχει ήδη αποσταλεί.</string>
+    <string name="building_request_dialog">Ετοιμάζετε το αίτημα…</string>
+    <string name="request_upload_success_content">Το αίτημα στάλθηκε.</string>
+    <string name="no_selected_apps">Δεν επιλέχθηκαν εφαρμογές</string>
+    <string name="no_selected_apps_content">Επιλέξτε εφαρμογές για να στείλετε ένα αίτημα.</string>
+    <string name="apps_limit_dialog">Επιλέξτε %1$s εφαρμογές ή λιγότερες.</string>
+    <string name="apps_limit_dialog_more">Επιλέξτε %1$s εφαρμογές ή λιγότερες.</string>
+    <string name="apps_limit_dialog_day">Μπορείτε να στείλετε αιτήματα μόνο κάθε %1$s.</string>
+    <string name="apps_limit_dialog_day_extra">Μπορείτε να στείλετε ένα αίτημα στο %1$s.</string>
+    <string name="apps_limit_dialog_day_extra_sec">Μπορείτε να στείλετε ένα αίτημα σε λιγότερο από ένα λεπτό.</string>
     <string name="seconds">Δευτερόλεπτα</string>
     <string name="minutes">Λεπτά</string>
     <string name="hours">Ώρες</string>
     <string name="days">Ημέρες</string>
     <string name="weeks">Εβδομάδες</string>
     <string name="months">Μήνες</string>
+    <string name="icon_shape">Σχήμα Εικονιδίων</string>
+    <string name="icon_shape_system">Καθορισμός από το Σύστημα</string>
+    <string name="icon_shape_circle">Κύκλος</string>
+    <string name="icon_shape_squircle">Στρογγ. τετράγωνο</string>
+    <string name="icon_shape_rounded_square">Στρογγυλ. τετράγωνο</string>
+    <string name="icon_shape_square">Τετράγωνο</string>
+    <string name="icon_shape_teardrop">Σχήμα δάκρυ</string>
+    <string name="requests_upload_error">Κάτι πήγε στραβά. Όνομα σφάλματος: “%1$s”.</string>
+    <string name="requests_upload_error_unknown">Κάτι πήγε στραβά.</string>
+    <string name="icon_request_consent_title">Απαίτηση συναίνεσης</string>
+    <string name="icon_request_consent_accept">Αποδοχή</string>
+    <string name="icon_request_consent_deny">Απόρριψη</string>
+    <string name="icon_request_consent">Το %1$s συλλέγει πληροφορίες σχετικά με τις εγκατεστημένες εφαρμογές και τα στοιχεία της συσκευής σας, όπως διαστάσεις οθόνης και έκδοση Android. Αυτά τα δεδομένα θα χρησιμοποιηθούν για το σχεδιασμό νέων εικονιδίων και την παροχή της καλύτερης δυνατής εμπειρίας. Για περισσότερες πληροφορίες, παρακαλώ ελέγξτε την Πολιτική Απορρήτου στις ρυθμίσεις της εφαρμογής.</string>
     <!-- HELP SECTION -->
 </resources>

@@ -10,8 +10,13 @@ android {
             keyPassword 'morirain'
             storeFile file('C:/Users/morirain/OneDrive/key/morirainkey.jks')
             storePassword 'morirain'
+            enableV1Signing true
+            enableV2Signing true
+            enableV3Signing true
+            enableV4Signing true
         }
     }
+
     lint {
         abortOnError false
         checkReleaseBuilds true
@@ -28,7 +33,6 @@ android {
         applicationId MyApp.appId
         minSdkVersion Versions.minSdk
         compileSdk Versions.targetSdk
-        buildToolsVersion Versions.buildTools
         targetSdkVersion Versions.targetSdk
         versionCode MyApp.version
         versionName MyApp.versionName
