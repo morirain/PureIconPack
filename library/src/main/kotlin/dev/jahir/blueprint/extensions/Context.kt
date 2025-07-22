@@ -3,6 +3,7 @@ package dev.jahir.blueprint.extensions
 import android.annotation.SuppressLint
 import android.content.Context
 import androidx.annotation.DrawableRes
+import androidx.core.text.isDigitsOnly
 import dev.jahir.blueprint.R
 import dev.jahir.frames.extensions.resources.lower
 import java.util.concurrent.TimeUnit
@@ -15,6 +16,18 @@ fun Context.drawableRes(name: String): Int =
     } catch (e: Exception) {
         0
     }
+
+@SuppressLint("DiscouragedApi")
+fun Context.toReferenceString(inStr: String): String {
+    try {
+        if (inStr.isDigitsOnly()) {
+            return getString(resources.getIdentifier(inStr, "string", packageName))
+        }
+    } catch (e: Exception) {
+        return inStr
+    }
+    return inStr
+}
 
 internal fun Context.getLocalizedName(packageName: String, defaultName: String): String {
     var appName: String? = null

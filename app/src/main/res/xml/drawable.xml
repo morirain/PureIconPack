@@ -2,7 +2,7 @@
 
     <version>1</version>
 
-    <category title="New icon" />
+    <category title="@string/new_icons" />
     <item drawable="twitter_2" />
 	<item drawable="telegram_5" />
 	<item drawable="telegram_4" />
@@ -43,6 +43,38 @@
 	<item drawable="amaze" />
 	<item drawable="airguard" />
 	<item drawable="aard_2" />
+	<category title="@string/prev_updated_icons" />
+	<item drawable="zlib" />
+	<item drawable="yunpan123" />
+	<item drawable="xiaoheihe_maxaccelerator" />
+	<item drawable="thunderbird" />
+	<item drawable="synology_photos" />
+	<item drawable="samsung_health_monitor" />
+	<item drawable="samsung_camera_assistant" />
+	<item drawable="realme_bbs_2" />
+	<item drawable="pilipala" />
+	<item drawable="parsec" />
+	<item drawable="nekogram" />
+	<item drawable="localsend" />
+	<item drawable="libretorrent" />
+	<item drawable="leigod" />
+	<item drawable="hail" />
+	<item drawable="grok" />
+	<item drawable="google_gemini" />
+	<item drawable="fluffychat" />
+	<item drawable="douyin_qishui" />
+	<item drawable="dot_gallery" />
+	<item drawable="didjdk_adbhelper" />
+	<item drawable="deepseek" />
+	<item drawable="com_magicalstory_appstore" />
+	<item drawable="claude" />
+	<item drawable="chatgpt" />
+	<item drawable="breezy_weather" />
+	<item drawable="barcode_scanner" />
+	<item drawable="baidu_wenxin" />
+	<item drawable="agc_camera" />
+	<item drawable="advanced_portchecker" />
+	<item drawable="activity_manager" />
 	<category title="Drawer" />
     <item drawable="drawer" />
     <item drawable="drawer_night" />

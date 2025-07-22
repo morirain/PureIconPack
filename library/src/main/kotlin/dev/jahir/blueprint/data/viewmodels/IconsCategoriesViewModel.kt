@@ -12,6 +12,7 @@ import dev.jahir.blueprint.data.models.IconsCategory
 import dev.jahir.blueprint.extensions.blueprintFormat
 import dev.jahir.blueprint.extensions.clean
 import dev.jahir.blueprint.extensions.drawableRes
+import dev.jahir.blueprint.extensions.toReferenceString
 import dev.jahir.frames.extensions.context.boolean
 import dev.jahir.frames.extensions.context.getAppName
 import dev.jahir.frames.extensions.context.stringArray
@@ -55,8 +56,8 @@ class IconsCategoriesViewModel(application: Application) : AndroidViewModel(appl
                                 if (category != null && category.hasIcons())
                                     categories.add(category)
                                 category = IconsCategory(
-                                    parser.getAttributeValue("title").orEmpty().clean()
-                                        .blueprintFormat()
+                                    context.toReferenceString(parser.getAttributeValue("title").orEmpty().clean()
+                                        .blueprintFormat())
                                 )
                             } else if (tag == "item") {
                                 if (category != null) {

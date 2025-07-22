@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Pure Icon Pack</string>
+    <string name="new_icons">New Icons</string>
+    <string name="prev_updated_icons">Previously updated icons</string>
 </resources>

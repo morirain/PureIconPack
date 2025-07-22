@@ -8,7 +8,7 @@
     <string name="about">关于</string>
     <string name="settings">设置</string>
     <string name="share">分享</string>
-    <string name="share_text">免费下载Pure图标包: https://www.coolapk.com/apk/me.morirain.dev.iconpack.pure</string>
+    <string name="share_text">前往 Google Play 下载最新 Pure 图标包: https://play.google.com/store/apps/details?id=me.morirain.dev.iconpack.pure</string>
     <string name="wallpapers">壁纸</string>
     <string name="apply">使用</string>
     <string name="apply_to">使用</string>
@@ -16,4 +16,6 @@
     <string name="request_icon">申请图标</string>
     <string name="useful_links">其他</string>
     <string name="more_apps">支持我</string>
+    <string name="new_icons">最新图标</string>
+    <string name="prev_updated_icons">上次更新的图标</string>
 </resources>
