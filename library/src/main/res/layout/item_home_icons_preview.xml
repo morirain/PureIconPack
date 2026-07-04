@@ -38,4 +38,21 @@
         android:visibility="gone"
         app:always_hide_icon_name="true" />
 
+    <TextView
+        android:id="@+id/icons_preview_version"
+        style="@style/TextStyle.Frames.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp"
+        android:background="#99000000"
+        android:maxLines="1"
+        android:paddingStart="10dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="6dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:text="1.0.0" />
+
 </com.google.android.material.card.MaterialCardView>

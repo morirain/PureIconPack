@@ -29,6 +29,21 @@
     -->
     <bool name="show_quick_apply_text">false</bool>
 
+    <!-- Show the current app version over the home icons preview. -->
+    <bool name="show_home_preview_version">true</bool>
+
+    <!-- Read home preview icons from a drawable.xml category instead of icons_preview. -->
+    <bool name="home_preview_icons_from_category">true</bool>
+
+    <!-- Category title used for home preview icons when home_preview_icons_from_category is true. -->
+    <string name="home_preview_icons_category">@string/new_icons</string>
+
+    <!-- Rotate home preview icons while home is visible. -->
+    <bool name="home_preview_icons_rotate">true</bool>
+
+    <!-- Home preview icon rotation interval, in milliseconds. -->
+    <integer name="home_preview_icons_rotation_interval_ms">3000</integer>
+
     <!--
         Set a custom text to the quick apply button.
         Be sure to add translations, or it might not be shown in other languages.

@@ -4,6 +4,8 @@ import android.Manifest
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.view.Menu
 import android.view.MenuItem
 import androidx.annotation.IdRes
@@ -15,6 +17,7 @@ import dev.jahir.blueprint.BuildConfig
 import dev.jahir.blueprint.R
 import dev.jahir.blueprint.data.BlueprintPreferences
 import dev.jahir.blueprint.data.models.Icon
+import dev.jahir.blueprint.data.models.IconsCategory
 import dev.jahir.blueprint.data.models.RequestApp
 import dev.jahir.blueprint.data.requests.RequestCallback
 import dev.jahir.blueprint.data.requests.RequestState
@@ -114,6 +117,10 @@ abstract class BlueprintActivity : FramesActivity(), RequestCallback {
     private val blueprintPrefs: BlueprintPreferences by lazy { BlueprintPreferences(this) }
 
     private var internalMenu: Menu? = null
+    private val homePreviewRotationHandler = Handler(Looper.getMainLooper())
+    private val homePreviewRotationRunnable = Runnable { rotateHomePreviewIcons() }
+    private val homePreviewIcons = ArrayList<Icon>()
+    private var homePreviewStart = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -144,6 +151,7 @@ abstract class BlueprintActivity : FramesActivity(), RequestCallback {
             iconsCategoriesFragment.updateItems(it)
             homeFragment?.updateIconsCount(iconsViewModel.iconsCount)
             homeViewModel?.postIconsCount(iconsViewModel.iconsCount)
+            updateHomePreviewIconsFromCategory(it)
         }
         requestsViewModel?.requestsCallback = this
         requestsViewModel?.observeAppsToRequest(this) { requestFragment?.updateItems(it) }
@@ -162,7 +170,7 @@ abstract class BlueprintActivity : FramesActivity(), RequestCallback {
         if (isIconsPicker) {
             if (currentItemId != R.id.icons) selectNavigationItem(R.id.icons)
         } else {
-            loadPreviewIcons()
+            if (!boolean(R.bool.home_preview_icons_from_category, true)) loadPreviewIcons()
             templatesViewModel.loadComponents()
             loadAppsToRequest()
             requestStoragePermission()
@@ -217,10 +225,17 @@ abstract class BlueprintActivity : FramesActivity(), RequestCallback {
         super.onResume()
         notifyIconShapeChanged()
         updateFab(force = true)
+        scheduleHomePreviewRotation()
+    }
+
+    override fun onPause() {
+        stopHomePreviewRotation()
+        super.onPause()
     }
 
     override fun onDestroy() {
         super.onDestroy()
+        stopHomePreviewRotation()
         dismissIconsShapesDialog()
         dismissRequestDialog()
         dismissIconDialog()
@@ -311,11 +326,62 @@ abstract class BlueprintActivity : FramesActivity(), RequestCallback {
     }
 
     internal fun loadPreviewIcons(force: Boolean = false) {
-        homeViewModel?.loadPreviewIcons(force)
+        if (!boolean(R.bool.home_preview_icons_from_category, true)) {
+            homeViewModel?.loadPreviewIcons(force)
+            return
+        }
+        val categories = iconsViewModel.iconsCategories
+        if (categories.isEmpty()) loadIconsCategories()
+        else updateHomePreviewIconsFromCategory(categories)
     }
 
     internal fun loadIconsCategories() {
         iconsViewModel.loadIconsCategories()
+    }
+
+    private fun updateHomePreviewIconsFromCategory(categories: ArrayList<IconsCategory>) {
+        if (!boolean(R.bool.home_preview_icons_from_category, true)) return
+        val icons = categories
+            .firstOrNull { it.title == string(R.string.home_preview_icons_category) }
+            ?.getIcons()
+            .orEmpty()
+        homePreviewIcons.clear()
+        homePreviewIcons.addAll(icons)
+        homePreviewStart = 0
+        if (homePreviewIcons.isNotEmpty()) {
+            showHomePreviewIcons()
+            scheduleHomePreviewRotation()
+        } else homeViewModel?.loadPreviewIcons()
+    }
+
+    private fun showHomePreviewIcons() {
+        homeFragment?.updateIconsPreview(
+            ArrayList(homePreviewIcons.drop(homePreviewStart) + homePreviewIcons.take(homePreviewStart))
+        )
+    }
+
+    private fun rotateHomePreviewIcons() {
+        if (currentItemId != initialItemId || !boolean(R.bool.home_preview_icons_rotate, true)) return
+        if (homePreviewIcons.size <= integer(R.integer.icons_columns_count, 1)) return
+        homePreviewStart =
+            (homePreviewStart + integer(R.integer.icons_columns_count, 1).coerceAtLeast(1)) % homePreviewIcons.size
+        showHomePreviewIcons()
+        scheduleHomePreviewRotation()
+    }
+
+    private fun scheduleHomePreviewRotation() {
+        stopHomePreviewRotation()
+        if (currentItemId != initialItemId || !boolean(R.bool.home_preview_icons_from_category, true)) return
+        if (!boolean(R.bool.home_preview_icons_rotate, true)) return
+        if (homePreviewIcons.size <= integer(R.integer.icons_columns_count, 1)) return
+        homePreviewRotationHandler.postDelayed(
+            homePreviewRotationRunnable,
+            integer(R.integer.home_preview_icons_rotation_interval_ms, 4000).toLong()
+        )
+    }
+
+    private fun stopHomePreviewRotation() {
+        homePreviewRotationHandler.removeCallbacks(homePreviewRotationRunnable)
     }
 
     private fun showIconsShapePickerDialog() {
@@ -428,6 +494,7 @@ abstract class BlueprintActivity : FramesActivity(), RequestCallback {
             } else updateFabText(itemId)
         }
         afterHidden()
+        if (itemId == initialItemId) scheduleHomePreviewRotation() else stopHomePreviewRotation()
     }
 
     private fun onFabClick() {
