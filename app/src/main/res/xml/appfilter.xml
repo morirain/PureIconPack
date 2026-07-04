@@ -1530,7 +1530,7 @@
     <!-- MyAndroidToolsXposed / MyAndroidToolsXposed -->
     <item component="ComponentInfo{cn.wq.myandroidtoolsxposed/cn.wq.myandroidtoolsxposed.MainActivity}" drawable="my_android_tools_xposed" />
     <!-- Outlook / Outlook -->
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="microsoft_outlook" />
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="microsoft_outlook_2" />
     <!-- 轻芒阅读 / 轻芒阅读 -->
     <item component="ComponentInfo{com.wandoujia/com.wandoujia.ripple.activity.HomeActivity}" drawable="qingmang" />
     <!-- 主题 / Sense Home -->
@@ -2243,7 +2243,7 @@
     <!-- Keep / Keep -->
     <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="google_keep" />
     <!-- 身份验证器 / Authenticator -->
-    <item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity}" drawable="google_authenticator" />
+    <item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity}" drawable="google_authenticator_2" />
     <!-- Duo / Duo -->
     <item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity}" drawable="google_meet" />
     <!-- Allo / Allo -->
@@ -8982,7 +8982,7 @@
     <item component="ComponentInfo{com.merriamwebster/com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity}" drawable="merriam_webster_dictionary" />
 
     <!-- OPPO_Store -->
-    <item component="ComponentInfo{com.oppo.store/com.oppo.store.InitActivity}" drawable="market" />
+    <item component="ComponentInfo{com.oppo.store/com.oppo.store.InitActivity}" drawable="oppo_store" />
     <!-- 菜鸟裹裹 -->
     <item component="ComponentInfo{com.cainiao.wireless/com.cainiao.wireless.homepage.view.activity.WelcomeActivity}" drawable="cainiao" />
     <!-- Bus_Bahn -->
@@ -11710,7 +11710,7 @@
     <item component="ComponentInfo{com.aurora.store/com.aurora.store.view.ui.onboarding.OnboardingActivity}" drawable="aurora_store" />
     <item component="ComponentInfo{com.antutu.benchmark.full/com.example.benchmark.full.MainActivity}" drawable="antutu_3d" />
     <item component="ComponentInfo{free.vpn.unblock.proxy.turbovpn/free.vpn.unblock.proxy.turbovpn.activity.StartupActivity}" drawable="turbo_vpn" />
-    <item component="ComponentInfo{com.oppo.store/com.oppo.store.MainActivity}" drawable="market" />
+    <item component="ComponentInfo{com.oppo.store/com.oppo.store.MainActivity}" drawable="oppo_store" />
     <item component="ComponentInfo{in.hsbc.hsbcindia/com.hsbc.mobilebanking.prelogon.splash.SplashActivity}" drawable="hsbc" />
     <item component="ComponentInfo{com.innersloth.spacemafia/com.innersloth.spacemafia.EosUnityPlayerActivity}" drawable="game_among_us" />
     <item component="ComponentInfo{com.costudy.costudy/com.costudy.costudy.CSSplashActivity}" drawable="costudy" />
@@ -11981,7 +11981,7 @@
     <item component="ComponentInfo{com.simplemobiletools.gallery.pro/com.simplemobiletools.gallery.pro.activities.SplashActivity.Light_green}" drawable="simple_gallery" />
     <item component="ComponentInfo{com.xiaomi.mifi/com.xiaomi.mifi.SplashActivity}" drawable="mi_wifi" />
     <item component="ComponentInfo{in.upstox.pro/in.upstox.pro.views.login.LoginRootActivity}" drawable="upstox_pro" />
-    <item component="ComponentInfo{com.oppo.store/com.oppo.store.MainActivity}" drawable="market" />
+    <item component="ComponentInfo{com.oppo.store/com.oppo.store.MainActivity}" drawable="oppo_store" />
     <item component="ComponentInfo{com.sembozdemir.zoomy/com.sembozdemir.zoomy.home.HomeActivity}" drawable="zoomy" />
     <item component="ComponentInfo{projekt.samsung.theme.compiler/projekt.samsung.theme.compiler.activity.MainActivity}" drawable="synergy" />
     <item component="ComponentInfo{com.bitstrips.imoji/com.bitstrips.imoji.ui.activities.LandingActivity}" drawable="bitmoji" />

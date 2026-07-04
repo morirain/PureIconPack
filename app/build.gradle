@@ -59,7 +59,6 @@ android {
              resValue 'integer', 'max_apps_to_request', '30'
              resValue 'integer', 'time_limit_in_minutes', '240'
              debuggable false
-             zipAlignEnabled true
              minifyEnabled true
              shrinkResources false
              proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
