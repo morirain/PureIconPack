@@ -1463,7 +1463,7 @@
     
     <item class="cn.wq.myandroidtoolsxposed.MainActivity" name="my_android_tools_xposed" />
     
-    <item class="com.microsoft.office.outlook.MainActivity" name="microsoft_outlook" />
+    <item class="com.microsoft.office.outlook.MainActivity" name="microsoft_outlook_2" />
     
     <item class="com.wandoujia.ripple.activity.HomeActivity" name="qingmang" />
     
@@ -2176,7 +2176,7 @@
     
     <item class="com.google.android.keep.activities.BrowseActivity" name="google_keep" />
     
-    <item class="com.google.android.apps.authenticator.AuthenticatorActivity" name="google_authenticator" />
+    <item class="com.google.android.apps.authenticator.AuthenticatorActivity" name="google_authenticator_2" />
     
     <item class="com.google.android.apps.tachyon.MainActivity" name="google_meet" />
     
@@ -8900,7 +8900,7 @@
     <item class="com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity" name="merriam_webster_dictionary" />
 
     
-    <item class="com.oppo.store.InitActivity" name="market" />
+    <item class="com.oppo.store.InitActivity" name="oppo_store" />
     
     <item class="com.cainiao.wireless.homepage.view.activity.WelcomeActivity" name="cainiao" />
     
@@ -11626,7 +11626,7 @@
     <item class="com.aurora.store.view.ui.onboarding.OnboardingActivity" name="aurora_store" />
     <item class="com.example.benchmark.full.MainActivity" name="antutu_3d" />
     <item class="free.vpn.unblock.proxy.turbovpn.activity.StartupActivity" name="turbo_vpn" />
-    <item class="com.oppo.store.MainActivity" name="market" />
+    <item class="com.oppo.store.MainActivity" name="oppo_store" />
     <item class="com.hsbc.mobilebanking.prelogon.splash.SplashActivity" name="hsbc" />
     <item class="com.innersloth.spacemafia.EosUnityPlayerActivity" name="game_among_us" />
     <item class="com.costudy.costudy.CSSplashActivity" name="costudy" />
@@ -11897,7 +11897,7 @@
     <item class="com.simplemobiletools.gallery.pro.activities.SplashActivity.Light_green" name="simple_gallery" />
     <item class="com.xiaomi.mifi.SplashActivity" name="mi_wifi" />
     <item class="in.upstox.pro.views.login.LoginRootActivity" name="upstox_pro" />
-    <item class="com.oppo.store.MainActivity" name="market" />
+    <item class="com.oppo.store.MainActivity" name="oppo_store" />
     <item class="com.sembozdemir.zoomy.home.HomeActivity" name="zoomy" />
     <item class="projekt.samsung.theme.compiler.activity.MainActivity" name="synergy" />
     <item class="com.bitstrips.imoji.ui.activities.LandingActivity" name="bitmoji" />
@@ -12839,9 +12839,172 @@
     
 
 
+
     
+     
+  <item class="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" name="app_rvx_android_youtube" />
+  <item class="com.adguard.android.ui.activity.SplashActivity" name="adguard" />
+  <item class="com.android.camera.CameraLauncher" name="agc_camera" />
 
 
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+<item class="com.android.camera.CameraLauncher" name="agc_camera" />
+
+  <item class="com.android.bankabc.LauncherActivity" name="bankabc" />
+  <item class="com.MobileTicket.ui.activity.WelcomeGuideActivity" name="mobile_ticket_12306" />
+  <item class="com.fenbi.android.module.welcome.WelcomeActivity" name="fb" />
+  <item class="com.github.kr328.clash.MainActivityAlias" name="clash_meta_for_android" />
+  <item class="com.google.android.apps.authenticator2.main.MainActivity" name="google_authenticator_2" />
+  <item class="com.jingdong.app.mall.MainFrameActivity" name="jd_2" />
+  <item class="com.klcxkj.zqxy.ui.splash.SplashActivity" name="qzxy" />
+  <item class="com.lenovo.leos.cloud.sync.UIv5.V5SplashActivity" name="lenovo_cloud" />
+  <item class="com.limelight.PcView" name="moonlight" />
+  <item class="com.microsoft.office.outlook.ui.miit.MiitLauncherActivity" name="microsoft_outlook_2" />
+  <item class="com.motorola.cn.calendar.AllInOneActivity" name="calendar" />
+  <item class="com.netease.mail.biz.main.DefaultSplashActivity" name="netease_mail" />
+  <item class="com.oplus.assistant.activity.SpeedUpStartActivity" name="oplus_games" />
+  <item class="com.sec.android.app.myfiles.ui.MainActivity" name="files" />
+  <item class="com.sec.android.easyMover.ui.launch.LauncherActivity" name="samsung_smart_switch" />
+  <item class="com.server.auditor.ssh.client.navigation.MainActivity" name="termius" />
+  <item class="com.wifitutu.ui.launcher.LauncherActivity" name="wifilocating" />
+  <item class="top.trumeet.mipushframework.wizard.WelcomeActivity" name="mipush_framework" />
+  <item class="com.xuetangx.mobile.MainActivity" name="xuetangzx" />
+  <item class="com.chinatelecom.smarthome.module.mainpage.ui.CoverActivity" name="xiaoyiguanjia" />
+  <item class="dev.octoshrimpy.quik.feature.main.MainActivity" name="quik" />
+  <item class="now.fortuitous.thanos.main.NavActivity" name="thanox" />
+  <item class="gov.pianzong.androidnga.Splash_0" name="nga" />
+  <item class="info.muge.appshare.launcher3" name="appshare" />
+  <item class="net.thunderbird.app.common.MainActivity" name="thunderbird" />
+  <item class="org.proninyaroslav.libretorrent.MainActivity" name="libretorrent" />
+  <item class="com.zwzt.feature_splash.SplashActivity" name="zuowenzt" />
+
+  
+
+  <item class="org.schabi.newpipe.MainActivity" name="pipepipe" />
+  <item class="app.accrescent.client.ui.MainActivity" name="accrescent" />
+  <item class="app.marlboroadvance.mpvex.MainActivity" name="mpvex" />
+  <item class="ch.rmy.android.http_shortcuts.activities.main.MainActivity" name="http_shortcuts" />
+  <item class="ch.rmy.android.statusbar_tacho.activities.SettingsActivity" name="speedometer" />
+  <item class="io.element.android.x.MainActivity" name="schildichat_next" />
+  <item class="chat.simplex.app.MainActivity_default" name="simplex" />
+  <item class="com.ai.obc.cbn.app.ui.other.activity.SplashActivity" name="cbn" />
+  <item class="com.akira.tyranoemu.app.TyActivity" name="tyranor" />
+  <item class="itkach.aard2.MainActivity" name="ossdict" />
+  <item class="com.akylas.documentscanner.MainActivity" name="oss_document_scanner" />
+  <item class="com.bnyro.translate.ui.MainActivity" name="translate_you" />
+  <item class="com.carriez.flutter_hbb.MainActivity" name="rustdesk" />
+  <item class="com.cisco.connect.cloud.MainActivity" name="linksys" />
+  <item class="com.codedead.deadhash.gui.MainActivity" name="deadhash" />
+  <item class="com.oplus.phonemanager.FakeActivity" name="security" />
+  <item class="com.coloros.translate.ui.MainActivity" name="translate" />
+  <item class="io.dcloud.PandoraEntry" name="cqooc" />
+  <item class="com.emanuelef.remote_capture.activities.MainActivity" name="pcapdroid" />
+  <item class="com.example.iperf3client.MainActivity" name="iperf3client" />
+  <item class="com.example.piliplus.MainActivity" name="piliplus" />
+  <item class="com.f0x1d.logfox.presentation.ui.activity.MainActivity" name="logfox" />
+  <item class="com.flyme.scanner.SplashScanActivity" name="flyme_scanner" />
+  <item class="com.futsch1.medtimer.MainActivity" name="medtimer" />
+  <item class="com.github.andreyasadchy.xtra.ui.main.MainActivity" name="xtra" />
+  <item class="com.github.jing332.tts_server_android.compose.MainActivity" name="tts_server" />
+  <item class="com.github.umer0586.droidpad.MainActivity" name="droid_pad" />
+  <item class="com.henrikherzig.playintegritychecker.MainActivity" name="simple_play_integrity_checker" />
+  <item class="com.instagram.barcelona.mainactivity.BarcelonaActivity" name="threads" />
+  <item class="com.kylecorry.trail_sense.main.MainActivity" name="trail_sense" />
+  <item class="com.meizu.smarthome.MainActivity" name="lipro_home" />
+  <item class="com.mhss.app.mybrain.presentation.main.MainActivity" name="my_brain" />
+  
+<item class="com.mihoyo.combosdk.ComboSDKActivity" name="game_mihoyo_zenless_zone_zero" />
+
+
+<item class="com.mihoyo.combosdk.ComboSDKActivity" name="game_mihoyo_zenless_zone_zero" />
+
+
+<item class="com.mihoyo.combosdk.ComboSDKActivity" name="game_mihoyo_zenless_zone_zero" />
+
+
+<item class="com.mihoyo.combosdk.ComboSDKActivity" name="game_mihoyo_zenless_zone_zero" />
+
+
+  <item class="com.microsoft.copilotn.MainActivity" name="microsoft_copilot" />
+  <item class="com.moonshot.kimichat.MainActivity" name="kimi" />
+  <item class="com.nextbyteapps.selfcare.activities.SplashScreen" name="skinny" />
+  <item class="com.onepassword.android.app.StartActivity" name="one_password" />
+  <item class="com.oplus.aimemory.MainActivity" name="oppo_breeno_memory" />
+  <item class="com.oppo.store.OFestivalLauncherActivity" name="oppo_store" />
+  <item class="com.orz12.PiliPalaX.MainActivity" name="pilipalax" />
+  <item class="com.pcapdroid.mitm.MainActivity" name="pcapdroid" />
+  <item class="com.dragon.read.pages.splash.SplashActivity" name="hongguo" />
+  <item class="com.realme.store.start.view.StartActivity" name="realme_store" />
+  <item class="com.reveny.nativecheck.ui.activity.MainActivity" name="native_detector" />
+  <item class="com.safeluck.life.ui.SplashActivity_" name="clifes" />
+  <item class="com.shatteredpixel.shatteredpixeldungeon.android.AndroidLauncher" name="game_shattered_pixel_dungeon" />
+  <item class="com.surfaceocean.nexttraceroute.MainActivity" name="nexttraceroute" />
+  <item class="com.epicgames.ue4.SplashActivity" name="game_tencent_dfm" />
+  <item class="com.tplink.superapp.ui.main.AppBootActivity" name="tp_link_ipc" />
+  <item class="com.unciv.app.AndroidLauncher" name="game_unciv" />
+  <item class="com.vrem.wifianalyzer.MainActivity" name="wifianalyzer" />
+  <item class="cx.ring.client.HomeActivity" name="jami" />
+  <item class="de.danoeh.antennapod.activity.SplashActivity" name="antennapod" />
+  <item class="de.syss.MifareClassicTool.Activities.MainMenu" name="mifare_classic_tool" />
+  <item class="dev.anilbeesetti.nextplayer.MainActivity" name="next_player" />
+  <item class="dev.bartuzen.qbitcontroller.MainActivity" name="qbitcontroller" />
+  <item class="dev.bartuzen.qbitcontroller.ui.main.MainActivity" name="qbitcontroller" />
+  <item class="dev.imranr.obtainium.MainActivity" name="obtainium" />
+  <item class="fr.husi.ui.MainActivity" name="husi" />
+  <item class="io.nekohasekai.sagernet.ui.MainActivity" name="husi" />
+  <item class="com.github.shadowsocks.MainActivity" name="v_2ray_ng_2" />
+  <item class="gr.nikolasspyr.integritycheck.MainActivity" name="play_integrity_api_checker" />
+  <item class="org.thoughtcrime.securesms.RoutingActivity" name="molly" />
+  <item class="mindustry.android.AndroidLauncher" name="game_mindustry" />
+  <item class="io.chaldeaprjkt.gamespace.settings.SettingsActivity" name="game_space" />
+  <item class="io.element.android.x.MainActivity" name="element_x" />
+  <item class="io.github.a13e300.ksuwebui.MainActivity" name="ksuwebui" />
+  <item class="io.github.landwarderer.futon.main.ui.MainActivity" name="futon" />
+  <item class="code.name.monkey.retromusic.activities.MainActivity" name="muntashirakon_music" />
+  <item class="io.github.muntashirakon.captiveportalcontroller.LaunchActivity" name="captive_portal_controller" />
+  <item class="io.github.vvb2060.keyattestation.home.HomeActivity" name="key_attestation" />
+  <item class="is.xyz.mpv.MainActivity" name="mpv" />
+  <item class="jp.co.sony.mc.videopro.VideoProActivity" name="videography_pro" />
+  <item class="net.christianbeier.droidvnc_ng.MainActivity" name="droidvnc_ng" />
+  <item class="net.typeblog.shelter.ui.MainActivity" name="shelter" />
+  <item class="network.loki.messenger.RoutingActivity" name="session" />
+  <item class="com.google.android.apps.chrome.Main" name="cromite" />
+  <item class="org.telegram.messenger.DefaultIcon" name="forkgram" />
+  <item class="org.fossify.messages.activities.SplashActivity.Green" name="fossify_messages" />
+  <item class="org.fsociety.vernet.MainActivity" name="vernet" />
+  <item class="org.inretio.bouncinglogo.MainActivity" name="bouncing_logo" />
+  <item class="org.joinmastodon.android.MainActivity" name="moshidon" />
+  <item class="org.koitharu.kotatsu.main.ui.MainActivity" name="kotatsu" />
+  <item class="org.onionshare.android.ui.MainActivity" name="onionshare" />
+  <item class="org.onionshare.android.ui.MainActivity" name="onionshare" />
+  <item class="org.sufficientlysecure.keychain.ui.MainActivity" name="openkeychain" />
+  <item class="org.unifiedpush.distributor.sunup.activities.MainActivity" name="sunup" />
+  <item class="rocks.poopjournal.todont.SplashScreenActivity" name="to_don_t" />
+  <item class="rs.ltt.android.ui.activity.MainActivity" name="ltt_rs" />
+  <item class="com.t8rin.imagetoolbox.app.presentation.AppActivity" name="image_toolbox" />
+  <item class="ru.tech.imageresizershrinker.app.presentation.AppActivity" name="image_toolbox" />
+  <item class="tech.lolli.toolbox.MainActivity" name="serverbox" />
+  <item class="zed.rainxch.githubstore.MainActivity" name="github_store" />
+
+    
 
 
 </appmap>

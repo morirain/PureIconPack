@@ -1470,7 +1470,7 @@
     
     <AppIcon name="cn.wq.myandroidtoolsxposed/cn.wq.myandroidtoolsxposed.MainActivity" image="my_android_tools_xposed" />
     
-    <AppIcon name="com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity" image="microsoft_outlook" />
+    <AppIcon name="com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity" image="microsoft_outlook_2" />
     
     <AppIcon name="com.wandoujia/com.wandoujia.ripple.activity.HomeActivity" image="qingmang" />
     
@@ -2183,7 +2183,7 @@
     
     <AppIcon name="com.google.android.keep/com.google.android.keep.activities.BrowseActivity" image="google_keep" />
     
-    <AppIcon name="com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity" image="google_authenticator" />
+    <AppIcon name="com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity" image="google_authenticator_2" />
     
     <AppIcon name="com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity" image="google_meet" />
     
@@ -8907,7 +8907,7 @@
     <AppIcon name="com.merriamwebster/com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity" image="merriam_webster_dictionary" />
 
     
-    <AppIcon name="com.oppo.store/com.oppo.store.InitActivity" image="market" />
+    <AppIcon name="com.oppo.store/com.oppo.store.InitActivity" image="oppo_store" />
     
     <AppIcon name="com.cainiao.wireless/com.cainiao.wireless.homepage.view.activity.WelcomeActivity" image="cainiao" />
     
@@ -11633,7 +11633,7 @@
     <AppIcon name="com.aurora.store/com.aurora.store.view.ui.onboarding.OnboardingActivity" image="aurora_store" />
     <AppIcon name="com.antutu.benchmark.full/com.example.benchmark.full.MainActivity" image="antutu_3d" />
     <AppIcon name="free.vpn.unblock.proxy.turbovpn/free.vpn.unblock.proxy.turbovpn.activity.StartupActivity" image="turbo_vpn" />
-    <AppIcon name="com.oppo.store/com.oppo.store.MainActivity" image="market" />
+    <AppIcon name="com.oppo.store/com.oppo.store.MainActivity" image="oppo_store" />
     <AppIcon name="in.hsbc.hsbcindia/com.hsbc.mobilebanking.prelogon.splash.SplashActivity" image="hsbc" />
     <AppIcon name="com.innersloth.spacemafia/com.innersloth.spacemafia.EosUnityPlayerActivity" image="game_among_us" />
     <AppIcon name="com.costudy.costudy/com.costudy.costudy.CSSplashActivity" image="costudy" />
@@ -11904,7 +11904,7 @@
     <AppIcon name="com.simplemobiletools.gallery.pro/com.simplemobiletools.gallery.pro.activities.SplashActivity.Light_green" image="simple_gallery" />
     <AppIcon name="com.xiaomi.mifi/com.xiaomi.mifi.SplashActivity" image="mi_wifi" />
     <AppIcon name="in.upstox.pro/in.upstox.pro.views.login.LoginRootActivity" image="upstox_pro" />
-    <AppIcon name="com.oppo.store/com.oppo.store.MainActivity" image="market" />
+    <AppIcon name="com.oppo.store/com.oppo.store.MainActivity" image="oppo_store" />
     <AppIcon name="com.sembozdemir.zoomy/com.sembozdemir.zoomy.home.HomeActivity" image="zoomy" />
     <AppIcon name="projekt.samsung.theme.compiler/projekt.samsung.theme.compiler.activity.MainActivity" image="synergy" />
     <AppIcon name="com.bitstrips.imoji/com.bitstrips.imoji.ui.activities.LandingActivity" image="bitmoji" />
@@ -12846,9 +12846,172 @@
     
 
 
+
     
+     
+  <AppIcon name="app.rvx.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity" image="app_rvx_android_youtube" />
+  <AppIcon name="com.adguard.android/com.adguard.android.ui.activity.SplashActivity" image="adguard" />
+  <AppIcon name="com.agc.cam/com.android.camera.CameraLauncher" image="agc_camera" />
 
 
+<AppIcon name="com.samsung.agc.gcam84/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.samsung.agc.gcam85/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.samsung.agc.gcam87/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.samsung.agc.gcam88/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.samsung.agc.gcam90/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.samsung.agc.gcam91/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.samsung.agc.gcam92/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.samsung.agc.gcam94/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.samsung.agc.gcam96/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.agc.cam/com.android.camera.CameraLauncher" image="agc_camera" />
+
+<AppIcon name="com.agc.gcam84/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.agc.gcam85/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.agc.gcam87/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.agc.gcam88/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.agc.gcam90/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.agc.gcam91/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.agc.gcam92/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.agc.gcam94/com.android.camera.CameraLauncher" image="agc_camera" />
+<AppIcon name="com.agc.gcam96/com.android.camera.CameraLauncher" image="agc_camera" />
+
+  <AppIcon name="com.android.bankabc/com.android.bankabc.LauncherActivity" image="bankabc" />
+  <AppIcon name="com.chinarailway.globalticketing/com.MobileTicket.ui.activity.WelcomeGuideActivity" image="mobile_ticket_12306" />
+  <AppIcon name="com.fenbi.android.servant/com.fenbi.android.module.welcome.WelcomeActivity" image="fb" />
+  <AppIcon name="com.github.metacubex.clash.meta/com.github.kr328.clash.MainActivityAlias" image="clash_meta_for_android" />
+  <AppIcon name="com.google.android.apps.authenticator2/com.google.android.apps.authenticator2.main.MainActivity" image="google_authenticator_2" />
+  <AppIcon name="com.jingdong.app.mall/com.jingdong.app.mall.MainFrameActivity" image="jd_2" />
+  <AppIcon name="com.klcxkj.zqxy/com.klcxkj.zqxy.ui.splash.SplashActivity" image="qzxy" />
+  <AppIcon name="com.lenovo.leos.cloud.sync/com.lenovo.leos.cloud.sync.UIv5.V5SplashActivity" image="lenovo_cloud" />
+  <AppIcon name="com.limelight.noir/com.limelight.PcView" image="moonlight" />
+  <AppIcon name="com.microsoft.office.outlook/com.microsoft.office.outlook.ui.miit.MiitLauncherActivity" image="microsoft_outlook_2" />
+  <AppIcon name="com.motorola.cn.calendar/com.motorola.cn.calendar.AllInOneActivity" image="calendar" />
+  <AppIcon name="com.netease.mail/com.netease.mail.biz.main.DefaultSplashActivity" image="netease_mail" />
+  <AppIcon name="com.oplus.games/com.oplus.assistant.activity.SpeedUpStartActivity" image="oplus_games" />
+  <AppIcon name="com.sec.android.app.myfiles/com.sec.android.app.myfiles.ui.MainActivity" image="files" />
+  <AppIcon name="com.sec.android.easyMover/com.sec.android.easyMover.ui.launch.LauncherActivity" image="samsung_smart_switch" />
+  <AppIcon name="com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.MainActivity" image="termius" />
+  <AppIcon name="com.snda.wifilocating/com.wifitutu.ui.launcher.LauncherActivity" image="wifilocating" />
+  <AppIcon name="com.xiaomi.xmsf/top.trumeet.mipushframework.wizard.WelcomeActivity" image="mipush_framework" />
+  <AppIcon name="com.xuetangx.mobile/com.xuetangx.mobile.MainActivity" image="xuetangzx" />
+  <AppIcon name="com.yueme.itv/com.chinatelecom.smarthome.module.mainpage.ui.CoverActivity" image="xiaoyiguanjia" />
+  <AppIcon name="dev.octoshrimpy.quik/dev.octoshrimpy.quik.feature.main.MainActivity" image="quik" />
+  <AppIcon name="github.tornaco.android.thanos.pro/now.fortuitous.thanos.main.NavActivity" image="thanox" />
+  <AppIcon name="gov.pianzong.androidnga/gov.pianzong.androidnga.Splash_0" image="nga" />
+  <AppIcon name="info.muge.appshare/info.muge.appshare.launcher3" image="appshare" />
+  <AppIcon name="net.thunderbird.android/net.thunderbird.app.common.MainActivity" image="thunderbird" />
+  <AppIcon name="org.proninyaroslav.libretorrent/org.proninyaroslav.libretorrent.MainActivity" image="libretorrent" />
+  <AppIcon name="zwzt.fangqiu.edu.com.zwzt/com.zwzt.feature_splash.SplashActivity" image="zuowenzt" />
+
+  
+
+  <AppIcon name="InfinityLoop1309.NewPipeEnhanced/org.schabi.newpipe.MainActivity" image="pipepipe" />
+  <AppIcon name="app.accrescent.client/app.accrescent.client.ui.MainActivity" image="accrescent" />
+  <AppIcon name="app.marlboroadvance.mpvex/app.marlboroadvance.mpvex.MainActivity" image="mpvex" />
+  <AppIcon name="ch.rmy.android.http_shortcuts/ch.rmy.android.http_shortcuts.activities.main.MainActivity" image="http_shortcuts" />
+  <AppIcon name="ch.rmy.android.statusbar_tacho/ch.rmy.android.statusbar_tacho.activities.SettingsActivity" image="speedometer" />
+  <AppIcon name="chat.schildi.android/io.element.android.x.MainActivity" image="schildichat_next" />
+  <AppIcon name="chat.simplex.app/chat.simplex.app.MainActivity_default" image="simplex" />
+  <AppIcon name="com.ai.obc.cbn.app/com.ai.obc.cbn.app.ui.other.activity.SplashActivity" image="cbn" />
+  <AppIcon name="com.akira.tyranoemu/com.akira.tyranoemu.app.TyActivity" image="tyranor" />
+  <AppIcon name="com.akylas.aard2/itkach.aard2.MainActivity" image="ossdict" />
+  <AppIcon name="com.akylas.documentscanner/com.akylas.documentscanner.MainActivity" image="oss_document_scanner" />
+  <AppIcon name="com.bnyro.translate/com.bnyro.translate.ui.MainActivity" image="translate_you" />
+  <AppIcon name="com.carriez.flutter_hbb/com.carriez.flutter_hbb.MainActivity" image="rustdesk" />
+  <AppIcon name="com.cisco.connect.cloud/com.cisco.connect.cloud.MainActivity" image="linksys" />
+  <AppIcon name="com.codedead.deadhash/com.codedead.deadhash.gui.MainActivity" image="deadhash" />
+  <AppIcon name="com.coloros.phonemanager/com.oplus.phonemanager.FakeActivity" image="security" />
+  <AppIcon name="com.coloros.translate/com.coloros.translate.ui.MainActivity" image="translate" />
+  <AppIcon name="com.cqooc.App/io.dcloud.PandoraEntry" image="cqooc" />
+  <AppIcon name="com.emanuelef.remote_capture/com.emanuelef.remote_capture.activities.MainActivity" image="pcapdroid" />
+  <AppIcon name="com.example.iperf3client/com.example.iperf3client.MainActivity" image="iperf3client" />
+  <AppIcon name="com.example.piliplus/com.example.piliplus.MainActivity" image="piliplus" />
+  <AppIcon name="com.f0x1d.logfox/com.f0x1d.logfox.presentation.ui.activity.MainActivity" image="logfox" />
+  <AppIcon name="com.flyme.scanner/com.flyme.scanner.SplashScanActivity" image="flyme_scanner" />
+  <AppIcon name="com.futsch1.medtimer/com.futsch1.medtimer.MainActivity" image="medtimer" />
+  <AppIcon name="com.github.andreyasadchy.xtra/com.github.andreyasadchy.xtra.ui.main.MainActivity" image="xtra" />
+  <AppIcon name="com.github.jing332.tts_server_android/com.github.jing332.tts_server_android.compose.MainActivity" image="tts_server" />
+  <AppIcon name="com.github.umer0586.droidpad/com.github.umer0586.droidpad.MainActivity" image="droid_pad" />
+  <AppIcon name="com.henrikherzig.playintegritychecker/com.henrikherzig.playintegritychecker.MainActivity" image="simple_play_integrity_checker" />
+  <AppIcon name="com.instagram.barcelona/com.instagram.barcelona.mainactivity.BarcelonaActivity" image="threads" />
+  <AppIcon name="com.kylecorry.trail_sense/com.kylecorry.trail_sense.main.MainActivity" image="trail_sense" />
+  <AppIcon name="com.meizu.smarthome/com.meizu.smarthome.MainActivity" image="lipro_home" />
+  <AppIcon name="com.mhss.app.mybrain/com.mhss.app.mybrain.presentation.main.MainActivity" image="my_brain" />
+  
+<AppIcon name="com.HoYoverse.Nap/com.mihoyo.combosdk.ComboSDKActivity" image="game_mihoyo_zenless_zone_zero" />
+
+
+<AppIcon name="com.miHoYo.Nap/com.mihoyo.combosdk.ComboSDKActivity" image="game_mihoyo_zenless_zone_zero" />
+
+
+<AppIcon name="com.miHoYo.Nap.bilibili/com.mihoyo.combosdk.ComboSDKActivity" image="game_mihoyo_zenless_zone_zero" />
+
+
+<AppIcon name="com.HoYoverse.NapVn/com.mihoyo.combosdk.ComboSDKActivity" image="game_mihoyo_zenless_zone_zero" />
+
+
+  <AppIcon name="com.microsoft.copilot/com.microsoft.copilotn.MainActivity" image="microsoft_copilot" />
+  <AppIcon name="com.moonshot.kimichat/com.moonshot.kimichat.MainActivity" image="kimi" />
+  <AppIcon name="com.nextbyteapps.selfcare/com.nextbyteapps.selfcare.activities.SplashScreen" image="skinny" />
+  <AppIcon name="com.onepassword.android/com.onepassword.android.app.StartActivity" image="one_password" />
+  <AppIcon name="com.oplus.aimemory/com.oplus.aimemory.MainActivity" image="oppo_breeno_memory" />
+  <AppIcon name="com.oppo.store/com.oppo.store.OFestivalLauncherActivity" image="oppo_store" />
+  <AppIcon name="com.orz12.PiliPalaX/com.orz12.PiliPalaX.MainActivity" image="pilipalax" />
+  <AppIcon name="com.pcapdroid.mitm/com.pcapdroid.mitm.MainActivity" image="pcapdroid" />
+  <AppIcon name="com.phoenix.read/com.dragon.read.pages.splash.SplashActivity" image="hongguo" />
+  <AppIcon name="com.realme.storecn/com.realme.store.start.view.StartActivity" image="realme_store" />
+  <AppIcon name="com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity" image="native_detector" />
+  <AppIcon name="com.safeluck.life/com.safeluck.life.ui.SplashActivity_" image="clifes" />
+  <AppIcon name="com.shatteredpixel.shatteredpixeldungeon/com.shatteredpixel.shatteredpixeldungeon.android.AndroidLauncher" image="game_shattered_pixel_dungeon" />
+  <AppIcon name="com.surfaceocean.nexttraceroute/com.surfaceocean.nexttraceroute.MainActivity" image="nexttraceroute" />
+  <AppIcon name="com.tencent.tmgp.dfm/com.epicgames.ue4.SplashActivity" image="game_tencent_dfm" />
+  <AppIcon name="com.tplink.ipc/com.tplink.superapp.ui.main.AppBootActivity" image="tp_link_ipc" />
+  <AppIcon name="com.unciv.app/com.unciv.app.AndroidLauncher" image="game_unciv" />
+  <AppIcon name="com.vrem.wifianalyzer/com.vrem.wifianalyzer.MainActivity" image="wifianalyzer" />
+  <AppIcon name="cx.ring/cx.ring.client.HomeActivity" image="jami" />
+  <AppIcon name="de.danoeh.antennapod/de.danoeh.antennapod.activity.SplashActivity" image="antennapod" />
+  <AppIcon name="de.syss.MifareClassicTool/de.syss.MifareClassicTool.Activities.MainMenu" image="mifare_classic_tool" />
+  <AppIcon name="dev.anilbeesetti.nextplayer/dev.anilbeesetti.nextplayer.MainActivity" image="next_player" />
+  <AppIcon name="dev.bartuzen.qbitcontroller/dev.bartuzen.qbitcontroller.MainActivity" image="qbitcontroller" />
+  <AppIcon name="dev.bartuzen.qbitcontroller/dev.bartuzen.qbitcontroller.ui.main.MainActivity" image="qbitcontroller" />
+  <AppIcon name="dev.imranr.obtainium.fdroid/dev.imranr.obtainium.MainActivity" image="obtainium" />
+  <AppIcon name="fr.husi/fr.husi.ui.MainActivity" image="husi" />
+  <AppIcon name="fr.husi/io.nekohasekai.sagernet.ui.MainActivity" image="husi" />
+  <AppIcon name="free.v2ray.proxy.VPN/com.github.shadowsocks.MainActivity" image="v_2ray_ng_2" />
+  <AppIcon name="gr.nikolasspyr.integritycheck/gr.nikolasspyr.integritycheck.MainActivity" image="play_integrity_api_checker" />
+  <AppIcon name="im.molly.app/org.thoughtcrime.securesms.RoutingActivity" image="molly" />
+  <AppIcon name="io.anuke.mindustry/mindustry.android.AndroidLauncher" image="game_mindustry" />
+  <AppIcon name="io.chaldeaprjkt.gamespace/io.chaldeaprjkt.gamespace.settings.SettingsActivity" image="game_space" />
+  <AppIcon name="io.element.android.x/io.element.android.x.MainActivity" image="element_x" />
+  <AppIcon name="io.github.a13e300.ksuwebui/io.github.a13e300.ksuwebui.MainActivity" image="ksuwebui" />
+  <AppIcon name="io.github.landwarderer.futon/io.github.landwarderer.futon.main.ui.MainActivity" image="futon" />
+  <AppIcon name="io.github.muntashirakon.Music/code.name.monkey.retromusic.activities.MainActivity" image="muntashirakon_music" />
+  <AppIcon name="io.github.muntashirakon.captiveportalcontroller/io.github.muntashirakon.captiveportalcontroller.LaunchActivity" image="captive_portal_controller" />
+  <AppIcon name="io.github.vvb2060.keyattestation/io.github.vvb2060.keyattestation.home.HomeActivity" image="key_attestation" />
+  <AppIcon name="is.xyz.mpv/is.xyz.mpv.MainActivity" image="mpv" />
+  <AppIcon name="jp.co.sony.mc.videopro/jp.co.sony.mc.videopro.VideoProActivity" image="videography_pro" />
+  <AppIcon name="net.christianbeier.droidvnc_ng/net.christianbeier.droidvnc_ng.MainActivity" image="droidvnc_ng" />
+  <AppIcon name="net.typeblog.shelter/net.typeblog.shelter.ui.MainActivity" image="shelter" />
+  <AppIcon name="network.loki.messenger/network.loki.messenger.RoutingActivity" image="session" />
+  <AppIcon name="org.cromite.cromite/com.google.android.apps.chrome.Main" image="cromite" />
+  <AppIcon name="org.forkgram.messenger/org.telegram.messenger.DefaultIcon" image="forkgram" />
+  <AppIcon name="org.fossify.messages/org.fossify.messages.activities.SplashActivity.Green" image="fossify_messages" />
+  <AppIcon name="org.fsociety.vernet/org.fsociety.vernet.MainActivity" image="vernet" />
+  <AppIcon name="org.inretio.bouncinglogo/org.inretio.bouncinglogo.MainActivity" image="bouncing_logo" />
+  <AppIcon name="org.joinmastodon.android.moshinda/org.joinmastodon.android.MainActivity" image="moshidon" />
+  <AppIcon name="org.koitharu.kotatsu/org.koitharu.kotatsu.main.ui.MainActivity" image="kotatsu" />
+  <AppIcon name="org.onionshare.android.fdroid/org.onionshare.android.ui.MainActivity" image="onionshare" />
+  <AppIcon name="org.onionshare.android/org.onionshare.android.ui.MainActivity" image="onionshare" />
+  <AppIcon name="org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.MainActivity" image="openkeychain" />
+  <AppIcon name="org.unifiedpush.distributor.sunup/org.unifiedpush.distributor.sunup.activities.MainActivity" image="sunup" />
+  <AppIcon name="rocks.poopjournal.todont/rocks.poopjournal.todont.SplashScreenActivity" image="to_don_t" />
+  <AppIcon name="rs.ltt.android/rs.ltt.android.ui.activity.MainActivity" image="ltt_rs" />
+  <AppIcon name="ru.tech.imageresizershrinker/com.t8rin.imagetoolbox.app.presentation.AppActivity" image="image_toolbox" />
+  <AppIcon name="ru.tech.imageresizershrinker/ru.tech.imageresizershrinker.app.presentation.AppActivity" image="image_toolbox" />
+  <AppIcon name="tech.lolli.toolbox/tech.lolli.toolbox.MainActivity" image="serverbox" />
+  <AppIcon name="zed.rainxch.githubstore/zed.rainxch.githubstore.MainActivity" image="github_store" />
+
+    
 
 
 </Theme>
