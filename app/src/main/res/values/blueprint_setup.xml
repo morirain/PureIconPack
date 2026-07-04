@@ -23,6 +23,20 @@
     <bool name="static_icons_preview_picture_by_default">false</bool>
 
     <!--
+        Do you want to sort your icons alphabetically in the icons grid list?
+        True, means yes.
+        False, means no.
+    -->
+    <bool name="sort_icons_alphabetically">true</bool>
+
+    <!--
+        Do you want to show the icon/app name under the icons in the icons grid list?
+        True, means yes.
+        False, means no.
+    -->
+    <bool name="icon_name_in_grid_list">false</bool>
+
+    <!--
         Do you want the app to read the icons from res/xml/drawable.xml ? (true)
         Or do you prefer the icons to be loaded from res/values/icon_pack.xml ? (false)
     -->
@@ -32,6 +46,15 @@
         Set to true if your icon pack includes adaptive icons. false otherwise
     -->
     <bool name="includes_adaptive_icons">false</bool>
+
+    <!--
+        Define if your icon pack is dedicated to provide Android Tv banners
+        If so, icons request will send applications banner instead of icon when available.
+        0. Automatically detect if the app is running on a Tv device
+        1. Enforce icons, no matter what is detected
+        2. Enforce banners, no matter what is detected
+    -->
+    <integer name="prefer_banner_for_icon_request">0</integer>
 
     <!-- Icon Pack designer/owner e-mail -->
     <string name="email">morirain.dev@outlook.com</string>
