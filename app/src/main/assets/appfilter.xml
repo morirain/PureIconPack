@@ -764,6 +764,7 @@
 
     <!-- 扇贝听力 / 扇贝听力 -->
     <item component="ComponentInfo{com.shanbay.listen/com.shanbay.listen.startup.SplashActivity}" drawable="shanbay_listen" />
+    <item component="ComponentInfo{com.shanbay.listen/com.shanbay.biz.skeleton.splash.SplashActivity}" drawable="shanbay_listen" />
     <!-- 扇贝单词 / 扇贝单词 -->
     <item component="ComponentInfo{com.shanbay.words/com.shanbay.words.startup.SplashActivity}" drawable="shanbay_words" />
     <!-- 扇贝新闻 / 扇贝新闻 -->
@@ -3126,6 +3127,7 @@
     <item component="ComponentInfo{com.llspace.pupu/com.llspace.pupu.ui.account.LaunchActivity}" drawable="llspace_pxsj" />
     <!-- 火影忍者 / 火影忍者 -->
     <item component="ComponentInfo{com.tencent.KiHan/com.tencent.KiHan.ApolloTest}" drawable="game_naruto" />
+    <item component="ComponentInfo{com.tencent.KiHan/com.itop.gcloud.msdk.core.policy.MSDKPolicyActivity.Substitute0}" drawable="game_naruto" />
     <!-- 一刻 / 一刻 -->
     <item component="ComponentInfo{com.douban.daily/com.douban.daily.app.WelcomeActivity}" drawable="douban_yike" />
     <!-- 追追漫画 / 追追漫画 -->
@@ -4772,6 +4774,7 @@
     <item component="ComponentInfo{com.microsoft.microsoftsolitairecollection/com.smokingguninc.engine.framework.SgiLauncherActivity}" drawable="microsoft_solitaire" />
     <!-- Patreon / Patreon -->
     <item component="ComponentInfo{com.patreon.android/com.patreon.android.ui.shared.LauncherActivity}" drawable="patreon" />
+    <item component="ComponentInfo{com.patreon.android/com.patreon.android.screens.launcher.LauncherActivity}" drawable="patreon" />
     <!-- Perfect Viewer / Perfect Viewer -->
     <item component="ComponentInfo{com.rookiestudio.perfectviewer/com.rookiestudio.perfectviewer.TStartup}" drawable="perfect_viewer" />
     <!-- 微信电话本 / 微信电话本 -->
@@ -6559,20 +6562,21 @@
     <!-- 一卡通 / 一卡通 -->
     <item component="ComponentInfo{synjones.commerce/synjones.commerce.activity.WelcomeActivity}" drawable="yikatong" />
     <!-- 第五人格 / 第五人格 -->
-    <item component="ComponentInfo{com.netease.dwrg/com.netease.dwrg.Launcher}" drawable="game_di5renge" />
+    <item component="ComponentInfo{com.netease.dwrg/com.netease.dwrg.Launcher}" drawable="game_di5renge_2" />
+    <item component="ComponentInfo{com.tencent.tmgp.dwrg/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_di5renge_2" />
     <!-- 第五人格 / 第五人格 -->
-    <item component="ComponentInfo{com.netease.dwrg.aligames/com.netease.dwrg.Launcher}" drawable="game_di5renge" />
+    <item component="ComponentInfo{com.netease.dwrg.aligames/com.netease.dwrg.Launcher}" drawable="game_di5renge_2" />
     <!-- 第五人格 / 第五人格 -->
-    <item component="ComponentInfo{com.netease.dwrg.mi/com.netease.dwrg.Launcher}" drawable="game_di5renge" />
-    <item component="ComponentInfo{com.netease.dwrg.qihoo/com.netease.dwrg.Launcher}" drawable="game_di5renge" />
-    <item component="ComponentInfo{com.netease.dwrg.m4399/com.netease.dwrg.Launcher}" drawable="game_di5renge" />
-    <item component="ComponentInfo{com.netease.dwrg.ewan.sdk2345/com.netease.dwrg.Launcher}" drawable="game_di5renge" />
-    <item component="ComponentInfo{com.netease.dwrg.mz/com.netease.dwrg.Launcher}" drawable="game_di5renge" />
-    <item component="ComponentInfo{com.netease.dwrg.vivo/com.netease.dwrg.Launcher}" drawable="game_di5renge" />
-    <item component="ComponentInfo{com.netease.dwrg.huawei/com.netease.dwrg.Launcher}" drawable="game_di5renge" />
-    <item component="ComponentInfo{com.netease.dwrg.bili/com.netease.dwrg.Launcher}" drawable="game_di5renge" />
-    <item component="ComponentInfo{com.netease.dwrg.nearme.gamecenter/com.netease.dwrg.Launcher}" drawable="game_di5renge" />
-    <item component="ComponentInfo{com.netease.dwrg.yyh/com.netease.dwrg.Launcher}" drawable="game_di5renge" />
+    <item component="ComponentInfo{com.netease.dwrg.mi/com.netease.dwrg.Launcher}" drawable="game_di5renge_2" />
+    <item component="ComponentInfo{com.netease.dwrg.qihoo/com.netease.dwrg.Launcher}" drawable="game_di5renge_2" />
+    <item component="ComponentInfo{com.netease.dwrg.m4399/com.netease.dwrg.Launcher}" drawable="game_di5renge_2" />
+    <item component="ComponentInfo{com.netease.dwrg.ewan.sdk2345/com.netease.dwrg.Launcher}" drawable="game_di5renge_2" />
+    <item component="ComponentInfo{com.netease.dwrg.mz/com.netease.dwrg.Launcher}" drawable="game_di5renge_2" />
+    <item component="ComponentInfo{com.netease.dwrg.vivo/com.netease.dwrg.Launcher}" drawable="game_di5renge_2" />
+    <item component="ComponentInfo{com.netease.dwrg.huawei/com.netease.dwrg.Launcher}" drawable="game_di5renge_2" />
+    <item component="ComponentInfo{com.netease.dwrg.bili/com.netease.dwrg.Launcher}" drawable="game_di5renge_2" />
+    <item component="ComponentInfo{com.netease.dwrg.nearme.gamecenter/com.netease.dwrg.Launcher}" drawable="game_di5renge_2" />
+    <item component="ComponentInfo{com.netease.dwrg.yyh/com.netease.dwrg.Launcher}" drawable="game_di5renge_2" />
     <!-- 魅族手环 / 魅族手环 -->
     <item component="ComponentInfo{com.meizu.smart.wristband/com.meizu.smart.wristband.StartActivity}" drawable="flyme_shouhuan" />
     <!-- 房天下-新房二手房租房买房搜房房价 / 房天下-新房二手房租房买房搜房房价 -->
@@ -12340,7 +12344,7 @@
     <item component="ComponentInfo{com.lensesdev.manual.camera.pro/com.antafunny.burstcamera.MainActivity}" drawable="manual_cam"/>
     <item component="ComponentInfo{com.koushikdutta.superuser/com.koushikdutta.superuser.MainActivity}" drawable="superuser"/>
     <item component="ComponentInfo{com.jetappfactory.jetaudioplus/com.jetappfactory.jetaudio.MusicBrowserActivity}" drawable="jetaudio"/>
-    <item component="ComponentInfo{com.netease.idv.googleplay/com.netease.dwrg.Launcher}" drawable="game_di5renge"/>
+    <item component="ComponentInfo{com.netease.idv.googleplay/com.netease.dwrg.Launcher}" drawable="game_di5renge_2"/>
     <item component="ComponentInfo{com.netease.gl/com.netease.gl.ui.activity.welcome.WelcomeInitActivity}" drawable="netease_gl"/>
     <item component="ComponentInfo{com.netease.sky.aligames/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_sky_2"/>
     <item component="ComponentInfo{com.netease.yanxuan/com.netease.yanxuan.SplashActivityPro}" drawable="netease_yanxuan"/>
@@ -12393,7 +12397,7 @@
     <item component="ComponentInfo{com.netease.x19/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_mc"/>
     <item component="ComponentInfo{com.netease.sky.huawei/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_sky_2"/>
     <item component="ComponentInfo{com.netease.onmyoji/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_onmyoji_2"/>
-    <item component="ComponentInfo{com.netease.dwrg/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_di5renge"/>
+    <item component="ComponentInfo{com.netease.dwrg/com.netease.ntunisdk.external.protocol.ProtocolLauncher}" drawable="game_di5renge_2"/>
     <item component="ComponentInfo{com.oneplus.backuprestore/com.oneplus.backuprestore.activity.BootActivity}" drawable="oneplus_switch"/>
     <item component="ComponentInfo{com.oneplus.filemanager/com.oplus.filemanager.main.ui.MainActivity}" drawable="files"/>
     <item component="ComponentInfo{com.netease.gl/com.netease.gl.ui.activity.welcome.WelcomeActivity}" drawable="netease_gl"/>
@@ -12726,6 +12730,7 @@
     <item component="ComponentInfo{com.tencent.tmgp.ttmj/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity}" drawable="game_ttmj"/>
     <item component="ComponentInfo{com.tsng.hidemyapplist/com.tsng.hidemyapplist.MainActivityLauncher}" drawable="hide_my_applist"/>
     <item component="ComponentInfo{com.uptodown/com.uptodown.activities.MainActivityScrollable}" drawable="uptodown_app_store"/>
+    <item component="ComponentInfo{com.uptodown/com.uptodown.activities.MainActivity}" drawable="uptodown_app_store" />
     <item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.MainActivity}" drawable="steam"/>
     <item component="ComponentInfo{downloadtwittervideo.twitterdownloader.twittervideodownloader.twittersaver/downloadtwittervideo.twitterdownloader.twittervideodownloader.twittersaver.StartupActivity}" drawable="twitake"/>
     <item component="ComponentInfo{io.github.qauxv/io.github.qauxv.activity.ConfigV2ActivityAlias}" drawable="qauxiliary"/>
@@ -12980,8 +12985,6 @@
   <item component="ComponentInfo{org.proninyaroslav.libretorrent/org.proninyaroslav.libretorrent.MainActivity}" drawable="libretorrent"/>
   <item component="ComponentInfo{zwzt.fangqiu.edu.com.zwzt/com.zwzt.feature_splash.SplashActivity}" drawable="zuowenzt"/>
 
-  <!-- 以下条目需新建图标 -->
-
   <item component="ComponentInfo{InfinityLoop1309.NewPipeEnhanced/org.schabi.newpipe.MainActivity}" drawable="pipepipe"/>
   <item component="ComponentInfo{app.accrescent.client/app.accrescent.client.ui.MainActivity}" drawable="accrescent"/>
   <item component="ComponentInfo{app.marlboroadvance.mpvex/app.marlboroadvance.mpvex.MainActivity}" drawable="mpvex"/>
@@ -13088,6 +13091,73 @@
   <item component="ComponentInfo{tech.lolli.toolbox/tech.lolli.toolbox.MainActivity}" drawable="serverbox"/>
   <item component="ComponentInfo{zed.rainxch.githubstore/zed.rainxch.githubstore.MainActivity}" drawable="github_store"/>
 <!-- 20260704 end -->
+
+<!-- 20260707 start -->
+<!-- Apple TV -->
+<item component="ComponentInfo{com.apple.atve.androidtv.appletv/com.apple.android.tv.MainActivity}" drawable="apple_tv" />
+<!-- Delta Chat -->
+<item component="ComponentInfo{com.b44t.messenger/org.thoughtcrime.securesms.RoutingActivity}" drawable="delta_chat" />
+<!-- Delta Chat -->
+<item component="ComponentInfo{chat.delta/org.thoughtcrime.securesms.RoutingActivity}" drawable="delta_chat" />
+<!-- thinkorswim -->
+<item component="ComponentInfo{com.devexperts.tdmobile.platform.android.thinkorswim/com.devexperts.tdmobile.android.ui.StartupActivity}" drawable="thinkorswim" />
+<!-- Schwab -->
+<item component="ComponentInfo{com.schwab.mobile/com.schwab.mobile.activity.SplashScreenActivity}" drawable="schwab" />
+<!-- Luminar -->
+<item component="ComponentInfo{com.skylum.luminar/com.skylum.luminar.MainActivity}" drawable="luminar" />
+<!-- NTE -->
+<item component="ComponentInfo{com.hottagames.nte/com.epicgames.unreal.SplashActivity}" drawable="game_nte" />
+<!-- NTE -->
+<item component="ComponentInfo{tw.com.iwplay.nte/com.epicgames.unreal.SplashActivity}" drawable="game_nte" />
+<item component="ComponentInfo{kling.ai.video.chat/com.yxcorp.gifshow.kling.KLingHomeActivity}" drawable="kling" />
+<!-- Perplexity -->
+<item component="ComponentInfo{ai.perplexity.app.android/ai.perplexity.app.android.ui.main.MainActivity}" drawable="perplexity" />
+<!-- Phantom -->
+<item component="ComponentInfo{app.phantom/app.phantom.MainActivity}" drawable="phantom" />
+<!-- Kraken Wallet -->
+<item component="ComponentInfo{com.kraken.superwallet/com.kraken.superwallet.MainActivity}" drawable="kraken_wallet" />
+<!-- Kraken -->
+<item component="ComponentInfo{com.kraken.invest.app/com.kraken.invest.app.MainActivity}" drawable="kraken" />
+<!-- Kraken Pro -->
+<item component="ComponentInfo{com.kraken.trade/com.kraken.trade.MainActivity}" drawable="kraken_pro" />
+<item component="ComponentInfo{com.bbae.anno/com.bbae.login.activity.AppStartActivity}" drawable="bbae" />
+<item component="ComponentInfo{com.bitget.exchange/com.upex.exchange.splash.SplashActivity}" drawable="bitget" />
+<item component="ComponentInfo{com.mobilesuica.msb.android/crc64c47217c4afd91a00.SuicaMainActivity}" drawable="suica" />
+<item component="ComponentInfo{atws.app/atws.activity.launcher.LauncherActivity}" drawable="ibkr" />
+<item component="ComponentInfo{jp.ne.paypay.android.app/jp.ne.paypay.android.app.MainActivity}" drawable="paypay" />
+<item component="ComponentInfo{com.kraken.pay.app/com.kraken.pay.app.MainActivity}" drawable="krak" />
+<item component="ComponentInfo{jp.co.yahoo.android.emg/jp.co.yahoo.android.emg.view.TopActivity}" drawable="yahoo_emg" />
+<item component="ComponentInfo{wni.WeathernewsTouch.jp/wni.WeathernewsTouch.jp.Splash}" drawable="wni" />
+<item component="ComponentInfo{jp.co.rakuten.pay/jp.co.rakuten.wallet.activities.StartActivity}" drawable="rakuten_pay" />
+<item component="ComponentInfo{com.bybit.app/com.bybit.pro.MainActivity}" drawable="bybit" />
+<item component="ComponentInfo{com.nttdocomo.keitai.payment/com.nttdocomo.keitai.payment.activity.DPYSplashActivity}" drawable="nttdocomo_keitai" />
+<item component="ComponentInfo{com.tencent.nrc/com.tencent.gcloud.msdk.core.policy.MSDKPolicyV3Activity}" drawable="game_qq_tencent_roco" />
+<item component="ComponentInfo{jp.auone.wallet/jp.auone.wallet.activity.AppStartActivity}" drawable="au_pay" />
+<item component="ComponentInfo{jp.co.rakuten.android/jp.co.rakuten.android.home.RakutenHome}" drawable="rakuten" />
+<item component="ComponentInfo{com.demaecan.androidapp/com.demaecan.androidapp.ui.LauncherActivity}" drawable="demaecan" />
+<item component="ComponentInfo{cn.futu.trader/cn.futu.trader.launch.activity.LaunchActivity}" drawable="futubull" />
+<item component="ComponentInfo{com.airstarbank.mobilebanking/cn.futu.trader.launch.activity.LaunchActivity}" drawable="elebank" />
+<item component="ComponentInfo{com.tigerbrokers.stock/com.tigerbrokers.stock.ui.MainActivity2}" drawable="tiger_trade" />
+<item component="ComponentInfo{global.longbridge.app.android/global.longbridge.android.LaunchActivity}" drawable="longbridge" />
+<item component="ComponentInfo{jp.co.lawson.android/jp.co.lawson.presentation.scenes.splash.SplashActivity}" drawable="lawson" />
+<item component="ComponentInfo{jp.co.sej.app/jp.co.sej.app.activity.SplashActivity}" drawable="seven_eleven" />
+<item component="ComponentInfo{com.zhongan.ibank/com.zhongan.beeline.bridge.flutter.ZABankMainFlutterActivity}" drawable="za_bank" />
+<!-- MetaMask -->
+<item component="ComponentInfo{io.metamask/io.metamask.MainActivity}" drawable="metamask" />
+<item component="ComponentInfo{jp.co.yahoo.android.yshopping/jp.co.yahoo.android.yshopping.YShopMainActivity}" drawable="yahoo_yshopping" />
+<item component="ComponentInfo{com.kouzoh.mercari/com.mercari.base.MainActivity}" drawable="mercari" />
+<item component="ComponentInfo{jp.co.ccc.Tsite/jp.co.ccc.tapps.SplashActivity}" drawable="vpoints" />
+<item component="ComponentInfo{jp.ponta.myponta/jp.ponta.myponta.presentation.activity.MainActivity}" drawable="ponta" />
+<item component="ComponentInfo{com.gateio.gateio/com.gateio.biz.main.splash.SplashActivity}" drawable="gate_io" />
+<!-- OKX -->
+<item component="ComponentInfo{com.okinc.okex.gp/com.okinc.core.ok_app.homepage.ui.welcome.WelcomeActivity}" drawable="okx" />
+<item component="ComponentInfo{jp.ponta.myponta/jp.ponta.myponta.presentation.activity.MainActivity}" drawable="ponta" />
+<item component="ComponentInfo{org.godotengine.editor.v4/org.godotengine.editor.ProjectManager}" drawable="godot_engine_4" />
+<item component="ComponentInfo{com.nintendo.znej/jp.co.nintendo.entry.ui.bootsequence.BootActivity}" drawable="nintendo_my_nintendo" />
+<item component="ComponentInfo{com.nintendo.znba/com.nintendo.znba.MainActivity}" drawable="nintendo_music" />
+
+
+<!-- 20260707 end -->
     <!-- 分割 -->
 
 

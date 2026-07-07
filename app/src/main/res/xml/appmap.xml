@@ -697,6 +697,7 @@
 
     
     <item class="com.shanbay.listen.startup.SplashActivity" name="shanbay_listen" />
+    <item class="com.shanbay.biz.skeleton.splash.SplashActivity" name="shanbay_listen" />
     
     <item class="com.shanbay.words.startup.SplashActivity" name="shanbay_words" />
     
@@ -3059,6 +3060,7 @@
     <item class="com.llspace.pupu.ui.account.LaunchActivity" name="llspace_pxsj" />
     
     <item class="com.tencent.KiHan.ApolloTest" name="game_naruto" />
+    <item class="com.itop.gcloud.msdk.core.policy.MSDKPolicyActivity.Substitute0" name="game_naruto" />
     
     <item class="com.douban.daily.app.WelcomeActivity" name="douban_yike" />
     
@@ -4692,6 +4694,7 @@
     <item class="com.smokingguninc.engine.framework.SgiLauncherActivity" name="microsoft_solitaire" />
     
     <item class="com.patreon.android.ui.shared.LauncherActivity" name="patreon" />
+    <item class="com.patreon.android.screens.launcher.LauncherActivity" name="patreon" />
     
     <item class="com.rookiestudio.perfectviewer.TStartup" name="perfect_viewer" />
     
@@ -6479,20 +6482,21 @@
     
     <item class="synjones.commerce.activity.WelcomeActivity" name="yikatong" />
     
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_di5renge_2" />
     
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
     
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
     
     <item class="com.meizu.smart.wristband.StartActivity" name="flyme_shouhuan" />
     
@@ -12256,7 +12260,7 @@
     <item class="com.antafunny.burstcamera.MainActivity" name="manual_cam" />
     <item class="com.koushikdutta.superuser.MainActivity" name="superuser" />
     <item class="com.jetappfactory.jetaudio.MusicBrowserActivity" name="jetaudio" />
-    <item class="com.netease.dwrg.Launcher" name="game_di5renge" />
+    <item class="com.netease.dwrg.Launcher" name="game_di5renge_2" />
     <item class="com.netease.gl.ui.activity.welcome.WelcomeInitActivity" name="netease_gl" />
     <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_sky_2" />
     <item class="com.netease.yanxuan.SplashActivityPro" name="netease_yanxuan" />
@@ -12309,7 +12313,7 @@
     <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_mc" />
     <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_sky_2" />
     <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_onmyoji_2" />
-    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_di5renge" />
+    <item class="com.netease.ntunisdk.external.protocol.ProtocolLauncher" name="game_di5renge_2" />
     <item class="com.oneplus.backuprestore.activity.BootActivity" name="oneplus_switch" />
     <item class="com.oplus.filemanager.main.ui.MainActivity" name="files" />
     <item class="com.netease.gl.ui.activity.welcome.WelcomeActivity" name="netease_gl" />
@@ -12642,6 +12646,7 @@
     <item class="com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity" name="game_ttmj" />
     <item class="com.tsng.hidemyapplist.MainActivityLauncher" name="hide_my_applist" />
     <item class="com.uptodown.activities.MainActivityScrollable" name="uptodown_app_store" />
+    <item class="com.uptodown.activities.MainActivity" name="uptodown_app_store" />
     <item class="com.valvesoftware.android.steam.community.MainActivity" name="steam" />
     <item class="downloadtwittervideo.twitterdownloader.twittervideodownloader.twittersaver.StartupActivity" name="twitake" />
     <item class="io.github.qauxv.activity.ConfigV2ActivityAlias" name="qauxiliary" />
@@ -12896,8 +12901,6 @@
   <item class="org.proninyaroslav.libretorrent.MainActivity" name="libretorrent" />
   <item class="com.zwzt.feature_splash.SplashActivity" name="zuowenzt" />
 
-  
-
   <item class="org.schabi.newpipe.MainActivity" name="pipepipe" />
   <item class="app.accrescent.client.ui.MainActivity" name="accrescent" />
   <item class="app.marlboroadvance.mpvex.MainActivity" name="mpvex" />
@@ -13003,6 +13006,73 @@
   <item class="ru.tech.imageresizershrinker.app.presentation.AppActivity" name="image_toolbox" />
   <item class="tech.lolli.toolbox.MainActivity" name="serverbox" />
   <item class="zed.rainxch.githubstore.MainActivity" name="github_store" />
+
+
+
+
+<item class="com.apple.android.tv.MainActivity" name="apple_tv" />
+
+<item class="org.thoughtcrime.securesms.RoutingActivity" name="delta_chat" />
+
+<item class="org.thoughtcrime.securesms.RoutingActivity" name="delta_chat" />
+
+<item class="com.devexperts.tdmobile.android.ui.StartupActivity" name="thinkorswim" />
+
+<item class="com.schwab.mobile.activity.SplashScreenActivity" name="schwab" />
+
+<item class="com.skylum.luminar.MainActivity" name="luminar" />
+
+<item class="com.epicgames.unreal.SplashActivity" name="game_nte" />
+
+<item class="com.epicgames.unreal.SplashActivity" name="game_nte" />
+<item class="com.yxcorp.gifshow.kling.KLingHomeActivity" name="kling" />
+
+<item class="ai.perplexity.app.android.ui.main.MainActivity" name="perplexity" />
+
+<item class="app.phantom.MainActivity" name="phantom" />
+
+<item class="com.kraken.superwallet.MainActivity" name="kraken_wallet" />
+
+<item class="com.kraken.invest.app.MainActivity" name="kraken" />
+
+<item class="com.kraken.trade.MainActivity" name="kraken_pro" />
+<item class="com.bbae.login.activity.AppStartActivity" name="bbae" />
+<item class="com.upex.exchange.splash.SplashActivity" name="bitget" />
+<item class="crc64c47217c4afd91a00.SuicaMainActivity" name="suica" />
+<item class="atws.activity.launcher.LauncherActivity" name="ibkr" />
+<item class="jp.ne.paypay.android.app.MainActivity" name="paypay" />
+<item class="com.kraken.pay.app.MainActivity" name="krak" />
+<item class="jp.co.yahoo.android.emg.view.TopActivity" name="yahoo_emg" />
+<item class="wni.WeathernewsTouch.jp.Splash" name="wni" />
+<item class="jp.co.rakuten.wallet.activities.StartActivity" name="rakuten_pay" />
+<item class="com.bybit.pro.MainActivity" name="bybit" />
+<item class="com.nttdocomo.keitai.payment.activity.DPYSplashActivity" name="nttdocomo_keitai" />
+<item class="com.tencent.gcloud.msdk.core.policy.MSDKPolicyV3Activity" name="game_qq_tencent_roco" />
+<item class="jp.auone.wallet.activity.AppStartActivity" name="au_pay" />
+<item class="jp.co.rakuten.android.home.RakutenHome" name="rakuten" />
+<item class="com.demaecan.androidapp.ui.LauncherActivity" name="demaecan" />
+<item class="cn.futu.trader.launch.activity.LaunchActivity" name="futubull" />
+<item class="cn.futu.trader.launch.activity.LaunchActivity" name="elebank" />
+<item class="com.tigerbrokers.stock.ui.MainActivity2" name="tiger_trade" />
+<item class="global.longbridge.android.LaunchActivity" name="longbridge" />
+<item class="jp.co.lawson.presentation.scenes.splash.SplashActivity" name="lawson" />
+<item class="jp.co.sej.app.activity.SplashActivity" name="seven_eleven" />
+<item class="com.zhongan.beeline.bridge.flutter.ZABankMainFlutterActivity" name="za_bank" />
+
+<item class="io.metamask.MainActivity" name="metamask" />
+<item class="jp.co.yahoo.android.yshopping.YShopMainActivity" name="yahoo_yshopping" />
+<item class="com.mercari.base.MainActivity" name="mercari" />
+<item class="jp.co.ccc.tapps.SplashActivity" name="vpoints" />
+<item class="jp.ponta.myponta.presentation.activity.MainActivity" name="ponta" />
+<item class="com.gateio.biz.main.splash.SplashActivity" name="gate_io" />
+
+<item class="com.okinc.core.ok_app.homepage.ui.welcome.WelcomeActivity" name="okx" />
+<item class="jp.ponta.myponta.presentation.activity.MainActivity" name="ponta" />
+<item class="org.godotengine.editor.ProjectManager" name="godot_engine_4" />
+<item class="jp.co.nintendo.entry.ui.bootsequence.BootActivity" name="nintendo_my_nintendo" />
+<item class="com.nintendo.znba.MainActivity" name="nintendo_music" />
+
+
 
     
 

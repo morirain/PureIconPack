@@ -3,7 +3,52 @@
     <version>1</version>
 
     <category title="@string/new_icons" />
-    <item drawable="xtra" />
+    <item drawable="za_bank" />
+	<item drawable="yahoo_yshopping" />
+	<item drawable="yahoo_emg" />
+	<item drawable="wni" />
+	<item drawable="vpoints" />
+	<item drawable="tiger_trade" />
+	<item drawable="thinkorswim" />
+	<item drawable="suica" />
+	<item drawable="seven_eleven" />
+	<item drawable="schwab" />
+	<item drawable="rakuten_pay" />
+	<item drawable="rakuten" />
+	<item drawable="ponta" />
+	<item drawable="phantom" />
+	<item drawable="perplexity" />
+	<item drawable="paypay" />
+	<item drawable="okx" />
+	<item drawable="nttdocomo_keitai" />
+	<item drawable="nintendo_my_nintendo" />
+	<item drawable="nintendo_music" />
+	<item drawable="metamask" />
+	<item drawable="mercari" />
+	<item drawable="luminar" />
+	<item drawable="longbridge" />
+	<item drawable="kraken_wallet" />
+	<item drawable="kraken_pro" />
+	<item drawable="kraken" />
+	<item drawable="krak" />
+	<item drawable="kling" />
+	<item drawable="ibkr" />
+	<item drawable="godot_engine_4" />
+	<item drawable="gate_io" />
+	<item drawable="game_qq_tencent_roco" />
+	<item drawable="game_nte" />
+	<item drawable="game_di5renge_2" />
+	<item drawable="futubull" />
+	<item drawable="elebank" />
+	<item drawable="demaecan" />
+	<item drawable="delta_chat" />
+	<item drawable="bybit" />
+	<item drawable="bitget" />
+	<item drawable="bbae" />
+	<item drawable="au_pay" />
+	<item drawable="apple_tv" />
+	<category title="@string/prev_updated_icons" />
+	<item drawable="xtra" />
 	<item drawable="wifianalyzer" />
 	<item drawable="videography_pro" />
 	<item drawable="vernet" />
@@ -93,47 +138,6 @@
 	<item drawable="app_rvx_android_youtube" />
 	<item drawable="antennapod" />
 	<item drawable="accrescent" />
-	<category title="@string/prev_updated_icons" />
-	<item drawable="twitter_2" />
-	<item drawable="telegram_5" />
-	<item drawable="telegram_4" />
-	<item drawable="telegram_3" />
-	<item drawable="telegram_2" />
-	<item drawable="sd_maid_se" />
-	<item drawable="r_installation_components" />
-	<item drawable="oplus_ir_remote" />
-	<item drawable="oneplus_my_oneplus" />
-	<item drawable="obsidian" />
-	<item drawable="ntfy" />
-	<item drawable="moe_tarsin_ehviewer" />
-	<item drawable="magisk_delta" />
-	<item drawable="lspatch" />
-	<item drawable="lawnchair_2" />
-	<item drawable="khan_academy" />
-	<item drawable="kernelsu" />
-	<item drawable="javdb" />
-	<item drawable="ironfox" />
-	<item drawable="gkd" />
-	<item drawable="game_reverse1999" />
-	<item drawable="game_nikke" />
-	<item drawable="game_mingchao" />
-	<item drawable="game_mihoyo_hkrpg" />
-	<item drawable="game_bluearchive" />
-	<item drawable="game_bloons_td_6" />
-	<item drawable="game_arena_breakout" />
-	<item drawable="game_antimine" />
-	<item drawable="fcitx5_input" />
-	<item drawable="etchdroid" />
-	<item drawable="databackup" />
-	<item drawable="copy_sms_code" />
-	<item drawable="com_junkfood_seal" />
-	<item drawable="clash_meta_for_android" />
-	<item drawable="catshare" />
-	<item drawable="bytedance_doubao" />
-	<item drawable="bluetooth_le_spam" />
-	<item drawable="amaze" />
-	<item drawable="airguard" />
-	<item drawable="aard_2" />
 	<category title="Drawer" />
     <item drawable="drawer" />
     <item drawable="drawer_night" />
@@ -361,6 +365,7 @@
 	<item drawable="game_reigns" />
 	<item drawable="game_qqfc_2" />
 	<item drawable="game_qqfc" />
+	<item drawable="game_qq_tencent_roco" />
 	<item drawable="game_qq" />
 	<item drawable="game_pubg_2" />
 	<item drawable="game_pubg" />
@@ -378,6 +383,7 @@
 	<item drawable="game_onmyoji" />
 	<item drawable="game_nyhx" />
 	<item drawable="game_nuannuan" />
+	<item drawable="game_nte" />
 	<item drawable="game_noesis" />
 	<item drawable="game_nikke" />
 	<item drawable="game_netease_yokaikoya" />
@@ -472,6 +478,7 @@
 	<item drawable="game_doodle_jump" />
 	<item drawable="game_dont_tap_the_white_tile" />
 	<item drawable="game_djlw" />
+	<item drawable="game_di5renge_2" />
 	<item drawable="game_di5renge" />
 	<item drawable="game_deemo" />
 	<item drawable="game_deadcells" />
@@ -666,6 +673,7 @@
 	<item drawable="app_translator" />
 	<item drawable="appchecker" />
 	<item drawable="apple_music" />
+	<item drawable="apple_tv" />
 	<item drawable="appops" />
 	<item drawable="appsfree" />
 	<item drawable="appshare" />
@@ -691,6 +699,7 @@
 	<item drawable="asus_router" />
 	<item drawable="atom_vpn" />
 	<item drawable="atwy" />
+	<item drawable="au_pay" />
 	<item drawable="audible" />
 	<item drawable="audio_fx" />
 	<item drawable="audio_share" />
@@ -780,6 +789,7 @@
 	<item drawable="battery_guru" />
 	<item drawable="battlefield" />
 	<item drawable="bb" />
+	<item drawable="bbae" />
 	<item drawable="bbc_news" />
 	<item drawable="bbc_weather" />
 	<item drawable="bbvr" />
@@ -825,6 +835,7 @@
 	<item drawable="bima_plus" />
 	<item drawable="binance" />
 	<item drawable="bishou" />
+	<item drawable="bitget" />
 	<item drawable="bitly" />
 	<item drawable="bitmoji" />
 	<item drawable="bits_mp_3_player" />
@@ -904,6 +915,7 @@
 	<item drawable="buzzkill" />
 	<item drawable="by_u" />
 	<item drawable="bybbs" />
+	<item drawable="bybit" />
 	<item drawable="byrwqh" />
 	<item drawable="bytedance_doubao" />
 	<item drawable="byu" />
@@ -1190,6 +1202,8 @@
 	<item drawable="deepseek" />
 	<item drawable="deezer" />
 	<item drawable="deliveroo" />
+	<item drawable="delta_chat" />
+	<item drawable="demaecan" />
 	<item drawable="desmos" />
 	<item drawable="destiny" />
 	<item drawable="destiny_2" />
@@ -1345,6 +1359,7 @@
 	<item drawable="eight_for_kwgt" />
 	<item drawable="ele" />
 	<item drawable="ele_s" />
+	<item drawable="elebank" />
 	<item drawable="element_x" />
 	<item drawable="elevensports" />
 	<item drawable="elf" />
@@ -1537,6 +1552,7 @@
 	<item drawable="funshion" />
 	<item drawable="fusion_app" />
 	<item drawable="futon" />
+	<item drawable="futubull" />
 	<item drawable="fx" />
 	<item drawable="fx_explorer" />
 	<item drawable="fxcnbeta" />
@@ -1590,6 +1606,7 @@
 	<item drawable="game_deadcells" />
 	<item drawable="game_deemo" />
 	<item drawable="game_di5renge" />
+	<item drawable="game_di5renge_2" />
 	<item drawable="game_djlw" />
 	<item drawable="game_dont_tap_the_white_tile" />
 	<item drawable="game_doodle_jump" />
@@ -1684,6 +1701,7 @@
 	<item drawable="game_netease_yokaikoya" />
 	<item drawable="game_nikke" />
 	<item drawable="game_noesis" />
+	<item drawable="game_nte" />
 	<item drawable="game_nuannuan" />
 	<item drawable="game_nyhx" />
 	<item drawable="game_onmyoji" />
@@ -1701,6 +1719,7 @@
 	<item drawable="game_pubg" />
 	<item drawable="game_pubg_2" />
 	<item drawable="game_qq" />
+	<item drawable="game_qq_tencent_roco" />
 	<item drawable="game_qqfc" />
 	<item drawable="game_qqfc_2" />
 	<item drawable="game_reigns" />
@@ -1824,6 +1843,7 @@
 	<item drawable="go_pro" />
 	<item drawable="god_mode" />
 	<item drawable="godknows" />
+	<item drawable="godot_engine_4" />
 	<item drawable="gofly_vpn" />
 	<item drawable="gogokid" />
 	<item drawable="gojek" />
@@ -2140,6 +2160,7 @@
 	<item drawable="i_pay" />
 	<item drawable="i_ting" />
 	<item drawable="iapp" />
+	<item drawable="ibkr" />
 	<item drawable="ibuka" />
 	<item drawable="ic_action" />
 	<item drawable="ic_adw" />
@@ -2391,6 +2412,7 @@
 	<item drawable="kk_5_0" />
 	<item drawable="kkbox" />
 	<item drawable="kkchyzd" />
+	<item drawable="kling" />
 	<item drawable="km" />
 	<item drawable="kmb_lwb" />
 	<item drawable="kmg" />
@@ -2408,6 +2430,10 @@
 	<item drawable="kp2a" />
 	<item drawable="kq" />
 	<item drawable="kr36" />
+	<item drawable="krak" />
+	<item drawable="kraken" />
+	<item drawable="kraken_pro" />
+	<item drawable="kraken_wallet" />
 	<item drawable="ksuwebui" />
 	<item drawable="kt_navi" />
 	<item drawable="kt_y" />
@@ -2544,6 +2570,7 @@
 	<item drawable="logfox" />
 	<item drawable="long_kong" />
 	<item drawable="long_screen_shot" />
+	<item drawable="longbridge" />
 	<item drawable="longzhu_tv" />
 	<item drawable="lookout" />
 	<item drawable="lpds" />
@@ -2558,6 +2585,7 @@
 	<item drawable="luckin_coffee" />
 	<item drawable="lucky_patcher" />
 	<item drawable="ludashi" />
+	<item drawable="luminar" />
 	<item drawable="luowang" />
 	<item drawable="luxun_zhuifan" />
 	<item drawable="lw" />
@@ -2644,11 +2672,13 @@
 	<item drawable="meowj" />
 	<item drawable="mercado_libre" />
 	<item drawable="mercado_pago" />
+	<item drawable="mercari" />
 	<item drawable="mercury_router" />
 	<item drawable="merriam_webster_dictionary" />
 	<item drawable="messenger" />
 	<item drawable="messenger_lite" />
 	<item drawable="meta_c" />
+	<item drawable="metamask" />
 	<item drawable="metek_zqweather" />
 	<item drawable="metro" />
 	<item drawable="metro_ddh" />
@@ -2986,6 +3016,8 @@
 	<item drawable="nike_snkrs" />
 	<item drawable="nike_training" />
 	<item drawable="ningbo_tong" />
+	<item drawable="nintendo_music" />
+	<item drawable="nintendo_my_nintendo" />
 	<item drawable="nintendo_pocket_camp" />
 	<item drawable="nintendo_switch_online" />
 	<item drawable="nintendo_switch_parental_controls" />
@@ -3014,6 +3046,7 @@
 	<item drawable="nplayer" />
 	<item drawable="nrevent" />
 	<item drawable="ntfy" />
+	<item drawable="nttdocomo_keitai" />
 	<item drawable="nubank" />
 	<item drawable="nubia_bbs" />
 	<item drawable="nubia_flashlight" />
@@ -3036,6 +3069,7 @@
 	<item drawable="ofomobike" />
 	<item drawable="ok" />
 	<item drawable="okpassword_days" />
+	<item drawable="okx" />
 	<item drawable="ola" />
 	<item drawable="ola_pay" />
 	<item drawable="olx" />
@@ -3152,6 +3186,7 @@
 	<item drawable="patreon" />
 	<item drawable="pay_pal" />
 	<item drawable="payh" />
+	<item drawable="paypay" />
 	<item drawable="paytm" />
 	<item drawable="payzapp" />
 	<item drawable="pazq" />
@@ -3171,8 +3206,10 @@
 	<item drawable="perfmon" />
 	<item drawable="periscope" />
 	<item drawable="permissiondog" />
+	<item drawable="perplexity" />
 	<item drawable="pfxyk" />
 	<item drawable="pfyh" />
+	<item drawable="phantom" />
 	<item drawable="phicomm_care" />
 	<item drawable="phicomm_mall" />
 	<item drawable="phicomm_wifi" />
@@ -3230,6 +3267,7 @@
 	<item drawable="polish" />
 	<item drawable="pomotodo" />
 	<item drawable="pond" />
+	<item drawable="ponta" />
 	<item drawable="porn_hub" />
 	<item drawable="portal" />
 	<item drawable="posb" />
@@ -3429,6 +3467,8 @@
 	<item drawable="r_6_companion" />
 	<item drawable="r_installation_components" />
 	<item drawable="radar_covid" />
+	<item drawable="rakuten" />
+	<item drawable="rakuten_pay" />
 	<item drawable="rappi" />
 	<item drawable="rappler" />
 	<item drawable="rar" />
@@ -3581,6 +3621,7 @@
 	<item drawable="sc" />
 	<item drawable="schildichat_next" />
 	<item drawable="schk" />
+	<item drawable="schwab" />
 	<item drawable="scores365" />
 	<item drawable="scp" />
 	<item drawable="scrapbook" />
@@ -3603,6 +3644,7 @@
 	<item drawable="sesami" />
 	<item drawable="session" />
 	<item drawable="settings" />
+	<item drawable="seven_eleven" />
 	<item drawable="sevenmins" />
 	<item drawable="sex_lovers" />
 	<item drawable="sfacg" />
@@ -3827,6 +3869,7 @@
 	<item drawable="substratum" />
 	<item drawable="suexing" />
 	<item drawable="sufuban" />
+	<item drawable="suica" />
 	<item drawable="suihan_input" />
 	<item drawable="suning" />
 	<item drawable="suning_jr" />
@@ -3926,6 +3969,7 @@
 	<item drawable="themes_manager" />
 	<item drawable="thestore_1haodian" />
 	<item drawable="theta_s" />
+	<item drawable="thinkorswim" />
 	<item drawable="thirtydayfitnesschallenge" />
 	<item drawable="thop_tv" />
 	<item drawable="threads" />
@@ -3947,6 +3991,7 @@
 	<item drawable="tidal" />
 	<item drawable="tieba" />
 	<item drawable="tieyou12306" />
+	<item drawable="tiger_trade" />
 	<item drawable="timbload" />
 	<item drawable="timehop" />
 	<item drawable="timetable_qingkebiao" />
@@ -4133,6 +4178,7 @@
 	<item drawable="volume_styles" />
 	<item drawable="vpn_hotspot" />
 	<item drawable="vpnhub" />
+	<item drawable="vpoints" />
 	<item drawable="vrr_app" />
 	<item drawable="vsco" />
 	<item drawable="vtools" />
@@ -4233,6 +4279,7 @@
 	<item drawable="wkykq" />
 	<item drawable="wl" />
 	<item drawable="wnbfq" />
+	<item drawable="wni" />
 	<item drawable="woaiwang" />
 	<item drawable="wocloud" />
 	<item drawable="wolfram_alpha" />
@@ -4348,10 +4395,12 @@
 	<item drawable="y_transit" />
 	<item drawable="yahoo" />
 	<item drawable="yahoo_email" />
+	<item drawable="yahoo_emg" />
 	<item drawable="yahoo_finance" />
 	<item drawable="yahoo_messenger" />
 	<item drawable="yahoo_news" />
 	<item drawable="yahoo_weather" />
+	<item drawable="yahoo_yshopping" />
 	<item drawable="yalp_store" />
 	<item drawable="yandex" />
 	<item drawable="yandex_disk" />
@@ -4477,6 +4526,7 @@
 	<item drawable="yzf" />
 	<item drawable="yzj" />
 	<item drawable="yzz" />
+	<item drawable="za_bank" />
 	<item drawable="zaigongda" />
 	<item drawable="zaker" />
 	<item drawable="zapya_mini_share" />

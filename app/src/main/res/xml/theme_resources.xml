@@ -704,6 +704,7 @@
 
     
     <AppIcon name="com.shanbay.listen/com.shanbay.listen.startup.SplashActivity" image="shanbay_listen" />
+    <AppIcon name="com.shanbay.listen/com.shanbay.biz.skeleton.splash.SplashActivity" image="shanbay_listen" />
     
     <AppIcon name="com.shanbay.words/com.shanbay.words.startup.SplashActivity" image="shanbay_words" />
     
@@ -3066,6 +3067,7 @@
     <AppIcon name="com.llspace.pupu/com.llspace.pupu.ui.account.LaunchActivity" image="llspace_pxsj" />
     
     <AppIcon name="com.tencent.KiHan/com.tencent.KiHan.ApolloTest" image="game_naruto" />
+    <AppIcon name="com.tencent.KiHan/com.itop.gcloud.msdk.core.policy.MSDKPolicyActivity.Substitute0" image="game_naruto" />
     
     <AppIcon name="com.douban.daily/com.douban.daily.app.WelcomeActivity" image="douban_yike" />
     
@@ -4699,6 +4701,7 @@
     <AppIcon name="com.microsoft.microsoftsolitairecollection/com.smokingguninc.engine.framework.SgiLauncherActivity" image="microsoft_solitaire" />
     
     <AppIcon name="com.patreon.android/com.patreon.android.ui.shared.LauncherActivity" image="patreon" />
+    <AppIcon name="com.patreon.android/com.patreon.android.screens.launcher.LauncherActivity" image="patreon" />
     
     <AppIcon name="com.rookiestudio.perfectviewer/com.rookiestudio.perfectviewer.TStartup" image="perfect_viewer" />
     
@@ -6486,20 +6489,21 @@
     
     <AppIcon name="synjones.commerce/synjones.commerce.activity.WelcomeActivity" image="yikatong" />
     
-    <AppIcon name="com.netease.dwrg/com.netease.dwrg.Launcher" image="game_di5renge" />
+    <AppIcon name="com.netease.dwrg/com.netease.dwrg.Launcher" image="game_di5renge_2" />
+    <AppIcon name="com.tencent.tmgp.dwrg/com.netease.ntunisdk.external.protocol.ProtocolLauncher" image="game_di5renge_2" />
     
-    <AppIcon name="com.netease.dwrg.aligames/com.netease.dwrg.Launcher" image="game_di5renge" />
+    <AppIcon name="com.netease.dwrg.aligames/com.netease.dwrg.Launcher" image="game_di5renge_2" />
     
-    <AppIcon name="com.netease.dwrg.mi/com.netease.dwrg.Launcher" image="game_di5renge" />
-    <AppIcon name="com.netease.dwrg.qihoo/com.netease.dwrg.Launcher" image="game_di5renge" />
-    <AppIcon name="com.netease.dwrg.m4399/com.netease.dwrg.Launcher" image="game_di5renge" />
-    <AppIcon name="com.netease.dwrg.ewan.sdk2345/com.netease.dwrg.Launcher" image="game_di5renge" />
-    <AppIcon name="com.netease.dwrg.mz/com.netease.dwrg.Launcher" image="game_di5renge" />
-    <AppIcon name="com.netease.dwrg.vivo/com.netease.dwrg.Launcher" image="game_di5renge" />
-    <AppIcon name="com.netease.dwrg.huawei/com.netease.dwrg.Launcher" image="game_di5renge" />
-    <AppIcon name="com.netease.dwrg.bili/com.netease.dwrg.Launcher" image="game_di5renge" />
-    <AppIcon name="com.netease.dwrg.nearme.gamecenter/com.netease.dwrg.Launcher" image="game_di5renge" />
-    <AppIcon name="com.netease.dwrg.yyh/com.netease.dwrg.Launcher" image="game_di5renge" />
+    <AppIcon name="com.netease.dwrg.mi/com.netease.dwrg.Launcher" image="game_di5renge_2" />
+    <AppIcon name="com.netease.dwrg.qihoo/com.netease.dwrg.Launcher" image="game_di5renge_2" />
+    <AppIcon name="com.netease.dwrg.m4399/com.netease.dwrg.Launcher" image="game_di5renge_2" />
+    <AppIcon name="com.netease.dwrg.ewan.sdk2345/com.netease.dwrg.Launcher" image="game_di5renge_2" />
+    <AppIcon name="com.netease.dwrg.mz/com.netease.dwrg.Launcher" image="game_di5renge_2" />
+    <AppIcon name="com.netease.dwrg.vivo/com.netease.dwrg.Launcher" image="game_di5renge_2" />
+    <AppIcon name="com.netease.dwrg.huawei/com.netease.dwrg.Launcher" image="game_di5renge_2" />
+    <AppIcon name="com.netease.dwrg.bili/com.netease.dwrg.Launcher" image="game_di5renge_2" />
+    <AppIcon name="com.netease.dwrg.nearme.gamecenter/com.netease.dwrg.Launcher" image="game_di5renge_2" />
+    <AppIcon name="com.netease.dwrg.yyh/com.netease.dwrg.Launcher" image="game_di5renge_2" />
     
     <AppIcon name="com.meizu.smart.wristband/com.meizu.smart.wristband.StartActivity" image="flyme_shouhuan" />
     
@@ -12263,7 +12267,7 @@
     <AppIcon name="com.lensesdev.manual.camera.pro/com.antafunny.burstcamera.MainActivity" image="manual_cam" />
     <AppIcon name="com.koushikdutta.superuser/com.koushikdutta.superuser.MainActivity" image="superuser" />
     <AppIcon name="com.jetappfactory.jetaudioplus/com.jetappfactory.jetaudio.MusicBrowserActivity" image="jetaudio" />
-    <AppIcon name="com.netease.idv.googleplay/com.netease.dwrg.Launcher" image="game_di5renge" />
+    <AppIcon name="com.netease.idv.googleplay/com.netease.dwrg.Launcher" image="game_di5renge_2" />
     <AppIcon name="com.netease.gl/com.netease.gl.ui.activity.welcome.WelcomeInitActivity" image="netease_gl" />
     <AppIcon name="com.netease.sky.aligames/com.netease.ntunisdk.external.protocol.ProtocolLauncher" image="game_sky_2" />
     <AppIcon name="com.netease.yanxuan/com.netease.yanxuan.SplashActivityPro" image="netease_yanxuan" />
@@ -12316,7 +12320,7 @@
     <AppIcon name="com.netease.x19/com.netease.ntunisdk.external.protocol.ProtocolLauncher" image="game_mc" />
     <AppIcon name="com.netease.sky.huawei/com.netease.ntunisdk.external.protocol.ProtocolLauncher" image="game_sky_2" />
     <AppIcon name="com.netease.onmyoji/com.netease.ntunisdk.external.protocol.ProtocolLauncher" image="game_onmyoji_2" />
-    <AppIcon name="com.netease.dwrg/com.netease.ntunisdk.external.protocol.ProtocolLauncher" image="game_di5renge" />
+    <AppIcon name="com.netease.dwrg/com.netease.ntunisdk.external.protocol.ProtocolLauncher" image="game_di5renge_2" />
     <AppIcon name="com.oneplus.backuprestore/com.oneplus.backuprestore.activity.BootActivity" image="oneplus_switch" />
     <AppIcon name="com.oneplus.filemanager/com.oplus.filemanager.main.ui.MainActivity" image="files" />
     <AppIcon name="com.netease.gl/com.netease.gl.ui.activity.welcome.WelcomeActivity" image="netease_gl" />
@@ -12649,6 +12653,7 @@
     <AppIcon name="com.tencent.tmgp.ttmj/com.tencent.gcloud.msdk.core.policy.MSDKPolicyActivity" image="game_ttmj" />
     <AppIcon name="com.tsng.hidemyapplist/com.tsng.hidemyapplist.MainActivityLauncher" image="hide_my_applist" />
     <AppIcon name="com.uptodown/com.uptodown.activities.MainActivityScrollable" image="uptodown_app_store" />
+    <AppIcon name="com.uptodown/com.uptodown.activities.MainActivity" image="uptodown_app_store" />
     <AppIcon name="com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.MainActivity" image="steam" />
     <AppIcon name="downloadtwittervideo.twitterdownloader.twittervideodownloader.twittersaver/downloadtwittervideo.twitterdownloader.twittervideodownloader.twittersaver.StartupActivity" image="twitake" />
     <AppIcon name="io.github.qauxv/io.github.qauxv.activity.ConfigV2ActivityAlias" image="qauxiliary" />
@@ -12903,8 +12908,6 @@
   <AppIcon name="org.proninyaroslav.libretorrent/org.proninyaroslav.libretorrent.MainActivity" image="libretorrent" />
   <AppIcon name="zwzt.fangqiu.edu.com.zwzt/com.zwzt.feature_splash.SplashActivity" image="zuowenzt" />
 
-  
-
   <AppIcon name="InfinityLoop1309.NewPipeEnhanced/org.schabi.newpipe.MainActivity" image="pipepipe" />
   <AppIcon name="app.accrescent.client/app.accrescent.client.ui.MainActivity" image="accrescent" />
   <AppIcon name="app.marlboroadvance.mpvex/app.marlboroadvance.mpvex.MainActivity" image="mpvex" />
@@ -13010,6 +13013,73 @@
   <AppIcon name="ru.tech.imageresizershrinker/ru.tech.imageresizershrinker.app.presentation.AppActivity" image="image_toolbox" />
   <AppIcon name="tech.lolli.toolbox/tech.lolli.toolbox.MainActivity" image="serverbox" />
   <AppIcon name="zed.rainxch.githubstore/zed.rainxch.githubstore.MainActivity" image="github_store" />
+
+
+
+
+<AppIcon name="com.apple.atve.androidtv.appletv/com.apple.android.tv.MainActivity" image="apple_tv" />
+
+<AppIcon name="com.b44t.messenger/org.thoughtcrime.securesms.RoutingActivity" image="delta_chat" />
+
+<AppIcon name="chat.delta/org.thoughtcrime.securesms.RoutingActivity" image="delta_chat" />
+
+<AppIcon name="com.devexperts.tdmobile.platform.android.thinkorswim/com.devexperts.tdmobile.android.ui.StartupActivity" image="thinkorswim" />
+
+<AppIcon name="com.schwab.mobile/com.schwab.mobile.activity.SplashScreenActivity" image="schwab" />
+
+<AppIcon name="com.skylum.luminar/com.skylum.luminar.MainActivity" image="luminar" />
+
+<AppIcon name="com.hottagames.nte/com.epicgames.unreal.SplashActivity" image="game_nte" />
+
+<AppIcon name="tw.com.iwplay.nte/com.epicgames.unreal.SplashActivity" image="game_nte" />
+<AppIcon name="kling.ai.video.chat/com.yxcorp.gifshow.kling.KLingHomeActivity" image="kling" />
+
+<AppIcon name="ai.perplexity.app.android/ai.perplexity.app.android.ui.main.MainActivity" image="perplexity" />
+
+<AppIcon name="app.phantom/app.phantom.MainActivity" image="phantom" />
+
+<AppIcon name="com.kraken.superwallet/com.kraken.superwallet.MainActivity" image="kraken_wallet" />
+
+<AppIcon name="com.kraken.invest.app/com.kraken.invest.app.MainActivity" image="kraken" />
+
+<AppIcon name="com.kraken.trade/com.kraken.trade.MainActivity" image="kraken_pro" />
+<AppIcon name="com.bbae.anno/com.bbae.login.activity.AppStartActivity" image="bbae" />
+<AppIcon name="com.bitget.exchange/com.upex.exchange.splash.SplashActivity" image="bitget" />
+<AppIcon name="com.mobilesuica.msb.android/crc64c47217c4afd91a00.SuicaMainActivity" image="suica" />
+<AppIcon name="atws.app/atws.activity.launcher.LauncherActivity" image="ibkr" />
+<AppIcon name="jp.ne.paypay.android.app/jp.ne.paypay.android.app.MainActivity" image="paypay" />
+<AppIcon name="com.kraken.pay.app/com.kraken.pay.app.MainActivity" image="krak" />
+<AppIcon name="jp.co.yahoo.android.emg/jp.co.yahoo.android.emg.view.TopActivity" image="yahoo_emg" />
+<AppIcon name="wni.WeathernewsTouch.jp/wni.WeathernewsTouch.jp.Splash" image="wni" />
+<AppIcon name="jp.co.rakuten.pay/jp.co.rakuten.wallet.activities.StartActivity" image="rakuten_pay" />
+<AppIcon name="com.bybit.app/com.bybit.pro.MainActivity" image="bybit" />
+<AppIcon name="com.nttdocomo.keitai.payment/com.nttdocomo.keitai.payment.activity.DPYSplashActivity" image="nttdocomo_keitai" />
+<AppIcon name="com.tencent.nrc/com.tencent.gcloud.msdk.core.policy.MSDKPolicyV3Activity" image="game_qq_tencent_roco" />
+<AppIcon name="jp.auone.wallet/jp.auone.wallet.activity.AppStartActivity" image="au_pay" />
+<AppIcon name="jp.co.rakuten.android/jp.co.rakuten.android.home.RakutenHome" image="rakuten" />
+<AppIcon name="com.demaecan.androidapp/com.demaecan.androidapp.ui.LauncherActivity" image="demaecan" />
+<AppIcon name="cn.futu.trader/cn.futu.trader.launch.activity.LaunchActivity" image="futubull" />
+<AppIcon name="com.airstarbank.mobilebanking/cn.futu.trader.launch.activity.LaunchActivity" image="elebank" />
+<AppIcon name="com.tigerbrokers.stock/com.tigerbrokers.stock.ui.MainActivity2" image="tiger_trade" />
+<AppIcon name="global.longbridge.app.android/global.longbridge.android.LaunchActivity" image="longbridge" />
+<AppIcon name="jp.co.lawson.android/jp.co.lawson.presentation.scenes.splash.SplashActivity" image="lawson" />
+<AppIcon name="jp.co.sej.app/jp.co.sej.app.activity.SplashActivity" image="seven_eleven" />
+<AppIcon name="com.zhongan.ibank/com.zhongan.beeline.bridge.flutter.ZABankMainFlutterActivity" image="za_bank" />
+
+<AppIcon name="io.metamask/io.metamask.MainActivity" image="metamask" />
+<AppIcon name="jp.co.yahoo.android.yshopping/jp.co.yahoo.android.yshopping.YShopMainActivity" image="yahoo_yshopping" />
+<AppIcon name="com.kouzoh.mercari/com.mercari.base.MainActivity" image="mercari" />
+<AppIcon name="jp.co.ccc.Tsite/jp.co.ccc.tapps.SplashActivity" image="vpoints" />
+<AppIcon name="jp.ponta.myponta/jp.ponta.myponta.presentation.activity.MainActivity" image="ponta" />
+<AppIcon name="com.gateio.gateio/com.gateio.biz.main.splash.SplashActivity" image="gate_io" />
+
+<AppIcon name="com.okinc.okex.gp/com.okinc.core.ok_app.homepage.ui.welcome.WelcomeActivity" image="okx" />
+<AppIcon name="jp.ponta.myponta/jp.ponta.myponta.presentation.activity.MainActivity" image="ponta" />
+<AppIcon name="org.godotengine.editor.v4/org.godotengine.editor.ProjectManager" image="godot_engine_4" />
+<AppIcon name="com.nintendo.znej/jp.co.nintendo.entry.ui.bootsequence.BootActivity" image="nintendo_my_nintendo" />
+<AppIcon name="com.nintendo.znba/com.nintendo.znba.MainActivity" image="nintendo_music" />
+
+
 
     
 

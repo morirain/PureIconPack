@@ -2,6 +2,6 @@
 
 object MyApp {
     const val appId = "me.morirain.dev.iconpack.pure"
-    const val version = 2026070401
-    const val versionName = "20260704"
+    const val version = 2026070801
+    const val versionName = "20260708"
 }
