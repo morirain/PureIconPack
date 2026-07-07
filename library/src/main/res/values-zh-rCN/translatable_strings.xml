@@ -95,4 +95,5 @@
     </string-array>
     <string name="votes_loading">加载投票数...</string>
     <string name="votes_hint">票数: %1$s</string>
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
 </resources>

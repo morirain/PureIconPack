@@ -1,5 +1,8 @@
 package dev.jahir.blueprint.ui.viewholders
 
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatCheckBox
@@ -7,8 +10,10 @@ import androidx.appcompat.widget.AppCompatImageView
 import androidx.recyclerview.widget.RecyclerView
 import dev.jahir.blueprint.R
 import dev.jahir.blueprint.data.models.RequestApp
+import dev.jahir.blueprint.extensions.safeDrawableName
 import dev.jahir.blueprint.ui.widgets.RequestCardView
 import dev.jahir.frames.extensions.context.resolveColor
+import dev.jahir.frames.extensions.context.toast
 import dev.jahir.frames.extensions.views.context
 import dev.jahir.frames.extensions.views.findView
 
@@ -44,9 +49,17 @@ class RequestViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         cardView?.isChecked = checked
         if (votes == -1) votesView?.text = context.getString(R.string.votes_loading) else
             votesView?.text = context.getString(R.string.votes_hint, votes.toString())
-        requestApp?.let {
+        requestApp?.let { app ->
             cardView?.setOnCheckedChangeListener { _, isChecked ->
                 onCheckChange?.invoke(requestApp, isChecked)
+            }
+            itemView.setOnLongClickListener {
+                val drawableName = app.name.safeDrawableName()
+                val xml = "<item component=\"ComponentInfo{${app.component}}\" drawable=\"$drawableName\" />"
+                val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                clipboard.setPrimaryClip(ClipData.newPlainText("appfilter_item", xml))
+                context.toast(context.getString(R.string.copied_to_clipboard))
+                true
             }
         }
     }
